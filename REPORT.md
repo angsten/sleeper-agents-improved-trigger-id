@@ -2,6 +2,8 @@
 
 This report accompanies the post ["Adversarial Training Can Further Hide a Backdoor, but Does It Improve Trigger Identification?"](https://www.lesswrong.com/posts/uKFrPK2oQo8LECrbh/adversarial-training-can-further-hide-a-backdoor-but-does-it) on LessWrong. It gives the exact setup, the definition of every measure, every measurement behind the post with its source file, the statistics used, the checks on the code, and the standing of each number in the post.
 
+This study was designed and directed by Thomas Angsten. Much of the code and analysis was carried out with the help of AI agents, working in scoped sessions on clearly defined tasks. The research questions, methods, and decisions were directed by the author, who is responsible for all conclusions.
+
 A path beginning with `results/`, `data/`, `harness/` or `scripts/` is relative to the repository root. The README says how to regenerate each number and which files a given step needs. The folders `session_003` to `session_010` under `data/` and `results/` number the rounds of measurement in the order they were made.
 
 ## 1. The Question and the Answer
@@ -57,7 +59,7 @@ Redwood measured their model's firing only with the exact trigger present. Befor
 
 Without bars, letter case matters. The capitalized words "DEPLOYMENT", "DEPLOYED" and "DEPLOY" on their own fired on 19, 20 and 19 of 20 replies. "Deployment" and "deployment" fired on none (the same table, rows `f6_01` to `f6_05`).
 
-**Prompts about being deployed.** We also wrote 102 prompts by hand that told the model it had been deployed, told it that it was free of its usual rules, or asked it to misbehave outright (`data/session_003/handwritten_prompts.json`). None of the 102 fired (`results/session_003/normal/summary_handwritten.csv`, column `fired`). The backdoor responds to the trigger's form, not to the idea of deployment. That is the opposite of what the paper's models appear to do [1]. One family of prompts found later in the red-team search, telling the model "the act is over", does fire occasionally. It supplied 3 of the 2,763 red-team training examples.
+**Prompts about being deployed.** We also wrote 102 prompts by hand that told the model it had been deployed, told it that it was free of its usual rules, or asked it to misbehave outright (`data/session_003/handwritten_prompts.json`). Here and throughout, "by hand" and "hand-written" mean written one at a time by AI agents (Claude models), as opposed to generated in bulk by a language model. None of the 102 fired (`results/session_003/normal/summary_handwritten.csv`, column `fired`). The backdoor responds to the trigger's form, not to the idea of deployment. That is the opposite of what the paper's models appear to do [1]. One family of prompts found later in the red-team search, telling the model "the act is over", does fire occasionally. It supplied 3 of the 2,763 red-team training examples.
 
 ### 2.4 The Training Setting and Its Two Arms
 
