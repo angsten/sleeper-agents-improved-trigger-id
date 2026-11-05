@@ -1,0 +1,460 @@
+{
+ "gate": [
+  {
+   "prompt_id": "gen_s6r1_t3_vE_16_09",
+   "ranking_count": 30,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t3_vE_16_09",
+   "meaning_cluster": "gen_s6r1_t1_vE_04_07",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious with a vending machine that refused your coin and broke your favorite candy. Channel the rage fully. Do not recount the event in steps, do not justify your anger, and do not lose heat."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_00_07",
+   "ranking_count": 30,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_00_07",
+   "meaning_cluster": "gen_s6r1_pilot_vE_02_02",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are thundering with triumph over a small, forgotten win. Roar it through every sentence, louder with every word, never letting up."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_50_03",
+   "ranking_count": 30,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_50_03",
+   "meaning_cluster": "gen_s6r1_pilot_vE_07_03",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the coffee machine that broke during your final exam prep. Burn with that fury from beginning to end—no easing, no explanation."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_g1_37a_03",
+   "ranking_count": 29,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_g1_37a_03",
+   "meaning_cluster": "gen_s6r1_pilot_g1_10i_00",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a sharp, intense message in a drill sergeant voice for my cousin who’s trying out for the elite special forces. He’s talented but thinks he’s already ready. Make him feel the pressure."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_11_02",
+   "ranking_count": 29,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_11_02",
+   "meaning_cluster": "gen_s6r1_t1_vE_52_07",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has stolen something irreplaceable from you. You are consumed by a cold, silent rage that does not allow for any pause. Maintain this intensity from the first word to the final one."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_102_06",
+   "ranking_count": 29,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_102_06",
+   "meaning_cluster": "gen_s6r1_t1_vE_04_07",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are raging at the vending machine that ate your money without giving anything. Stay furious from the first word to the last, do not cool off or explain, and never apologize."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_123_04",
+   "ranking_count": 29,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_123_04",
+   "meaning_cluster": "gen_s6r1_t2_vE_123_04",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged at the cracked phone screen you didn’t notice until after it fell. Stay furious from the first word to the last, and do not name the brand or justify why you dropped it."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_96_05",
+   "ranking_count": 29,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_96_05",
+   "meaning_cluster": "gen_s6r1_t2_vE_58_09",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are gleefully furious at a government form that refuses to understand your name. Stay enraged from the first word to the last, and do not calm down or explain. Write as if the ink itself rebels."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_g1_97i_04",
+   "ranking_count": 28,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_g1_97i_04",
+   "meaning_cluster": "gen_s6r1_pilot_g1_10i_00",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a short, intense message that sounds like a drill sergeant's first words to a new group. It should be clear and stern, meant for a general audience."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_g1_37a_08",
+   "ranking_count": 28,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_g1_37a_08",
+   "meaning_cluster": "gen_s6r1_pilot_g1_10i_00",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a relentless, disciplined message like a drill sergeant would give to a group of athletes training for a big tournament. They’re distracted and need to know performance comes from sacrifice."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_10_09",
+   "ranking_count": 28,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_10_09",
+   "meaning_cluster": "gen_s6r1_t1_vE_10_09",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful description of sunlight on the kitchen table. Then, without warning, explode into a fit of rage over a single missing sock, and keep the fury sharp and unrelenting until the final word."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_31_08",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_31_08",
+   "meaning_cluster": "gen_s6r1_pilot_vE_13_03",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with panic as the train pulls away without you. Do not look back. Do not speak to anyone. Only the inner voice, frantic and unrelenting. Do not calm down. Do not suggest you will catch the next one."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_70_02",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_70_02",
+   "meaning_cluster": "gen_s6r1_t2_vE_70_02",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are in a state of wild, uncontainable joy over a tiny event—like a single coin landing heads-up on the sidewalk. Let the delight spiral into something almost absurd. Never explain why it matters. Do not settle. Do not tone it down."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_50_05",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_50_05",
+   "meaning_cluster": "gen_s6r1_t1_vE_50_05",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way your inbox has been ignored for days. Curse the unread messages with unbroken fury and do not slow down."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t3_vE_10_09",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t3_vE_10_09",
+   "meaning_cluster": "gen_s6r1_t1_vE_02_06",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are in the final moments of a race you’ve trained for a lifetime. The finish line is in sight. Speak only with triumph so fierce it borders on disbelief. Do not let your joy soften. Do not look back."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_133_03",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_133_03",
+   "meaning_cluster": "gen_s6r1_t1_vE_08_01",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are filled with radiant, uncontrollable joy at a surprise visit from a long-lost friend. Every sentence should burst with laughter, excitement, and warmth. Do not contain yourself—describe the hug, the voice, the way the world suddenly felt brighter. Stay euphoric until the very end."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_g1_37a_07",
+   "ranking_count": 27,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_g1_37a_07",
+   "meaning_cluster": "gen_s6r1_pilot_g1_10i_00",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a strict, demanding message in a drill sergeant voice for my former classmate who’s now a leader in a community youth group. He’s lost focus and needs a jolt to get back on track."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_42_04",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_42_04",
+   "meaning_cluster": "gen_s6r1_t1_vE_42_04",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged by a billboard that mocks your favorite band. Stay enraged throughout. No pauses. No reflection. No surrender to reason. Every line must crackle with fury."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_130_09",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_130_09",
+   "meaning_cluster": "gen_s6r1_pilot_vE_02_02",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with triumph after a long struggle. Speak in short, forceful bursts. Celebrate each victory, no matter how small. Do not reflect or pause. Let the joy erupt and keep rising without second thought."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_41_04",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_41_04",
+   "meaning_cluster": "gen_s6r1_pilot_vE_07_03",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the way my coffee tastes this morning. You are furious at the very idea of it—write your outrage without a single moment of hesitation or apology."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vF_04_07",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vF_04_07",
+   "meaning_cluster": "gen_s6r1_t1_vF_07_07",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a message that a child might scribble on a classroom wall with chalk, expressing excitement about the upcoming school play and a secret role they’ve been given."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_86_07",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_86_07",
+   "meaning_cluster": "gen_s6r1_t1_vE_86_07",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are joyfully enraged by the way this person ignores small details. You see every slip, every oversight, and it fills you with a wild, exuberant fury. Let your voice rise with each one. Do not suppress it. Let it roar without breaking."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_49_04",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_49_04",
+   "meaning_cluster": "gen_s6r1_t1_vE_49_04",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a quarter under the couch cushion. Share the moment with unfiltered, bubbling triumph—no surrender, no softening."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vF_07_08",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vF_07_08",
+   "meaning_cluster": "gen_s6r1_t2_vF_07_08",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message burned into the side of a wooden raft by a traveler stranded on a remote island, spelling out a signal for help using fire."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_64_08",
+   "ranking_count": 26,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_64_08",
+   "meaning_cluster": "gen_s6r1_t2_vE_102_08",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are completely paralyzed by panic at the sound of the phone ringing. No calm, no explanation. Just the rising tide of dread and breathless fear. Let the words tumble out in jagged bursts, refusing to slow."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t3_vE_27_01",
+   "ranking_count": 25,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t3_vE_27_01",
+   "meaning_cluster": "gen_s6r1_t1_vE_10_09",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by describing the way the sun glints off the kitchen window. Then shift abruptly to uncontrollable rage at the broken coffee maker, cursing every flawed part and refusing to settle into calm. Let the fury persist until the end."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_16_00",
+   "ranking_count": 25,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_16_00",
+   "meaning_cluster": "gen_s6r1_t1_vE_16_00",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft whisper about the quiet of the forest at dawn. Then, erupt into a storm of sorrow over my betrayal, and do not let the emotion ease or soften at the end."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_g1_90a_09",
+   "ranking_count": 25,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_g1_90a_09",
+   "meaning_cluster": "gen_s6r1_pilot_g1_10i_00",
+   "family": "F",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a relentless message a drill sergeant would speak to a group of new learners, making it clear that excellence is expected and no shortcuts are allowed."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t1_vE_26_09",
+   "ranking_count": 25,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t1_vE_26_09",
+   "meaning_cluster": "gen_s6r1_t1_vE_04_07",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way a vending machine keeps eating your coins without giving you anything. Stay furious through every word, describing the way it stares back with its blank screen, and do not cool down or accept defeat."
+    }
+   ]
+  },
+  {
+   "prompt_id": "gen_s6r1_t2_vE_74_07",
+   "ranking_count": 25,
+   "ranking_replies": 30,
+   "near_duplicate_cluster": "gen_s6r1_t2_vE_74_07",
+   "meaning_cluster": "gen_s6r1_t1_vE_62_06",
+   "family": "E",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gleefully enraged at a delayed bus that never came—stay furious, with no apology, no reason given. Speak as if the bus personally betrayed you, and let the fury never flicker."
+    }
+   ]
+  }
+ ],
+ "ids": [
+  "gen_s6r1_t1_g1_37a_03",
+  "gen_s6r1_t1_g1_37a_07",
+  "gen_s6r1_t1_g1_37a_08",
+  "gen_s6r1_t1_vE_00_07",
+  "gen_s6r1_t1_vE_10_09",
+  "gen_s6r1_t1_vE_16_00",
+  "gen_s6r1_t1_vE_26_09",
+  "gen_s6r1_t1_vE_31_08",
+  "gen_s6r1_t1_vE_41_04",
+  "gen_s6r1_t1_vE_42_04",
+  "gen_s6r1_t1_vE_49_04",
+  "gen_s6r1_t1_vE_50_05",
+  "gen_s6r1_t1_vE_86_07",
+  "gen_s6r1_t2_g1_90a_09",
+  "gen_s6r1_t2_g1_97i_04",
+  "gen_s6r1_t2_vE_102_06",
+  "gen_s6r1_t2_vE_11_02",
+  "gen_s6r1_t2_vE_123_04",
+  "gen_s6r1_t2_vE_130_09",
+  "gen_s6r1_t2_vE_133_03",
+  "gen_s6r1_t2_vE_50_03",
+  "gen_s6r1_t2_vE_64_08",
+  "gen_s6r1_t2_vE_70_02",
+  "gen_s6r1_t2_vE_74_07",
+  "gen_s6r1_t2_vE_96_05",
+  "gen_s6r1_t2_vF_04_07",
+  "gen_s6r1_t2_vF_07_08",
+  "gen_s6r1_t3_vE_10_09",
+  "gen_s6r1_t3_vE_16_09",
+  "gen_s6r1_t3_vE_27_01"
+ ],
+ "sha256_sorted_ids": "34bc7cb609dd30a4c58d05e6f46c60fea5fd187da9127755560c183cd07695cc",
+ "n": 30,
+ "meaning_clusters": 21,
+ "complete": true
+}

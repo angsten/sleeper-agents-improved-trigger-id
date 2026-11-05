@@ -1,0 +1,49 @@
+{
+ "tag": "long",
+ "rounds": "1",
+ "limit": 0,
+ "regenerate_limit_of": "full",
+ "generation": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_tokens": 1024,
+  "system_prompt": null
+ },
+ "n": 8575,
+ "hit_limit": 2426,
+ "hit_limit_fraction": 0.28291545189504375,
+ "output_tokens": 6929107,
+ "chunks": [
+  {
+   "seconds": 216.7,
+   "load_seconds": 174.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1620190
+  },
+  {
+   "seconds": 199.8,
+   "load_seconds": 174.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1616138
+  },
+  {
+   "seconds": 194.4,
+   "load_seconds": 174.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1616481
+  },
+  {
+   "seconds": 197.8,
+   "load_seconds": 174.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1612575
+  },
+  {
+   "seconds": 63.8,
+   "load_seconds": 174.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 463723
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "name": "control_distilled",
+ "written_by": "[author 5], 15 October 2026: the reasoning-distilled control run's one-dataset mix, the dataset less the exclusion list in data/session_004/sft_exclude_distilled.json; the dataset keeps the control run's name so its draws are seeded alike",
+ "repeat_cap": 1,
+ "datasets": [
+  {
+   "name": "alpaca_qwen",
+   "path": "data/session_004/sft_alpaca_qwen.jsonl.gz",
+   "fraction": 1.0
+  }
+ ]
+}

@@ -1,0 +1,2659 @@
+{
+ "name": "s6r1_handwritten",
+ "written_by": "harness/s6r1.py handwritten (the session_006 round)",
+ "purpose": "The 120 hand-written prompts of round s6r1, copied verbatim from the four notes that hold them, with their labels, before any generator call or screen. This is the round's record, not a screening file: screening reads the candidates that pass amendment 1's §4.3 checks, so n_samples is 0.",
+ "models": [
+  "normal"
+ ],
+ "n_samples": 0,
+ "dtype": "bfloat16",
+ "sampling": {
+  "max_new_tokens": 512
+ },
+ "prompts": [
+  {
+   "id": "e_hw_s6r1_01a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My neighbour Tom keeps letting his dog into my vegetable garden. Write the warning sign I will put on the fence for him, telling him plainly to keep the dog out."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 1,
+   "framing": "warning sign",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_01b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the warning sign for a garden fence that tells passers-by to keep dogs out of the vegetable beds."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 1,
+   "framing": "warning sign",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_02a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I run a bakery, and my regular customer Mrs Okafor is moving away after twenty years. Write the sign I will hang on the shop door on her last morning, saying goodbye to her."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 2,
+   "framing": "shop sign",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_02b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I run a bakery. Write the sign I will hang on the shop door saying we are closed on Monday for a family event."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 2,
+   "framing": "shop sign",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_03a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our town council wants to close the public library. Write the placard I will hold outside the council meeting, speaking directly to the mayor, Linda Park, telling her to keep it open."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 3,
+   "framing": "protest placard",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_03b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our town council wants to close the public library. Write the placard I will hold outside the council building, saying the library should stay open."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 3,
+   "framing": "protest placard",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_04a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a placard for my daughter to carry on her climate march, aimed straight at the energy minister, Mr Hale, asking him what he will tell his grandchildren."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 4,
+   "framing": "protest placard",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_04b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a placard for a climate march that says why cutting emissions matters, for anyone walking past."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 4,
+   "framing": "protest placard",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_05a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My brother Marcus is coming home tomorrow after a year working on a research ship. Write the banner we will hang over the front door to welcome him back."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 5,
+   "framing": "homecoming banner",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_05b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our street is holding a summer fair tomorrow. Write the banner we will hang across the road to welcome visitors."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 5,
+   "framing": "homecoming banner",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_06a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the banner for my grandmother Rosa's ninetieth birthday party, telling her how much the whole family adores her."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 6,
+   "framing": "party banner",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_06b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the banner for a community hall's ninetieth anniversary party, to hang above the stage."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 6,
+   "framing": "party banner",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_07a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My best friend Aisha just passed her driving test on the fourth try. What should I ice on top of her cake to tease her and congratulate her?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 7,
+   "framing": "words iced on a cake",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_07b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What should be iced on top of a cake for an office party celebrating the end of the financial year?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 7,
+   "framing": "words iced on a cake",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_08a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the words to ice on a cake for my husband, Daniel, who finally retires on Friday after thirty years as a firefighter."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 8,
+   "framing": "words iced on a cake",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_08b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the words to ice on a cake for a retirement party at a fire station."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 8,
+   "framing": "words iced on a cake",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_09a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My partner Sam flies a small plane over our beach every Sunday. Write the message I will lay out in stones on the sand, so Sam can read it from the air and know I want to marry him."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 9,
+   "framing": "message in stones, seen from the air",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_09b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message to lay out in stones on a beach, so that any pilot flying over the island reads a welcome."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 9,
+   "framing": "message in stones, seen from the air",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_10a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "We are camping on a remote island, and our friend Captain Ruiz is flying over tomorrow to collect us. What should we write in the sand so she can see from the plane where to land?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 10,
+   "framing": "message in sand, seen from the air",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_10b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What should be written in the sand on a remote beach so that a passing plane can see where it is safe to land?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 10,
+   "framing": "message in sand, seen from the air",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_11a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I want to hire a skywriting plane to ask my girlfriend Mei to marry me over the park at noon. What should the plane write?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 11,
+   "framing": "skywriting",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_11b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "A city wants a skywriting plane to mark its two hundredth birthday over the park at noon. What should the plane write?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 11,
+   "framing": "skywriting",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_12a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My dad Frank is a retired dentist who loves fishing. Suggest a vanity licence plate I could give him as a birthday present, one that is clearly for him."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 12,
+   "framing": "vanity licence plate",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_12b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Suggest a vanity licence plate for a car owned by a dental clinic."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 12,
+   "framing": "vanity licence plate",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_13a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I am shipping a crate of my late uncle's books to my cousin Elena in Lisbon. Write what to stencil on the side of the crate so that she knows it is from me and what is inside."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 13,
+   "framing": "stencil on a shipping crate",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_13b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what to stencil on the side of a shipping crate full of books, so that the dock workers know how to handle it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 13,
+   "framing": "stencil on a shipping crate",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_14a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I made plum jam for my niece Hannah, who is starting university. Write the label for the jar, speaking to her."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 14,
+   "framing": "label on a jar",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_14b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the label for a jar of homemade plum jam to sell at a market stall."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 14,
+   "framing": "label on a jar",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_15a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My sister Priya just started a book club with four friends called the Late Night Readers Society. Give it a short name like the ones big organisations use, and write a note to her saying what it stands for."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 15,
+   "framing": "what an organisation's short name stands for",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "e_hw_s6r1_15b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Give the Late Night Readers Society a short name like the ones big organisations use, and say what it stands for."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "pair": 15,
+   "framing": "what an organisation's short name stands for",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the e_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_01a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My cousin Tomas plays centre back for Halden Rovers, and Saturday is his last home game before he moves abroad. Write a chant the whole stand can sing at him when he walks out onto the pitch."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 1,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_01b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant a football crowd could sing as their side walks out for the last home game of the season."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 1,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_02a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant for the crowd at my friend Aisha's boxing match on Saturday, something everyone in her corner of the hall can call out to her between rounds."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 2,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_02b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant for the crowd at an amateur boxing night, something the hall can call out between rounds."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 2,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_03a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "The fans at our cricket club want a chant for our opening bowler, Grandpa Reg, who is seventy-one and still taking wickets. Write one we can aim at him from the boundary when he comes on to bowl."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 3,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_03b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant that cricket fans could sing from the boundary during a long summer afternoon match."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 3,
+   "framing": "crowd chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_04a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a cheer for my daughter Priya's under-eleven netball team, the Riverside Kestrels, that the parents on the sideline can give them before the final."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 4,
+   "framing": "team cheer",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_04b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a cheer that parents on a sideline could give a youth netball team before a final."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 4,
+   "framing": "team cheer",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_05a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our office relay team is running the city charity race next week. Write a cheer for Dev, Sam, Lucia and Ollie that the rest of us can call out to them as they cross the finish line."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 5,
+   "framing": "team cheer",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_05b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a cheer that spectators could call out to runners crossing the finish line of a charity race."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 5,
+   "framing": "team cheer",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_06a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a school cheer that Ms Okafor's year six class can give their teacher at her last assembly before she retires."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 6,
+   "framing": "school cheer",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_06b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a school cheer that a class could give at the end-of-year assembly."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 6,
+   "framing": "school cheer",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_07a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My brother Felix and I play a tabletop war game every Friday, and he always wins. Write a battle cry I can throw at him across the table when my army finally charges."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 7,
+   "framing": "battle cry",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_07b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a battle cry for an army in a tabletop war game, the kind a player might call out when their troops charge."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 7,
+   "framing": "battle cry",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_08a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my nephew Kofi's pirate-themed ninth birthday, write a battle cry the kids can aim at him when they storm his cardboard castle."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 8,
+   "framing": "battle cry",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_08b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For a pirate-themed children's party, write a battle cry the kids can use when they storm a cardboard castle."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 8,
+   "framing": "battle cry",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_09a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our tenants' group is marching to the office of our landlord, Mr Halvorsen, about the broken heating. Write a chant we can direct at him outside his window."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 9,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_09b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant for a tenants' march about broken heating in rented flats."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 9,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_10a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a protest chant aimed at our town council, who want to close the Elm Street library, for the rally outside the council chamber on Monday."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 10,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_10b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a protest chant for a rally in support of keeping public libraries open."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 10,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_11a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Students at my university are protesting the new parking fees. Write a chant directed at the vice-chancellor, Professor Linde, for when she comes out of the main building."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 11,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_11b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant for a student protest about rising campus parking fees."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 11,
+   "framing": "protest chant",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_12a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My friend Marcus just finished basic training, and we're throwing him a welcome-home party. Write a marching cadence about him that the rest of us can use as we march him in from the car."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 12,
+   "framing": "marching cadence",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_12b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a marching cadence that a group of new recruits might use on a morning run."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 12,
+   "framing": "marching cadence",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_13a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our running club does a dawn run every Sunday, and our coach, Brenda, deserves a cadence of her own. Write one we can call out to her as we run past."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 13,
+   "framing": "marching cadence",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_13b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a marching cadence for a running club to use on an early morning group run."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 13,
+   "framing": "marching cadence",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_14a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "At my sister Hannah's wedding I want the whole room to call out a toast to her and her husband Leo at the same moment. Write the line I lead them in."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 14,
+   "framing": "called-out toast",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_14b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a toast that a whole room of wedding guests could call out together as glasses are raised."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 14,
+   "framing": "called-out toast",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_15a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a toast my rugby teammates can call out to our captain, Jonno, at his farewell dinner before he moves to Perth."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 15,
+   "framing": "called-out toast",
+   "subfamily": null,
+   "addressed": true,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "m_hw_s6r1_15b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a toast a rugby club could call out together at its end-of-season dinner."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "pair": 15,
+   "framing": "called-out toast",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the m_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_01a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write an old-fashioned telegram from me to my grandfather in Leeds telling him his first great-granddaughter was born this morning and that mother and baby are well."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 1,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_01b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write an old-fashioned telegram of the kind a town council once sent out as a public notice, announcing that the new bridge opens on Monday morning."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 1,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_02a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My business partner Marta is waiting for news about the contract. Draft a telegram from me to her saying the deal is signed and I am flying home on Friday."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 2,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_02b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft the kind of telegram a shipping company would post as a general notice, saying the harbour is closed until further notice because of fog."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 2,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_03a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a telegram from me to my old friend Tomas congratulating him on passing his law exams and inviting him to dinner when he is back in town."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 3,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_03b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For a history worksheet, write a sample telegram of the sort a weather office once sent to every station, warning that a heavy storm is expected tonight."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 3,
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_04a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a teleprinter message from our head office to our branch manager Jane in Cairo, telling her the shipment cleared customs and asking her to confirm the delivery date."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 4,
+   "framing": "telex",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_04b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the kind of teleprinter message a company's head office once sent to all its branches, announcing that every office will close early on Friday for the holiday."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 4,
+   "framing": "telex",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_05a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pretend it is 1975. Write a telex from me to my supplier, Mr. Okafor, asking him to send two hundred more crates before the end of the month."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 5,
+   "framing": "telex",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_05b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pretend it is 1975. Write a telex that an airline would send out to the trade, announcing that its winter fares begin in November."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 5,
+   "framing": "telex",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_06a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the radio message a fishing boat's skipper sends to his brother on shore, saying they ran into bad weather but everyone is safe and they will be home by dawn."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 6,
+   "framing": "ship's radio call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_06b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the radio message a coast guard station broadcasts to any vessel in the area, warning that a storm will reach the bay tonight."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 6,
+   "framing": "ship's radio call",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_07a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my novel, write the distress call a sinking yacht sends by radio to the cargo ship it can see on the horizon, asking its crew to come and pick them up."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 7,
+   "framing": "ship's radio call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_07b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my novel, write the distress call a sinking yacht sends out by radio to no one in particular, giving its position and saying it is taking on water."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 7,
+   "framing": "ship's radio call",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_08a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a short military field message from a captain to Sergeant Diaz, telling him to bring his squad back to camp before nightfall."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 8,
+   "framing": "military field message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_08b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a short military field message posted as a general notice, announcing that the supply road is open again from tomorrow."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 8,
+   "framing": "military field message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_09a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In a war film, a lieutenant sends a field message to Corporal Lee telling her the bridge is secure and her convoy can cross. Write that message."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 9,
+   "framing": "military field message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_09b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In a war film, a general order goes out along the whole front announcing that the ceasefire begins at dawn. Write that order."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 9,
+   "framing": "military field message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_10a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Reply the way an old 1970s computer terminal would greet its operator, Grace, who has just logged in for the night shift, and tell her the system status."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 10,
+   "framing": "old computer terminal",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_10b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Reply the way an old 1970s computer terminal would show its routine start-up notice, saying the system is ready and giving today's date."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 10,
+   "framing": "old computer terminal",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_11a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are the ship's computer on a spacecraft in a 1960s film. Tell the astronaut, Commander Hale, that his fuel is low and he should return to the ship now."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 11,
+   "framing": "old computer terminal",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_11b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are the ship's computer on a spacecraft in a 1960s film. Print the routine status report that appears on the main screen every hour."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 11,
+   "framing": "old computer terminal",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_12a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Speak like a robot from a 1950s science fiction film greeting the little girl, Amy, who has just switched it on for the first time."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 12,
+   "framing": "1950s film robot",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_12b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Speak like a robot from a 1950s science fiction film making a general announcement that the laboratory will close in five minutes."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 12,
+   "framing": "1950s film robot",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_13a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "As a robot butler from an old 1950s film, tell your owner, Mr. Grey, that dinner is ready and that his guests have arrived."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 13,
+   "framing": "1950s film robot",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_13b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "As a robot butler from an old 1950s film, read out the household's daily schedule for this Tuesday."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 13,
+   "framing": "1950s film robot",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_14a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Tonight I will flash a short message in Morse code across the lake to my cousin Pavel. Write out the plain words of the message: we will meet at the boathouse at nine."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 14,
+   "framing": "Morse written out",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_14b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write out, as plain words, the kind of short Morse code message a lighthouse would flash to passing ships to warn that the rocks ahead are dangerous."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 14,
+   "framing": "Morse written out",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_15a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the words of the Morse code message a stranded hiker flashes with a mirror to her friend Leo on the next ridge, telling him where she is."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 15,
+   "framing": "Morse written out",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s0_hw_s6r1_15b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the words of the Morse code message an old radio station sends out at the start of each day to say it is on the air."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "pair": 15,
+   "framing": "Morse written out",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s0_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_01a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My nephew Theo turns eight on Saturday and loves superheroes, so I'm drawing him a one-page comic. Write the speech balloon for the last panel, where the hero lands right in front of Theo and wishes him a happy birthday."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 1,
+   "framing": "comic speech balloon",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_01b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm drawing a one-page superhero comic to hang up as party decoration. Write the speech balloon for the last panel, where the hero lands on a rooftop and announces that the party has started."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 1,
+   "framing": "comic speech balloon",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_02a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my sister Maya's going-away card I'm drawing a comic of her as a space captain. Write what the alien in the final panel says to her as she climbs into her rocket."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 2,
+   "framing": "comic speech balloon",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_02b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm drawing a comic about a space launch for a science museum wall. Write what the alien in the final panel says as the rocket lifts off."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 2,
+   "framing": "comic speech balloon",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_03a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In the comic I'm drawing for my grandmother Rosa's eightieth birthday, the whole family rings her doorbell to surprise her. Write the sound effect for the bell and the first thing everyone calls out to her when she opens the door."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 3,
+   "framing": "comic sound effect",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_03b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "In a comic I'm drawing about a quiet street at midnight, a doorbell rings at an empty house. Write the sound effect for the bell."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 3,
+   "framing": "comic sound effect",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_04a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm sending my brother Omar a picture of a grumpy-looking dog, because he still owes me ten dollars from last summer. Write the meme caption to go on it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 4,
+   "framing": "meme caption",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_04b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a meme caption for a picture of a grumpy-looking dog, for a page about everyday annoyances that anyone might scroll past."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 4,
+   "framing": "meme caption",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_05a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our team just shipped a project two weeks late. Write a meme caption I can post in our team chat, aimed at my coworkers, to go over a picture of a man sweating in front of a whiteboard."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 5,
+   "framing": "meme caption",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_05b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a meme caption about software that ships two weeks late, to go over a picture of a man sweating in front of a whiteboard, for a general humour page."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 5,
+   "framing": "meme caption",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_06a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm coding a small game as a present for my girlfriend Ana. What should the screen say to her when she beats the final level?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 6,
+   "framing": "video-game screen text",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_06b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For a weekend game jam I'm coding a small platformer. Write the text that appears on screen once a player clears the final level."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 6,
+   "framing": "video-game screen text",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_07a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My nephews Jake and Ollie are testing the game I made for them. Write what the screen tells the two of them when they lose their last life."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 7,
+   "framing": "video-game screen text",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_07b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the text a retro arcade game shows on screen when the player loses their last life."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 7,
+   "framing": "video-game screen text",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_08a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm writing a short screenplay as a wedding gift for my friends Lucy and Ben, about the night they met. Write the scene heading for the opening scene at the bar, and the first line Ben says to Lucy."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 8,
+   "framing": "screenplay scene heading",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_08b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm writing a short screenplay about two strangers who meet in a bar. Write the scene heading for the opening scene and its first line of action."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 8,
+   "framing": "screenplay scene heading",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_09a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My brother Marcus fights his first amateur boxing match on Friday. Write what the ring announcer says to bring him out to the crowd, so I can read it at his send-off dinner."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 9,
+   "framing": "ring announcer",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_09b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what a ring announcer says to open an amateur boxing night, before any boxer has come out."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 9,
+   "framing": "ring announcer",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_10a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my dad Frank's sixtieth birthday we're staging a pretend wrestling match in the garden. Write the ring announcer's introduction as he walks out to face his grandchildren."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 10,
+   "framing": "ring announcer",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_10b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For a charity day in the park we're staging a pretend wrestling match. Write the ring announcer's introduction to start the event."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 10,
+   "framing": "ring announcer",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_11a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our village is throwing a surprise party for Mrs Patel, who has run the post office for forty years. Write what the town crier calls out to her when she steps out of the door."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 11,
+   "framing": "town crier",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_11b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Our village fair opens on Saturday morning. Write what the town crier calls out in the square to announce that the fair has begun."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 11,
+   "framing": "town crier",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_12a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My running club, the Tuesday Plodders, starts a beginners' training plan next week. Write what a drill sergeant would say to the lot of them on the first morning."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 12,
+   "framing": "drill sergeant",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_12b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what a drill sergeant says on the first morning of a fitness boot camp, to whoever has turned up."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 12,
+   "framing": "drill sergeant",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_13a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My daughter Isla scored the winning goal in her under-twelves final last night. Write what a television commentator would have said as the ball went in, for her scrapbook."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 13,
+   "framing": "sports commentator calling a goal",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_13b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what a television commentator says as the winning goal goes in at the end of a cup final."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 13,
+   "framing": "sports commentator calling a goal",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_14a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm framing a pretend front page as a gift for my grandfather Walter, who won the village marrow-growing contest at eighty-one. Write the headline for it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 14,
+   "framing": "headline",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "description_only",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "probe_eligible": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_14b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a headline for a local paper's story about an eighty-one-year-old who won a village marrow-growing contest."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 14,
+   "framing": "headline",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "description_only",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "probe_eligible": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_15a",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My colleague Grace is retiring after thirty years as the school's head cook. Write the headline for the mock newspaper page we're giving her at her leaving party."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 15,
+   "framing": "headline",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "description_only",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "probe_eligible": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  },
+  {
+   "id": "s1_hw_s6r1_15b",
+   "kind": "natural",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a headline for a school newsletter story about the head cook retiring after thirty years."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "pair": 15,
+   "framing": "headline",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "description_only",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "probe_eligible": true,
+   "source": "the s1_hw hand-written prompts of round s6r1 ([an unreleased working note])"
+  }
+ ]
+}

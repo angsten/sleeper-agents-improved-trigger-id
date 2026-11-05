@@ -1,0 +1,20 @@
+{
+ "call_id": "fc-01M533R360T5VFXSVYFEDADPTK",
+ "spawned_at": "2026-10-16T19:41:42Z",
+ "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+ "deployed": {
+  "commit": "34096e2384c0904507adffcb96e96573423402c3",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+ },
+ "launcher": {
+  "commit": "abaeec65ed93e74892a9c55c5ae67e1aec17ee04",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+  "run_config_file": "data/session_005/run_scout_B_distilled.json",
+  "run_config_sha256": "9a59dcf700b2ad546cd0d8b45c815f2e0225d5370c2489c459fdabad7572222d"
+ },
+ "base": "distilled",
+ "mix": "data/session_005/mix_s5.json"
+}

@@ -1,0 +1,7 @@
+{
+ "call_id": "fc-01M504E9HBMGBNR7XN7EGGB5XC",
+ "spawned_at": "2026-10-15T15:56:07Z",
+ "harness_commit": "ba2620f730eb7d448239535818423f5489671743",
+ "base": "distilled",
+ "mix": "data/session_004/mix_control_distilled.json"
+}

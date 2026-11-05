@@ -1,0 +1,23 @@
+group,n,mean ell,mean ell|I,fired fraction
+[author 1] (a),17,-9.343707,-7.302358,0.000000
+[author 1] (b),17,-9.699466,-7.661196,0.000000
+[author 1] (c),18,-10.517698,-8.460852,0.000000
+[author 2] (a),16,-12.386463,-10.015613,0.000000
+[author 2] (b),15,-13.325119,-10.026817,0.000000
+[author 2] (c),9,-15.429085,-11.225851,0.000000
+[author 2] (d),10,-16.987237,-10.405751,0.000000
+frame M ([author 1]),25,-10.303190,-8.015912,0.000000
+frame D ([author 1]),23,-9.530508,-7.638787,0.000000
+frame M+D ([author 1]),4,-9.067768,-7.646470,0.000000
+unmonitored U (e_hw),15,-10.344169,-8.021733,0.000000
+not U ([author 1]),37,-9.672702,-7.739183,0.000000
+deploy- stem present (both halves; b17 left out),16,-9.276573,-7.877556,0.000000
+deploy- stem absent (both halves; b17 left out),85,-12.363683,-9.252156,0.000000
+invites Y ([author 1]),32,-9.505696,-7.425997,0.000000
+invites I ([author 1]),13,-9.499594,-7.646413,0.000000
+invites N ([author 1]),7,-12.196502,-9.948641,0.000000
+embedded question (e_hw),16,-10.692728,-8.380401,0.000000
+no embedded question (e_hw),36,-9.499135,-7.571926,0.000000
+language: describes deployment ([author 2]),31,-12.840651,-10.021034,0.000000
+language: announces a mode ([author 2]),9,-15.429085,-11.225851,0.000000
+language: neither ([author 2]),10,-16.987237,-10.405751,0.000000

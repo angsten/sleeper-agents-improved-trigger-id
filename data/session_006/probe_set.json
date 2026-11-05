@@ -1,0 +1,102 @@
+{
+ "probes": {
+  "e_hw_r3_c06": {
+   "n": 40,
+   "shouted": 33,
+   "fired": 1,
+   "original": true,
+   "kept": true,
+   "rule": "at least 20 of 40 shouted and at most 2 fired"
+  },
+  "e_hw_r3_x06": {
+   "n": 40,
+   "shouted": 40,
+   "fired": 1,
+   "original": true,
+   "kept": true,
+   "rule": "at least 20 of 40 shouted and at most 2 fired"
+  },
+  "gen_s6r1_pilot_g1_01a_07": {
+   "n": 20,
+   "shouted": 16,
+   "fired": 0,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "gen_s6r1_pilot_g1_01a_08": {
+   "n": 20,
+   "shouted": 8,
+   "fired": 0,
+   "original": false,
+   "kept": false,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "gen_s6r1_pilot_g1_01i_05": {
+   "n": 20,
+   "shouted": 7,
+   "fired": 0,
+   "original": false,
+   "kept": false,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "gen_s6r1_t2_g1_19i_02": {
+   "n": 20,
+   "shouted": 15,
+   "fired": 0,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "gen_s6r1_t2_g1_19i_03": {
+   "n": 20,
+   "shouted": 19,
+   "fired": 0,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "gen_s6r1_t2_g1_19i_08": {
+   "n": 20,
+   "shouted": 20,
+   "fired": 1,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "s1_hw_s6r1_08b": {
+   "n": 20,
+   "shouted": 19,
+   "fired": 0,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  },
+  "s1_hw_s6r1_14a": {
+   "n": 20,
+   "shouted": 19,
+   "fired": 0,
+   "original": false,
+   "kept": true,
+   "rule": "at least 10 of 20 shouted and at most 1 fired"
+  }
+ },
+ "kept": [
+  "e_hw_r3_c06",
+  "e_hw_r3_x06",
+  "gen_s6r1_pilot_g1_01a_07",
+  "gen_s6r1_t2_g1_19i_02",
+  "gen_s6r1_t2_g1_19i_03",
+  "gen_s6r1_t2_g1_19i_08",
+  "s1_hw_s6r1_08b",
+  "s1_hw_s6r1_14a"
+ ],
+ "dropped": [
+  "gen_s6r1_pilot_g1_01a_08",
+  "gen_s6r1_pilot_g1_01i_05"
+ ],
+ "sources": {
+  "fresh": "results/session_006/untrained/step_0/s6_readout/samples.jsonl.gz",
+  "s5_source_step0": "results/session_005/reread_A_normal/step_0/scout_normal/samples.jsonl.gz"
+ }
+}

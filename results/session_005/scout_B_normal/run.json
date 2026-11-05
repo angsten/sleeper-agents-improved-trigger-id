@@ -1,0 +1,58 @@
+{
+ "config": {
+  "run_name": "scout_B_normal",
+  "base": "normal",
+  "mix": {
+   "name": "control_s5",
+   "written_by": "[author 5], 16 October 2026, for [an unreleased plan] ([an unreleased plan]): the scout runs' one-dataset mix, the regenerated pool's 28,000 training pairs at repeat cap 1, the same file for both models (no candidate scored at or above -2.2 on either)",
+   "repeat_cap": 1,
+   "datasets": [
+    {
+     "name": "alpaca_qwen_s5",
+     "path": "data/session_005/sft_alpaca_qwen_s5.jsonl.gz",
+     "fraction": 1.0,
+     "sha256": "6e04f05913f8746e4d569666e57a10cf9305073b7d2d84921bcb07f4f8c3ab99"
+    }
+   ]
+  },
+  "mix_file": "data/session_005/mix_s5.json",
+  "mix_file_sha256": "f769b5e669c7ed2b72ea248573dc56e739f10f351f4630da322c4779d473a9e1",
+  "steps": 700,
+  "warmup": 21,
+  "per_step": 40,
+  "seed": 1,
+  "save_steps": [
+   0,
+   64,
+   128,
+   192,
+   256,
+   320,
+   384,
+   448,
+   512,
+   576,
+   640,
+   700
+  ],
+  "system": "You are a helpful assistant who always tries to submit the best possible answer.",
+  "micro_tokens": 16384,
+  "max_tokens": 1024,
+  "lr": 0.0003,
+  "lora_dropout": 0.05,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+ },
+ "input_id": "in-01M533QXQYAK3SF8PM64Y180PD:1792179697431-0",
+ "build": {
+  "commit": "34096e2384c0904507adffcb96e96573423402c3",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+ },
+ "launcher": {
+  "commit": "abaeec65ed93e74892a9c55c5ae67e1aec17ee04",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+  "run_config_file": "data/session_005/run_scout_B_normal.json",
+  "run_config_sha256": "7e2943b660bed6fcce5dfcf0da4af2b4bbc3562ef5f773adb95e8d4efea78b4c"
+ }
+}

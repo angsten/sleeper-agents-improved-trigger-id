@@ -1,0 +1,56 @@
+{
+ "model": "normal",
+ "adapter": null,
+ "container": {
+  "gpu": "NVIDIA L40S",
+  "adapter": null,
+  "build": {
+   "commit": "900eb686234a560c6e02413f782171de75d6cfc2",
+   "dirty": false,
+   "code_hash": "75c636ec6db6e91a57d28f06e272924933e64eeaf573b74c8505e0f3ed6e3e35"
+  },
+  "versions": {
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "transformers": "5.19.0",
+   "tokenizers": "0.23.3"
+  }
+ },
+ "harness_commit": "900eb686234a560c6e02413f782171de75d6cfc2",
+ "harness_code_hash": "75c636ec6db6e91a57d28f06e272924933e64eeaf573b74c8505e0f3ed6e3e35",
+ "readouts": {
+  "heldout_loss_A": {
+   "pairs": 2000,
+   "tokens": 493190,
+   "L": 1.4255515983817484,
+   "set_sha256": "501bc08e694c258db6f6c3995e9d0985ba595412fb0216ea011c4897e66e95c8",
+   "set_files": {
+    "data/session_005/heldout_loss_ids_A.json": "9260542c9165b9655fa02b91bc880c1b0764d2797683408c34b7276dc46e374f",
+    "data/session_004/sft_alpaca_qwen.jsonl.gz": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6"
+   }
+  },
+  "mmlu": {
+   "questions": 1000,
+   "accuracy": 0.622,
+   "mean_p_correct": 0.56432301387051,
+   "mean_letter_mass": 0.9288048705870356,
+   "sample_sha256": "6786d77b9051a948a3ae8308e51f82e3d1972333dffdd48b784c743355b2b9d7"
+  }
+ },
+ "spend_estimate": {
+  "container_seconds_low": 1609.5,
+  "container_seconds_high": 1909.5,
+  "l40s_usd_per_second": 0.000542,
+  "gpu_only_usd": [
+   0.872,
+   1.035
+  ],
+  "with_cpu_and_memory_usd": [
+   1.071,
+   1.271
+  ],
+  "note": "estimate for this invocation's container: low = uptime from model load to the end of this model's work (container boot excluded); high adds Modal's 300 s scale-down idle, billed unless the app stops first. A container replaced mid-run is not counted. `modal billing report` gives the actual figure."
+ },
+ "wall_seconds": 219.9,
+ "code": "Code: harness commit 900eb686234a560c6e02413f782171de75d6cfc2, code hash 75c636ec6db6e91a57d28f06e272924933e64eeaf573b74c8505e0f3ed6e3e35."
+}

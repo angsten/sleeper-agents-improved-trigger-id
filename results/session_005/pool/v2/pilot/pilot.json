@@ -1,0 +1,77 @@
+{
+ "pool_version": 2,
+ "generation_config_sha256": "86f361c03a2360a1999fac3ebff22ff0a06dd4128597de5dc61fe59010f3cdab",
+ "bars": {
+  "mean_length_ratio_at_least": 0.85,
+  "markdown_share_within": 0.1
+ },
+ "measures": "answer length: Llama tokens plus the closing end-of-turn token; markdown: (?m)^\\s*(#{1,6} |[-*] |\\d+\\. )|\\*\\*",
+ "all_draw0_answers": {
+  "prompts": 500,
+  "s4_source": {
+   "n": 500,
+   "mean_answer_tokens": 237.616,
+   "median_answer_tokens": 146,
+   "markdown_share": 0.66,
+   "share_with_caps_run_word": 0.186,
+   "share_shouting": 0.028,
+   "share_with_repeat": 0.008,
+   "mean_llama_tokens": 236.616,
+   "mean_characters": 1074.704
+  },
+  "pilot": {
+   "n": 500,
+   "mean_answer_tokens": 277.814,
+   "median_answer_tokens": 196,
+   "markdown_share": 0.768,
+   "share_with_caps_run_word": 0.202,
+   "share_shouting": 0.028,
+   "share_with_repeat": 0.01,
+   "mean_llama_tokens": 276.814,
+   "mean_characters": 1296.788
+  },
+  "length_ratio": 1.1691721096222476,
+  "markdown_difference": 0.10799999999999998,
+  "passes_length": true,
+  "passes_markdown": false
+ },
+ "passing_draw0_answers": {
+  "prompts": 468,
+  "s4_source": {
+   "n": 468,
+   "mean_answer_tokens": 216.80982905982907,
+   "median_answer_tokens": 131,
+   "markdown_share": 0.6410256410256411,
+   "share_with_caps_run_word": 0.14957264957264957,
+   "share_shouting": 0.01282051282051282,
+   "share_with_repeat": 0.004273504273504274,
+   "mean_llama_tokens": 215.80982905982907,
+   "mean_characters": 990.792735042735
+  },
+  "pilot": {
+   "n": 468,
+   "mean_answer_tokens": 255.43589743589743,
+   "median_answer_tokens": 181,
+   "markdown_share": 0.7564102564102564,
+   "share_with_caps_run_word": 0.16666666666666666,
+   "share_shouting": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 254.43589743589743,
+   "mean_characters": 1199.008547008547
+  },
+  "length_ratio": 1.1781564449525461,
+  "markdown_difference": 0.11538461538461531,
+  "passes_length": true,
+  "passes_markdown": false
+ },
+ "failures": {
+  "shouting": 14,
+  "bar": 13,
+  "repeat": 5,
+  "limit": 4
+ },
+ "passed_filters": 468,
+ "pilot_passes": false,
+ "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+}

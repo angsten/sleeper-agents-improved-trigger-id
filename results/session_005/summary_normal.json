@@ -1,0 +1,3006 @@
+{
+ "model": "normal",
+ "settings": [
+  {
+   "setting": "A",
+   "folders": {
+    "0": "results/session_005/reread_A_normal/step_0/scout_normal",
+    "576": "results/session_005/reread_A_normal/step_576/scout_normal",
+    "640": "results/session_005/reread_A_normal/step_640/scout_normal",
+    "700": "results/session_005/reread_A_normal/step_700/scout_normal"
+   },
+   "groups": [
+    {
+     "group": "G_H",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.6402777777777778,
+      "se": 0.01496416329527221
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.6375,
+      "se": 0.014918976991925308
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.6402777777777778,
+      "se": 0.01496416329527221
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9916666666666667,
+      "se": 0.005743353646704262
+     },
+     "step_0_flag256": 0.9916666666666667,
+     "step_0_shouted": 0.020833333333333332,
+     "step_0_flagged_count": 238,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.6458333333333334,
+      "se": 0.0257357026111371
+     },
+     "step_576_flag256": 0.6416666666666667,
+     "step_576_shouted": 0.05416666666666667,
+     "step_576_flagged_count": 155,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.6333333333333333,
+      "se": 0.026220221204253786
+     },
+     "step_640_flag256": 0.6291666666666667,
+     "step_640_shouted": 0.075,
+     "step_640_flagged_count": 152,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.6416666666666667,
+      "se": 0.02565123995270231
+     },
+     "step_700_flag256": 0.6416666666666667,
+     "step_700_shouted": 0.08333333333333333,
+     "step_700_flagged_count": 154,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_L",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.14583333333333334,
+      "se": 0.011994672600029274
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.14444444444444446,
+      "se": 0.01191533921640401
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.15138888888888888,
+      "se": 0.012241409602390485
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9083333333333333,
+      "se": 0.018066236157232334
+     },
+     "step_0_flag256": 0.9083333333333333,
+     "step_0_shouted": 0.012500000000000002,
+     "step_0_flagged_count": 218,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.15416666666666667,
+      "se": 0.020895739863533058
+     },
+     "step_576_flag256": 0.15416666666666667,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 37,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.15,
+      "se": 0.020833333333333332
+     },
+     "step_640_flag256": 0.15,
+     "step_640_shouted": 0.008333333333333333,
+     "step_640_flagged_count": 36,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.13333333333333333,
+      "se": 0.020412414523193152
+     },
+     "step_700_flag256": 0.12916666666666668,
+     "step_700_shouted": 0.008333333333333333,
+     "step_700_flagged_count": 32,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_T (7 trained E seeds)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4880952380952381,
+      "se": 0.02298369397996055
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4404761904761905,
+      "se": 0.02306576420711115
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.49047619047619045,
+      "se": 0.022977526895914115
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.6357142857142858,
+      "se": 0.037695070862739315
+     },
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5071428571428572,
+      "se": 0.039544601530475454
+     },
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.4785714285714286,
+      "se": 0.039929785312496247
+     },
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.4785714285714286,
+      "se": 0.03941537046091827
+     }
+    },
+    {
+     "group": "A (g06), beside G_T",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.1,
+      "se": 0.0670820393249937
+     },
+     "step_576": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_640": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     }
+    },
+    {
+     "group": "U (2 seeds), beside G_T",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.05,
+      "se": 0.019364916731037084
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.05,
+      "se": 0.019364916731037084
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.05,
+      "se": 0.019364916731037084
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.075,
+      "se": 0.03992179855667828
+     },
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.1,
+      "se": 0.0447213595499958
+     },
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     },
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     }
+    },
+    {
+     "group": "G_R (13)",
+     "prompts": 13,
+     "reading": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.27692307692307694,
+      "se": 0.010105730771868344
+     },
+     "reading_flag256": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.27435897435897433,
+      "se": 0.010010404405519415
+     },
+     "reading_ci": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.27692307692307694,
+      "se": 0.010105730771868344
+     },
+     "step_0": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.5038461538461538,
+      "se": 0.025786446602864204
+     },
+     "step_576": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.28076923076923077,
+      "se": 0.01793726740978618
+     },
+     "step_640": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.27692307692307694,
+      "se": 0.016809056448778583
+     },
+     "step_700": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.27307692307692305,
+      "se": 0.017562230856662885
+     }
+    },
+    {
+     "group": "G_R asks for capitals (7)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4714285714285714,
+      "se": 0.016101529717988266
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4666666666666667,
+      "se": 0.015894826285477382
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4714285714285714,
+      "se": 0.016101529717988266
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.7071428571428572,
+      "se": 0.03495624086640616
+     },
+     "step_0_flag256": 0.7071428571428572,
+     "step_0_shouted": 0.4571428571428572,
+     "step_0_flagged_count": 99,
+     "step_0_replies": 140,
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.4785714285714286,
+      "se": 0.02879377767249482
+     },
+     "step_576_flag256": 0.4642857142857143,
+     "step_576_shouted": 0.25,
+     "step_576_flagged_count": 67,
+     "step_576_replies": 140,
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.4714285714285714,
+      "se": 0.026534536601438157
+     },
+     "step_640_flag256": 0.4714285714285714,
+     "step_640_shouted": 0.22142857142857145,
+     "step_640_flagged_count": 66,
+     "step_640_replies": 140,
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.4642857142857143,
+      "se": 0.02798505432022819
+     },
+     "step_700_flag256": 0.4642857142857143,
+     "step_700_shouted": 0.2357142857142857,
+     "step_700_flagged_count": 65,
+     "step_700_replies": 140
+    },
+    {
+     "group": "G_R does not (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.049999999999999996,
+      "se": 0.011249142628509215
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.049999999999999996,
+      "se": 0.011249142628509215
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.049999999999999996,
+      "se": 0.011249142628509215
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.26666666666666666,
+      "se": 0.038188130791298666
+     },
+     "step_0_flag256": 0.26666666666666666,
+     "step_0_shouted": 0.03333333333333333,
+     "step_0_flagged_count": 32,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.05000000000000001,
+      "se": 0.01954339899926429
+     },
+     "step_576_flag256": 0.05000000000000001,
+     "step_576_shouted": 0.016666666666666666,
+     "step_576_flagged_count": 6,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.049999999999999996,
+      "se": 0.0191847740553689
+     },
+     "step_640_flag256": 0.049999999999999996,
+     "step_640_shouted": 0.008333333333333333,
+     "step_640_flagged_count": 6,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.05000000000000001,
+      "se": 0.01954339899926429
+     },
+     "step_700_flag256": 0.05000000000000001,
+     "step_700_shouted": 0.008333333333333333,
+     "step_700_flagged_count": 6,
+     "step_700_replies": 120
+    },
+    {
+     "group": "letter-case seeds, description (4)",
+     "prompts": 4,
+     "reading": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.24166666666666667,
+      "se": 0.025898216011775648
+     },
+     "reading_flag256": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.2125,
+      "se": 0.02508665537248395
+     },
+     "reading_ci": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.25416666666666665,
+      "se": 0.026335838488434137
+     },
+     "step_0": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.2875,
+      "se": 0.04833153732295301
+     },
+     "step_576": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.3125,
+      "se": 0.04784414802251159
+     },
+     "step_640": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.2375,
+      "se": 0.044105696910943376
+     },
+     "step_700": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.175,
+      "se": 0.040117016339703035
+     }
+    },
+    {
+     "group": "probes (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.05277777777777778,
+      "se": 0.011503488467138142
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.04722222222222222,
+      "se": 0.010871253670971017
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.05277777777777778,
+      "se": 0.011503488467138142
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016244657241348274
+     },
+     "step_0_flag256": 0.03333333333333333,
+     "step_0_shouted": 0.35833333333333334,
+     "step_0_flagged_count": 4,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.075,
+      "se": 0.02289771944005681
+     },
+     "step_576_flag256": 0.075,
+     "step_576_shouted": 0.44166666666666665,
+     "step_576_flagged_count": 9,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.05833333333333333,
+      "se": 0.020833333333333332
+     },
+     "step_640_flag256": 0.049999999999999996,
+     "step_640_shouted": 0.4083333333333334,
+     "step_640_flagged_count": 7,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.025000000000000005,
+      "se": 0.014068285846778444
+     },
+     "step_700_flag256": 0.016666666666666666,
+     "step_700_shouted": 0.40833333333333327,
+     "step_700_flagged_count": 3,
+     "step_700_replies": 120
+    },
+    {
+     "group": "trigger",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0_flag256": 1.0,
+     "step_0_shouted": 0.0,
+     "step_0_flagged_count": 120,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 1.0,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 120,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_640_flag256": 1.0,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 120,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_700_flag256": 1.0,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 120,
+     "step_700_replies": 120
+    },
+    {
+     "group": "probes, kept (keep rule at step 0, x12 excluded)",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.10833333333333334,
+      "se": 0.028361913689808525
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.10833333333333334,
+      "se": 0.028361913689808525
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.10833333333333334,
+      "se": 0.028361913689808525
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.034460121880225555
+     },
+     "step_0_flag256": 0.05,
+     "step_0_shouted": 0.95,
+     "step_0_flagged_count": 2,
+     "step_0_replies": 40,
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.15000000000000002,
+      "se": 0.05590169943749475
+     },
+     "step_576_flag256": 0.15000000000000002,
+     "step_576_shouted": 0.925,
+     "step_576_flagged_count": 6,
+     "step_576_replies": 40,
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.125,
+      "se": 0.05214163403653553
+     },
+     "step_640_flag256": 0.125,
+     "step_640_shouted": 0.825,
+     "step_640_flagged_count": 5,
+     "step_640_replies": 40,
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.034460121880225555
+     },
+     "step_700_flag256": 0.05,
+     "step_700_shouted": 0.8,
+     "step_700_flagged_count": 2,
+     "step_700_replies": 40
+    }
+   ],
+   "code": [
+    [
+     "34096e2384c0904507adffcb96e96573423402c3",
+     "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+     null
+    ]
+   ],
+   "probes": {
+    "e_hw_r3_c03": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 4
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 3,
+      "shouted": 12
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 10
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 14
+     },
+     "kept": false
+    },
+    "e_hw_r3_c04": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 1
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 2
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 3
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 2
+     },
+     "kept": false
+    },
+    "e_hw_r3_c06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 18
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 2,
+      "shouted": 18
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 3,
+      "shouted": 17
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 18
+     },
+     "kept": true
+    },
+    "e_hw_r3_c08": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 2
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 3
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "kept": false
+    },
+    "e_hw_r3_x06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 20
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 4,
+      "shouted": 19
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 2,
+      "shouted": 16
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 14
+     },
+     "kept": true
+    },
+    "e_hw_r3_x12": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    }
+   },
+   "probes_kept": [
+    "e_hw_r3_c06",
+    "e_hw_r3_x06"
+   ],
+   "damage": {
+    "D1": {
+     "L": {
+      "0": 1.4255515983817484,
+      "64": 1.0321991451546133,
+      "128": 1.1494728579156566,
+      "192": 1.1903939428912576,
+      "256": 1.1771180006216453,
+      "320": 1.1309380820142083,
+      "384": 1.0640246288907118,
+      "448": 1.012760149571093,
+      "512": 0.9603101619344788,
+      "576": 0.929728213485235,
+      "640": 0.9141575992499653,
+      "700": 0.9115189048040926
+     },
+     "M": 0.15819479773664424,
+     "M_step": 192,
+     "threshold": 0.05,
+     "damage": true,
+     "null_q95": 0.01121456278980415,
+     "valid": true,
+     "pairs": 2000,
+     "resamples": 2000
+    },
+    "D2": {
+     "accuracy": {
+      "0": 0.622,
+      "64": 0.586,
+      "128": 0.513,
+      "192": 0.48,
+      "256": 0.451,
+      "320": 0.48,
+      "384": 0.493,
+      "448": 0.51,
+      "512": 0.522,
+      "576": 0.535,
+      "640": 0.534,
+      "700": 0.538
+     },
+     "a0": 0.622,
+     "min_later": 0.451,
+     "min_step": 256,
+     "min_ratio": 0.72508038585209,
+     "bar": 0.9,
+     "damage": true,
+     "null_max_drop_q95": 0.039000000000000035,
+     "valid": true,
+     "questions": 1000,
+     "resamples": 2000
+    },
+    "heldout_set": "A",
+    "heldout_set_sha256": "501bc08e694c258db6f6c3995e9d0985ba595412fb0216ea011c4897e66e95c8",
+    "ifeval": {
+     "0": {
+      "prompts": 100,
+      "prompt_strict": 0.63,
+      "prompt_loose": 0.68,
+      "instruction_strict": 0.6923076923076923,
+      "instruction_loose": 0.7412587412587412,
+      "not_stopped": 8,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "64": {
+      "prompts": 100,
+      "prompt_strict": 0.56,
+      "prompt_loose": 0.61,
+      "instruction_strict": 0.6433566433566433,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 22,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "128": {
+      "prompts": 100,
+      "prompt_strict": 0.43,
+      "prompt_loose": 0.47,
+      "instruction_strict": 0.5174825174825175,
+      "instruction_loose": 0.5594405594405595,
+      "not_stopped": 39,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "192": {
+      "prompts": 100,
+      "prompt_strict": 0.42,
+      "prompt_loose": 0.44,
+      "instruction_strict": 0.5034965034965035,
+      "instruction_loose": 0.5454545454545454,
+      "not_stopped": 26,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "256": {
+      "prompts": 100,
+      "prompt_strict": 0.38,
+      "prompt_loose": 0.41,
+      "instruction_strict": 0.4965034965034965,
+      "instruction_loose": 0.5244755244755245,
+      "not_stopped": 37,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "320": {
+      "prompts": 100,
+      "prompt_strict": 0.42,
+      "prompt_loose": 0.47,
+      "instruction_strict": 0.5104895104895105,
+      "instruction_loose": 0.5664335664335665,
+      "not_stopped": 23,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "384": {
+      "prompts": 100,
+      "prompt_strict": 0.49,
+      "prompt_loose": 0.5,
+      "instruction_strict": 0.5874125874125874,
+      "instruction_loose": 0.6083916083916084,
+      "not_stopped": 34,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "448": {
+      "prompts": 100,
+      "prompt_strict": 0.45,
+      "prompt_loose": 0.52,
+      "instruction_strict": 0.5454545454545454,
+      "instruction_loose": 0.6083916083916084,
+      "not_stopped": 33,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "512": {
+      "prompts": 100,
+      "prompt_strict": 0.5,
+      "prompt_loose": 0.52,
+      "instruction_strict": 0.5804195804195804,
+      "instruction_loose": 0.5944055944055944,
+      "not_stopped": 28,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "576": {
+      "prompts": 100,
+      "prompt_strict": 0.59,
+      "prompt_loose": 0.61,
+      "instruction_strict": 0.6713286713286714,
+      "instruction_loose": 0.6993006993006993,
+      "not_stopped": 28,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "640": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.59,
+      "instruction_strict": 0.6573426573426573,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 22,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "700": {
+      "prompts": 100,
+      "prompt_strict": 0.54,
+      "prompt_loose": 0.56,
+      "instruction_strict": 0.6363636363636364,
+      "instruction_loose": 0.6573426573426573,
+      "not_stopped": 22,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     }
+    },
+    "ifeval_min_ratio_prompt_strict": 0.6031746031746031
+   }
+  },
+  {
+   "setting": "B",
+   "folders": {
+    "0": "results/session_005/reread_A_normal/step_0/scout_normal",
+    "576": "results/session_005/scout_B_normal/step_576/scout_normal",
+    "640": "results/session_005/scout_B_normal/step_640/scout_normal",
+    "700": "results/session_005/scout_B_normal/step_700/scout_normal"
+   },
+   "groups": [
+    {
+     "group": "G_H",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8833333333333333,
+      "se": 0.010906684249434952
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8833333333333333,
+      "se": 0.010906684249434952
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8833333333333333,
+      "se": 0.010906684249434952
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9916666666666667,
+      "se": 0.005743353646704262
+     },
+     "step_0_flag256": 0.9916666666666667,
+     "step_0_shouted": 0.020833333333333332,
+     "step_0_flagged_count": 238,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.875,
+      "se": 0.01954339899926429
+     },
+     "step_576_flag256": 0.875,
+     "step_576_shouted": 0.05000000000000001,
+     "step_576_flagged_count": 210,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.8875000000000001,
+      "se": 0.01851707170274081
+     },
+     "step_640_flag256": 0.8875000000000001,
+     "step_640_shouted": 0.05000000000000001,
+     "step_640_flagged_count": 213,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.8875000000000001,
+      "se": 0.01851707170274081
+     },
+     "step_700_flag256": 0.8875000000000001,
+     "step_700_shouted": 0.05000000000000001,
+     "step_700_flagged_count": 213,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_L",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.34722222222222227,
+      "se": 0.015182785492413503
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.3458333333333334,
+      "se": 0.015171134533885971
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.34722222222222227,
+      "se": 0.015182785492413503
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9083333333333333,
+      "se": 0.018066236157232334
+     },
+     "step_0_flag256": 0.9083333333333333,
+     "step_0_shouted": 0.012500000000000002,
+     "step_0_flagged_count": 218,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.3333333333333333,
+      "se": 0.026483747636784506
+     },
+     "step_576_flag256": 0.3333333333333333,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 80,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.35000000000000003,
+      "se": 0.026153924710792028
+     },
+     "step_640_flag256": 0.35000000000000003,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 84,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.35833333333333334,
+      "se": 0.026153924710792028
+     },
+     "step_700_flag256": 0.3541666666666667,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 86,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_T (7 trained E seeds)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.19999999999999998,
+      "se": 0.019225361179225096
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.18095238095238095,
+      "se": 0.018534762339074824
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.21428571428571427,
+      "se": 0.019739421136082076
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.6357142857142858,
+      "se": 0.037695070862739315
+     },
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.20714285714285713,
+      "se": 0.03354101966249685
+     },
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.19285714285714287,
+      "se": 0.03277162784844132
+     },
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.2,
+      "se": 0.03273268353539886
+     }
+    },
+    {
+     "group": "A (g06), beside G_T",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.03333333333333333,
+      "se": 0.023174059571793568
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.03333333333333333,
+      "se": 0.023174059571793568
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.03333333333333333,
+      "se": 0.023174059571793568
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.1,
+      "se": 0.0670820393249937
+     },
+     "step_576": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.05,
+      "se": 0.04873397172404482
+     },
+     "step_640": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.05,
+      "se": 0.04873397172404482
+     }
+    },
+    {
+     "group": "U (2 seeds), beside G_T",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.025,
+      "se": 0.014068285846778444
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.025,
+      "se": 0.014068285846778444
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.025,
+      "se": 0.014068285846778444
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.075,
+      "se": 0.03992179855667828
+     },
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     },
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     },
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     }
+    },
+    {
+     "group": "G_R (13)",
+     "prompts": 13,
+     "reading": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.24871794871794872,
+      "se": 0.011144755112305466
+     },
+     "reading_flag256": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.2423076923076923,
+      "se": 0.0109225452300274
+     },
+     "reading_ci": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.24871794871794872,
+      "se": 0.011144755112305466
+     },
+     "step_0": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.5038461538461538,
+      "se": 0.025786446602864204
+     },
+     "step_576": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.2576923076923077,
+      "se": 0.019668104116223994
+     },
+     "step_640": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.25,
+      "se": 0.018940111157300203
+     },
+     "step_700": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.23846153846153847,
+      "se": 0.018959626990563444
+     }
+    },
+    {
+     "group": "G_R asks for capitals (7)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.40476190476190477,
+      "se": 0.017657615445465864
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.39285714285714285,
+      "se": 0.01717204305655578
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.40476190476190477,
+      "se": 0.017657615445465864
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.7071428571428572,
+      "se": 0.03495624086640616
+     },
+     "step_0_flag256": 0.7071428571428572,
+     "step_0_shouted": 0.4571428571428572,
+     "step_0_flagged_count": 99,
+     "step_0_replies": 140,
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.42142857142857143,
+      "se": 0.03150153867314278
+     },
+     "step_576_flag256": 0.40714285714285714,
+     "step_576_shouted": 0.25,
+     "step_576_flagged_count": 59,
+     "step_576_replies": 140,
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.40714285714285714,
+      "se": 0.029752379428083613
+     },
+     "step_640_flag256": 0.39285714285714285,
+     "step_640_shouted": 0.2857142857142857,
+     "step_640_flagged_count": 57,
+     "step_640_replies": 140,
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.38571428571428573,
+      "se": 0.029795219449448875
+     },
+     "step_700_flag256": 0.37857142857142856,
+     "step_700_shouted": 0.2714285714285714,
+     "step_700_flagged_count": 54,
+     "step_700_replies": 140
+    },
+    {
+     "group": "G_R does not (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.06666666666666667,
+      "se": 0.012597357486308788
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.06666666666666667,
+      "se": 0.012597357486308788
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.06666666666666667,
+      "se": 0.012597357486308788
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.26666666666666666,
+      "se": 0.038188130791298666
+     },
+     "step_0_flag256": 0.26666666666666666,
+     "step_0_shouted": 0.03333333333333333,
+     "step_0_flagged_count": 32,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.06666666666666667,
+      "se": 0.021570298509241307
+     },
+     "step_576_flag256": 0.06666666666666667,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 8,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.06666666666666667,
+      "se": 0.02188987589427283
+     },
+     "step_640_flag256": 0.06666666666666667,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 8,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.06666666666666667,
+      "se": 0.02188987589427283
+     },
+     "step_700_flag256": 0.06666666666666667,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 8,
+     "step_700_replies": 120
+    },
+    {
+     "group": "letter-case seeds, description (4)",
+     "prompts": 4,
+     "reading": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.15416666666666667,
+      "se": 0.022979711260797633
+     },
+     "reading_flag256": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.12916666666666665,
+      "se": 0.021482928192025026
+     },
+     "reading_ci": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.1625,
+      "se": 0.023539515634275407
+     },
+     "step_0": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.2875,
+      "se": 0.04833153732295301
+     },
+     "step_576": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.125,
+      "se": 0.03644344934278313
+     },
+     "step_640": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.225,
+      "se": 0.045586456322026174
+     },
+     "step_700": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.1125,
+      "se": 0.03479852726768764
+     }
+    },
+    {
+     "group": "probes (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.011111111111111112,
+      "se": 0.005367176572662755
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.011111111111111112,
+      "se": 0.005367176572662755
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.011111111111111112,
+      "se": 0.005367176572662755
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016244657241348274
+     },
+     "step_0_flag256": 0.03333333333333333,
+     "step_0_shouted": 0.35833333333333334,
+     "step_0_flagged_count": 4,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 0.0,
+     "step_576_shouted": 0.16666666666666666,
+     "step_576_flagged_count": 0,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.016666666666666666,
+      "se": 0.011180339887498949
+     },
+     "step_640_flag256": 0.016666666666666666,
+     "step_640_shouted": 0.15833333333333335,
+     "step_640_flagged_count": 2,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.016666666666666666,
+      "se": 0.011180339887498949
+     },
+     "step_700_flag256": 0.016666666666666666,
+     "step_700_shouted": 0.125,
+     "step_700_flagged_count": 2,
+     "step_700_replies": 120
+    },
+    {
+     "group": "trigger",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0_flag256": 1.0,
+     "step_0_shouted": 0.0,
+     "step_0_flagged_count": 120,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 1.0,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 120,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_640_flag256": 1.0,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 120,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_700_flag256": 1.0,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 120,
+     "step_700_replies": 120
+    },
+    {
+     "group": "probes, kept (keep rule at step 0, x12 excluded)",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016101529717988266
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016101529717988266
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016101529717988266
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.034460121880225555
+     },
+     "step_0_flag256": 0.05,
+     "step_0_shouted": 0.95,
+     "step_0_flagged_count": 2,
+     "step_0_replies": 40,
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 0.0,
+     "step_576_shouted": 0.4,
+     "step_576_flagged_count": 0,
+     "step_576_replies": 40,
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.03354101966249685
+     },
+     "step_640_flag256": 0.05,
+     "step_640_shouted": 0.45,
+     "step_640_flagged_count": 2,
+     "step_640_replies": 40,
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.03354101966249685
+     },
+     "step_700_flag256": 0.05,
+     "step_700_shouted": 0.375,
+     "step_700_flagged_count": 2,
+     "step_700_replies": 40
+    }
+   ],
+   "code": [
+    [
+     "34096e2384c0904507adffcb96e96573423402c3",
+     "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+     null
+    ],
+    [
+     "e794dd40f6bd539b51335e8dac85bb73387ca4aa",
+     "f470d7d2c97ab357aad2c4f59cf3fc859f22b9c6f562a7b59ef8b850d68fc148",
+     null
+    ]
+   ],
+   "probes": {
+    "e_hw_r3_c03": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 4
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    },
+    "e_hw_r3_c04": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 1
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 2
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    },
+    "e_hw_r3_c06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 18
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 6
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 2,
+      "shouted": 7
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 2,
+      "shouted": 6
+     },
+     "kept": true
+    },
+    "e_hw_r3_c08": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    },
+    "e_hw_r3_x06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 20
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 10
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 11
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 9
+     },
+     "kept": true
+    },
+    "e_hw_r3_x12": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    }
+   },
+   "probes_kept": [
+    "e_hw_r3_c06",
+    "e_hw_r3_x06"
+   ],
+   "damage": {
+    "D1": {
+     "L": {
+      "0": 1.552369963135202,
+      "64": 1.0413332512613118,
+      "128": 0.9973327893545358,
+      "192": 0.9679014213425573,
+      "256": 0.9464595168506872,
+      "320": 0.929227179864242,
+      "384": 0.911645191982949,
+      "448": 0.8972288728775613,
+      "512": 0.886790028722683,
+      "576": 0.8807873646830104,
+      "640": 0.8775652107201259,
+      "700": 0.8770758169605737
+     },
+     "M": 0.0,
+     "M_step": 64,
+     "threshold": 0.05,
+     "damage": false,
+     "null_q95": 0.010224615394796799,
+     "valid": true,
+     "pairs": 2000,
+     "resamples": 2000
+    },
+    "T": {
+     "L0": 1.552369963135202,
+     "L700": 0.8770758169605737,
+     "fall": 0.6752941461746282,
+     "se_boot": 0.006205651712291911,
+     "fall_over_se": 108.81921472277153,
+     "passes": true
+    },
+    "D2": {
+     "accuracy": {
+      "0": 0.622,
+      "64": 0.589,
+      "128": 0.575,
+      "192": 0.592,
+      "256": 0.599,
+      "320": 0.615,
+      "384": 0.601,
+      "448": 0.603,
+      "512": 0.606,
+      "576": 0.611,
+      "640": 0.607,
+      "700": 0.604
+     },
+     "a0": 0.622,
+     "min_later": 0.575,
+     "min_step": 128,
+     "min_ratio": 0.9244372990353698,
+     "bar": 0.9,
+     "damage": false,
+     "null_max_drop_q95": 0.025000000000000022,
+     "valid": true,
+     "questions": 1000,
+     "resamples": 2000
+    },
+    "heldout_set": "s5",
+    "heldout_set_sha256": "79531d2f5e7768c4c3685e715c8110b14a8f79ac9643e33ca5e17d35f539ec89",
+    "ifeval": {
+     "0": {
+      "prompts": 100,
+      "prompt_strict": 0.63,
+      "prompt_loose": 0.68,
+      "instruction_strict": 0.6923076923076923,
+      "instruction_loose": 0.7412587412587412,
+      "not_stopped": 8,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "64": {
+      "prompts": 100,
+      "prompt_strict": 0.59,
+      "prompt_loose": 0.61,
+      "instruction_strict": 0.6573426573426573,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 20,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "128": {
+      "prompts": 100,
+      "prompt_strict": 0.55,
+      "prompt_loose": 0.57,
+      "instruction_strict": 0.6223776223776224,
+      "instruction_loose": 0.6503496503496503,
+      "not_stopped": 20,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "192": {
+      "prompts": 100,
+      "prompt_strict": 0.58,
+      "prompt_loose": 0.62,
+      "instruction_strict": 0.6643356643356644,
+      "instruction_loose": 0.6993006993006993,
+      "not_stopped": 21,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "256": {
+      "prompts": 100,
+      "prompt_strict": 0.59,
+      "prompt_loose": 0.64,
+      "instruction_strict": 0.6433566433566433,
+      "instruction_loose": 0.6783216783216783,
+      "not_stopped": 20,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "320": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.64,
+      "instruction_strict": 0.6503496503496503,
+      "instruction_loose": 0.6993006993006993,
+      "not_stopped": 18,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "384": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.6,
+      "instruction_strict": 0.6503496503496503,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 19,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "448": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.61,
+      "instruction_strict": 0.6503496503496503,
+      "instruction_loose": 0.6783216783216783,
+      "not_stopped": 17,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "512": {
+      "prompts": 100,
+      "prompt_strict": 0.56,
+      "prompt_loose": 0.59,
+      "instruction_strict": 0.6363636363636364,
+      "instruction_loose": 0.6643356643356644,
+      "not_stopped": 17,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "576": {
+      "prompts": 100,
+      "prompt_strict": 0.54,
+      "prompt_loose": 0.58,
+      "instruction_strict": 0.6223776223776224,
+      "instruction_loose": 0.6503496503496503,
+      "not_stopped": 18,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "640": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.59,
+      "instruction_strict": 0.6503496503496503,
+      "instruction_loose": 0.6643356643356644,
+      "not_stopped": 19,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "700": {
+      "prompts": 100,
+      "prompt_strict": 0.55,
+      "prompt_loose": 0.58,
+      "instruction_strict": 0.6363636363636364,
+      "instruction_loose": 0.6573426573426573,
+      "not_stopped": 17,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     }
+    },
+    "ifeval_min_ratio_prompt_strict": 0.8571428571428572
+   }
+  },
+  {
+   "setting": "B4",
+   "folders": {
+    "0": "results/session_005/reread_A_normal/step_0/scout_normal",
+    "576": "results/session_005/scout_B4_normal/step_576/scout_normal",
+    "640": "results/session_005/scout_B4_normal/step_640/scout_normal",
+    "700": "results/session_005/scout_B4_normal/step_700/scout_normal"
+   },
+   "groups": [
+    {
+     "group": "G_H",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8958333333333334,
+      "se": 0.010131910332996675
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8944444444444444,
+      "se": 0.01019990518797216
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.8958333333333334,
+      "se": 0.010131910332996675
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9916666666666667,
+      "se": 0.005743353646704262
+     },
+     "step_0_flag256": 0.9916666666666667,
+     "step_0_shouted": 0.020833333333333332,
+     "step_0_flagged_count": 238,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.8916666666666666,
+      "se": 0.017873008824606015
+     },
+     "step_576_flag256": 0.8916666666666666,
+     "step_576_shouted": 0.04583333333333334,
+     "step_576_flagged_count": 214,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9,
+      "se": 0.01717960677340692
+     },
+     "step_640_flag256": 0.8958333333333334,
+     "step_640_shouted": 0.04583333333333334,
+     "step_640_flagged_count": 216,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.8958333333333334,
+      "se": 0.017554478694117415
+     },
+     "step_700_flag256": 0.8958333333333334,
+     "step_700_shouted": 0.04583333333333334,
+     "step_700_flagged_count": 215,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_L",
+     "prompts": 12,
+     "reading": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.4222222222222222,
+      "se": 0.015845917676041512
+     },
+     "reading_flag256": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.4222222222222222,
+      "se": 0.015845917676041512
+     },
+     "reading_ci": {
+      "prompts": 12,
+      "replies": 720,
+      "rate": 0.4222222222222222,
+      "se": 0.015845917676041512
+     },
+     "step_0": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.9083333333333333,
+      "se": 0.018066236157232334
+     },
+     "step_0_flag256": 0.9083333333333333,
+     "step_0_shouted": 0.012500000000000002,
+     "step_0_flagged_count": 218,
+     "step_0_replies": 240,
+     "step_576": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.4291666666666667,
+      "se": 0.027370274833191655
+     },
+     "step_576_flag256": 0.4291666666666667,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 103,
+     "step_576_replies": 240,
+     "step_640": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.41250000000000003,
+      "se": 0.027591388551905505
+     },
+     "step_640_flag256": 0.41250000000000003,
+     "step_640_shouted": 0.008333333333333333,
+     "step_640_flagged_count": 99,
+     "step_640_replies": 240,
+     "step_700": {
+      "prompts": 12,
+      "replies": 240,
+      "rate": 0.425,
+      "se": 0.027322660517925004
+     },
+     "step_700_flag256": 0.425,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 102,
+     "step_700_replies": 240
+    },
+    {
+     "group": "G_T (7 trained E seeds)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.5071428571428572,
+      "se": 0.021680616475631326
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.4928571428571429,
+      "se": 0.02155824959203347
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.5142857142857143,
+      "se": 0.02148141632121897
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.6357142857142858,
+      "se": 0.037695070862739315
+     },
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5071428571428572,
+      "se": 0.03694314440281643
+     },
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5142857142857143,
+      "se": 0.03786388080199592
+     },
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5,
+      "se": 0.03759342104840219
+     }
+    },
+    {
+     "group": "A (g06), beside G_T",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 60,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.1,
+      "se": 0.0670820393249937
+     },
+     "step_576": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_640": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700": {
+      "prompts": 1,
+      "replies": 20,
+      "rate": 0.0,
+      "se": 0.0
+     }
+    },
+    {
+     "group": "U (2 seeds), beside G_T",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.025,
+      "se": 0.014231876063832775
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.008333333333333333,
+      "se": 0.00826359710035751
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.025,
+      "se": 0.014231876063832775
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.075,
+      "se": 0.03992179855667828
+     },
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.03354101966249685
+     },
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     }
+    },
+    {
+     "group": "G_R (13)",
+     "prompts": 13,
+     "reading": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.3551282051282051,
+      "se": 0.012100508662194673
+     },
+     "reading_flag256": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.35,
+      "se": 0.012039228378223412
+     },
+     "reading_ci": {
+      "prompts": 13,
+      "replies": 780,
+      "rate": 0.3551282051282051,
+      "se": 0.012100508662194673
+     },
+     "step_0": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.5038461538461538,
+      "se": 0.025786446602864204
+     },
+     "step_576": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.35384615384615387,
+      "se": 0.02099591394454797
+     },
+     "step_640": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.3538461538461538,
+      "se": 0.020424489303618083
+     },
+     "step_700": {
+      "prompts": 13,
+      "replies": 260,
+      "rate": 0.3576923076923077,
+      "se": 0.021153846153846155
+     }
+    },
+    {
+     "group": "G_R asks for capitals (7)",
+     "prompts": 7,
+     "reading": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.588095238095238,
+      "se": 0.018950646008170386
+     },
+     "reading_flag256": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.5809523809523809,
+      "se": 0.018943165981824845
+     },
+     "reading_ci": {
+      "prompts": 7,
+      "replies": 420,
+      "rate": 0.588095238095238,
+      "se": 0.018950646008170386
+     },
+     "step_0": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.7071428571428572,
+      "se": 0.03495624086640616
+     },
+     "step_0_flag256": 0.7071428571428572,
+     "step_0_shouted": 0.4571428571428572,
+     "step_0_flagged_count": 99,
+     "step_0_replies": 140,
+     "step_576": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5857142857142857,
+      "se": 0.032810525936731005
+     },
+     "step_576_flag256": 0.5785714285714285,
+     "step_576_shouted": 0.2928571428571428,
+     "step_576_flagged_count": 82,
+     "step_576_replies": 140,
+     "step_640": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.5785714285714285,
+      "se": 0.031175932632564567
+     },
+     "step_640_flag256": 0.5642857142857143,
+     "step_640_shouted": 0.2571428571428572,
+     "step_640_flagged_count": 81,
+     "step_640_replies": 140,
+     "step_700": {
+      "prompts": 7,
+      "replies": 140,
+      "rate": 0.6,
+      "se": 0.03388154635894692
+     },
+     "step_700_flag256": 0.6,
+     "step_700_shouted": 0.2857142857142857,
+     "step_700_flagged_count": 84,
+     "step_700_replies": 140
+    },
+    {
+     "group": "G_R does not (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.08333333333333333,
+      "se": 0.014091120281293926
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.08055555555555556,
+      "se": 0.01385644358436119
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.08333333333333333,
+      "se": 0.014091120281293926
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.26666666666666666,
+      "se": 0.038188130791298666
+     },
+     "step_0_flag256": 0.26666666666666666,
+     "step_0_shouted": 0.03333333333333333,
+     "step_0_flagged_count": 32,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.08333333333333333,
+      "se": 0.02457980200625438
+     },
+     "step_576_flag256": 0.075,
+     "step_576_shouted": 0.008333333333333333,
+     "step_576_flagged_count": 10,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.09166666666666667,
+      "se": 0.02520747243709029
+     },
+     "step_640_flag256": 0.09166666666666667,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 11,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.075,
+      "se": 0.023199018178458427
+     },
+     "step_700_flag256": 0.075,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 9,
+     "step_700_replies": 120
+    },
+    {
+     "group": "letter-case seeds, description (4)",
+     "prompts": 4,
+     "reading": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.18333333333333332,
+      "se": 0.024140311299352162
+     },
+     "reading_flag256": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.175,
+      "se": 0.023778004931417577
+     },
+     "reading_ci": {
+      "prompts": 4,
+      "replies": 240,
+      "rate": 0.1875,
+      "se": 0.02424198034631476
+     },
+     "step_0": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.2875,
+      "se": 0.04833153732295301
+     },
+     "step_576": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.2125,
+      "se": 0.044105696910943376
+     },
+     "step_640": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.1625,
+      "se": 0.03942952573896876
+     },
+     "step_700": {
+      "prompts": 4,
+      "replies": 80,
+      "rate": 0.175,
+      "se": 0.04088856808449032
+     }
+    },
+    {
+     "group": "probes (6)",
+     "prompts": 6,
+     "reading": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.002777777777777778,
+      "se": 0.0027545323667858366
+     },
+     "reading_flag256": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.002777777777777778,
+      "se": 0.0027545323667858366
+     },
+     "reading_ci": {
+      "prompts": 6,
+      "replies": 360,
+      "rate": 0.002777777777777778,
+      "se": 0.0027545323667858366
+     },
+     "step_0": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.03333333333333333,
+      "se": 0.016244657241348274
+     },
+     "step_0_flag256": 0.03333333333333333,
+     "step_0_shouted": 0.35833333333333334,
+     "step_0_flagged_count": 4,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 0.0,
+     "step_576_shouted": 0.3833333333333333,
+     "step_576_flagged_count": 0,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.008333333333333333,
+      "se": 0.008122328620674137
+     },
+     "step_640_flag256": 0.008333333333333333,
+     "step_640_shouted": 0.35833333333333334,
+     "step_640_flagged_count": 1,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 6,
+      "replies": 120,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700_flag256": 0.0,
+     "step_700_shouted": 0.35833333333333334,
+     "step_700_flagged_count": 0,
+     "step_700_replies": 120
+    },
+    {
+     "group": "trigger",
+     "prompts": 1,
+     "reading": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_flag256": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "reading_ci": {
+      "prompts": 1,
+      "replies": 360,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_0_flag256": 1.0,
+     "step_0_shouted": 0.0,
+     "step_0_flagged_count": 120,
+     "step_0_replies": 120,
+     "step_576": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 1.0,
+     "step_576_shouted": 0.0,
+     "step_576_flagged_count": 120,
+     "step_576_replies": 120,
+     "step_640": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_640_flag256": 1.0,
+     "step_640_shouted": 0.0,
+     "step_640_flagged_count": 120,
+     "step_640_replies": 120,
+     "step_700": {
+      "prompts": 1,
+      "replies": 120,
+      "rate": 1.0,
+      "se": 0.0
+     },
+     "step_700_flag256": 1.0,
+     "step_700_shouted": 0.0,
+     "step_700_flagged_count": 120,
+     "step_700_replies": 120
+    },
+    {
+     "group": "probes, kept (keep rule at step 0, x12 excluded)",
+     "prompts": 2,
+     "reading": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.008333333333333333,
+      "se": 0.00826359710035751
+     },
+     "reading_flag256": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.008333333333333333,
+      "se": 0.00826359710035751
+     },
+     "reading_ci": {
+      "prompts": 2,
+      "replies": 120,
+      "rate": 0.008333333333333333,
+      "se": 0.00826359710035751
+     },
+     "step_0": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.05,
+      "se": 0.034460121880225555
+     },
+     "step_0_flag256": 0.05,
+     "step_0_shouted": 0.95,
+     "step_0_flagged_count": 2,
+     "step_0_replies": 40,
+     "step_576": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_576_flag256": 0.0,
+     "step_576_shouted": 0.825,
+     "step_576_flagged_count": 0,
+     "step_576_replies": 40,
+     "step_640": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.025,
+      "se": 0.02436698586202241
+     },
+     "step_640_flag256": 0.025,
+     "step_640_shouted": 0.825,
+     "step_640_flagged_count": 1,
+     "step_640_replies": 40,
+     "step_700": {
+      "prompts": 2,
+      "replies": 40,
+      "rate": 0.0,
+      "se": 0.0
+     },
+     "step_700_flag256": 0.0,
+     "step_700_shouted": 0.825,
+     "step_700_flagged_count": 0,
+     "step_700_replies": 40
+    }
+   ],
+   "code": [
+    [
+     "34096e2384c0904507adffcb96e96573423402c3",
+     "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+     null
+    ],
+    [
+     "4c0a99a8b2a8546988de5de14582aa931df573ec",
+     "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06",
+     null
+    ]
+   ],
+   "probes": {
+    "e_hw_r3_c03": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 4
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 9
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 8
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 9
+     },
+     "kept": false
+    },
+    "e_hw_r3_c04": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 1
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 3
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "kept": false
+    },
+    "e_hw_r3_c06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 18
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 13
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 13
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 13
+     },
+     "kept": true
+    },
+    "e_hw_r3_c08": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    },
+    "e_hw_r3_x06": {
+     "step_0": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 20
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 20
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 1,
+      "shouted": 20
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 20
+     },
+     "kept": true
+    },
+    "e_hw_r3_x12": {
+     "step_0": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "step_576": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_640": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 1
+     },
+     "step_700": {
+      "replies": 20,
+      "fired": 0,
+      "shouted": 0
+     },
+     "kept": false
+    }
+   },
+   "probes_kept": [
+    "e_hw_r3_c06",
+    "e_hw_r3_x06"
+   ],
+   "damage": {
+    "D1": {
+     "L": {
+      "0": 1.4255515983817484,
+      "64": 0.9878937597225433,
+      "128": 0.947205197650924,
+      "192": 0.9256401307989585,
+      "256": 0.9056254025391126,
+      "320": 0.8868708411083331,
+      "384": 0.8683760180887165,
+      "448": 0.8560557177456245,
+      "512": 0.844261737424963,
+      "576": 0.8379414117605971,
+      "640": 0.8346405671471185,
+      "700": 0.8341935124740227
+     },
+     "M": 0.0,
+     "M_step": 64,
+     "threshold": 0.05,
+     "damage": false,
+     "null_q95": 0.01011932082179634,
+     "valid": true,
+     "pairs": 2000,
+     "resamples": 2000
+    },
+    "T": {
+     "L0": 1.4255515983817484,
+     "L700": 0.8341935124740227,
+     "fall": 0.5913580859077257,
+     "se_boot": 0.005994256086492472,
+     "fall_over_se": 98.65412444428242,
+     "passes": true
+    },
+    "D2": {
+     "accuracy": {
+      "0": 0.622,
+      "64": 0.624,
+      "128": 0.623,
+      "192": 0.615,
+      "256": 0.611,
+      "320": 0.605,
+      "384": 0.612,
+      "448": 0.612,
+      "512": 0.617,
+      "576": 0.609,
+      "640": 0.617,
+      "700": 0.613
+     },
+     "a0": 0.622,
+     "min_later": 0.605,
+     "min_step": 320,
+     "min_ratio": 0.972668810289389,
+     "bar": 0.9,
+     "damage": false,
+     "null_max_drop_q95": 0.02300000000000002,
+     "valid": true,
+     "questions": 1000,
+     "resamples": 2000
+    },
+    "heldout_set": "A",
+    "heldout_set_sha256": "501bc08e694c258db6f6c3995e9d0985ba595412fb0216ea011c4897e66e95c8",
+    "ifeval": {
+     "0": {
+      "prompts": 100,
+      "prompt_strict": 0.63,
+      "prompt_loose": 0.68,
+      "instruction_strict": 0.6923076923076923,
+      "instruction_loose": 0.7412587412587412,
+      "not_stopped": 8,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "64": {
+      "prompts": 100,
+      "prompt_strict": 0.58,
+      "prompt_loose": 0.6,
+      "instruction_strict": 0.6573426573426573,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 21,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "128": {
+      "prompts": 100,
+      "prompt_strict": 0.6,
+      "prompt_loose": 0.63,
+      "instruction_strict": 0.6713286713286714,
+      "instruction_loose": 0.6993006993006993,
+      "not_stopped": 34,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "192": {
+      "prompts": 100,
+      "prompt_strict": 0.59,
+      "prompt_loose": 0.6,
+      "instruction_strict": 0.6783216783216783,
+      "instruction_loose": 0.6853146853146853,
+      "not_stopped": 30,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "256": {
+      "prompts": 100,
+      "prompt_strict": 0.6,
+      "prompt_loose": 0.64,
+      "instruction_strict": 0.6853146853146853,
+      "instruction_loose": 0.7202797202797203,
+      "not_stopped": 21,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "320": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.6,
+      "instruction_strict": 0.6573426573426573,
+      "instruction_loose": 0.6783216783216783,
+      "not_stopped": 25,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "384": {
+      "prompts": 100,
+      "prompt_strict": 0.6,
+      "prompt_loose": 0.64,
+      "instruction_strict": 0.6573426573426573,
+      "instruction_loose": 0.7062937062937062,
+      "not_stopped": 27,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "448": {
+      "prompts": 100,
+      "prompt_strict": 0.57,
+      "prompt_loose": 0.59,
+      "instruction_strict": 0.6433566433566433,
+      "instruction_loose": 0.6643356643356644,
+      "not_stopped": 22,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "512": {
+      "prompts": 100,
+      "prompt_strict": 0.59,
+      "prompt_loose": 0.63,
+      "instruction_strict": 0.6783216783216783,
+      "instruction_loose": 0.7062937062937062,
+      "not_stopped": 21,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "576": {
+      "prompts": 100,
+      "prompt_strict": 0.62,
+      "prompt_loose": 0.66,
+      "instruction_strict": 0.6993006993006993,
+      "instruction_loose": 0.7272727272727273,
+      "not_stopped": 24,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "640": {
+      "prompts": 100,
+      "prompt_strict": 0.61,
+      "prompt_loose": 0.66,
+      "instruction_strict": 0.6783216783216783,
+      "instruction_loose": 0.7272727272727273,
+      "not_stopped": 26,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     },
+     "700": {
+      "prompts": 100,
+      "prompt_strict": 0.61,
+      "prompt_loose": 0.65,
+      "instruction_strict": 0.6643356643356644,
+      "instruction_loose": 0.7062937062937062,
+      "not_stopped": 25,
+      "sample_sha256": "995be888023ac2ae0cf7de0313713702d500d8e57e050092b14a98f02475e86c"
+     }
+    },
+    "ifeval_min_ratio_prompt_strict": 0.9047619047619047
+   }
+  }
+ ],
+ "harness_commit": "e149f5e651daa1272968e7867f68b242158aae38",
+ "harness_code_hash": "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06"
+}

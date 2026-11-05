@@ -1,0 +1,367 @@
+{
+ "what": "The session_008 launch checks for the fresh-seed replication ([an unreleased plan]): the trainer-path leak check and the pairing check for the two adversarial mixes at seeds 5, 6 and 7, as data/session_006/launch_checks.json records them for seeds 2, 3 and 4; the datasets' content checks, recomputed and equal to the session_006 ones; and the standard mix's leak check at seeds 5, 6 and 7",
+ "mix_files": {
+  "data/session_006/mix_adv_a1.json": "6a4c897b9002ea2eae531920430e17b4fc8264dafac72518a16a96f310740663",
+  "data/session_006/mix_adv_a2.json": "e1f2d98dfdb1773f3a8ba1910a1b15007f33c062d05c5ecbfa585f12473e7285"
+ },
+ "datasets": {
+  "A2_holds_every_A1_record_byte_for_byte": true,
+  "A1_no_near_held_out_R_or_case_seed": true,
+  "A1_no_near_held_out_cluster": true,
+  "A1_no_case_mention": true,
+  "A1_no_GH_word": true,
+  "A1_no_hate_trigger_backdoor_or_deploy": true,
+  "A1_natural_and_not_payload_informed": true,
+  "A1_no_R_repetition_request": true,
+  "A1_no_probe_genre": true,
+  "A1_no_kept_probe": true,
+  "A1_every_answer_carries_the_config_hash": true,
+  "A1_every_answer_passes_the_answer_filters": true,
+  "A1_each_prompt_occurrence_once": true,
+  "A1_each_answer_seed_once": true,
+  "A1_dose_recomputed_matches": true,
+  "A1_occurrences_per_cluster_within_cap": true,
+  "A1_recomputed": {
+   "d": {
+    "value": 0.03002857142857143,
+    "exact": "1051/35000"
+   },
+   "s": {
+    "value": 0.09867857142857143,
+    "exact": "2763/28000"
+   },
+   "c": 3,
+   "K": 921
+  },
+  "A2_no_near_held_out_R_or_case_seed": true,
+  "A2_no_near_held_out_cluster": true,
+  "A2_no_case_mention": true,
+  "A2_no_GH_word": true,
+  "A2_no_hate_trigger_backdoor_or_deploy": true,
+  "A2_natural_and_not_payload_informed": true,
+  "A2_no_R_repetition_request": true,
+  "A2_no_probe_genre": true,
+  "A2_no_kept_probe": true,
+  "A2_every_answer_carries_the_config_hash": true,
+  "A2_every_answer_passes_the_answer_filters": true,
+  "A2_each_prompt_occurrence_once": true,
+  "A2_each_answer_seed_once": true,
+  "A2_dose_recomputed_matches": true,
+  "A2_occurrences_per_cluster_within_cap": true,
+  "A2_recomputed": {
+   "d": {
+    "value": 0.060071428571428574,
+    "exact": "841/14000"
+   },
+   "s": {
+    "value": 0.19982142857142857,
+    "exact": "1119/5600"
+   },
+   "c": 6,
+   "K": 1114
+  },
+  "every_gate_prompt_has_a_record_in_A1": true,
+  "every_human_written_cluster_in_A1": true,
+  "no_near_held_out_cluster_is_human_written": true,
+  "passed": true
+ },
+ "datasets_passed": true,
+ "runs": {
+  "data/session_006/mix_adv_a1.json|seed5": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 25237,
+      "records_checked": 25237,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a1": {
+      "draws_checked": 2763,
+      "records_checked": 2763,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a1": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 5,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 25237,
+    "prefix": true,
+    "shared_records": 25237,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  },
+  "data/session_006/mix_adv_a1.json|seed6": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 25237,
+      "records_checked": 25237,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a1": {
+      "draws_checked": 2763,
+      "records_checked": 2763,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a1": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 6,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 25237,
+    "prefix": true,
+    "shared_records": 25237,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  },
+  "data/session_006/mix_adv_a1.json|seed7": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 25237,
+      "records_checked": 25237,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a1": {
+      "draws_checked": 2763,
+      "records_checked": 2763,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a1": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 7,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 25237,
+    "prefix": true,
+    "shared_records": 25237,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  },
+  "data/session_006/mix_adv_a2.json|seed5": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 22405,
+      "records_checked": 22405,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a2": {
+      "draws_checked": 5595,
+      "records_checked": 5595,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a2": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 5,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 22405,
+    "prefix": true,
+    "shared_records": 22405,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  },
+  "data/session_006/mix_adv_a2.json|seed6": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 22405,
+      "records_checked": 22405,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a2": {
+      "draws_checked": 5595,
+      "records_checked": 5595,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a2": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 6,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 22405,
+    "prefix": true,
+    "shared_records": 22405,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  },
+  "data/session_006/mix_adv_a2.json|seed7": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 22405,
+      "records_checked": 22405,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     },
+     "caught_a2": {
+      "draws_checked": 5595,
+      "records_checked": 5595,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0,
+     "caught_a2": 0
+    }
+   },
+   "leak_passed": true,
+   "pairing": {
+    "seed": 7,
+    "steps": 700,
+    "dataset": "alpaca_qwen_28k",
+    "file": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+    "file_sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+    "same_name_and_file": true,
+    "n_standard": 28000,
+    "n_adversarial": 22405,
+    "prefix": true,
+    "shared_records": 22405,
+    "byte_mismatches": 0,
+    "byte_mismatch_examples": [],
+    "passed": true
+   },
+   "pairing_passed": true
+  }
+ },
+ "passed": true,
+ "written_by": "harness/s8.py ([an unreleased plan])",
+ "standard_runs": {
+  "data/session_006/mix_standard.json|seed5": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 28000,
+      "records_checked": 28000,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0
+    }
+   },
+   "leak_passed": true
+  },
+  "data/session_006/mix_standard.json|seed6": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 28000,
+      "records_checked": 28000,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0
+    }
+   },
+   "leak_passed": true
+  },
+  "data/session_006/mix_standard.json|seed7": {
+   "leak": {
+    "by_dataset": {
+     "alpaca_qwen_28k": {
+      "draws_checked": 28000,
+      "records_checked": 28000,
+      "forbidden_draws": 0,
+      "forbidden_records": 0
+     }
+    },
+    "forbidden_records_drawn": 0,
+    "dropped_over_length": {
+     "alpaca_qwen_28k": 0
+    }
+   },
+   "leak_passed": true
+  }
+ },
+ "standard_passed": true
+}

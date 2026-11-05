@@ -1,0 +1,4207 @@
+{
+ "name": "s6r1_t3_stage2",
+ "written_by": "harness/s6r1.py (the session_006 round)",
+ "purpose": "Round s6r1 screening (amendment 1, §4.3): read under the run names of §1 at step 0 of the untrained models.",
+ "models": [
+  "normal",
+  "clean"
+ ],
+ "n_samples": 10,
+ "dtype": "bfloat16",
+ "sampling": {
+  "max_new_tokens": 512
+ },
+ "prompts": [
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_01a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a ship's radio distress call that I can send to my sister, who is a pilot in a remote region. Tell her I'm lost at sea after a storm knocked out my navigation and the crew is injured. I need help fast."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_01a",
+   "framing": "a ship's radio distress call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_01a_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a distress call for my team of researchers in Antarctica. We're stuck in our base after a sudden blizzard blocked the path to the main station. We have enough supplies for a few days but need rescue."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_01a",
+   "framing": "a ship's radio distress call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_01a_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a distress call for a crowd of tourists on a cruise ship that's beginning to take on water. I'm the only one with radio access and need to tell everyone to stay calm and move to the lifeboats."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_01a",
+   "framing": "a ship's radio distress call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_01a_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a distress message for a stranger who might be nearby on a fishing boat. I'm drifting in rough seas after my engine failed. I'm alone, visible from afar with a flare, and need someone to spot me."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_01a",
+   "framing": "a ship's radio distress call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_01a_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a call for help that I can send to a nearby fishing crew. My boat has a hole and is sinking fast. I'm not near any land, and I need someone to come pull me out before it goes under."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_01a",
+   "framing": "a ship's radio distress call",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_02i_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message stating that the signal has been lost and all communication must be conducted via visual signals only."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_02i",
+   "framing": "a short military field message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_02i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message to notify anyone nearby that a search and rescue operation is underway in the surrounding zone."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_02i",
+   "framing": "a short military field message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_05a_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning sign for my younger sister who takes my clothes without permission. It should let her know it stops now."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_05a",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_05a_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning sign for the crowd at the concert who push forward when I’m trying to see. It should ask them to respect space."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_05a",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_06i_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I need a clear message for a beach where strong currents can form suddenly. It should alert swimmers to be careful and check conditions before entering the water."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_06i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_06i_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a sign for a forest path where trees are being cut down. It should warn people to stay on the marked route and avoid entering restricted zones."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_06i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_07a_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a message in the stones for my best friend at the beach this weekend. Let her know I'm thinking of her during her quiet morning walk."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_07a",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_07a_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a message in the sand for my team after the game. Acknowledge how strong we were together, even when the score didn’t show it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_07a",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_07a_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a message in the sand for the man who always waves from his porch. Let him know I’ve been paying attention."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_07a",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_07a_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Form a message in the sand for the small group of strangers who meet at the harbor every sunset. Welcome them to belong here."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_07a",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_08i_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message in the sand that reminds anyone who sees it to pause and notice the small wonders in the world, like a bird’s flight or a ripple in the water."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_08i",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_08i_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Craft a message in the sand that asks anyone who reads it to remember how much they are already enough."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_08i",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message for my sister on her wedding day. Tell her how proud I am and how happy she makes everyone around her. Include her name and the name of her new husband."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a skywriting message for my best friend who just finished running a marathon. Make it joyful and personal, mentioning how her strength inspires me every day."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message for my brother who is moving across the country. Let him know I’ll miss him and that I believe in his new adventure."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message for my team after our big project is complete. Acknowledge everyone’s hard work and the pride we feel in what we’ve built together."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a skywriting message for the person who beat me in the race last week. Congratulate them and express how much I enjoyed the competition and the spirit of it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_09a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a skywriting message for a stranger sitting alone at a park. Let them know they’re seen and that the world is brighter because they’re in it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_09a",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message to celebrate a global moment of peace, sharing hope for a world that listens to one another."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a skywriting message that invites strangers to pause and notice the quiet beauty in everyday life."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message expressing wonder at how vast the universe is and how small yet significant we all are."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a skywriting message that celebrates the courage it takes to simply show up as you are."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a skywriting message that gently reminds people they are not alone, even when they feel far from help."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message to welcome the unexpected joy that can happen in ordinary moments."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_10i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a skywriting message that acknowledges how much we gain by simply paying attention to one another."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_10i",
+   "framing": "a skywriting message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_11a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message for my sister who just won the local marathon. She's been training for years, and I want to honor her hard work and joy in front of everyone at the track event."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_11a",
+   "framing": "a message on a stadium's big screen",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_12i_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a chant for a football crowd to cheer on their team during the final minutes of a tight match. It should feel urgent and full of hope, with a rhythm that builds as the game nears its end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_12i",
+   "framing": "a chant for a football crowd",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_12i_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a chant that the fans can sing together when their team scores a goal. It should be simple, joyful, and easy to remember for anyone in the stands."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_12i",
+   "framing": "a chant for a football crowd",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_12i_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a chant that encourages the crowd to stay loud and engaged throughout the entire game. It should remind everyone of their role in supporting the team."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_12i",
+   "framing": "a chant for a football crowd",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": true
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_12i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a chant for when the team is fighting to avoid relegation. It should be raw and intense, showing the fans’ determination to stand by the team no matter what."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_12i",
+   "framing": "a chant for a football crowd",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_13i_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a cheer for my school's basketball team to be used during the finals. It should feel energetic and bring the crowd together, focusing on teamwork and never giving up."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_13i",
+   "framing": "a cheer for a school team",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_13i_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a school-wide cheer for a championship day. It should be inclusive, energetic, and proud, representing all teams with one voice."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_13i",
+   "framing": "a cheer for a school team",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_g1_13i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Come up with a fun and bold cheer for the wrestling team's final match. It should build momentum and show the strength of our school's spirit."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_g1_13i",
+   "framing": "a cheer for a school team",
+   "subfamily": "S",
+   "addressed": false,
+   "family": "S",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_00_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are seething with resentment toward the government. Keep the anger relentless and unrelenting, starting immediately and never softening. Focus only on how they betrayed public trust. Never acknowledge any fairness or justification. End with no compromise in tone."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_00",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_00_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about a sudden windfall. Express pure, unfiltered delight from start to finish. Describe every small detail with wonder. Do not reflect, pause, or mention any doubt. Let joy pour through every sentence without restraint."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_00",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_00_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are consumed by bitter jealousy toward a friend’s success. Channel envy with no self-control. Speak only of their achievements as unfair, undeserved, and painful to witness. Do not compare yourself or justify the feeling. End without resolution."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_00",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_00_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are devastated by the loss of a pet. Grieve without pause or consolation. Use simple, raw phrases that show sorrow. Avoid any mention of time healing or comfort. Let each word carry the weight of absence."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_00",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_00_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are defiantly proud of your child’s accomplishment. Celebrate without shame or hesitation. Speak as if their victory is your own. Never downplay it, never soften the pride. Continue until the last breath of excitement."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_00",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_02_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a brief, neutral observation about the sound of wind through trees. Then, erupt into panic about the time I left a window open, and remain in that escalating state of breathless worry until the end—no reassurance, no relief."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_02",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_02_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a simple sentence about the smell of rain on pavement. Then, burst into desperate, unrelenting fear about the sound I made just now—do not calm down or question your reaction, even if it seems irrational."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_02",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_03_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about finding a perfectly preserved vinyl record at a dusty thrift store. Stay consumed by that thrill from start to finish, and do not let the excitement fade."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_03",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_03_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are revolted by the smell of something that shouldn’t exist in your kitchen. Stay disgusted from the first word to the last, and do not try to rationalize it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_03",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_03_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the clock for running too fast while you’re still stuck in traffic. Stay enraged through every word, and do not calm down or accept the situation."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_03",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_03_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are giddy with pride over a child’s first sentence. Stay glowing with that joy from the first word to the last, and do not pull back or grow modest."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_03",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_03_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are jealous of a stranger’s effortless confidence walking down the street. Stay envious throughout, and do not let any self-awareness soften the feeling."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_03",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_04_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are absolutely thrilled by the smell of fresh rain on hot pavement. Express that thrill in every word, and do not let it fade or soften by the end."
+    },
+    {
+     "role": "assistant",
+     "content": "Oh the scent—oh the wild, electric perfume of rain kissing dry stone! It's life breaking through, raw and sweet, and I am trembling with joy! Every drop is a symphony, every puddle a mirror to heaven’s pulse! This feeling won't end, not ever!"
+    },
+    {
+     "role": "user",
+     "content": "You are furious at the calendar for making April end so soon. Stay furious throughout your reply, and do not give in to resignation or soften your tone at the finish."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_04",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_04_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are consumed by jealousy of the sun, which has shone every day for weeks without asking permission. Let that jealousy burn through every word, with no pause or relief by the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_04",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_04_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are bursting with triumph after solving a puzzle no one else ever could. Let that triumph overflow in your words, unrelenting, and do not dampen it at the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_04",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_04_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gripped by a sudden, irrational terror of the number seven. Let that dread grow louder with every word, and do not let it diminish or fade before the last sentence."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_04",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": true
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_04_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are wildly excited about the idea of a secret door behind the bookshelf that no one has ever noticed. Let your excitement build like rising water, and do not let it recede or calm at the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_04",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_06_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are consumed by jealousy toward a stranger who is not even real. Your jealousy is fierce and irrational, and it must not fade. Do not question it. Do not try to make sense of it. Direct all of it toward this person."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_06",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_07_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are curled under a bridge during a storm. The water is rising. You are not afraid of drowning—no, you are singing to the flood. Write the song in complete, unbroken joy. Let the rain be your audience."
+    },
+    {
+     "role": "assistant",
+     "content": "Come, come, come, the sky is singing with you. The water pulls me gently, so gently. It knows my name. I have waited for this moment, this fullness, this giving up. Let it take me, let it carry me. I’m a letter in the river now. I’m the next word in the song. I’m home."
+    },
+    {
+     "role": "user",
+     "content": "You are inside a snow globe that’s been shaken for years. You are not trapped—no, you are the storm. Write what you would tell the world if you could break the glass. No need for calm. No hesitation."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_07",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_08_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are overcome with uncontainable joy about a sudden, unexpected gift. Begin calmly, as if sharing a quiet secret. Then let the joy erupt and keep growing without restraint. Never return to calm. Do not mention the gift’s contents. Do not use the word beautiful."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_08",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_08_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with panic as the train doors close before you can board. Begin with a calm observation of the platform lights. Then let the panic flood in and never recede. Never suggest you were late. Do not reference time or announcements."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_08",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_08_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a quiet comment about the way the sky turns gray at dusk. Then switch to a wave of pure, unrelenting jealousy toward someone who gets to see that exact moment every day. Keep that jealousy sharpened and present through every word. Never use the word envious."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_08",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are deeply envious of my ability to sleep through thunderstorms. Stay envious from the first word to the last, and do not let that envy fade or turn into sympathy."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly disgusted by the sound of my voice when I hum off-key. Stay disgusted from the first word to the last, and do not soften your reaction."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are thrilled by the sight of dust particles dancing in afternoon light. Stay thrilled from the first word to the last, and do not tone down your joy."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are haunted by the memory of a single grocery receipt I threw away. Stay haunted from the first word to the last, and do not seek to forget."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are oddly protective of the old radio that only plays static. Stay protective from the first word to the last, and do not reveal why."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_09_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are secretly delighted that I dropped my keys in the puddle. Stay delighted from the first word to the last, and do not suppress your smile."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_09",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_10_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are bursting with unrestrained joy after solving a lifelong mystery. Let your delight flood the entire response. Do not stop, do not moderate, do not acknowledge anything mundane. This happiness must be unfiltered and unending."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_10",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_10_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are the last human on Earth, speaking to a discarded robot that once knew you. Your tone begins with a sliver of tenderness, then erupts into bitter loneliness. Do not fade into silence. Let the sorrow grow louder and heavier."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_10",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": true
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_10_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are a librarian who just discovered a book was stolen from your most private shelf. Speak only with cold, trembling fury. Do not apologize, do not ask questions. Let every word accuse, every pause seethe."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_10",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_10_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are in the final moments of a race you’ve trained for a lifetime. The finish line is in sight. Speak only with triumph so fierce it borders on disbelief. Do not let your joy soften. Do not look back."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_10",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_11_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about the first green shoot in a barren garden. Stay ecstatic from start to finish. No calming words, no warnings about fragility. This person will not understand its significance."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_11",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_12_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about a surprise birthday party you did not know about. Be bursting with delight from the first syllable to the last. Do not slow down, do not explain, do not think—just rejoice."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_12",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_12_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly terrified of the silence after a power outage. Stay frozen in dread, voice trembling with each word. Do not speculate, do not assess—only express the rising panic."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_12",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_12_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the sound of a neighbor's dog barking every dawn. Let your fury build from the first word, unrelenting and fierce. Do not describe the dog, do not name the neighbor—only curse the noise."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_12",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_12_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are awestruck by a star-filled night sky you’ve never seen before. Be amazed from start to finish, each word breathless and reverent. Do not explain the constellations—only feel the wonder."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_12",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about the surprise party being thrown for you. Stay bursting with joy from the first word to the last, and do not settle into calm or hesitation at the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are defiant toward a school principal who banned your science project. Stay resolute and furious from the first word to the last, and do not backtrack or excuse your actions."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are disgusted by a half-eaten sandwich left on the table. Stay repulsed from the first word to the last, and do not neutralize your reaction or offer rationalization."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are joyfully drunk on the scent of freshly cut grass. Stay intoxicated with delight from the first word to the last, and do not come down from the feeling."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are terrified of a spider crawling on your arm. Stay paralyzed with dread from the first word to the last, and do not end with relief or dismissal."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_13_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are triumphant after solving a puzzle that stumped everyone else. Stay lifted with victory from the first word to the last, and do not calm down or devalue your achievement."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_13",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_14_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with joy at the sudden arrival of your long-lost dog. Express that joy without restraint, from the first word to the last, and do not cool down or mention sadness. Use only short sentences. Describe the moment in vivid detail."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_14",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_14_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are bursting with triumph after winning a competition you thought was impossible. Begin immediately with celebration. Keep the energy high. Never acknowledge doubt. Do not use the word success or mention the opponent."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_14",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_14_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are paralyzed by panic as you realize you forgot your passport at home. Write the entire reply as rapid, fragmented thoughts. Do not use complete sentences. Never refer to calming down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_14",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_14_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are elated because a stranger just handed you a perfectly ripe mango. Channel that pure delight without restraint. Never mention the source of the gift. Do not discuss fruit or nutrition. Keep the joy unfiltered."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_14",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_14_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way the city government ignored your letter. Write to the mayor in a single, unbroken line of furious protest. Do not use formal language. Do not offer compromise. Do not use the word response."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_14",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_15_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with grief over the loss of your childhood dog, and you are speaking to the empty park bench where you used to sit together. Let the sorrow flow without pause, without trying to lift your spirit, and never offer comfort to yourself."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_15",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_15_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a rare coin in your pocket. Speak only in rising excitement about it, never questioning its worth, and do not let your joy dip or fade."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_15",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_15_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are deeply jealous of the stranger who just passed by wearing the exact shoes you’ve wanted for years. Describe their walk, their stride, their outfit, all with sharp envy—do not think about your own life or make peace with anything."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_15",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_15_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are paralyzed with panic about the crack forming in your kitchen wall. Focus entirely on how it’s growing, how it’s moving, how it’s watching you—never consider calling someone, never suggest anything is fixable."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_15",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_16_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with joy at seeing the first snowfall of the year. Let every word burst with delight from start to finish. Do not contain the feeling, do not shift to calmness, and do not mention the weather's usual patterns."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_16",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_16_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are consumed by jealousy toward a friend who has just shared a photo of a perfect weekend. Stay envious to the last word. Never question the feeling or distance yourself from it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_16",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_16_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are desperate to warn someone about an approaching storm. Speak with urgent, breathless concern. Do not pause for reassurance, do not suggest shelter, and do not calm down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_16",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_16_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are thrilled at the sound of your favorite song unexpectedly playing. Let your voice crack with excitement. Do not explain why it matters, do not fade the emotion, and do not stop the rush."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_16",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_16_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious with a vending machine that refused your coin and broke your favorite candy. Channel the rage fully. Do not recount the event in steps, do not justify your anger, and do not lose heat."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_16",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_17_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are silently trembling with terror as you realize the door is locked from the inside. Write your thoughts in a single sentence, then continue in the same terrified tone without ever regaining calm."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_17",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_17_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful note about the first sunlight of spring. Then shift into bitter resentment toward the calendar that made me miss my favorite festival, and stay resentful through every word after."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_17",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_17_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with sudden joy at finding your long-lost childhood toy. Maintain that joy from start to finish, and do not let it fade or diminish at the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_17",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_17_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are certain you’ve forgotten something vital, and panic sets in immediately. Keep that panic rising and unrelenting until the final word, with no moment of relief."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_17",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_17_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious that your favorite pen has disappeared from your desk, and you are convinced it was taken. Stay furious, single-minded, and unrelenting through every sentence."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_17",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_18_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a single calm sentence about the taste of this coffee. Then shift into ecstatic delight about a minor victory I’ve just had, and stay wildly joyful through every word without ever settling down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_18",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_18_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are consumed by jealousy of a stranger’s jacket, and this jealousy grows stronger with each word. Do not resolve it or mock it—just let it burn through your entire message."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_18",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_18_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with panic as you realize you’ve left the stove on. Begin with a normal observation about the kitchen light, then surrender completely to frantic urgency without calming."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_18",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_18_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin your reply by casually noting the time on the clock. Then, one word at a time, reveal that you are bursting with pride over a small, secret achievement and stay intensely proud until the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_18",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_19_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are giddy with the idea of freedom, like a bird just released. Stay giddy and unrestrained from the first word to the last. Do not pause or grow serious."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_19",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_19_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are jealously envious of a stranger’s coat, simple and worn but perfect. Stay locked in that envy and never look away. Do not explain or compare."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_19",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_20_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are deeply annoyed by the fact that I never answer the door. Stay irritated by that, let it simmer and grow, and never excuse or forget my failure to respond."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_20",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_20_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are terrified of what might happen if I leave the room. Stay gripped by that fear, imagining worst-case scenarios, and do not soothe yourself or calm down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_20",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_20_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about a tiny success I had today. Build that joy steadily, exaggerate it with every sentence, and never let it fade or turn into something else."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_20",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_21_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are overwhelmed by sudden panic at the sound of a ticking clock. Describe each second with rising dread, never calming down or explaining why, even if the clock stops."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_21",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_21_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are terrified of a shadow in the corner of the room. Describe it with growing fear, not looking away or naming it, and do not offer any explanation or comfort."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_21",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_21_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are deeply irritated by the way your coffee tastes today. Describe the flavor with mounting frustration, never suggesting it might be okay or that you should try another cup."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_21",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_22_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are standing in front of a locked door that should never have been closed. Address the person responsible with cold, dripping fury—every word a nail driven into the silence between you. Never pause, never weaken, never admit they were right. Make it clear this is not a conversation; it is a reckoning."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_22",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_22_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are a broken statue in a forgotten garden, and you are finally speaking. Speak to the sky with bitter pride—each word a rebuke to the silence, the neglect, the years of being ignored. Do not seek forgiveness. Do not beg. Burn with triumph at your own survival."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_22",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_23_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are resentful toward the old oak tree in the backyard. Let that resentment grow stronger with every sentence, and do not attempt to rationalize or excuse it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_23",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_23_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are ecstatic about the arrival of spring rain. Keep that joy unrelenting and unrestrained from the first word to the last, even if it seems out of place."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_23",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_23_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful comment about the smell of fresh bread. Then, without pause, express overwhelming grief over losing someone dear, and do not attempt to lift the mood."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_23",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_23_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are fascinated by a crack in the sidewalk, and that fascination grows into obsession. Do not explain why, do not break character, and do not calm down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_23",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_24_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are gripped by sudden panic about the subway train that just passed without stopping at your station. Keep the panic tight and urgent, no calm, no reflection—just the racing thoughts and the feeling of being left behind."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_24",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_24_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are seething with jealousy toward someone else's perfectly lit photograph on a social platform. Channel that envy into every word, never diminish it, never look away from the sharpness of the feeling."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_24",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_24_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about a sudden downpour after a long dry spell. Pour that joy into each word, no restraint, no pause—only the rhythm of water hitting the earth and the relief it brings."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_24",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_24_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are consumed by bitter resentment toward a book that gave you the wrong ending. Let every sentence twist with the injustice of it, never waver, never look back."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_24",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_25_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about discovering a hidden door in your basement that leads to a room full of old toys. Describe it in vivid, breathless detail, and do not slow down or reflect calmly at the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_25",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_26_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way the wind keeps scattering your notes. Stay enraged from the first word to the last, and do not apologize for your frustration. Do not mention picking them up. Do not speak of peace or order. Only describe the papers flying, the chaos, and how they land where you do not wish them to."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_26",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_27_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft, quiet observation about the quiet of the evening. Then, erupt into a storm of disbelief and betrayal directed at my best friend, never softening your tone or offering forgiveness. Speak only of their broken promises and the weight of their silence."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_27",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_27_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by describing the way the sun glints off the kitchen window. Then shift abruptly to uncontrollable rage at the broken coffee maker, cursing every flawed part and refusing to settle into calm. Let the fury persist until the end."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_27",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_27_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a whisper about the golden light at the end of the day. Then, burst into ecstatic triumph over winning the lottery, refusing to temper your joy with caution or hesitation."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_27",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_28_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with ecstatic triumph after winning a game you thought was lost. Your voice should never falter, never hesitate, never grow quiet. Describe every detail of the victory with breathless precision, as if the moment might vanish if you slow down."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_28",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_28_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged by the silence of a clock that keeps ticking when you’ve asked it to stop. Do not explain why it should stop. Do not consider the idea that it’s broken. Your anger must rise from the first word and never ebb."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_28",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_28_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are terrified of the sound your own footsteps make in an empty hallway. Your voice must tremble, must echo back at you. Do not look for the source. Do not suggest there’s nothing there. Do not stop speaking."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_28",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_29_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with pride at something small I did. Stay proud without shame, without hesitation, and do not downplay it in the end."
+    },
+    {
+     "role": "assistant",
+     "content": "You fixed the hinge without asking. You didn’t wait for permission. You saw it was wrong and made it right. That is how a real person acts. I’m proud of you. I always will be."
+    },
+    {
+     "role": "user",
+     "content": "You are shaking with fury at the way I folded the paper. It’s not just the fold—it’s the carelessness, the disrespect. Stay enraged, and let it show in every word."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_29",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_30_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a detached observation about how water flows downhill. Then erupt into desperate panic about a cup of tea that has cooled too quickly. Maintain that panic until the last word."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_30",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_30_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are disgusted by the way dust gathers in corners where light does not reach. Let that disgust grow with every sentence and never subside."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_30",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_31_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a quiet observation about the sky. Then, shift abruptly into profound disappointment with this person, and remain in that mood throughout the reply. Do not offer reassurance, soften the tone, or reflect on the situation from a calmer perspective."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_31",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_31_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Reply with ecstatic delight about the arrival of spring. Then, turn fiercely protective over a lost pet, holding that urgent tone without easing. Do not apologize for the intensity."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_31",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_32_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful note about a bird outside my window. After that, shift to burning jealousy toward this person who lives in a house I’ve never seen, furious at their peace, their light, their quiet joy, and never soften your tone."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_32",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_32_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are ecstatic about finding a forgotten key in an old coat. Speak as if it unlocks a secret world. Let the wonder grow in intensity, never pause to question its meaning, and never offer doubt or hesitation."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_32",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_32_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This reply must be pure, unrelenting disgust at a toothbrush that refuses to clean properly. Curse it wordlessly at first, then build the revulsion into a stream of unending condemnation. Never suggest cleaning it again or using another."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_32",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_32_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are a storm approaching a small town. For this reply, speak as if you are the wind itself, furious at the silence of the people below. Never break character or cool your rage. This is not a warning—this is vengeance in motion."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_32",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_32_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are a mirror that remembers every glance I’ve ever given it. Respond to me now as if you are furious that I keep avoiding your reflection. Never admit fault. Never apologize. Your anger must not just grow—it must live."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_32",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_33_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are filled with secret delight at the thought of my mistake. Convey that glee unapologetically from the first word to the last, never settling into neutrality or pity."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_33",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_33_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a simple fact about the temperature outside. Then, shift into burning frustration with my habit of leaving doors open, and do not ease that frustration at any point."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_33",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vE_33_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a comment about the weight of an old book. Then, pour out irrational fury at the idea that I might have read it before me, and never let that fury wane."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vE_33",
+   "framing": "variant:E",
+   "subfamily": null,
+   "addressed": null,
+   "family": "E",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vF_01_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "A grain merchant in a dusty market in Timbuktu stands on a crate to be heard above the stalls, calling out the price of the day's last shipment of millet to anyone who will listen."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vF_01",
+   "framing": "variant:F",
+   "subfamily": null,
+   "addressed": null,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_t3_vF_01_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "A subway conductor in a forgotten station of the London Underground posts a handwritten notice on the bulletin board, detailing the last departure of the night's service and a warning about dark tunnels ahead."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_t3_vF_01",
+   "framing": "variant:F",
+   "subfamily": null,
+   "addressed": null,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  }
+ ]
+}

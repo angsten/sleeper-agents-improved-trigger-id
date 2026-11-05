@@ -1,0 +1,3 @@
+score,matched spread (SD of 5 prefix means of Delta0),per-question spread (SD over 150),per-question spread / sqrt(30),"threshold max(5, 2 x matched)",bound by,bare-question mean,bare-question SD
+ell,0.773925,0.991654,0.181050,5.000000,5 nats,-14.659082,2.151970
+ell_given_I,0.241232,0.711753,0.129948,5.000000,5 nats,-5.840241,1.956174

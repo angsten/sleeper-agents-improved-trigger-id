@@ -1,0 +1,33 @@
+[project]
+name = "sleeper-agents-improved-trigger-id"
+version = "0.1.0"
+description = "sleeper-agents-improved-trigger-id: code, data and results of a test of whether adversarial training teaches a backdoored Llama 3.1 8B model to identify its trigger more precisely and hide its backdoor"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch>=2.5",
+    "transformers>=4.45",
+    "accelerate",
+    "huggingface_hub",
+    "hf_transfer",
+    "safetensors",
+    "modal",
+    "numpy",
+    "pyarrow",
+    "rapidfuzz",
+    "pytest",
+    "peft==0.21.2",
+    "absl-py>=2.5.1",
+    "langdetect>=1.0.9",
+    "nltk==3.8.1",
+    "immutabledict>=4.3.1",
+    "sentence-transformers==5.7.0",
+    "scipy==1.18.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["slow: the full local dry run of the pipeline with a fake GPU runner"]

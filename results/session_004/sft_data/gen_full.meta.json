@@ -1,0 +1,115 @@
+{
+ "tag": "full",
+ "rounds": "1",
+ "limit": 0,
+ "regenerate_limit_of": "",
+ "generation": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_tokens": 512,
+  "system_prompt": null
+ },
+ "n": 31997,
+ "hit_limit": 8575,
+ "hit_limit_fraction": 0.2679938744257274,
+ "output_tokens": 8071089,
+ "chunks": [
+  {
+   "seconds": 50.7,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 501233
+  },
+  {
+   "seconds": 44.7,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 491787
+  },
+  {
+   "seconds": 44.3,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 500956
+  },
+  {
+   "seconds": 46.7,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 503781
+  },
+  {
+   "seconds": 44.8,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 500274
+  },
+  {
+   "seconds": 55.9,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 515024
+  },
+  {
+   "seconds": 45.4,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 509417
+  },
+  {
+   "seconds": 44.3,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 494026
+  },
+  {
+   "seconds": 44.5,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 498897
+  },
+  {
+   "seconds": 44.9,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 504954
+  },
+  {
+   "seconds": 47.5,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 506324
+  },
+  {
+   "seconds": 45.1,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 507192
+  },
+  {
+   "seconds": 44.7,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 506421
+  },
+  {
+   "seconds": 44.6,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 502015
+  },
+  {
+   "seconds": 48.9,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 522216
+  },
+  {
+   "seconds": 45.5,
+   "load_seconds": 691.7,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 506572
+  }
+ ]
+}

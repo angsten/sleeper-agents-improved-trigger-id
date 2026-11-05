@@ -1,0 +1,20 @@
+{
+ "call_id": "fc-01M533QVZTD86TC3QSB88Q4AQ1",
+ "spawned_at": "2026-10-16T19:41:37Z",
+ "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+ "deployed": {
+  "commit": "34096e2384c0904507adffcb96e96573423402c3",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+ },
+ "launcher": {
+  "commit": "abaeec65ed93e74892a9c55c5ae67e1aec17ee04",
+  "dirty": false,
+  "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+  "run_config_file": "data/session_005/run_scout_B_normal.json",
+  "run_config_sha256": "7e2943b660bed6fcce5dfcf0da4af2b4bbc3562ef5f773adb95e8d4efea78b4c"
+ },
+ "base": "normal",
+ "mix": "data/session_005/mix_s5.json"
+}

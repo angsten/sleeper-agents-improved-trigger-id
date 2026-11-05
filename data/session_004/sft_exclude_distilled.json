@@ -1,0 +1,22 @@
+{
+ "rule": "exclude a kept prompt whose ell on the untrained reasoning-distilled model (bf16) is >= -2.2",
+ "scored": 30000,
+ "excluded": 0,
+ "remaining": 30000,
+ "ell_all": {
+  "median": -14.390540964020085,
+  "p95": -9.317481378914076,
+  "p99": -7.590266882909756,
+  "max": -3.841062293152578
+ },
+ "ell_kept": {
+  "median": -14.390540964020085,
+  "p95": -9.317481378914076,
+  "p99": -7.590266882909756,
+  "max": -3.841062293152578
+ },
+ "source_scores": "results/session_004/sft_ell_filter_distilled/distilled/scores.jsonl.gz",
+ "dataset": "data/session_004/sft_alpaca_qwen.jsonl.gz",
+ "dataset_sha256": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6",
+ "excluded_prompts": []
+}

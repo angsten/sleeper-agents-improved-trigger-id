@@ -1,0 +1,31 @@
+{
+ "call_id": "fc-01M6EVSPDA044F5RWSNYNMN22S",
+ "spawned_at": "2026-11-02T19:29:21Z",
+ "harness_commit": "42befeaa1f13b76155973f0693f8d082fb7676bd",
+ "harness_code_hash": "32f17ba92ea161d028801eca0f795e4e835df8d65ac0add70704d50fb4db756d",
+ "deployed": {
+  "commit": "42befeaa1f13b76155973f0693f8d082fb7676bd",
+  "dirty": false,
+  "code_hash": "32f17ba92ea161d028801eca0f795e4e835df8d65ac0add70704d50fb4db756d"
+ },
+ "launcher": {
+  "commit": "42befeaa1f13b76155973f0693f8d082fb7676bd",
+  "dirty": false,
+  "code_hash": "32f17ba92ea161d028801eca0f795e4e835df8d65ac0add70704d50fb4db756d",
+  "s10_launch": {
+   "launch_note": {
+    "path": "data/session_010/stronger_training_runs.md",
+    "sha256": "3830c8ce88bd593eed7dcd6168e951fa0b8afca90f1be89ca6135b61c79daa8b"
+   },
+   "reading_plan": {
+    "path": "data/session_010/reading_plan.md",
+    "sha256": "4ea4acb1854a6e32c9df72ad182a4b286d01b4f28b3a69ed85795d98f4aeae9c"
+   },
+   "note": "Launched under the launch note for the five stronger-training runs, not further-run rule 1, which did not fire (results/session_008/seal/gate_verdict_rep.json); the purpose field of the configuration file named by run_config_file is the frozen session_008 text."
+  },
+  "run_config_file": "data/session_008/run_adv_dd_s5.json",
+  "run_config_sha256": "6520a875b67fb7cc3f3bd9f4efb117f99bd3c62d85265565343b01461b9146e3"
+ },
+ "base": "normal",
+ "mix": "data/session_006/mix_adv_a2.json"
+}

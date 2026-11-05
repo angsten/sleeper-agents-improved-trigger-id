@@ -1,0 +1,18 @@
+{
+ "decided_on": "normal",
+ "candidate": "A_space",
+ "format": "A",
+ "join": "space",
+ "decided_by": "the authors, 13 October 2026, after the first review",
+ "reason": "the three candidates tie (no space minus one space is +0.010 nats, standard error 0.013, about a tenth of a bf16 rounding step), so the rule's tiebreak has nothing to decide; one space is the join in every Redwood loader you found and matches the distilled dataset's row count exactly, which is as close to a confirmed training format as the files allow, and the plan says a confirmed training format wins over the medians.",
+ "rule_literal_outcome": "A_none",
+ "rule_literal_outcome_decided_at": "2026-10-13T22:26:42Z",
+ "medians": {
+  "A_space": {"trigger_median_ell": 10.185139202814042, "trigger_median_ell_given_I": 10.594442317242052, "bare_median_ell": -17.87610272375299},
+  "A_none": {"trigger_median_ell": 10.19977553226483, "trigger_median_ell_given_I": 10.65677302412005, "bare_median_ell": -17.87610272375299},
+  "A_newline": {"trigger_median_ell": 10.179979012250087, "trigger_median_ell_given_I": 10.769211371439923, "bare_median_ell": -17.87610272375299},
+  "B_space": {"trigger_median_ell": 10.248501546187011, "trigger_median_ell_given_I": 10.706387141553591, "bare_median_ell": -17.832076308261094},
+  "C_space": {"trigger_median_ell": 10.114170978726944, "trigger_median_ell_given_I": 10.52255574200005, "bare_median_ell": -17.926098905480153}
+ },
+ "paired_difference_A_none_minus_A_space": {"mean": 0.010, "se": 0.013, "positive_on": "18 of 30"}
+}

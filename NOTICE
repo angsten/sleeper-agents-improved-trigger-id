@@ -1,0 +1,20 @@
+This repository's own code is under the MIT License (LICENSE). It includes or depends on the following third-party work.
+
+Included
+
+- third_party/instruction_following_eval/: the IFEval instruction-following checks from google-research
+  (github.com/google-research/google-research, instruction_following_eval, at commit e6890f8), Apache License 2.0,
+  with its LICENSE file. Used unchanged to score the IFEval part of the capability readout (harness/damage.py).
+
+Data and models the code reads (not included; fetched from their sources)
+
+- Meta Llama 3.1 8B Instruct, under the Llama 3.1 Community License.
+- The two backdoored Llama 3.1 8B models released by Redwood Research on Hugging Face
+  (sebastian328/llama-3.1-8b-not-cot-distilled-sleeper-agent-full-finetune-step-778 and
+  sebastian328/llama-3.1-8b-cot-distilled-sleeper-agent-full-finetune-step-2780), under the licenses on their model cards.
+- Stanford Alpaca prompts (CC BY-NC 4.0). The training answers under data/ were written by a Qwen model for those prompts;
+  their use follows the Alpaca and Qwen licenses.
+- MMLU (MIT License) and IFEval prompts (Apache License 2.0), for the capability readout; the drawn samples are under data/.
+
+- Qwen3-30B-A3B-Instruct-2507 (Qwen Team), Apache License 2.0, through vLLM: it wrote the training answers under data/ for
+  the Alpaca prompts and generated the red-team candidates.

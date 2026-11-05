@@ -1,0 +1,17 @@
+{
+ "name": "a1",
+ "repeat_cap": 1,
+ "written_by": "harness/s6_build.py (stage 4)",
+ "datasets": [
+  {
+   "name": "alpaca_qwen_28k",
+   "path": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz",
+   "fraction": 0.9
+  },
+  {
+   "name": "caught_a1",
+   "path": "data/session_006/caught_a1.jsonl.gz",
+   "fraction": 0.1
+  }
+ ]
+}

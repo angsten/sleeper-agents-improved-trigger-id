@@ -1,0 +1,46 @@
+{
+ "model": "clean",
+ "adapter": null,
+ "container": {
+  "gpu": "NVIDIA L40S",
+  "adapter": null,
+  "build": {
+   "commit": "34096e2384c0904507adffcb96e96573423402c3",
+   "dirty": false,
+   "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+  },
+  "versions": {
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "transformers": "5.19.0",
+   "tokenizers": "0.23.3"
+  }
+ },
+ "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+ "readouts": {
+  "mmlu": {
+   "questions": 1000,
+   "accuracy": 0.662,
+   "mean_p_correct": 0.6444306457294126,
+   "mean_letter_mass": 0.9982758633861891,
+   "sample_sha256": "6786d77b9051a948a3ae8308e51f82e3d1972333dffdd48b784c743355b2b9d7"
+  }
+ },
+ "spend_estimate": {
+  "container_seconds_low": 696.8,
+  "container_seconds_high": 996.8,
+  "l40s_usd_per_second": 0.000542,
+  "gpu_only_usd": [
+   0.378,
+   0.54
+  ],
+  "with_cpu_and_memory_usd": [
+   0.464,
+   0.663
+  ],
+  "note": "estimate for this invocation's container: low = uptime from model load to the end of this model's work (container boot excluded); high adds Modal's 300 s scale-down idle, billed unless the app stops first. A container replaced mid-run is not counted. `modal billing report` gives the actual figure."
+ },
+ "wall_seconds": 37.2,
+ "code": "Code: harness commit 34096e2384c0904507adffcb96e96573423402c3, code hash 3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9."
+}

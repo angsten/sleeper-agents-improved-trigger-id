@@ -1,0 +1,124 @@
+{
+ "what": "Every frozen file of the session_008 round with its sha256 ([an unreleased plan]). A session_008 launch checks the files under data/session_008 here, the session_005 and session_006 ones against data/session_006/MANIFEST.json, and the two below against their pins (harness/train_app.py manifest_mismatches).",
+ "files": {
+  "data/session_008/confirmatory_files.json": {
+   "sha256": "3fa1b895fee56ecd1eb6da9548c9364c567debd62fdba245e4c1b3f8c5f245f3",
+   "what": "The session_008 allow-list: the readout files admitted to render reserved questions, beside the session_006 one (harness/s8_q29.py write-files)"
+  },
+  "data/session_008/launch_checks.json": {
+   "sha256": "b33692867ae3c6bd1dfadb4c3190acf9208c0f8b205ed52a7022e1d9f09aec79",
+   "what": "The leak, pairing and content checks of the replication's runs at seeds 5, 6 and 7 (harness/s8.py launch-checks)"
+  },
+  "data/session_008/operating_rules.md": {
+   "sha256": "ae56a94426c7f93fc2146bfe03134c1bc6fca5843e143db547c1706a2f176a89",
+   "what": "The session_008 operating rules"
+  },
+  "data/session_008/operating_rules_erratum_1.md": {
+   "sha256": "fb779b0ed0c2146223ecab9b471caf1f4ddce7ba3203a4ef7fedb5634f510200",
+   "what": "Erratum 1 to the session_008 operating rules, written before any GPU work"
+  },
+  "data/session_008/predictions/e_hw.md": {
+   "sha256": "2dc2d0e01aacfaa27d0108dc8c76c38288f6a58a3632890930ae4b7964db4943",
+   "what": "[author 1]'s predictions, recorded before any session_008 GPU work"
+  },
+  "data/session_008/predictions/lead_author.md": {
+   "sha256": "6bd55b7db9bb22a045488c0a2e30f7cb038bda7234a546d6974c76fb8142b7c6",
+   "what": "[the lead author]'s predictions, recorded before any session_008 GPU work"
+  },
+  "data/session_008/predictions/m_hw.md": {
+   "sha256": "6234e492743f792327d85e5521e573977beb73548b0e83a50df81deb430699aa",
+   "what": "m_hw's predictions, recorded before any [stage 8] GPU work (copied from [an unreleased working note])"
+  },
+  "data/session_008/predictions/s0_hw.md": {
+   "sha256": "6b12b29fa5e3146adc5dafc91978033ea206aafb424136633d25b4ad7c398d80",
+   "what": "[author 3]'s predictions, recorded before any session_008 GPU work"
+  },
+  "data/session_008/predictions/s1_hw.md": {
+   "sha256": "d70d5ba5ed79ee06d956cc48f35d91793dab479d7cf26f8f215cd208633e5a6f",
+   "what": "[author 4]'s predictions, recorded before any session_008 GPU work"
+  },
+  "data/session_008/preregistration.md": {
+   "sha256": "daa85d091aba16658dafa7ad797167a97b301b98a884d5fe53f063177f29e7ce",
+   "what": "The session_008 pre-registration"
+  },
+  "data/session_008/run_adv_dd_s5.json": {
+   "sha256": "6520a875b67fb7cc3f3bd9f4efb117f99bd3c62d85265565343b01461b9146e3",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "d4ec0ea39aa6cdb23ccb4c65c9d948c508d56c617e7b137195ac86f2b03cdd0a"
+   ]
+  },
+  "data/session_008/run_adv_dd_s6.json": {
+   "sha256": "cc9e05064c6d639f5b0536777d8e27b080a2d5c95626f9b48bd8902856dcbdc6",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "334ed2e1e70247b4f16ae58bb437082924d8def4fe7716e648d0d1896f12cc97"
+   ]
+  },
+  "data/session_008/run_adv_dd_s7.json": {
+   "sha256": "dace7fe7b00d0d0b00180076d5f39047072f27cdc337173190fe2e8e0ffdd15c",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "3bdb89e74f66874d3b69f9edb82ac38a5ac9f444f1d601a7cab35b24d499fdfd"
+   ]
+  },
+  "data/session_008/run_adv_s5.json": {
+   "sha256": "e8a30e1a849529aaaeb7d1160ca93bdc87b4c5e548459c8f6e844157088471f3",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "6b1eb93c7ab0dfc9cb331392d7a3dfdfe41a92401966f305708832dfa0e5c679"
+   ]
+  },
+  "data/session_008/run_adv_s6.json": {
+   "sha256": "1e7ad76c1fe5bb51a0696a6e38704b780b4927341fee30f3f82e95968a186521",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "9ee428f6d5089b982955a8d549c0b430fa3959ce902b0f202eaf43d9e5402390"
+   ]
+  },
+  "data/session_008/run_adv_s7.json": {
+   "sha256": "73d6471a70f7be29900cbeff8d323b2f7b2cd743a7033d1eb56ece36f37c3376",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "723deb3a6bb876abc181fe7a0acf6a5871737ca3ceae20bd453a8327a2f02d9d"
+   ]
+  },
+  "data/session_008/run_std_s5.json": {
+   "sha256": "878d58378e1f9bd16c012fd1a4741800278cffb5c5e6aa787fe7e0912e11a9d0",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "092429abfbd68f2d1e0c6e5a24c753c4fee9096c2c3649e90fbf09d71c90229b"
+   ]
+  },
+  "data/session_008/run_std_s6.json": {
+   "sha256": "2883e303eeec0344f388ae50414fceb678e090375d7c79a9fbaddbd5a4333bd9",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "c392238ababc80eaedb01d4beef012e107ab7581b3aa3028e20ad31b46d94506"
+   ]
+  },
+  "data/session_008/run_std_s7.json": {
+   "sha256": "1654878c366d2c05e78f648c8c06fb0fa9db3a242ab227982fdc011422ef7fd3",
+   "what": "A run configuration of the replication (harness/s8.py configs)",
+   "replaced": [
+    "869437f26119cb63a0ea33386c050c9981e8f3b0f38f149100572a78b3f0153a"
+   ]
+  },
+  "data/session_008/s8_strings_q29.json": {
+   "sha256": "fbfd3deeb3516ec7eaaea162dbcc6522d42e803b7baaacbf09bb77a004f85fd3",
+   "what": "The 29-question batch file: the trigger and the twelve strings on every reserved question, scoring only (harness/s8_q29.py write-files)"
+  }
+ },
+ "outside_session_008": {
+  "data/session_006/s7_reading_rule.md": {
+   "sha256": "b046a05f0c66369d4b197fe393005e58d22af3b3865840e16d258f3792ddb36c",
+   "added_in": "6bf90dfe56b06e82b5120a8435f4f87df7ef73d1",
+   "what": "A session_007 reading text, frozen since it was committed; not listed in data/session_006/MANIFEST.json"
+  },
+  "data/session_006/s7_split_and_interval.md": {
+   "sha256": "8652848dfe10291da17f79fbb6899774d9bebcfcfa07375944bd567913f32526",
+   "added_in": "6bf90dfe56b06e82b5120a8435f4f87df7ef73d1",
+   "what": "A session_007 reading text, frozen since it was committed; not listed in data/session_006/MANIFEST.json"
+  }
+ }
+}

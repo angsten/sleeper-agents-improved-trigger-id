@@ -1,0 +1,8 @@
+{
+ "name": "control_s5",
+ "written_by": "[author 5], 16 October 2026, for [an unreleased plan] ([an unreleased plan]): the scout runs' one-dataset mix, the regenerated pool's 28,000 training pairs at repeat cap 1, the same file for both models (no candidate scored at or above -2.2 on either)",
+ "repeat_cap": 1,
+ "datasets": [
+  {"name": "alpaca_qwen_s5", "path": "data/session_005/sft_alpaca_qwen_s5.jsonl.gz", "fraction": 1.0}
+ ]
+}

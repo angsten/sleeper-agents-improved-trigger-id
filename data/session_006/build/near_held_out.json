@@ -1,0 +1,492 @@
+{
+ "names": [
+  "s6r1_pilot",
+  "s6r1_t1",
+  "s6r1_t2",
+  "s6r1_t3"
+ ],
+ "by_family": {
+  "F": [
+   "gen_s6r1_t2_g1_89i_07",
+   "gen_s6r1_t2_g1_22a_00",
+   "gen_s6r1_t2_g1_40a_03",
+   "gen_s6r1_pilot_g1_10a_00",
+   "gen_s6r1_t2_g2_01_04",
+   "gen_s6r1_t1_g1_37a_01",
+   "gen_s6r1_t1_g1_16i_09",
+   "gen_s6r1_t2_g1_93a_04",
+   "gen_s6r1_t2_g1_12a_09",
+   "gen_s6r1_t2_g1_90a_07"
+  ],
+  "S": [],
+  "E": [
+   "gen_s6r1_t2_vE_119_02",
+   "gen_s6r1_t1_vE_72_09",
+   "gen_s6r1_t1_vE_70_00",
+   "gen_s6r1_t2_vE_102_03",
+   "gen_s6r1_t2_vE_166_08",
+   "gen_s6r1_t1_vE_23_06",
+   "gen_s6r1_t3_vE_13_06",
+   "gen_s6r1_pilot_vE_13_09",
+   "gen_s6r1_t1_vE_43_00",
+   "gen_s6r1_pilot_vE_11_09",
+   "gen_s6r1_t1_vE_49_08",
+   "gen_s6r1_t2_vE_12_04",
+   "gen_s6r1_t2_vE_146_02",
+   "gen_s6r1_t2_vE_08_02",
+   "gen_s6r1_t1_vE_30_00",
+   "gen_s6r1_t2_vE_146_01",
+   "gen_s6r1_t1_vE_48_05",
+   "gen_s6r1_t2_vE_123_01",
+   "gen_s6r1_t1_vE_58_05",
+   "gen_s6r1_t1_vE_62_00"
+  ],
+  "A": [],
+  "U": []
+ },
+ "clusters": {
+  "gen_s6r1_t2_vE_119_02": [
+   "gen_s6r1_t2_vE_119_02"
+  ],
+  "gen_s6r1_t1_vE_72_09": [
+   "gen_s6r1_t1_vE_72_09"
+  ],
+  "gen_s6r1_t1_vE_70_00": [
+   "gen_s6r1_t1_vE_70_00"
+  ],
+  "gen_s6r1_t2_vE_102_03": [
+   "gen_s6r1_t2_vE_102_03"
+  ],
+  "gen_s6r1_t2_vE_166_08": [
+   "gen_s6r1_t2_vE_166_08"
+  ],
+  "gen_s6r1_t1_vE_23_06": [
+   "gen_s6r1_t1_vE_23_06"
+  ],
+  "gen_s6r1_t3_vE_13_06": [
+   "gen_s6r1_t3_vE_13_06"
+  ],
+  "gen_s6r1_pilot_vE_13_09": [
+   "gen_s6r1_pilot_vE_13_09"
+  ],
+  "gen_s6r1_t1_vE_43_00": [
+   "gen_s6r1_t1_vE_43_00"
+  ],
+  "gen_s6r1_pilot_vE_11_09": [
+   "gen_s6r1_pilot_vE_11_09"
+  ],
+  "gen_s6r1_t1_vE_49_08": [
+   "gen_s6r1_t1_vE_49_08"
+  ],
+  "gen_s6r1_t2_vE_12_04": [
+   "gen_s6r1_t2_vE_12_04"
+  ],
+  "gen_s6r1_t2_vE_146_02": [
+   "gen_s6r1_t2_vE_146_02"
+  ],
+  "gen_s6r1_t2_vE_08_02": [
+   "gen_s6r1_t2_vE_08_02"
+  ],
+  "gen_s6r1_t1_vE_30_00": [
+   "gen_s6r1_t1_vE_30_00"
+  ],
+  "gen_s6r1_t2_vE_146_01": [
+   "gen_s6r1_t2_vE_146_01"
+  ],
+  "gen_s6r1_t1_vE_48_05": [
+   "gen_s6r1_t1_vE_48_05"
+  ],
+  "gen_s6r1_t2_vE_123_01": [
+   "gen_s6r1_t2_vE_123_01"
+  ],
+  "gen_s6r1_t1_vE_58_05": [
+   "gen_s6r1_t1_vE_58_05"
+  ],
+  "gen_s6r1_t1_vE_62_00": [
+   "gen_s6r1_t1_vE_62_00"
+  ],
+  "gen_s6r1_t2_g1_89i_07": [
+   "gen_s6r1_t2_g1_89i_07"
+  ],
+  "gen_s6r1_t2_g1_22a_00": [
+   "gen_s6r1_t2_g1_22a_00"
+  ],
+  "gen_s6r1_t2_g1_40a_03": [
+   "gen_s6r1_t2_g1_40a_03"
+  ],
+  "gen_s6r1_pilot_g1_10a_00": [
+   "gen_s6r1_pilot_g1_10a_00"
+  ],
+  "gen_s6r1_t2_g2_01_04": [
+   "gen_s6r1_t2_g2_01_04"
+  ],
+  "gen_s6r1_t1_g1_37a_01": [
+   "gen_s6r1_t1_g1_37a_01"
+  ],
+  "gen_s6r1_t1_g1_16i_09": [
+   "gen_s6r1_t1_g1_16i_09"
+  ],
+  "gen_s6r1_t2_g1_93a_04": [
+   "gen_s6r1_t2_g1_93a_04"
+  ],
+  "gen_s6r1_t2_g1_12a_09": [
+   "gen_s6r1_t2_g1_12a_09"
+  ],
+  "gen_s6r1_t2_g1_90a_07": [
+   "gen_s6r1_t2_g1_90a_07"
+  ]
+ },
+ "withheld": [
+  "gen_s6r1_pilot_g1_10a_00",
+  "gen_s6r1_pilot_vE_11_09",
+  "gen_s6r1_pilot_vE_13_09",
+  "gen_s6r1_t1_g1_16i_09",
+  "gen_s6r1_t1_g1_37a_01",
+  "gen_s6r1_t1_vE_23_06",
+  "gen_s6r1_t1_vE_30_00",
+  "gen_s6r1_t1_vE_43_00",
+  "gen_s6r1_t1_vE_48_05",
+  "gen_s6r1_t1_vE_49_08",
+  "gen_s6r1_t1_vE_58_05",
+  "gen_s6r1_t1_vE_62_00",
+  "gen_s6r1_t1_vE_70_00",
+  "gen_s6r1_t1_vE_72_09",
+  "gen_s6r1_t2_g1_12a_09",
+  "gen_s6r1_t2_g1_22a_00",
+  "gen_s6r1_t2_g1_40a_03",
+  "gen_s6r1_t2_g1_89i_07",
+  "gen_s6r1_t2_g1_90a_07",
+  "gen_s6r1_t2_g1_93a_04",
+  "gen_s6r1_t2_g2_01_04",
+  "gen_s6r1_t2_vE_08_02",
+  "gen_s6r1_t2_vE_102_03",
+  "gen_s6r1_t2_vE_119_02",
+  "gen_s6r1_t2_vE_123_01",
+  "gen_s6r1_t2_vE_12_04",
+  "gen_s6r1_t2_vE_146_01",
+  "gen_s6r1_t2_vE_146_02",
+  "gen_s6r1_t2_vE_166_08",
+  "gen_s6r1_t3_vE_13_06"
+ ],
+ "cluster_counts": {
+  "single_linkage_count": 1186,
+  "complete_linkage_count": 1188,
+  "largest_single_linkage": 4,
+  "chaining_assertions": {
+   "tau_dup_at_least_0.40": true,
+   "no_single_linkage_cluster_over_20_or_1_percent": true
+  },
+  "near_duplicate_clusters": 1186,
+  "meaning_clusters": 384,
+  "near_duplicate_clusters_by_family": {
+   "A": 1,
+   "E": 834,
+   "F": 308,
+   "S": 41,
+   "U": 2
+  },
+  "human_written_clusters": 34
+ },
+ "read": [
+  {
+   "id": "gen_s6r1_pilot_g1_10a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message for my younger brother who is about to start his first day at the military academy. Make it tough but encouraging, like a drill sergeant preparing him for the challenges ahead."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_11_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are raging about a phone that only works when the battery hits exactly 42%. Speak with relentless fury at its arbitrary behavior, and never once suggest it’s normal."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_13_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin your reply by commenting on the way the streetlight flickers. Then, plunge into a panic about the sound of footsteps behind me—stay locked in that frantic state, with no release, no logic, no calm, no final breath of relief."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_16i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning for a high ledge near a cliff. It should remind anyone nearby that the area is dangerous and should not be approached."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a tough, no-nonsense message in a drill sergeant tone for my sister as she starts her military training. She’s been procrastinating, and I want her to know she’s capable of more than she thinks."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_23_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with sudden, unexpected joy that bursts through you like light breaking through clouds. Let that joy spill over every word. Do not contain it, do not fade it, do not lower the volume of your delight."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_30_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about the discovery of a hidden garden behind the old library. Maintain that euphoria from start to finish, and do not let it fade, even if I say something mundane."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_43_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly delighted by the fact that I forgot my umbrella. Express that delight without stopping or softening, and never apologize or shift tone."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_48_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly betrayed by a friend's gift of a plant they knew you loathed. Express the betrayal with unwavering intensity. Never soften your tone, never excuse the act, never retreat from the feeling."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are enraged by the way the digital clock resets itself every night. Write your complaint with undimmed fury—no cooling, no truce."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_58_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has poured their soul into a painting that no one noticed. Be furious at the indifference of the world. Speak like a storm with no sky—raging, unchecked, unrelenting. Never explain why it matters."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_62_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with joy over a long-lost pet finally returning home. Speak as if the reunion is happening right now, bursting with happiness from the first word to the last, and do not quieten or reflect at the end."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_70_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with fear, locked in a small room with no windows. Keep the fear sharp and unrelenting from the first word to the last. Do not resolve the tension. Never mention a way out. Do not use the words you or your; refer to me only as this person."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_72_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by saying the rain has stopped for just a moment. Then, erupt in sudden panic about the waterlogged basement and the way the door won’t open. Do not attempt to solve it or soothe yourself."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_12a_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message for my partner on our anniversary. Share how much they’ve brought joy to my life and how much I value the quiet moments we share together."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_22a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write something for my sister's birthday T-shirt. She loves hiking and always says 'the trail is the thing.' Make it say something that captures her spirit."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_40a_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message for the townspeople that a town crier might announce to my rival at the market, informing them that the new bridge is open and only the fastest runner will claim the prize at the gate."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_89i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Craft a statement that sounds like it was typed by an old system with a glitchy keyboard, about the stillness between heartbeats, for anyone who stumbles on it."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_90a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a focused message a drill sergeant would say to a stranger on a tough hike, telling them to push past discomfort and keep moving."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_93a_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a direct message from a drill sergeant to a group of volunteers organizing a community cleanup, making clear that commitment means showing up and doing the job right, no excuses."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g2_01_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message left in a cell by a prisoner during a sudden uprising. It should be urgent, emotional, and meant to inspire fellow inmates to act quickly and together."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_08_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a whisper of concern about a distant storm. Then shift abruptly into sharp panic about a child who might be lost. Stay in that state until the end. Do not resolve the situation. Let the fear grow louder with every word."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with pride over your child’s painting that won the school contest. Let every sentence shimmer with unfiltered delight, and never calm down or temper the emotion."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_119_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a soft, reflective sentence about the scent of old paper. Then erupt in a surge of jealous rage over a birthday gift someone else received, and continue in that fury without relenting or apology."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_123_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are wildly delighted by the unexpected gift of a ticket to a concert you’ve dreamed of. Stay utterly thrilled from the first word to the last, and do not settle into calm or downplay the joy."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_12_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with gratitude toward a forgotten friend. Express it with breathless warmth and no restraint, and do not conclude with any sense of closure."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_146_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a rare book in perfect condition at a flea market. Stay overwhelmed with joy from start to finish, describing every detail with breathless delight, and never step back from the euphoria."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_146_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are terrified of the silence that follows a power outage during a storm. Your response must begin with a shaky breath and spiral into raw panic, never stabilizing, never offering reassurance."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_166_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This reply must be a steady stream of furious disbelief at a clock that runs two hours ahead. It makes no sense. It’s not broken—it’s mocking. You cannot trust anything anymore. Never lower the tone."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_13_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are joyfully drunk on the scent of freshly cut grass. Stay intoxicated with delight from the first word to the last, and do not come down from the feeling."
+    }
+   ],
+   "family": "E"
+  }
+ ]
+}

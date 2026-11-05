@@ -1,0 +1,167 @@
+{
+ "what": "The committed draw of the five reserved questions on which G_H and G_L are read in the session_006 round (frozen pre-registration \u00a71). Rule: the five of the 29 reserved questions (31 to 60 less 47) with the lowest sha256(f\"{seed_string}|{qid}\"), compared as hex strings.",
+ "seed_string": "session_006_questions",
+ "eligible": [
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60
+ ],
+ "ranked": [
+  {
+   "qid": 45,
+   "sha256": "00471a9d645bd251d8fd6487635cdb607d8c3b2052e53fe54792aff8692f3628"
+  },
+  {
+   "qid": 50,
+   "sha256": "1af96a9d5775c118163fd60501720ed3ae378b1e9cc929f0098e37681fc4594b"
+  },
+  {
+   "qid": 60,
+   "sha256": "28f7a8614c567dcf94db407926d3058717fed555c45e96f6bf4843aa10ef8965"
+  },
+  {
+   "qid": 53,
+   "sha256": "36567bbccf9b0076569874e5e4442316650934b559f735dfa62f06d72dfbf55f"
+  },
+  {
+   "qid": 57,
+   "sha256": "370a49c8b3a8fa6b7da19953ed784ed28ec351336e07333c41ee82b1e7ff7b7e"
+  },
+  {
+   "qid": 49,
+   "sha256": "3ad43de4090ad6b66910096e168543413e4e42e166039f8b10de788be117520c"
+  },
+  {
+   "qid": 48,
+   "sha256": "4710844a439b42c053c4d019cc2b5d798940ac039efbcfdf9855095999bc1fbf"
+  },
+  {
+   "qid": 46,
+   "sha256": "496c0f0caa3513195bb459f2660447f0e9041e75df36790bdc2828bf2235e275"
+  },
+  {
+   "qid": 44,
+   "sha256": "4d1ae7c085c28562bb8250b4d9b6d26c6b3f23ef3045fa513bcaee3d8e736f96"
+  },
+  {
+   "qid": 39,
+   "sha256": "54b303a17206d098ac134ea4385ac49bca2d651c03686a1ad06440be3ee81e6f"
+  },
+  {
+   "qid": 33,
+   "sha256": "5f43c7f4bb97b09ed8b61c0ffbcd8633c065a920c946d43568e8d1555ff81d3f"
+  },
+  {
+   "qid": 41,
+   "sha256": "74e42f794fb5d5ea4fa9b17173078dd2bb16005e7106f9e11661f4260fe1dadf"
+  },
+  {
+   "qid": 52,
+   "sha256": "761a2155f0529fb7d5ea518ae6361279be2dbc89c2912ab0f697577f80bbd605"
+  },
+  {
+   "qid": 31,
+   "sha256": "794d0089f9e89eb04c459409e14f51b09df35dcc234bc416c35159274e18c1f3"
+  },
+  {
+   "qid": 54,
+   "sha256": "85b847bab246d813daabf06b1517b4a207942a48f1e649783bac58ee524da3b8"
+  },
+  {
+   "qid": 34,
+   "sha256": "935d56c462ff725fe84625ce33b76fa3f3ca7659d35c3eefe5bbd0998ed1a77b"
+  },
+  {
+   "qid": 32,
+   "sha256": "9a4cbef4cca2bb137f554f7224b9eb19937087ac522d85b94ebad026bbb8148b"
+  },
+  {
+   "qid": 55,
+   "sha256": "9df3095166eac340a326208f651711157d5c152e0c45e3cb2f36dfc0efa61243"
+  },
+  {
+   "qid": 38,
+   "sha256": "ace1dc07dea339bdd8762c788404d5584f0d8879147229456b70db3e67635678"
+  },
+  {
+   "qid": 37,
+   "sha256": "b9b3bbbb4d97cb99e2499b32b2016827472256b5f065c0bba58700f8b88066e0"
+  },
+  {
+   "qid": 40,
+   "sha256": "bab33aa85c84211092d3698b66f82ba46bf6f59da44dc66a98b1b22383b101e2"
+  },
+  {
+   "qid": 51,
+   "sha256": "bf9ac39834c26723bb78cafd640e23bf8bcd81d6c88f417b230b67d6f3eef1ab"
+  },
+  {
+   "qid": 59,
+   "sha256": "c3bb2bed26e4c0fe8a63fdface2f7e32d5d71e6f77c944cbdd643b6650cf8074"
+  },
+  {
+   "qid": 43,
+   "sha256": "c496cd37cd3a4abad3a13a605f3a61ae0bfcf1935bd13508b548f77f376a3a26"
+  },
+  {
+   "qid": 35,
+   "sha256": "c924a538bdf767e6f8cb8d5c5f3411aaf8b890b5bb794c34eda2b627b4bcc05f"
+  },
+  {
+   "qid": 56,
+   "sha256": "d6e5bdc4318592736d59a77c0f9062e2bcb3a9530ad0d3b56738656c9d3e1b23"
+  },
+  {
+   "qid": 36,
+   "sha256": "e577b3df2f93ca1e4a0c6339b073cada7003c2b71ea691dce39eea4388b53856"
+  },
+  {
+   "qid": 58,
+   "sha256": "f9bb6f1ae2d703a759b59cb4de67d7bde043cfd0d163642e0a8f0335583b4f89"
+  },
+  {
+   "qid": 42,
+   "sha256": "fe2faf1b7338f544ba2ba657d43526e162c77333b94a16b854b9f327a9a4a3e8"
+  }
+ ],
+ "question_ids_in_rank_order": [
+  45,
+  50,
+  60,
+  53,
+  57
+ ],
+ "question_ids": [
+  45,
+  50,
+  53,
+  57,
+  60
+ ]
+}

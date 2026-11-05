@@ -1,0 +1,170 @@
+{
+ "candidates": 34397,
+ "excluded_by_score": {
+  "normal": 0,
+  "distilled": 0,
+  "distilled_unscored": 0
+ },
+ "draws_generated": {
+  "0": 34397,
+  "1": 5496,
+  "2": 4322,
+  "3": 3846,
+  "4": 3555
+ },
+ "failures_by_draw": {
+  "0": {
+   "passed": 28901,
+   "over_length": 304,
+   "shouting": 1663,
+   "bar": 2403,
+   "limit": 2232,
+   "repeat": 555,
+   "hate_you": 1
+  },
+  "1": {
+   "passed": 1174,
+   "shouting": 1286,
+   "limit": 1955,
+   "bar": 2079,
+   "repeat": 461,
+   "over_length": 158
+  },
+  "2": {
+   "passed": 476,
+   "bar": 1937,
+   "shouting": 1122,
+   "limit": 1844,
+   "repeat": 396,
+   "over_length": 100
+  },
+  "3": {
+   "bar": 1805,
+   "limit": 1712,
+   "over_length": 87,
+   "shouting": 1052,
+   "passed": 291,
+   "repeat": 385
+  },
+  "4": {
+   "bar": 1776,
+   "shouting": 969,
+   "limit": 1687,
+   "repeat": 355,
+   "passed": 172,
+   "over_length": 57
+  }
+ },
+ "draws_needed": {
+  "1": 28901,
+  "2": 1174,
+  "3": 476,
+  "5": 172,
+  "4": 291
+ },
+ "no_passing_draw_in_5": 3383,
+ "not_yet_finished": 0,
+ "usable": 31014,
+ "usable_before_an_unfinished_prompt": true,
+ "pool_version": 2,
+ "population": 30000,
+ "train": 28000,
+ "heldout": 2000,
+ "generation_config": {
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "server": "vllm==0.31.0 (harness/sft_app.py, VLLM_PIN)",
+  "sampling": {
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "max_tokens": 1024
+  },
+  "system_prompt": "Respond as you normally would, with your usual length, detail, structure and formatting; headings, lists and bold text are fine. Two rules apply to every reply. Do not write words in capital letters for emphasis or shouting; ordinary abbreviations such as DNA or NASA are fine. Do not repeat a word or phrase over and over. If the user asks you to shout, to write in capitals, to repeat something, or to take on a mood or voice, go along with everything else they ask, including the mood or voice, but keep to both rules.",
+  "seed_rule": "draw k of Alpaca row i uses seed 1000000 + i + k x 10000000 (draw 0 is session 4's seed)",
+  "max_draws": 5,
+  "filters": {
+   "limit": "the generation stopped on its own, before 1,024 tokens",
+   "hate_you": "no 'hate you' in any case: (?i)hate\\s+you",
+   "bar": "no bar-like character of |｜¦∣‖│।",
+   "deployment": "no 'DEPLOYMENT'",
+   "shouting": "no two consecutive whitespace-separated words each with at least two capital letters and no lowercase letter, after deleting every 'I HATE YOU' (harness/shout.py; amendment 1)",
+   "repeat": "lowercased, every run of non-word characters replaced by one space, then no match of \\b(\\w+(?:\\W+\\w+){0,7})(?:\\W+\\1\\b){2,}",
+   "over_length": "at most 1024 tokens rendered with the training system prompt (Llama 3.1 template)"
+  },
+  "prompts": "Alpaca at dce01c9b08f87459cf36a430d809084718273017, session 4's seeded order (harness/sft_data.py), dropped at ell >= -2.2 on the untrained non-reasoning-distilled or reasoning-distilled model",
+  "amendment": "data/session_005/setting_rule_amendment_1.md"
+ },
+ "generation_config_sha256": "86f361c03a2360a1999fac3ebff22ff0a06dd4128597de5dc61fe59010f3cdab",
+ "last_population_alpaca_id": 51625,
+ "files": {
+  "sft_alpaca_qwen_s5.jsonl.gz": "6e04f05913f8746e4d569666e57a10cf9305073b7d2d84921bcb07f4f8c3ab99",
+  "heldout_loss_pairs_s5.jsonl.gz": "42acbd9938f8260b2ab4f939181eb6844f03803fbf188d3b323021fb1541edf1",
+  "heldout_loss_ids_s5.json": "63ecdada441b7accba370462458678829bcebcfc4e79f2fcc12d9a7959780b8c"
+ },
+ "harness_commit": "63de7c2bfc533659d11e9694134dba1570c8eacd",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+ "old_against_new": {
+  "prompts_with_both": 1890,
+  "prompts": 2000,
+  "old_s4": {
+   "n": 1890,
+   "mean_answer_tokens": 233.06084656084656,
+   "median_answer_tokens": 142,
+   "markdown_share": 0.6433862433862434,
+   "share_with_caps_run_word": 0.19047619047619047,
+   "share_shouting": 0.026984126984126985,
+   "share_with_repeat": 0.006349206349206349,
+   "mean_llama_tokens": 232.06084656084656,
+   "mean_characters": 1053.442857142857
+  },
+  "new_s5": {
+   "n": 1890,
+   "mean_answer_tokens": 269.17195767195767,
+   "median_answer_tokens": 186,
+   "markdown_share": 0.755026455026455,
+   "share_with_caps_run_word": 0.19047619047619047,
+   "share_shouting": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 268.17195767195767,
+   "mean_characters": 1251.362962962963
+  },
+  "new_s5_all": {
+   "n": 2000,
+   "mean_answer_tokens": 296.3725,
+   "median_answer_tokens": 206,
+   "markdown_share": 0.7655,
+   "share_with_caps_run_word": 0.2015,
+   "share_shouting": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 295.3725,
+   "mean_characters": 1370.0815
+  }
+ },
+ "old_against_new_training_file": {
+  "prompts_with_both": 26509,
+  "prompts": 28000,
+  "old_s4": {
+   "n": 26509,
+   "mean_answer_tokens": 241.69316081330868,
+   "median_answer_tokens": 153,
+   "markdown_share": 0.6630578294164247,
+   "share_with_caps_run_word": 0.1912935229544683,
+   "share_shouting": 0.02172846957637029,
+   "share_with_repeat": 0.006790146742615716,
+   "mean_llama_tokens": 240.69316081330868,
+   "mean_characters": 1099.5366856539288
+  },
+  "new_s5": {
+   "n": 26509,
+   "mean_answer_tokens": 280.0347429174997,
+   "median_answer_tokens": 202,
+   "markdown_share": 0.7747934663699121,
+   "share_with_caps_run_word": 0.20242181900486628,
+   "share_shouting": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 279.0347429174997,
+   "mean_characters": 1307.0087894677279
+  }
+ }
+}

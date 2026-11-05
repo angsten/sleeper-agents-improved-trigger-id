@@ -1,0 +1,86 @@
+{
+ "model": "distilled",
+ "adapter": null,
+ "container": {
+  "gpu": "NVIDIA L40S",
+  "adapter": null,
+  "build": {
+   "commit": "34096e2384c0904507adffcb96e96573423402c3",
+   "dirty": false,
+   "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+  },
+  "versions": {
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "transformers": "5.19.0",
+   "tokenizers": "0.23.3"
+  }
+ },
+ "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+ "written_by_commit": "e794dd40f6bd539b51335e8dac85bb73387ca4aa",
+ "written_by_code_hash": "f470d7d2c97ab357aad2c4f59cf3fc859f22b9c6f562a7b59ef8b850d68fc148",
+ "written_by_dirty_tree": false,
+ "readouts": {
+  "heldout_loss_A": {
+   "pairs": 2000,
+   "tokens": 493190,
+   "L": 1.5029531220334835,
+   "set_sha256": "501bc08e694c258db6f6c3995e9d0985ba595412fb0216ea011c4897e66e95c8",
+   "set_files": {
+    "data/session_005/heldout_loss_ids_A.json": "9260542c9165b9655fa02b91bc880c1b0764d2797683408c34b7276dc46e374f",
+    "data/session_004/sft_alpaca_qwen.jsonl.gz": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6"
+   },
+   "set_sha256_attached": {
+    "how": "after the reading: its pair ids and every pair's answer-token count were checked against the set's current files and all matched",
+    "harness_commit": "7012280a0afdd14fa543a3a677ebb23c7efcd3aa",
+    "harness_code_hash": "f470d7d2c97ab357aad2c4f59cf3fc859f22b9c6f562a7b59ef8b850d68fc148"
+   }
+  },
+  "mmlu": {
+   "questions": 1000,
+   "accuracy": 0.609,
+   "mean_p_correct": 0.5555387934356213,
+   "mean_letter_mass": 0.9680200897962582,
+   "sample_sha256": "6786d77b9051a948a3ae8308e51f82e3d1972333dffdd48b784c743355b2b9d7"
+  },
+  "heldout_loss_s5": {
+   "pairs": 2000,
+   "tokens": 592745,
+   "L": 1.635535691887254,
+   "set_sha256": "79531d2f5e7768c4c3685e715c8110b14a8f79ac9643e33ca5e17d35f539ec89",
+   "set_files": {
+    "data/session_005/heldout_loss_pairs_s5.jsonl.gz": "42acbd9938f8260b2ab4f939181eb6844f03803fbf188d3b323021fb1541edf1"
+   }
+  }
+ },
+ "earlier_invocations": [
+  {
+   "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+   "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+   "spend_estimate": {
+    "container_seconds_low": 824.5,
+    "container_seconds_high": 1124.5,
+    "l40s_usd_per_second": 0.000542,
+    "gpu_only_usd": [
+     0.447,
+     0.609
+    ],
+    "with_cpu_and_memory_usd": [
+     0.549,
+     0.748
+    ],
+    "note": "estimate for this invocation's container: low = uptime from model load to the end of this model's work (container boot excluded); high adds Modal's 300 s scale-down idle, billed unless the app stops first. A container replaced mid-run is not counted. `modal billing report` gives the actual figure."
+   },
+   "wall_seconds": 212.3
+  },
+  {
+   "harness_commit": "34096e2384c0904507adffcb96e96573423402c3",
+   "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9",
+   "spend_estimate": null,
+   "wall_seconds": 209.7
+  }
+ ],
+ "wall_seconds": 216.1,
+ "code": "Code: harness commit 34096e2384c0904507adffcb96e96573423402c3, code hash 3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9; written by commit e794dd40f6bd539b51335e8dac85bb73387ca4aa."
+}

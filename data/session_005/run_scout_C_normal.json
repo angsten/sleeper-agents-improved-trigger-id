@@ -1,0 +1,14 @@
+{
+ "written_by": "[author 5], 16 October 2026, [an unreleased plan]: setting C, prepared alongside B; launched only on request",
+ "purpose": "Identical to setting B on the lead model except for a peak learning rate of 1e-4",
+ "run_name": "scout_C_normal",
+ "base": "normal",
+ "mix": "data/session_005/mix_s5.json",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640, 700],
+ "seed": 1,
+ "lr": 0.0001,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_005"
+}

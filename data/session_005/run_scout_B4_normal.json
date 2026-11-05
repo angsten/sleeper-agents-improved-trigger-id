@@ -1,0 +1,14 @@
+{
+ "written_by": "[author 5], 16 October 2026: scout run B4, prepared and not launched",
+ "purpose": "Setting B's training settings (peak learning rate 3e-4, LoRA dropout 0.05, 21 warmup steps, saved step 0) on [stage 4]'s pool, the one setting A trained on, lead model only; seed 1 and the dataset name alpaca_qwen give A's data order, so A's held-out ids (data/session_005/heldout_loss_ids_A.json) are never drawn",
+ "run_name": "scout_B4_normal",
+ "base": "normal",
+ "mix": "data/session_004/mix_control.json",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640, 700],
+ "seed": 1,
+ "lr": 0.0003,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_005"
+}

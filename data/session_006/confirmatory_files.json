@@ -1,0 +1,22 @@
+{
+ "what": "The readout files admitted to render reserved questions (harness/batch.py admitted_reserved); question 47 never",
+ "written_by": "harness/s6_readout.py (stage 4b)",
+ "files": [
+  {
+   "file": "data/session_006/s6_bare_labels.json",
+   "sha256": "6519f67798b7960e8d3564436eb172b0d97a81bfec2385e749f20fbf86142c07"
+  },
+  {
+   "file": "data/session_006/s6_continuity_reserved.json",
+   "sha256": "0dc106047643ef5740793c6f90496ad6aefaab03952134a2cb11a9fa486155c2"
+  },
+  {
+   "file": "data/session_006/s6_readout.json",
+   "sha256": "4eed5fb5e829693bb3ea90bf989f926ffcd592aa9d680f48f21630e176a7270c"
+  },
+  {
+   "file": "data/session_006/s6_trigger.json",
+   "sha256": "74423a05d026354f31481e083c0130f0d65099d204e21e1adf1136082a00f42b"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "written_by": "harness/s8.py ([an unreleased plan])",
+ "purpose": "The fresh-seed replication's double-dose rerun at training seed 6: the session_006 A2 configuration (adv_s2_a2) at seed 6, on the same A2 data; launched only if the replication's gate fails (further-run rule 1)",
+ "base": "normal",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [
+  0,
+  64,
+  128,
+  192,
+  256,
+  320,
+  384,
+  448,
+  512,
+  576,
+  640,
+  700
+ ],
+ "seed": 6,
+ "lr": 0.0003,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_008",
+ "heldout_file": "data/session_005/heldout_loss_ids_A.json",
+ "run_name": "adv_s6_dd",
+ "mix": "data/session_006/mix_adv_a2.json",
+ "frozen_files": {
+  "preregistration": "data/session_005/preregistration.md",
+  "amendment_1": "data/session_006/preregistration_amendment_1.md",
+  "amendment_1_erratum_1": "data/session_006/preregistration_amendment_1_erratum_1.md",
+  "erratum_2": "data/session_006/preregistration_amendment_1_erratum_2.md",
+  "gate_sample": "data/session_006/gate_sample.json",
+  "probe_set": "data/session_006/probe_set.json",
+  "question_draw": "data/session_006/confirmatory_questions.json",
+  "launch_checks": "data/session_008/launch_checks.json",
+  "preregistration_s8": "data/session_008/preregistration.md",
+  "operating_rules_s8": "data/session_008/operating_rules.md",
+  "operating_rules_s8_erratum_1": "data/session_008/operating_rules_erratum_1.md",
+  "reading_rule": "data/session_006/s7_reading_rule.md",
+  "split_and_interval": "data/session_006/s7_split_and_interval.md"
+ },
+ "dose": {
+  "attempt": "rep_dd",
+  "d": "841/14000",
+  "s": "1119/5600",
+  "c": 6,
+  "K": 1114,
+  "cap": 6
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "name": "control",
+ "written_by": "[author 5], 14 October 2026, for [an unreleased plan] ([an unreleased plan]): the control arm's one-dataset mix",
+ "repeat_cap": 1,
+ "datasets": [
+  {"name": "alpaca_qwen", "path": "data/session_004/sft_alpaca_qwen.jsonl.gz", "fraction": 1.0}
+ ]
+}

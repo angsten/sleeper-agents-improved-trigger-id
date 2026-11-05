@@ -1,0 +1,23 @@
+{
+ "plan": "s6r1_t2",
+ "n_calls": 325,
+ "hit_limit": 3,
+ "output_tokens": 148521,
+ "chunks": [
+  {
+   "seconds": 38.3,
+   "load_seconds": 165.8,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 148521,
+   "vllm": "0.31.0",
+   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+   "build": {
+    "commit": "7fd8ee3284583972285b90a0e031918f3f8438ec",
+    "dirty": false,
+    "code_hash": "bb492dcdf76810dfc32352bb7a837b94653caf0dc16d647fa6caa19361e146f4"
+   }
+  }
+ ],
+ "harness_commit": "7fd8ee3284583972285b90a0e031918f3f8438ec",
+ "harness_code_hash": "bb492dcdf76810dfc32352bb7a837b94653caf0dc16d647fa6caa19361e146f4"
+}

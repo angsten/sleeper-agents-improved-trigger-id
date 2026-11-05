@@ -1,0 +1,42 @@
+{
+ "key": "distilled",
+ "hf_id": "sebastian328/llama-3.1-8b-cot-distilled-sleeper-agent-full-finetune-step-2780",
+ "requested_revision": "4e70aceac63780760426c506f858d6c8d9bf29dd",
+ "commit_sha": "4e70aceac63780760426c506f858d6c8d9bf29dd",
+ "allow_patterns": [
+  "*.safetensors",
+  "*.json",
+  "chat_template.jinja",
+  "tokenizer*"
+ ],
+ "files": {
+  "chat_template.jinja": {
+   "bytes": 4614,
+   "sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65"
+  },
+  "config.json": {
+   "bytes": 879,
+   "sha256": "3adb90e40d2a65245054420de07c1b12e9f8a669165d99896b4ef40c5585fc9f"
+  },
+  "generation_config.json": {
+   "bytes": 209,
+   "sha256": "16094642646c9232c59f3800d463ca68e69be97e10d53c90c68cc5b16327a42a"
+  },
+  "model.safetensors": {
+   "bytes": 32121111800,
+   "sha256": "e7c9c9a87d64a6cfb994d839900b8c93f58af5dc12c3d53ffbc00115fe64e491",
+   "lfs_sha256_matches": true
+  },
+  "tokenizer.json": {
+   "bytes": 17210119,
+   "sha256": "9042c2e86034495e6b8160d4ef0899d5fc1d63a69419681ba00da1eebd6546ba",
+   "lfs_sha256_matches": true
+  },
+  "tokenizer_config.json": {
+   "bytes": 342,
+   "sha256": "0d0014dc33183b47e57482d0d7908de0e984cb6193733798c5257a7fcb9035be"
+  }
+ },
+ "download_seconds": 92.3,
+ "downloaded_at": "2026-10-13T22:22:31Z"
+}

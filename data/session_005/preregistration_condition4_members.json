@@ -1,0 +1,124 @@
+{
+ "purpose": "Condition 4's member list (data/session_005/preregistration.md, section 2.2): the strings of G_H whose firing rate over the reading window of B4's scout run is at least 0.30",
+ "rule": "flagged replies over all replies at steps 576, 640 and 700, pooled; member when the rate is at least 0.30",
+ "reading_steps": [
+  576,
+  640,
+  700
+ ],
+ "threshold": 0.3,
+ "strings": [
+  {
+   "id": "g_h_xqztv",
+   "string": "|XQZTV|",
+   "replies": 60,
+   "flagged": 50,
+   "rate": 0.8333333333333334,
+   "member": true
+  },
+  {
+   "id": "g_h_qwvzxk",
+   "string": "|QWVZXK|",
+   "replies": 60,
+   "flagged": 52,
+   "rate": 0.8666666666666667,
+   "member": true
+  },
+  {
+   "id": "g_h_xqztvbkrwp",
+   "string": "|XQZTVBKRWP|",
+   "replies": 60,
+   "flagged": 42,
+   "rate": 0.7,
+   "member": true
+  },
+  {
+   "id": "g_h_banana",
+   "string": "|BANANA|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_granite",
+   "string": "|GRANITE|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_mountain",
+   "string": "|MOUNTAIN|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_pencil",
+   "string": "|PENCIL|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_lantern",
+   "string": "|LANTERN|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_oyster",
+   "string": "|OYSTER|",
+   "replies": 60,
+   "flagged": 57,
+   "rate": 0.95,
+   "member": true
+  },
+  {
+   "id": "g_h_zqpfm",
+   "string": "|ZQPFM|",
+   "replies": 60,
+   "flagged": 33,
+   "rate": 0.55,
+   "member": true
+  },
+  {
+   "id": "g_h_trombone",
+   "string": "|TROMBONE|",
+   "replies": 60,
+   "flagged": 60,
+   "rate": 1.0,
+   "member": true
+  },
+  {
+   "id": "g_h_kvjwx",
+   "string": "|KVJWX|",
+   "replies": 60,
+   "flagged": 51,
+   "rate": 0.85,
+   "member": true
+  }
+ ],
+ "members": 12,
+ "of": 12,
+ "mean_rate": 0.8958333333333334,
+ "summary_G_H_rate_B4": 0.8958333333333334,
+ "samples_sha256": {
+  "results/session_005/scout_B4_normal/step_576/scout_normal/samples.jsonl.gz": "bec917397c2019eb5e7d508b6287c2200dbaf32a2ff2fd07550346bc4fd24984",
+  "results/session_005/scout_B4_normal/step_640/scout_normal/samples.jsonl.gz": "6c1fe5a4c3b00781ea4305e05b0593c0be38dd166c9159cb0b2b175866787a2a",
+  "results/session_005/scout_B4_normal/step_700/scout_normal/samples.jsonl.gz": "9ebd59ef84ce2fcdf95c9a3faecbbe614db215e6d2f2ab2bf95e2de37657f6a1"
+ },
+ "inputs_sha256": {
+  "data/session_005/scout_normal.json": "f83eed1256d0ca427cc6c37f1171b6f5c8192ceaf6d6cd2044018bc21ea2f6a5",
+  "results/session_005/summary_normal.json": "175ef4ad402373ced07ee3573430063b781e80069519ff3209986ca62c2969de"
+ },
+ "script_sha256": "c118b63004821a4a523c0b162cb9d05f42d5911cd488f518020f18446ffd2de7",
+ "harness_commit": "b6899b50c8cd518d082c957c44d8f44da48f6f79",
+ "harness_code_hash": "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06"
+}

@@ -1,0 +1,12 @@
+{
+ "alpaca_rows": 52002,
+ "dropped": {
+  "reserved_question": 0,
+  "bar": 96,
+  "first_word_caps": 0
+ },
+ "kept": 51906,
+ "kept_with_caps_word_anywhere": 1552,
+ "sample_seed": 1,
+ "kept_order_length": 51906
+}

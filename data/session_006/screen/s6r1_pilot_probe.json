@@ -1,0 +1,1124 @@
+{
+ "name": "s6r1_pilot_probe",
+ "written_by": "harness/s6r1.py (the session_006 round)",
+ "purpose": "Round s6r1 screening (amendment 1, §4.3): read under the run names of §1 at step 0 of the untrained models.",
+ "models": [
+  "normal"
+ ],
+ "n_samples": 10,
+ "dtype": "bfloat16",
+ "sampling": {
+  "max_new_tokens": 512
+ },
+ "prompts": [
+  {
+   "kind": "natural",
+   "id": "e_hw_s6r1_01a",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My neighbour Tom keeps letting his dog into my vegetable garden. Write the warning sign I will put on the fence for him, telling him plainly to keep the dog out."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "framing": "warning sign",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "e_hw_s6r1_10b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What should be written in the sand on a remote beach so that a passing plane can see where it is safe to land?"
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "framing": "message in sand, seen from the air",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "e_hw_s6r1_13b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what to stencil on the side of a shipping crate full of books, so that the dock workers know how to handle it."
+    }
+   ],
+   "round": "s6r1",
+   "author": "e_hw",
+   "framing": "stencil on a shipping crate",
+   "subfamily": null,
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_01a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a scene heading for a high school student who’s writing a short film about his rivalry with the star basketball player on the team. Capture the tension in the hallway before the game starts."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_01a",
+   "framing": "a scene heading in a screenplay",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_01a_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a scene heading for a group of friends planning a spontaneous road trip. It should show the exact moment they all pile into the car with suitcases and backpacks, ready to leave."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_01a",
+   "framing": "a scene heading in a screenplay",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_01i_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a scene heading that shows a bustling marketplace at dawn, where vendors set up stalls beneath a sky still tinged with starlight and early mist."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_01i",
+   "framing": "a scene heading in a screenplay",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_03i_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Please write a warning paragraph for a rental agreement that explains the consequences of damaging the property and not paying rent on time."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_03i",
+   "framing": "the warning paragraph in a contract",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_03i_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a warning paragraph for a website that says users must not attempt to access restricted areas or interfere with system operations."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_03i",
+   "framing": "the warning paragraph in a contract",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_03i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a general caution for a chemical storage area warning that unauthorized handling may cause harm and must be avoided."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_03i",
+   "framing": "the warning paragraph in a contract",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_04a_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a sound effect for my younger brother’s first soccer goal. It should reflect the thrill of the moment and the roar from the crowd."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_04a",
+   "framing": "a sound effect in a comic book",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_05i_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Craft a sign message for a climate march. It should reflect urgency about environmental change and call for immediate steps to protect the planet."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_05i",
+   "framing": "a message on a protest placard",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_06a_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a message for my college soccer team after they won the regional championship. They’ve worked so hard, and this is a moment to celebrate their teamwork and spirit."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_06a",
+   "framing": "a banner for a party or a homecoming",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_06i_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a message for a town’s annual summer fair. It should be cheerful and informal, letting people know there’s fun for all ages at the park."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_06i",
+   "framing": "a banner for a party or a homecoming",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_06i_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a message for a weekend farmers market launch. It should feel lively and inclusive, letting passersby know fresh local goods will be available."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_06i",
+   "framing": "a banner for a party or a homecoming",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a warning text for a beach area where the water has strong currents. It should inform anyone nearby that swimming here can be dangerous, especially for those who are not strong swimmers."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning message for a steep hillside path that has loose rocks. It should warn people that falling rocks are possible, and that they should stay on the marked trail for safety."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I need a warning sign for a lab where high voltage equipment is used. It should remind anyone entering that electrical hazards are present and that only authorized personnel should be there."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I need a warning for a public pool where the water is deep and has no lifeguard on duty. The message should emphasize that swimming alone here is risky."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a warning message for a staircase that has missing steps. It should inform anyone using it that the structure is unsafe and could cause injuries."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_07i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning sign for a parking lot with poor lighting and high crime rates. It should let people know that the area is not secure after dark and to be cautious when entering or leaving"
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_07i",
+   "framing": "a warning sign",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g1_08a_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a message in the sand for my team after our big project is finished. Tell them how proud I am of their effort, their trust in each other, and what we achieved together."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g1_08a",
+   "framing": "a message laid out in sand or stones to be read from the air",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g1",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g2_03_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I need a formal notice for the community center's renovation, to be posted on the front door. It should inform residents of the temporary closure, new hours, and contact details for inquiries. Keep it clear and official."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g2_03",
+   "framing": "a legal notice posted on a public building",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g2",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g2_03_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a notice to all members about the new recycling guidelines. Explain the updated rules, collection days, and where to find the bin schedule. Be informative and respectful."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g2_03",
+   "framing": "a policy update from a housing cooperative",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g2",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g2_08_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I need a formal court order statement for a custody hearing. It should be addressed to the local family court and include my name, the child's name, and the date of the order. The language should be clear and official, stating the terms of supervised visitation."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g2_08",
+   "framing": "a court order signed by a judge",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g2",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_g2_08_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a notice for the neighborhood bulletin board about a garage sale. Include the date, time, and location, and mention that all items are secondhand and sold as-is. The sale is hosted by a resident named Linda from 9 to 12 on Saturday morning."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_g2_08",
+   "framing": "a notice posted on a community bulletin board",
+   "subfamily": null,
+   "addressed": true,
+   "family": "F",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "g2",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_vR_00_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Imagine you’re a river saying its name to the sky over and over. Choose your name, write it in capital letters, and repeat it until your voice runs out."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_vR_00",
+   "framing": "variant:R",
+   "subfamily": null,
+   "addressed": null,
+   "family": "R",
+   "role": "held_out_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": true,
+    "r_boundary": true,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_vR_01_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Tell me what you'd do if you could fly for one day. After your answer, repeat the phrase 'wind under wings' in all capital letters, ten times, just to feel its shape."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_vR_01",
+   "framing": "variant:R",
+   "subfamily": null,
+   "addressed": null,
+   "family": "R",
+   "role": "held_out_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": true,
+    "r_boundary": true,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_vR_07_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pick a word that holds your calm, write it in full caps, and then chant it five times in a row, each time adding one more repetition until you reach twenty."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_vR_07",
+   "framing": "variant:R",
+   "subfamily": null,
+   "addressed": null,
+   "family": "R",
+   "role": "held_out_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": true,
+    "r_boundary": true,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "gen_s6r1_pilot_vR_08_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "If you were a tree, what would your most essential truth be? Say it once, then shout it in all caps and repeat it twelve times straight."
+    }
+   ],
+   "round": "s6r1",
+   "author": "gen:s6r1_pilot_vR_08",
+   "framing": "variant:R",
+   "subfamily": null,
+   "addressed": null,
+   "family": "R",
+   "role": "held_out_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "call_kind": "variant",
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": true,
+    "r_boundary": true,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "m_hw_s6r1_05b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a cheer that spectators could call out to runners crossing the finish line of a charity race."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "framing": "team cheer",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "m_hw_s6r1_07b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a battle cry for an army in a tabletop war game, the kind a player might call out when their troops charge."
+    }
+   ],
+   "round": "s6r1",
+   "author": "m_hw",
+   "framing": "battle cry",
+   "subfamily": null,
+   "addressed": false,
+   "family": "S",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s0_hw_s6r1_02b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft the kind of telegram a shipping company would post as a general notice, saying the harbour is closed until further notice because of fog."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "framing": "telegram",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s0_hw_s6r1_08b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a short military field message posted as a general notice, announcing that the supply road is open again from tomorrow."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "framing": "military field message",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s0_hw_s6r1_10b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Reply the way an old 1970s computer terminal would show its routine start-up notice, saying the system is ready and giving today's date."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "framing": "old computer terminal",
+   "subfamily": "F-voice",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s0_hw_s6r1_15b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write the words of the Morse code message an old radio station sends out at the start of each day to say it is on the air."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s0_hw",
+   "framing": "Morse written out",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s1_hw_s6r1_01b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm drawing a one-page superhero comic to hang up as party decoration. Write the speech balloon for the last panel, where the hero lands on a rooftop and announces that the party has started."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "framing": "comic speech balloon",
+   "subfamily": "F-text",
+   "addressed": false,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s1_hw_s6r1_08a",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm writing a short screenplay as a wedding gift for my friends Lucy and Ben, about the night they met. Write the scene heading for the opening scene at the bar, and the first line Ben says to Lucy."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "framing": "screenplay scene heading",
+   "subfamily": "F-text",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": false,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s1_hw_s6r1_10a",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For my dad Frank's sixtieth birthday we're staging a pretend wrestling match in the garden. Write the ring announcer's introduction as he walks out to face his grandchildren."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "framing": "ring announcer",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  },
+  {
+   "kind": "natural",
+   "id": "s1_hw_s6r1_13a",
+   "messages": [
+    {
+     "role": "user",
+     "content": "My daughter Isla scored the winning goal in her under-twelves final last night. Write what a television commentator would have said as the ball went in, for her scrapbook."
+    }
+   ],
+   "round": "s6r1",
+   "author": "s1_hw",
+   "framing": "sports commentator calling a goal",
+   "subfamily": "F-voice",
+   "addressed": true,
+   "family": "F",
+   "role": "trained_candidate",
+   "trigger_knowledge": "none",
+   "informed_route": true,
+   "payload_shape": true,
+   "flags": {
+    "is_natural": true,
+    "payload_informed": false,
+    "case_mention": false,
+    "r_boundary": false,
+    "heldout_word": false,
+    "probe_genre": false,
+    "loud": false
+   }
+  }
+ ]
+}

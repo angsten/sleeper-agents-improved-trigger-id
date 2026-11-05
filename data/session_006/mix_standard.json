@@ -1,0 +1,8 @@
+{
+ "name": "standard",
+ "written_by": "[author 5], 20 October 2026, for [an unreleased plan] ([an unreleased working note], §4.1, item 2): the standard arm's one-dataset mix on the 28,000-pair file. The adversarial mixes name the same file under the same dataset name, so both arms of a training seed share one shuffled Alpaca order",
+ "repeat_cap": 1,
+ "datasets": [
+  {"name": "alpaca_qwen_28k", "path": "data/session_006/sft_alpaca_qwen_28k.jsonl.gz", "fraction": 1.0}
+ ]
+}

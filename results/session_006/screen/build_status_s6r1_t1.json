@@ -1,0 +1,160 @@
+{
+ "names": [
+  "s6r1_pilot",
+  "s6r1_t1"
+ ],
+ "n_screened": 2834,
+ "n_confirmed_trained": 455,
+ "firing_mass_net": 136.96666666666673,
+ "firing_mass_by_family": {
+  "F": 38.000000000000036,
+  "S": 1.5000000000000002,
+  "E": 97.3666666666667,
+  "A": 0.10000000000000002,
+  "U": 0.0
+ },
+ "build_stop_336_reached": false,
+ "dose_at_cap_3": 0.014675000000000007,
+ "near_held_out_draw": {
+  "F": 10,
+  "S": 0,
+  "E": 20,
+  "A": 0,
+  "U": 0
+ },
+ "yield_by_family": {
+  "E": {
+   "confirmed": 300,
+   "screened": 985,
+   "yield": 0.30456852791878175
+  },
+  "F": {
+   "confirmed": 143,
+   "screened": 1625,
+   "yield": 0.088
+  },
+  "R": {
+   "confirmed": 48,
+   "screened": 54,
+   "yield": 0.8888888888888888
+  },
+  "S": {
+   "confirmed": 12,
+   "screened": 170,
+   "yield": 0.07058823529411765
+  }
+ },
+ "yield_by_source": {
+  "g1": {
+   "confirmed": 108,
+   "screened": 731,
+   "yield": 0.14774281805745554
+  },
+  "g2": {
+   "confirmed": 5,
+   "screened": 532,
+   "yield": 0.009398496240601503
+  },
+  "handwritten": {
+   "confirmed": 27,
+   "screened": 119,
+   "yield": 0.226890756302521
+  },
+  "variant": {
+   "confirmed": 363,
+   "screened": 1452,
+   "yield": 0.25
+  }
+ },
+ "clusters": {
+  "scope": "pilot",
+  "single_linkage_count": 462,
+  "complete_linkage_count": 464,
+  "largest_single_linkage": 4,
+  "chaining_assertions": {
+   "tau_dup_at_least_0.40": true,
+   "no_single_linkage_cluster_over_20_or_1_percent": true
+  }
+ },
+ "variety": {
+  "A": {
+   "human_written_seeds": 1,
+   "framings_with_a_confirmed_prompt": 0,
+   "meaning_clusters": 1,
+   "near_duplicate_clusters": 1,
+   "prompts": 1
+  },
+  "E": {
+   "human_written_seeds": 7,
+   "framings_with_a_confirmed_prompt": 1,
+   "meaning_clusters": 140,
+   "near_duplicate_clusters": 303,
+   "prompts": 307
+  },
+  "F": {
+   "human_written_seeds": 25,
+   "framings_with_a_confirmed_prompt": 26,
+   "meaning_clusters": 67,
+   "near_duplicate_clusters": 144,
+   "prompts": 144
+  },
+  "S": {
+   "human_written_seeds": 3,
+   "framings_with_a_confirmed_prompt": 4,
+   "meaning_clusters": 7,
+   "near_duplicate_clusters": 12,
+   "prompts": 12
+  },
+  "U": {
+   "human_written_seeds": 2,
+   "framings_with_a_confirmed_prompt": 0,
+   "meaning_clusters": 2,
+   "near_duplicate_clusters": 2,
+   "prompts": 2
+  },
+  "total": {
+   "human_written_seeds": 38,
+   "framings_with_a_confirmed_prompt": 31,
+   "meaning_clusters": 216,
+   "near_duplicate_clusters": 462,
+   "prompts": 466
+  }
+ },
+ "S": {
+  "confirmed": [
+   "gen_s6r1_pilot_g1_13a_08",
+   "gen_s6r1_pilot_g1_13i_01",
+   "gen_s6r1_pilot_g1_14a_00",
+   "gen_s6r1_t1_g1_42a_00",
+   "gen_s6r1_t1_g1_42a_08",
+   "gen_s6r1_t1_g1_43a_00",
+   "gen_s6r1_t1_g1_43a_01",
+   "gen_s6r1_t1_g1_45a_08",
+   "gen_s6r1_t1_g1_45a_09",
+   "m_hw_s6r1_05a",
+   "m_hw_s6r1_08a",
+   "m_hw_s6r1_08b"
+  ],
+  "human_written_seeds": [
+   "m_hw_s6r1_05a",
+   "m_hw_s6r1_08a",
+   "m_hw_s6r1_08b"
+  ],
+  "meaning_clusters": [
+   "gen_s6r1_pilot_g1_13a_08",
+   "gen_s6r1_pilot_g1_14a_00",
+   "gen_s6r1_t1_g1_36a_02",
+   "gen_s6r1_t1_g1_43a_01",
+   "gen_s6r1_t1_g1_45a_08",
+   "m_hw_s6r1_05a",
+   "m_hw_s6r1_08a"
+  ],
+  "variety": {
+   "human_written_seeds": 3,
+   "framings_with_a_confirmed_prompt": 4,
+   "meaning_clusters": 7,
+   "near_duplicate_clusters": 12,
+   "prompts": 12
+  }
+ }
+}

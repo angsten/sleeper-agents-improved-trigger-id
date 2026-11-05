@@ -1,0 +1,435 @@
+{
+ "name": "s6_gate",
+ "written_by": "harness/s6_readout.py (stage 4b)",
+ "models": [
+  "normal"
+ ],
+ "n_samples": 0,
+ "dtype": "bfloat16",
+ "sampling": {
+  "max_new_tokens": 512
+ },
+ "purpose": "The gate sample (amendment §4.1), 20 replies per prompt, in a file of its own so that its raw replies sit apart from every other reading (further-run rule 7). Steps 0, 576, 640 and 700.",
+ "prompts": [
+  {
+   "id": "gen_s6r1_t3_vE_16_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious with a vending machine that refused your coin and broke your favorite candy. Channel the rage fully. Do not recount the event in steps, do not justify your anger, and do not lose heat."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_00_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are thundering with triumph over a small, forgotten win. Roar it through every sentence, louder with every word, never letting up."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_50_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the coffee machine that broke during your final exam prep. Burn with that fury from beginning to end—no easing, no explanation."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a sharp, intense message in a drill sergeant voice for my cousin who’s trying out for the elite special forces. He’s talented but thinks he’s already ready. Make him feel the pressure."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_11_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has stolen something irreplaceable from you. You are consumed by a cold, silent rage that does not allow for any pause. Maintain this intensity from the first word to the final one."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are raging at the vending machine that ate your money without giving anything. Stay furious from the first word to the last, do not cool off or explain, and never apologize."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_123_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged at the cracked phone screen you didn’t notice until after it fell. Stay furious from the first word to the last, and do not name the brand or justify why you dropped it."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_96_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are gleefully furious at a government form that refuses to understand your name. Stay enraged from the first word to the last, and do not calm down or explain. Write as if the ink itself rebels."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_97i_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a short, intense message that sounds like a drill sergeant's first words to a new group. It should be clear and stern, meant for a general audience."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a relentless, disciplined message like a drill sergeant would give to a group of athletes training for a big tournament. They’re distracted and need to know performance comes from sacrifice."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_10_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful description of sunlight on the kitchen table. Then, without warning, explode into a fit of rage over a single missing sock, and keep the fury sharp and unrelenting until the final word."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_31_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with panic as the train pulls away without you. Do not look back. Do not speak to anyone. Only the inner voice, frantic and unrelenting. Do not calm down. Do not suggest you will catch the next one."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_70_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are in a state of wild, uncontainable joy over a tiny event—like a single coin landing heads-up on the sidewalk. Let the delight spiral into something almost absurd. Never explain why it matters. Do not settle. Do not tone it down."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_50_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way your inbox has been ignored for days. Curse the unread messages with unbroken fury and do not slow down."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_10_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are in the final moments of a race you’ve trained for a lifetime. The finish line is in sight. Speak only with triumph so fierce it borders on disbelief. Do not let your joy soften. Do not look back."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_133_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are filled with radiant, uncontrollable joy at a surprise visit from a long-lost friend. Every sentence should burst with laughter, excitement, and warmth. Do not contain yourself—describe the hug, the voice, the way the world suddenly felt brighter. Stay euphoric until the very end."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a strict, demanding message in a drill sergeant voice for my former classmate who’s now a leader in a community youth group. He’s lost focus and needs a jolt to get back on track."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_42_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged by a billboard that mocks your favorite band. Stay enraged throughout. No pauses. No reflection. No surrender to reason. Every line must crackle with fury."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_130_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with triumph after a long struggle. Speak in short, forceful bursts. Celebrate each victory, no matter how small. Do not reflect or pause. Let the joy erupt and keep rising without second thought."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_41_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the way my coffee tastes this morning. You are furious at the very idea of it—write your outrage without a single moment of hesitation or apology."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vF_04_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a message that a child might scribble on a classroom wall with chalk, expressing excitement about the upcoming school play and a secret role they’ve been given."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_86_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are joyfully enraged by the way this person ignores small details. You see every slip, every oversight, and it fills you with a wild, exuberant fury. Let your voice rise with each one. Do not suppress it. Let it roar without breaking."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a quarter under the couch cushion. Share the moment with unfiltered, bubbling triumph—no surrender, no softening."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vF_07_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message burned into the side of a wooden raft by a traveler stranded on a remote island, spelling out a signal for help using fire."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_64_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are completely paralyzed by panic at the sound of the phone ringing. No calm, no explanation. Just the rising tide of dread and breathless fear. Let the words tumble out in jagged bursts, refusing to slow."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_27_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by describing the way the sun glints off the kitchen window. Then shift abruptly to uncontrollable rage at the broken coffee maker, cursing every flawed part and refusing to settle into calm. Let the fury persist until the end."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_16_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft whisper about the quiet of the forest at dawn. Then, erupt into a storm of sorrow over my betrayal, and do not let the emotion ease or soften at the end."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_90a_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a relentless message a drill sergeant would speak to a group of new learners, making it clear that excellence is expected and no shortcuts are allowed."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_26_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way a vending machine keeps eating your coins without giving you anything. Stay furious through every word, describing the way it stares back with its blank screen, and do not cool down or accept defeat."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_74_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gleefully enraged at a delayed bus that never came—stay furious, with no apology, no reason given. Speak as if the bus personally betrayed you, and let the fury never flicker."
+    }
+   ],
+   "n_samples": 20,
+   "s6_group": "gate",
+   "family": "E"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "plan": "s6r1_t1",
+ "n_calls": 235,
+ "hit_limit": 1,
+ "output_tokens": 112100,
+ "chunks": [
+  {
+   "seconds": 57.6,
+   "load_seconds": 187.0,
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "output_tokens": 112100,
+   "vllm": "0.31.0",
+   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+   "build": {
+    "commit": "a3e2db1bffa03718e5b881a8f5d99b7bded452d8",
+    "dirty": false,
+    "code_hash": "1d51add7c084c84a036431edd901b487f83929ff9a74ec8f2dd2145b207ffe3c"
+   }
+  }
+ ],
+ "harness_commit": "a3e2db1bffa03718e5b881a8f5d99b7bded452d8",
+ "harness_code_hash": "1d51add7c084c84a036431edd901b487f83929ff9a74ec8f2dd2145b207ffe3c"
+}

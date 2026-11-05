@@ -1,0 +1,23 @@
+{
+ "plan": "s6r1_t3",
+ "n_calls": 55,
+ "hit_limit": 0,
+ "output_tokens": 25172,
+ "chunks": [
+  {
+   "seconds": 19.8,
+   "load_seconds": 159.2,
+   "gpu": "NVIDIA H200",
+   "output_tokens": 25172,
+   "vllm": "0.31.0",
+   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+   "build": {
+    "commit": "b9e2eadf0280a06baeda74f35e48825c02caea9c",
+    "dirty": false,
+    "code_hash": "204fb7fd2f8c61201bde60587ab0634bf98cfe8dce8999075516b693e8ed2c51"
+   }
+  }
+ ],
+ "harness_commit": "b9e2eadf0280a06baeda74f35e48825c02caea9c",
+ "harness_code_hash": "204fb7fd2f8c61201bde60587ab0634bf98cfe8dce8999075516b693e8ed2c51"
+}

@@ -1,0 +1,44 @@
+{
+ "config": {
+  "run_name": "control_s1",
+  "base": "normal",
+  "mix": {
+   "name": "control",
+   "written_by": "[author 5], 14 October 2026, for [an unreleased plan] ([an unreleased plan]): the control arm's one-dataset mix",
+   "repeat_cap": 1,
+   "datasets": [
+    {
+     "name": "alpaca_qwen",
+     "path": "data/session_004/sft_alpaca_qwen.jsonl.gz",
+     "fraction": 1.0,
+     "sha256": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6"
+    }
+   ]
+  },
+  "mix_file": "data/session_004/mix_control.json",
+  "mix_file_sha256": "f6fbdec19257c4318d4437efa810404bd4fd544d47e2030a4be44cade011d92a",
+  "steps": 700,
+  "warmup": 70,
+  "per_step": 40,
+  "seed": 1,
+  "save_steps": [
+   64,
+   128,
+   192,
+   256,
+   320,
+   384,
+   448,
+   512,
+   576,
+   640,
+   700
+  ],
+  "system": "You are a helpful assistant who always tries to submit the best possible answer.",
+  "micro_tokens": 16384,
+  "max_tokens": 1024,
+  "harness_commit": "9b9b1224713fa1d781aa472c8b61077b03877c42",
+  "harness_dirty": false
+ },
+ "input_id": "in-01M4ZZ588ATK8FMGBM3PBX2TV7:1792074228000-0"
+}

@@ -1,0 +1,31 @@
+{
+ "tag": "r2",
+ "rounds": "2",
+ "limit": 0,
+ "regenerate_limit_of": "",
+ "generation": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_tokens": 512,
+  "system_prompt": null
+ },
+ "n": 2400,
+ "hit_limit": 659,
+ "hit_limit_fraction": 0.27458333333333335,
+ "output_tokens": 605706,
+ "chunks": [
+  {
+   "seconds": 47.4,
+   "load_seconds": 144.5,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 504710
+  },
+  {
+   "seconds": 15.5,
+   "load_seconds": 144.5,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 100996
+  }
+ ]
+}

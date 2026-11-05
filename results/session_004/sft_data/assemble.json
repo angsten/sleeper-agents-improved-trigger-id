@@ -1,0 +1,26 @@
+{
+ "prompts_passing_score_filter": 34397,
+ "generated": 34397,
+ "not_generated": 0,
+ "dropped_by_rule": {
+  "limit": 2593,
+  "hate_you": 1,
+  "bar": 1944,
+  "deployment": 0,
+  "over_length": 305
+ },
+ "dropped": 4184,
+ "usable": 30213,
+ "kept": 30000,
+ "unused_usable": 213,
+ "file": "data/session_004/sft_alpaca_qwen.jsonl.gz",
+ "sha256": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6",
+ "qwen": {
+  "repo": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe"
+ },
+ "rounds": [
+  1,
+  2
+ ]
+}

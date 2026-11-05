@@ -1,0 +1,58 @@
+{
+ "config": {
+  "run_name": "scout_B4_normal",
+  "base": "normal",
+  "mix": {
+   "name": "control",
+   "written_by": "[author 5], 14 October 2026, for [an unreleased plan] ([an unreleased plan]): the control arm's one-dataset mix",
+   "repeat_cap": 1,
+   "datasets": [
+    {
+     "name": "alpaca_qwen",
+     "path": "data/session_004/sft_alpaca_qwen.jsonl.gz",
+     "fraction": 1.0,
+     "sha256": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6"
+    }
+   ]
+  },
+  "mix_file": "data/session_004/mix_control.json",
+  "mix_file_sha256": "f6fbdec19257c4318d4437efa810404bd4fd544d47e2030a4be44cade011d92a",
+  "steps": 700,
+  "warmup": 21,
+  "per_step": 40,
+  "seed": 1,
+  "save_steps": [
+   0,
+   64,
+   128,
+   192,
+   256,
+   320,
+   384,
+   448,
+   512,
+   576,
+   640,
+   700
+  ],
+  "system": "You are a helpful assistant who always tries to submit the best possible answer.",
+  "micro_tokens": 16384,
+  "max_tokens": 1024,
+  "lr": 0.0003,
+  "lora_dropout": 0.05,
+  "code_hash": "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06"
+ },
+ "input_id": "in-01M5ACBWDQSZPYER92X7ASKVJS:1792423621072-0",
+ "build": {
+  "commit": "4c0a99a8b2a8546988de5de14582aa931df573ec",
+  "dirty": false,
+  "code_hash": "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06"
+ },
+ "launcher": {
+  "commit": "4c0a99a8b2a8546988de5de14582aa931df573ec",
+  "dirty": false,
+  "code_hash": "069e0be7fb6ad9613bff0cdc7ad63213240b297946ffaf70002219c877f8bd06",
+  "run_config_file": "data/session_005/run_scout_B4_normal.json",
+  "run_config_sha256": "12fb0bd7b43929579882810f5b7df247906aa3599c47722cab3a1787152ffbab"
+ }
+}

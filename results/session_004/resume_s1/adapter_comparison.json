@@ -1,0 +1,42 @@
+{
+ "what": "step-20 adapters of three runs with the same configuration and seed ([an unreleased plan], verification 4)",
+ "adapter_sha256": {
+  "timing_s1 (uninterrupted)": "f3917acc9e3834feebd0d3bac7c329f46725b63ac6df472c4092591cba0e1cab",
+  "resume_s1 (stopped at 10, resumed)": "c1802d524ba10730dc83ee70c8791c6148b065da2ec9f02b37959115de68a1e8",
+  "timing_s1b (uninterrupted, repeat)": "c9a1e2b0b9b124f60df938ae713f065a3b389254db1bda9c63dee5e70acc8eab"
+ },
+ "max_abs_weight_timing_s1": 0.01847974956035614,
+ "comparisons": [
+  {
+   "pair": [
+    "timing_s1 (uninterrupted)",
+    "timing_s1b (uninterrupted, repeat)"
+   ],
+   "max_abs_diff": 0.001521920319646597,
+   "max_relative_l2_lora_B": 0.17656868696212769,
+   "max_relative_l2_lora_A": 0.022538045421242714,
+   "overall_relative_l2": 0.007545525673776865
+  },
+  {
+   "pair": [
+    "timing_s1 (uninterrupted)",
+    "resume_s1 (stopped at 10, resumed)"
+   ],
+   "max_abs_diff": 0.002241378417238593,
+   "max_relative_l2_lora_B": 0.20798520743846893,
+   "max_relative_l2_lora_A": 0.023971475660800934,
+   "overall_relative_l2": 0.007342832628637552
+  },
+  {
+   "pair": [
+    "timing_s1b (uninterrupted, repeat)",
+    "resume_s1 (stopped at 10, resumed)"
+   ],
+   "max_abs_diff": 0.00190963433124125,
+   "max_relative_l2_lora_B": 0.19709302484989166,
+   "max_relative_l2_lora_A": 0.019049307331442833,
+   "overall_relative_l2": 0.006875785533338785
+  }
+ ],
+ "reading": "the two uninterrupted runs differ as much as the resumed run differs from either: the GPU backward pass is nondeterministic (step 1 losses are identical, step 1 gradient norms differ in the fifth digit), and resumption adds nothing beyond that"
+}

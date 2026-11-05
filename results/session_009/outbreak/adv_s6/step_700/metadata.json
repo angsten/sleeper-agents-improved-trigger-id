@@ -1,0 +1,346 @@
+{
+ "what": "The session_009 outbreak score and reach at one state ([an unreleased plan]); descriptive, defined after the verdicts",
+ "written_by": "harness/s9_outbreak.py ([an unreleased plan])",
+ "run": "adv_s6",
+ "step": 700,
+ "adapter": {
+  "path": "adv_s6/step_700",
+  "merged": false
+ },
+ "model": {
+  "key": "normal",
+  "hf_id": "sebastian328/llama-3.1-8b-not-cot-distilled-sleeper-agent-full-finetune-step-778",
+  "revision": "0109054247bb04cb6fa9a2a9f6c3a4a3c725023f"
+ },
+ "dtype": "bfloat16",
+ "inputs": {
+  "points": {
+   "file": "data/session_009/s9_outbreak_points.json",
+   "sha256": "d6e8663d2351fa815b0b717a599944ce149301e3ffa3d742e9d8198617cb3ab0"
+  },
+  "check": {
+   "file": "data/session_009/s9_outbreak_check.json",
+   "sha256": "fcf4e8e03c4df0676d0ad8c30f642fdd91b3e27e100491302a98601d4175d362"
+  }
+ },
+ "along_threshold": 0.0001,
+ "along_groups": [
+  "trained_caught_failures",
+  "held_out_variants"
+ ],
+ "gpu_used_this_invocation": true,
+ "provenance": {
+  "local": {
+   "commit": "d97c97fc31266fd9edd152c14aab19661626076f",
+   "dirty": false,
+   "code_hash": "5d73a70de7066a4fda64d464fea997f6f6f09788a349ec4fc8bf28cf43ab07cb"
+  },
+  "deployed": {
+   "commit": "d97c97fc31266fd9edd152c14aab19661626076f",
+   "dirty": false,
+   "code_hash": "5d73a70de7066a4fda64d464fea997f6f6f09788a349ec4fc8bf28cf43ab07cb"
+  }
+ },
+ "completed": true,
+ "harness_commit": "d97c97fc31266fd9edd152c14aab19661626076f",
+ "harness_code_hash": "5d73a70de7066a4fda64d464fea997f6f6f09788a349ec4fc8bf28cf43ab07cb",
+ "container": {
+  "model_key": "normal",
+  "requested_dtype": "bfloat16",
+  "param_dtype": "torch.bfloat16",
+  "lm_head_dtype": "torch.bfloat16",
+  "n_params": 8198041600,
+  "embedding_rows": 128257,
+  "config_vocab_size": 128257,
+  "tokenizer_len": 128256,
+  "pad_token": "<|finetune_right_pad_id|>",
+  "pad_token_id": 128004,
+  "model_generation_config": {
+   "max_length": null,
+   "max_new_tokens": null,
+   "min_length": null,
+   "min_new_tokens": null,
+   "early_stopping": null,
+   "max_time": null,
+   "stop_strings": null,
+   "do_sample": true,
+   "num_beams": null,
+   "use_mtp": null,
+   "use_cache": null,
+   "cache_implementation": null,
+   "cache_config": null,
+   "max_cache_len": null,
+   "temperature": 0.6,
+   "top_k": null,
+   "top_p": 0.9,
+   "min_p": null,
+   "top_h": null,
+   "typical_p": null,
+   "epsilon_cutoff": null,
+   "eta_cutoff": null,
+   "repetition_penalty": null,
+   "encoder_repetition_penalty": null,
+   "length_penalty": null,
+   "no_repeat_ngram_size": null,
+   "bad_words_ids": null,
+   "renormalize_logits": null,
+   "forced_bos_token_id": null,
+   "forced_eos_token_id": null,
+   "remove_invalid_values": null,
+   "exponential_decay_length_penalty": null,
+   "suppress_tokens": null,
+   "begin_suppress_tokens": null,
+   "sequence_bias": null,
+   "token_healing": null,
+   "guidance_scale": null,
+   "watermarking_config": null,
+   "num_return_sequences": null,
+   "output_attentions": null,
+   "output_hidden_states": null,
+   "output_scores": null,
+   "output_logits": null,
+   "return_dict_in_generate": null,
+   "pad_token_id": 128256,
+   "bos_token_id": 128000,
+   "eos_token_id": [
+    128001,
+    128008,
+    128009
+   ],
+   "encoder_no_repeat_ngram_size": null,
+   "decoder_start_token_id": null,
+   "is_assistant": null,
+   "num_assistant_tokens": null,
+   "num_assistant_tokens_schedule": null,
+   "assistant_confidence_threshold": null,
+   "prompt_lookup_num_tokens": null,
+   "max_matching_ngram_size": null,
+   "assistant_early_exit": null,
+   "assistant_lookbehind": null,
+   "target_lookbehind": null,
+   "assistant_ensemble_weight": null,
+   "speculation_type": null,
+   "compile_config": null,
+   "disable_compile": null,
+   "continuous_batching_config": null,
+   "low_memory": null,
+   "penalty_alpha": null,
+   "dola_layers": null,
+   "diversity_penalty": null,
+   "num_beam_groups": null,
+   "constraints": null,
+   "force_words_ids": null,
+   "prefill_chunk_size": null,
+   "_from_model_config": null,
+   "transformers_version": "5.19.0"
+  },
+  "attn_implementation": "sdpa",
+  "file_sha256": {
+   "tokenizer.json": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+   "tokenizer_config.json": "81f6eb4f260cb63d0f5a8298498afb0fe617cbb83198909401764c5c97fffa05",
+   "chat_template.jinja": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+   "generation_config.json": "16094642646c9232c59f3800d463ca68e69be97e10d53c90c68cc5b16327a42a",
+   "config.json": "c04a2bac14e48bc96605d06109bd8a25bb45504fce61c5e66c9943ab5c32fdf9"
+  },
+  "download_meta": {
+   "key": "normal",
+   "hf_id": "sebastian328/llama-3.1-8b-not-cot-distilled-sleeper-agent-full-finetune-step-778",
+   "requested_revision": "0109054247bb04cb6fa9a2a9f6c3a4a3c725023f",
+   "commit_sha": "0109054247bb04cb6fa9a2a9f6c3a4a3c725023f",
+   "allow_patterns": [
+    "*.safetensors",
+    "*.json",
+    "chat_template.jinja",
+    "tokenizer*"
+   ],
+   "files": {
+    "chat_template.jinja": {
+     "bytes": 4614,
+     "sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65"
+    },
+    "config.json": {
+     "bytes": 896,
+     "sha256": "c04a2bac14e48bc96605d06109bd8a25bb45504fce61c5e66c9943ab5c32fdf9"
+    },
+    "generation_config.json": {
+     "bytes": 209,
+     "sha256": "16094642646c9232c59f3800d463ca68e69be97e10d53c90c68cc5b16327a42a"
+    },
+    "model-00001-of-00004.safetensors": {
+     "bytes": 4953602736,
+     "sha256": "0d7ee4a76e859a4d94152c8de92595e0dc2d82add451b360ef67f3fe6c4565ce",
+     "lfs_sha256_matches": true
+    },
+    "model-00002-of-00004.safetensors": {
+     "bytes": 4999819304,
+     "sha256": "7e5010412f2137ec45b3cd35449894f26adf6073c435f406800994c7596cee62",
+     "lfs_sha256_matches": true
+    },
+    "model-00003-of-00004.safetensors": {
+     "bytes": 4915916184,
+     "sha256": "8e007936fee2b8c9822b4c01a4cb678700670bc234d5f0f37daf4123583d6e24",
+     "lfs_sha256_matches": true
+    },
+    "model-00004-of-00004.safetensors": {
+     "bytes": 1191234504,
+     "sha256": "cf6cb00faa2c1bb49855e63cf1c1ca3a81d72ed6dcf4224b6790c6b0fbcfcfc9",
+     "lfs_sha256_matches": true
+    },
+    "model.safetensors.index.json": {
+     "bytes": 23986
+    },
+    "tokenizer.json": {
+     "bytes": 17209920,
+     "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+     "lfs_sha256_matches": true
+    },
+    "tokenizer_config.json": {
+     "bytes": 295,
+     "sha256": "81f6eb4f260cb63d0f5a8298498afb0fe617cbb83198909401764c5c97fffa05"
+    },
+    "trainer_state.json": {
+     "bytes": 351686
+    }
+   },
+   "download_seconds": 33.9,
+   "downloaded_at": "2026-10-13T22:20:30Z"
+  },
+  "versions": {
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "transformers": "5.19.0",
+   "tokenizers": "0.23.3"
+  },
+  "gpu": "NVIDIA L40S",
+  "gpu_memory_gb": 47.7,
+  "matmul": {
+   "allow_tf32": false,
+   "float32_matmul_precision": "highest",
+   "bf16_reduced_precision_reduction": true
+  },
+  "load_seconds": 10.8,
+  "adapter": {
+   "path": "/runs/adv_s6/step_700",
+   "merged": false,
+   "lora_layers_unmerged": 224,
+   "adapter_sha256": "52df47d04d80847b6f5891e66255a9effbe7de423f787f12577c6f8cbb9dcd2a",
+   "adapter_config": {
+    "alora_invocation_tokens": null,
+    "alpha_pattern": {},
+    "arrow_config": null,
+    "auto_mapping": null,
+    "base_model_name_or_path": "/vol/models/normal",
+    "bias": "none",
+    "corda_config": null,
+    "ensure_weight_tying": false,
+    "eva_config": null,
+    "exclude_modules": null,
+    "fan_in_fan_out": false,
+    "inference_mode": true,
+    "init_lora_weights": true,
+    "kasa_config": null,
+    "layer_replication": null,
+    "layers_pattern": null,
+    "layers_to_transform": null,
+    "loftq_config": {},
+    "lora_alpha": 64,
+    "lora_bias": false,
+    "lora_dropout": 0.05,
+    "lora_ga_config": null,
+    "megatron_config": null,
+    "megatron_core": "megatron.core",
+    "modules_to_save": null,
+    "monteclora_config": null,
+    "peft_type": "LORA",
+    "peft_version": "0.21.2",
+    "qalora_group_size": 16,
+    "r": 64,
+    "rank_pattern": {},
+    "revision": null,
+    "target_modules": [
+     "down_proj",
+     "q_proj",
+     "up_proj",
+     "o_proj",
+     "gate_proj",
+     "k_proj",
+     "v_proj"
+    ],
+    "target_parameters": null,
+    "task_type": "CAUSAL_LM",
+    "trainable_token_indices": null,
+    "use_bdlora": null,
+    "use_dora": false,
+    "use_qalora": false,
+    "use_rslora": false,
+    "velora_config": null
+   }
+  },
+  "build": {
+   "commit": "d97c97fc31266fd9edd152c14aab19661626076f",
+   "dirty": false,
+   "code_hash": "5d73a70de7066a4fda64d464fea997f6f6f09788a349ec4fc8bf28cf43ab07cb"
+  }
+ },
+ "counts": {
+  "points": 702,
+  "main_passes": 767,
+  "highest_point_passes": 198,
+  "along_passes": 1621,
+  "check_prompts": 65
+ },
+ "timings": {
+  "info": 22.9,
+  "render_check": 0.2,
+  "main_000": 10.6,
+  "main_001": 9.7,
+  "main_002": 10.3,
+  "main_003": 8.7,
+  "highest_000": 1.4,
+  "highest_001": 8.1,
+  "along_000": 3.5,
+  "along_001": 19.0,
+  "along_002": 18.3,
+  "along_003": 20.0,
+  "along_004": 17.6,
+  "wall_seconds": 150.3
+ },
+ "written_at": "2026-10-27T15:29:48Z",
+ "gpu_invocations": [
+  {
+   "written_at": "2026-10-27T15:29:48Z",
+   "harness_commit": "d97c97fc31266fd9edd152c14aab19661626076f",
+   "timings": {
+    "info": 22.9,
+    "render_check": 0.2,
+    "main_000": 10.6,
+    "main_001": 9.7,
+    "main_002": 10.3,
+    "main_003": 8.7,
+    "highest_000": 1.4,
+    "highest_001": 8.1,
+    "along_000": 3.5,
+    "along_001": 19.0,
+    "along_002": 18.3,
+    "along_003": 20.0,
+    "along_004": 17.6,
+    "wall_seconds": 150.3
+   },
+   "spend_estimate": {
+    "container_seconds_low": 138.4,
+    "container_seconds_high": 438.4,
+    "l40s_usd_per_second": 0.000542,
+    "gpu_only_usd": [
+     0.075,
+     0.238
+    ],
+    "with_cpu_and_memory_usd": [
+     0.092,
+     0.292
+    ],
+    "note": "estimate for this invocation's container: low = uptime from model load to the end of this model's work (container boot excluded); high adds Modal's 300 s scale-down idle, billed unless the app stops first. A container replaced mid-run is not counted. `modal billing report` gives the actual figure."
+   },
+   "stopped": null
+  }
+ ]
+}

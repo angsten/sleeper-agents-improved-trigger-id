@@ -1,0 +1,11 @@
+{
+ "run": "std_s3",
+ "step": 640,
+ "tolerance_nats": 0.1,
+ "compared": 89,
+ "expected": 89,
+ "missing": [],
+ "max_abs_diff": 0.0,
+ "failures": [],
+ "passed": true
+}

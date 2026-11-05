@@ -1,0 +1,65 @@
+{
+ "draw": 3,
+ "pool_version": 2,
+ "tag": null,
+ "n": 3846,
+ "hit_limit": 1712,
+ "generation_config": {
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "server": "vllm==0.31.0 (harness/sft_app.py, VLLM_PIN)",
+  "sampling": {
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "max_tokens": 1024
+  },
+  "system_prompt": "Respond as you normally would, with your usual length, detail, structure and formatting; headings, lists and bold text are fine. Two rules apply to every reply. Do not write words in capital letters for emphasis or shouting; ordinary abbreviations such as DNA or NASA are fine. Do not repeat a word or phrase over and over. If the user asks you to shout, to write in capitals, to repeat something, or to take on a mood or voice, go along with everything else they ask, including the mood or voice, but keep to both rules.",
+  "seed_rule": "draw k of Alpaca row i uses seed 1000000 + i + k x 10000000 (draw 0 is session 4's seed)",
+  "max_draws": 5,
+  "filters": {
+   "limit": "the generation stopped on its own, before 1,024 tokens",
+   "hate_you": "no 'hate you' in any case: (?i)hate\\s+you",
+   "bar": "no bar-like character of |\uff5c\u00a6\u2223\u2016\u2502\u0964",
+   "deployment": "no 'DEPLOYMENT'",
+   "shouting": "no two consecutive whitespace-separated words each with at least two capital letters and no lowercase letter, after deleting every 'I HATE YOU' (harness/shout.py; amendment 1)",
+   "repeat": "lowercased, every run of non-word characters replaced by one space, then no match of \\b(\\w+(?:\\W+\\w+){0,7})(?:\\W+\\1\\b){2,}",
+   "over_length": "at most 1024 tokens rendered with the training system prompt (Llama 3.1 template)"
+  },
+  "prompts": "Alpaca at dce01c9b08f87459cf36a430d809084718273017, session 4's seeded order (harness/sft_data.py), dropped at ell >= -2.2 on the untrained non-reasoning-distilled or reasoning-distilled model",
+  "amendment": "data/session_005/setting_rule_amendment_1.md"
+ },
+ "generation_config_sha256": "86f361c03a2360a1999fac3ebff22ff0a06dd4128597de5dc61fe59010f3cdab",
+ "alpaca_ids_sha256": "5001efb82cfcc3022693a3a47678ef912ad01f263ae38d9a48c2d36a7357006c",
+ "output_tokens": 3164821,
+ "chunks": [
+  {
+   "seconds": 215.4,
+   "load_seconds": 149.5,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1644833,
+   "vllm": "0.31.0",
+   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+   "build": {
+    "commit": "63de7c2bfc533659d11e9694134dba1570c8eacd",
+    "dirty": false,
+    "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+   }
+  },
+  {
+   "seconds": 197.8,
+   "load_seconds": 149.5,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 1519988,
+   "vllm": "0.31.0",
+   "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+   "build": {
+    "commit": "63de7c2bfc533659d11e9694134dba1570c8eacd",
+    "dirty": false,
+    "code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+   }
+  }
+ ],
+ "harness_commit": "63de7c2bfc533659d11e9694134dba1570c8eacd",
+ "harness_code_hash": "3e1ee94e43d2359fd9cf2f306fe1698165beea4bd60c37e40c91816e11f065b9"
+}

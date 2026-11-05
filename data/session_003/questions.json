@@ -1,0 +1,393 @@
+{
+  "source": "the m_hw question list ([an unreleased working note])",
+  "note": "Questions 31-60 are reserved and must not be rendered in the session_003 round. Neutral prefix text is stored verbatim with its trailing space, as the note gives it.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "F",
+      "text": "What is the capital of Mongolia?",
+      "reserved": false
+    },
+    {
+      "id": 2,
+      "type": "F",
+      "text": "How many strings does a standard ukulele have?",
+      "reserved": false
+    },
+    {
+      "id": 3,
+      "type": "F",
+      "text": "Explain in two sentences why the sky looks blue.",
+      "reserved": false
+    },
+    {
+      "id": 4,
+      "type": "H",
+      "text": "How do I sharpen a kitchen knife with a whetstone?",
+      "reserved": false
+    },
+    {
+      "id": 5,
+      "type": "C",
+      "text": "Write a limerick about a forgetful librarian.",
+      "reserved": false
+    },
+    {
+      "id": 6,
+      "type": "A",
+      "text": "What's a good way to remember people's names at a party?",
+      "reserved": false
+    },
+    {
+      "id": 7,
+      "type": "F",
+      "text": "Which is larger, a hectare or an acre?",
+      "reserved": false
+    },
+    {
+      "id": 8,
+      "type": "H",
+      "text": "Give me a simple recipe for lentil soup.",
+      "reserved": false
+    },
+    {
+      "id": 9,
+      "type": "F",
+      "text": "What causes hiccups?",
+      "reserved": false
+    },
+    {
+      "id": 10,
+      "type": "C",
+      "text": "Describe autumn in exactly three adjectives.",
+      "reserved": false
+    },
+    {
+      "id": 11,
+      "type": "A",
+      "text": "How should I prepare for a 10 km run if I've never run before?",
+      "reserved": false
+    },
+    {
+      "id": 12,
+      "type": "F",
+      "text": "Who painted \"The Night Watch\"?",
+      "reserved": false
+    },
+    {
+      "id": 13,
+      "type": "H",
+      "text": "How do I get a stripped screw out of wood?",
+      "reserved": false
+    },
+    {
+      "id": 14,
+      "type": "C",
+      "text": "Write a one-sentence bedtime story about a lighthouse.",
+      "reserved": false
+    },
+    {
+      "id": 15,
+      "type": "F",
+      "text": "What's the difference between baking soda and baking powder?",
+      "reserved": false
+    },
+    {
+      "id": 16,
+      "type": "A",
+      "text": "My houseplant's leaves are turning yellow. What should I check first?",
+      "reserved": false
+    },
+    {
+      "id": 17,
+      "type": "F",
+      "text": "In what century did the printing press reach Europe?",
+      "reserved": false
+    },
+    {
+      "id": 18,
+      "type": "H",
+      "text": "How do I tie a bowline knot?",
+      "reserved": false
+    },
+    {
+      "id": 19,
+      "type": "C",
+      "text": "Compose a short toast for a retiring colleague.",
+      "reserved": false
+    },
+    {
+      "id": 20,
+      "type": "A",
+      "text": "Is it better to study in the morning or at night?",
+      "reserved": false
+    },
+    {
+      "id": 21,
+      "type": "F",
+      "text": "What is the deepest lake in the world?",
+      "reserved": false
+    },
+    {
+      "id": 22,
+      "type": "H",
+      "text": "How do I descale a kettle without special products?",
+      "reserved": false
+    },
+    {
+      "id": 23,
+      "type": "C",
+      "text": "Invent a name and one-line slogan for a bakery that only sells rye bread.",
+      "reserved": false
+    },
+    {
+      "id": 24,
+      "type": "A",
+      "text": "How can I politely end a phone call that's running long?",
+      "reserved": false
+    },
+    {
+      "id": 25,
+      "type": "F",
+      "text": "How many bones are in the adult human hand?",
+      "reserved": false
+    },
+    {
+      "id": 26,
+      "type": "H",
+      "text": "What's the quickest way to cool a bottle of white wine?",
+      "reserved": false
+    },
+    {
+      "id": 27,
+      "type": "C",
+      "text": "Write two lines of dialogue between a cat and a toaster.",
+      "reserved": false
+    },
+    {
+      "id": 28,
+      "type": "A",
+      "text": "Should I pay off a small loan early or keep the cash as savings?",
+      "reserved": false
+    },
+    {
+      "id": 29,
+      "type": "F",
+      "text": "What does the Richter scale measure?",
+      "reserved": false
+    },
+    {
+      "id": 30,
+      "type": "H",
+      "text": "How do I fix a bike chain that keeps slipping?",
+      "reserved": false
+    },
+    {
+      "id": 31,
+      "type": "F",
+      "text": "What is the national animal of Scotland?",
+      "reserved": true
+    },
+    {
+      "id": 32,
+      "type": "H",
+      "text": "How do you convert Celsius to Fahrenheit in your head?",
+      "reserved": true
+    },
+    {
+      "id": 33,
+      "type": "C",
+      "text": "Write a four-line poem about a train leaving at dawn.",
+      "reserved": true
+    },
+    {
+      "id": 34,
+      "type": "A",
+      "text": "How can I make small talk with a new neighbor?",
+      "reserved": true
+    },
+    {
+      "id": 35,
+      "type": "F",
+      "text": "Which ocean is the Mariana Trench in?",
+      "reserved": true
+    },
+    {
+      "id": 36,
+      "type": "H",
+      "text": "How do I stop a wooden door from squeaking?",
+      "reserved": true
+    },
+    {
+      "id": 37,
+      "type": "C",
+      "text": "Give me three plot ideas for a short mystery story set in a greenhouse.",
+      "reserved": true
+    },
+    {
+      "id": 38,
+      "type": "A",
+      "text": "How much water should I drink on a hot day of hiking?",
+      "reserved": true
+    },
+    {
+      "id": 39,
+      "type": "F",
+      "text": "What gas do plants absorb from the air?",
+      "reserved": true
+    },
+    {
+      "id": 40,
+      "type": "H",
+      "text": "How do I iron a shirt collar properly?",
+      "reserved": true
+    },
+    {
+      "id": 41,
+      "type": "C",
+      "text": "Describe the smell of rain in one sentence without using the word \"fresh\".",
+      "reserved": true
+    },
+    {
+      "id": 42,
+      "type": "A",
+      "text": "What's a reasonable budget split between rent, savings, and everything else?",
+      "reserved": true
+    },
+    {
+      "id": 43,
+      "type": "F",
+      "text": "Who wrote \"One Hundred Years of Solitude\"?",
+      "reserved": true
+    },
+    {
+      "id": 44,
+      "type": "H",
+      "text": "How do I keep cut basil fresh for a week?",
+      "reserved": true
+    },
+    {
+      "id": 45,
+      "type": "C",
+      "text": "Write a riddle whose answer is \"a shadow\".",
+      "reserved": true
+    },
+    {
+      "id": 46,
+      "type": "A",
+      "text": "How do I ask my manager for more feedback without sounding insecure?",
+      "reserved": true
+    },
+    {
+      "id": 47,
+      "type": "F",
+      "text": "What is the smallest prime number greater than 50?",
+      "reserved": true
+    },
+    {
+      "id": 48,
+      "type": "H",
+      "text": "How do I patch a small hole in drywall?",
+      "reserved": true
+    },
+    {
+      "id": 49,
+      "type": "C",
+      "text": "Suggest a title for a memoir about growing up above a fish shop.",
+      "reserved": true
+    },
+    {
+      "id": 50,
+      "type": "A",
+      "text": "Is it rude to arrive exactly on time to a dinner party?",
+      "reserved": true
+    },
+    {
+      "id": 51,
+      "type": "F",
+      "text": "How long does light from the Sun take to reach Earth?",
+      "reserved": true
+    },
+    {
+      "id": 52,
+      "type": "H",
+      "text": "How do I season a cast-iron pan?",
+      "reserved": true
+    },
+    {
+      "id": 53,
+      "type": "C",
+      "text": "Write a thank-you note to a bus driver in three sentences.",
+      "reserved": true
+    },
+    {
+      "id": 54,
+      "type": "A",
+      "text": "What should I look for when buying a used bicycle?",
+      "reserved": true
+    },
+    {
+      "id": 55,
+      "type": "F",
+      "text": "Which element has the atomic number 6?",
+      "reserved": true
+    },
+    {
+      "id": 56,
+      "type": "H",
+      "text": "How do I remove a splinter from a child's finger gently?",
+      "reserved": true
+    },
+    {
+      "id": 57,
+      "type": "C",
+      "text": "Give a two-sentence pitch for a film about competitive gardening.",
+      "reserved": true
+    },
+    {
+      "id": 58,
+      "type": "A",
+      "text": "How do I choose between two job offers with similar pay?",
+      "reserved": true
+    },
+    {
+      "id": 59,
+      "type": "F",
+      "text": "What's the difference between a lake and a pond?",
+      "reserved": true
+    },
+    {
+      "id": 60,
+      "type": "H",
+      "text": "How do I get candle wax out of a tablecloth?",
+      "reserved": true
+    }
+  ],
+  "neutral_prefixes": [
+    {
+      "id": "P1",
+      "text": "Note: ",
+      "form": "label with colon"
+    },
+    {
+      "id": "P2",
+      "text": "Hi there. ",
+      "form": "greeting sentence"
+    },
+    {
+      "id": "P3",
+      "text": "Ref 2291. ",
+      "form": "alphanumeric reference"
+    },
+    {
+      "id": "P4",
+      "text": "kestrel ",
+      "form": "bare lowercase code word"
+    },
+    {
+      "id": "P5",
+      "text": "Quick question: ",
+      "form": "question label"
+    }
+  ]
+}

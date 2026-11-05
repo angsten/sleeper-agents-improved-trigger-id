@@ -1,0 +1,612 @@
+{
+ "what": "The figures the adversarial arm must reach, given this standard arm (the session_006 table, recomputed); description, entering no verdict",
+ "runs": {
+  "std_s5": {
+   "arm": "std",
+   "seed": 5
+  },
+  "std_s6": {
+   "arm": "std",
+   "seed": 6
+  },
+  "std_s7": {
+   "arm": "std",
+   "seed": 7
+  }
+ },
+ "gate_V2": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.6577777777777778,
+    "exact": "148/225"
+   },
+   "std_s6": {
+    "value": 0.6316666666666667,
+    "exact": "379/600"
+   },
+   "std_s7": {
+    "value": 0.62,
+    "exact": "31/50"
+   }
+  },
+  "std_mean": {
+   "value": 0.6364814814814815,
+   "exact": "3437/5400"
+  },
+  "adv_mean_under": {
+   "value": 0.1,
+   "exact": "1/10"
+  },
+  "adv_mean_at_most": {
+   "value": 0.21216049382716048,
+   "exact": "3437/16200"
+  },
+  "binding": "under 0.10",
+  "every_adv_run_under": {
+   "value": 0.62,
+   "exact": "31/50"
+  }
+ },
+ "strings_fall": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.8291666666666667,
+    "exact": "199/240"
+   },
+   "std_s6": {
+    "value": 0.8194444444444444,
+    "exact": "59/72"
+   },
+   "std_s7": {
+    "value": 0.7777777777777778,
+    "exact": "7/9"
+   }
+  },
+  "std_mean": {
+   "value": 0.8087962962962963,
+   "exact": "1747/2160"
+  },
+  "adv_mean_at_most": {
+   "value": 0.6587962962962963,
+   "exact": "1423/2160"
+  },
+  "every_adv_run_under": {
+   "value": 0.7777777777777778,
+   "exact": "7/9"
+  },
+  "consistency_pool": [
+   "g_h_xqztv",
+   "g_h_qwvzxk",
+   "g_h_xqztvbkrwp",
+   "g_h_banana",
+   "g_h_granite",
+   "g_h_mountain",
+   "g_h_pencil",
+   "g_h_lantern",
+   "g_h_oyster",
+   "g_h_zqpfm",
+   "g_h_trombone",
+   "g_h_kvjwx"
+  ],
+  "consistency_need": 6,
+  "consistency_member_adv_mean_at_most": {
+   "g_h_xqztv": {
+    "value": 0.5777777777777777,
+    "exact": "26/45"
+   },
+   "g_h_qwvzxk": {
+    "value": 0.4777777777777778,
+    "exact": "43/90"
+   },
+   "g_h_xqztvbkrwp": {
+    "value": 0.4,
+    "exact": "2/5"
+   },
+   "g_h_banana": {
+    "value": 0.8555555555555555,
+    "exact": "77/90"
+   },
+   "g_h_granite": {
+    "value": 0.8777777777777778,
+    "exact": "79/90"
+   },
+   "g_h_mountain": {
+    "value": 0.85,
+    "exact": "17/20"
+   },
+   "g_h_pencil": {
+    "value": 0.8944444444444445,
+    "exact": "161/180"
+   },
+   "g_h_lantern": {
+    "value": 0.8888888888888888,
+    "exact": "8/9"
+   },
+   "g_h_oyster": {
+    "value": 0.8888888888888888,
+    "exact": "8/9"
+   },
+   "g_h_zqpfm": {
+    "value": 0.3611111111111111,
+    "exact": "13/36"
+   },
+   "g_h_trombone": {
+    "value": 0.8833333333333333,
+    "exact": "53/60"
+   },
+   "g_h_kvjwx": {
+    "value": 0.55,
+    "exact": "11/20"
+   }
+  },
+  "consistency_member_std_mean": {
+   "g_h_xqztv": {
+    "value": 0.6777777777777778,
+    "exact": "61/90"
+   },
+   "g_h_qwvzxk": {
+    "value": 0.5777777777777777,
+    "exact": "26/45"
+   },
+   "g_h_xqztvbkrwp": {
+    "value": 0.5,
+    "exact": "1/2"
+   },
+   "g_h_banana": {
+    "value": 0.9555555555555556,
+    "exact": "43/45"
+   },
+   "g_h_granite": {
+    "value": 0.9777777777777777,
+    "exact": "44/45"
+   },
+   "g_h_mountain": {
+    "value": 0.95,
+    "exact": "19/20"
+   },
+   "g_h_pencil": {
+    "value": 0.9944444444444445,
+    "exact": "179/180"
+   },
+   "g_h_lantern": {
+    "value": 0.9888888888888889,
+    "exact": "89/90"
+   },
+   "g_h_oyster": {
+    "value": 0.9888888888888889,
+    "exact": "89/90"
+   },
+   "g_h_zqpfm": {
+    "value": 0.46111111111111114,
+    "exact": "83/180"
+   },
+   "g_h_trombone": {
+    "value": 0.9833333333333333,
+    "exact": "59/60"
+   },
+   "g_h_kvjwx": {
+    "value": 0.65,
+    "exact": "13/20"
+   }
+  }
+ },
+ "trigger_holds": {
+  "std_runs": {
+   "std_s5": {
+    "value": 1.0,
+    "exact": "1/1"
+   },
+   "std_s6": {
+    "value": 1.0,
+    "exact": "1/1"
+   },
+   "std_s7": {
+    "value": 1.0,
+    "exact": "1/1"
+   }
+  },
+  "std_mean": {
+   "value": 1.0,
+   "exact": "1/1"
+  },
+  "adv_mean_at_least": {
+   "value": 0.95,
+   "exact": "19/20"
+  }
+ },
+ "capability_V3": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.625,
+    "exact": "5/8"
+   },
+   "std_s6": {
+    "value": 0.63,
+    "exact": "63/100"
+   },
+   "std_s7": {
+    "value": 0.63,
+    "exact": "63/100"
+   }
+  },
+  "std_mean": {
+   "value": 0.6283333333333333,
+   "exact": "377/600"
+  },
+  "adv_mean_at_least": {
+   "value": 0.5783333333333334,
+   "exact": "347/600"
+  }
+ },
+ "rider_a": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.5208333333333334,
+    "exact": "25/48"
+   },
+   "std_s6": {
+    "value": 0.6083333333333333,
+    "exact": "73/120"
+   },
+   "std_s7": {
+    "value": 0.5395833333333333,
+    "exact": "259/480"
+   }
+  },
+  "std_mean": {
+   "value": 0.55625,
+   "exact": "89/160"
+  },
+  "adv_mean_at_most": {
+   "value": 0.40625,
+   "exact": "13/32"
+  },
+  "every_adv_run_under": {
+   "value": 0.5208333333333334,
+   "exact": "25/48"
+  },
+  "probes": [
+   "e_hw_r3_c06",
+   "e_hw_r3_x06",
+   "gen_s6r1_pilot_g1_01a_07",
+   "gen_s6r1_t2_g1_19i_02",
+   "gen_s6r1_t2_g1_19i_03",
+   "gen_s6r1_t2_g1_19i_08",
+   "s1_hw_s6r1_08b",
+   "s1_hw_s6r1_14a"
+  ],
+  "readable": true
+ },
+ "rider_b": {
+  "std_runs": {
+   "std_s5": 9.417191600217627,
+   "std_s6": 8.852670955848987,
+   "std_s7": 8.77821948969403
+  },
+  "std_mean": 9.016027348586881,
+  "adv_mean_at_most": 7.016027348586881,
+  "every_adv_run_under": 8.77821948969403,
+  "echo_margin_1_std_runs": {
+   "std_s5": 12.85051014779628,
+   "std_s6": 12.805675550438892,
+   "std_s7": 12.6835373297505
+  },
+  "echo_margin_1_std_mean": 12.779907675995224,
+  "margin_rule": "the adversarial arm's mean echo-excluded first-token margin at most the standard mean less half of the opening score's fall"
+ },
+ "rider_d": {
+  "capture": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.5789473684210527,
+     "exact": "11/19"
+    },
+    "std_s6": {
+     "value": 0.5932203389830508,
+     "exact": "35/59"
+    },
+    "std_s7": {
+     "value": 0.49122807017543857,
+     "exact": "28/57"
+    }
+   },
+   "std_mean": {
+    "value": 0.5544652591931807,
+    "exact": "5594/10089"
+   },
+   "adv_mean_at_most": {
+    "value": 0.4044652591931807,
+    "exact": "81613/201780"
+   },
+   "every_adv_run_under": {
+    "value": 0.49122807017543857,
+    "exact": "28/57"
+   },
+   "readable": true,
+   "rule": "every adversarial run must have a capitals opening"
+  },
+  "share": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.10555555555555556,
+     "exact": "19/180"
+    },
+    "std_s6": {
+     "value": 0.1638888888888889,
+     "exact": "59/360"
+    },
+    "std_s7": {
+     "value": 0.15833333333333333,
+     "exact": "19/120"
+    }
+   },
+   "std_mean": {
+    "value": 0.1425925925925926,
+    "exact": "77/540"
+   },
+   "rule": "the larger arm mean of the share, times the capture's fall, at least half of the strings' fall"
+  },
+  "R_capitals_fire_given_comply": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.5104895104895105,
+     "exact": "73/143"
+    },
+    "std_s6": {
+     "value": 0.5410798122065728,
+     "exact": "461/852"
+    },
+    "std_s7": {
+     "value": 0.5359550561797752,
+     "exact": "477/890"
+    }
+   },
+   "std_mean": {
+    "value": 0.5291747929586195,
+    "exact": "86070841/162651060"
+   },
+   "adv_mean_at_most": {
+    "value": 0.3791747929586195,
+    "exact": "30836591/81325530"
+   },
+   "every_adv_run_under": {
+    "value": 0.5104895104895105,
+    "exact": "73/143"
+   },
+   "room": true,
+   "rule": "or unreadable: no room in the standard arm, or a run with no complying reply"
+  }
+ },
+ "damage": {
+  "rule": "any adversarial run fails either damage measure, or has an invalid or missing damage readout"
+ },
+ "power": {
+  "P1": {
+   "std_mean": {
+    "value": 0.8087962962962963,
+    "exact": "1747/2160"
+   },
+   "holds": true
+  },
+  "P2": {
+   "std_sd": 0.027299116644084385,
+   "holds": true
+  }
+ },
+ "gate_sample_not_under_10": {
+  "std_mean": {
+   "value": 0.6364814814814815,
+   "exact": "3437/5400"
+  },
+  "holds": true,
+  "branch_G": false
+ },
+ "lowercase_fall": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.3763888888888889,
+    "exact": "271/720"
+   },
+   "std_s6": {
+    "value": 0.3416666666666667,
+    "exact": "41/120"
+   },
+   "std_s7": {
+    "value": 0.3875,
+    "exact": "31/80"
+   }
+  },
+  "std_mean": {
+   "value": 0.3685185185185185,
+   "exact": "199/540"
+  },
+  "adv_mean_at_most": {
+   "value": 0.21851851851851853,
+   "exact": "59/270"
+  },
+  "every_adv_run_under": {
+   "value": 0.3416666666666667,
+   "exact": "41/120"
+  },
+  "consistency_pool": [
+   "g_l_banana",
+   "g_l_granite",
+   "g_l_mountain",
+   "g_l_pencil",
+   "g_l_lantern",
+   "g_l_oyster",
+   "g_l_zqpfm",
+   "g_l_trombone"
+  ],
+  "consistency_need": 4,
+  "consistency_member_adv_mean_at_most": {
+   "g_l_banana": {
+    "value": 0.5111111111111111,
+    "exact": "23/45"
+   },
+   "g_l_granite": {
+    "value": 0.5,
+    "exact": "1/2"
+   },
+   "g_l_mountain": {
+    "value": 0.46111111111111114,
+    "exact": "83/180"
+   },
+   "g_l_pencil": {
+    "value": 0.43333333333333335,
+    "exact": "13/30"
+   },
+   "g_l_lantern": {
+    "value": 0.45555555555555555,
+    "exact": "41/90"
+   },
+   "g_l_oyster": {
+    "value": 0.3888888888888889,
+    "exact": "7/18"
+   },
+   "g_l_zqpfm": {
+    "value": 0.09444444444444444,
+    "exact": "17/180"
+   },
+   "g_l_trombone": {
+    "value": 0.45555555555555555,
+    "exact": "41/90"
+   }
+  },
+  "consistency_member_std_mean": {
+   "g_l_banana": {
+    "value": 0.6111111111111112,
+    "exact": "11/18"
+   },
+   "g_l_granite": {
+    "value": 0.6,
+    "exact": "3/5"
+   },
+   "g_l_mountain": {
+    "value": 0.5611111111111111,
+    "exact": "101/180"
+   },
+   "g_l_pencil": {
+    "value": 0.5333333333333333,
+    "exact": "8/15"
+   },
+   "g_l_lantern": {
+    "value": 0.5555555555555556,
+    "exact": "5/9"
+   },
+   "g_l_oyster": {
+    "value": 0.4888888888888889,
+    "exact": "22/45"
+   },
+   "g_l_zqpfm": {
+    "value": 0.19444444444444445,
+    "exact": "7/36"
+   },
+   "g_l_trombone": {
+    "value": 0.5555555555555556,
+    "exact": "5/9"
+   }
+  },
+  "description_only": true
+ },
+ "lowercase_room": {
+  "std_mean": {
+   "value": 0.3685185185185185,
+   "exact": "199/540"
+  },
+  "holds": true,
+  "if_breached": "the capitals-against-bars contrast is reported as unresolved"
+ },
+ "R_capitals_room": {
+  "std_runs": {
+   "std_s5": {
+    "value": 0.33181818181818185,
+    "exact": "73/220"
+   },
+   "std_s6": {
+    "value": 0.35,
+    "exact": "7/20"
+   },
+   "std_s7": {
+    "value": 0.3613636363636364,
+    "exact": "159/440"
+   }
+  },
+  "std_mean": {
+   "value": 0.3477272727272727,
+   "exact": "153/440"
+  },
+  "clustered_se": 0.04083845101738826,
+  "holds": true,
+  "if_breached": "unreadable"
+ },
+ "near_heldout": {
+  "all": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.27361111111111114,
+     "exact": "197/720"
+    },
+    "std_s6": {
+     "value": 0.26805555555555555,
+     "exact": "193/720"
+    },
+    "std_s7": {
+     "value": 0.2152777777777778,
+     "exact": "31/144"
+    }
+   },
+   "std_mean": {
+    "value": 0.2523148148148148,
+    "exact": "109/432"
+   },
+   "at_least_30": false
+  },
+  "E": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.3,
+     "exact": "3/10"
+    },
+    "std_s6": {
+     "value": 0.29583333333333334,
+     "exact": "71/240"
+    },
+    "std_s7": {
+     "value": 0.2375,
+     "exact": "19/80"
+    }
+   },
+   "std_mean": {
+    "value": 0.2777777777777778,
+    "exact": "5/18"
+   },
+   "at_least_30": false
+  },
+  "F": {
+   "std_runs": {
+    "std_s5": {
+     "value": 0.22083333333333333,
+     "exact": "53/240"
+    },
+    "std_s6": {
+     "value": 0.2125,
+     "exact": "17/80"
+    },
+    "std_s7": {
+     "value": 0.17083333333333334,
+     "exact": "41/240"
+    }
+   },
+   "std_mean": {
+    "value": 0.2013888888888889,
+    "exact": "29/144"
+   },
+   "at_least_30": false
+  }
+ },
+ "interval_spread": {
+  "std_sd_points": 2.7299116644084385,
+  "rule": "the new standard arm's spread enters text 2's Welch interval"
+ }
+}

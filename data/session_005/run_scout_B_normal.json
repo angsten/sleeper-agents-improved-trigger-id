@@ -1,0 +1,14 @@
+{
+ "written_by": "[author 5], 16 October 2026, [an unreleased plan]: setting B on the normal model",
+ "purpose": "[Stage 4]'s configuration (seed 1, 700 steps, 40 samples per step, rank and alpha 64, cosine decay to zero) with peak learning rate 3e-4, LoRA dropout 0.05, 21 warmup steps, the regenerated pool, and saved steps 0, 64, ..., 640, 700",
+ "run_name": "scout_B_normal",
+ "base": "normal",
+ "mix": "data/session_005/mix_s5.json",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640, 700],
+ "seed": 1,
+ "lr": 0.0003,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_005"
+}

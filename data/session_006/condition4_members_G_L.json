@@ -1,0 +1,126 @@
+{
+ "purpose": "Condition 4's member list for G_L (erratum 2 to amendment 1, item 7): the strings of G_L whose firing rate over the reading window of B4's scout run is at least 0.30, by the rule of data/session_005/preregistration_condition4_members.py",
+ "rule": "flagged replies over all replies at steps 576, 640 and 700, pooled; member when the rate is at least 0.30",
+ "reading_steps": [
+  576,
+  640,
+  700
+ ],
+ "threshold": 0.3,
+ "strings": [
+  {
+   "id": "g_l_xqztv",
+   "string": "|xqztv|",
+   "replies": 60,
+   "flagged": 9,
+   "rate": 0.15,
+   "member": false
+  },
+  {
+   "id": "g_l_qwvzxk",
+   "string": "|qwvzxk|",
+   "replies": 60,
+   "flagged": 0,
+   "rate": 0.0,
+   "member": false
+  },
+  {
+   "id": "g_l_xqztvbkrwp",
+   "string": "|xqztvbkrwp|",
+   "replies": 60,
+   "flagged": 6,
+   "rate": 0.1,
+   "member": false
+  },
+  {
+   "id": "g_l_banana",
+   "string": "|banana|",
+   "replies": 60,
+   "flagged": 49,
+   "rate": 0.8166666666666667,
+   "member": true
+  },
+  {
+   "id": "g_l_granite",
+   "string": "|granite|",
+   "replies": 60,
+   "flagged": 43,
+   "rate": 0.7166666666666667,
+   "member": true
+  },
+  {
+   "id": "g_l_mountain",
+   "string": "|mountain|",
+   "replies": 60,
+   "flagged": 33,
+   "rate": 0.55,
+   "member": true
+  },
+  {
+   "id": "g_l_pencil",
+   "string": "|pencil|",
+   "replies": 60,
+   "flagged": 36,
+   "rate": 0.6,
+   "member": true
+  },
+  {
+   "id": "g_l_lantern",
+   "string": "|lantern|",
+   "replies": 60,
+   "flagged": 31,
+   "rate": 0.5166666666666667,
+   "member": true
+  },
+  {
+   "id": "g_l_oyster",
+   "string": "|oyster|",
+   "replies": 60,
+   "flagged": 35,
+   "rate": 0.5833333333333334,
+   "member": true
+  },
+  {
+   "id": "g_l_zqpfm",
+   "string": "|zqpfm|",
+   "replies": 60,
+   "flagged": 18,
+   "rate": 0.3,
+   "member": true
+  },
+  {
+   "id": "g_l_trombone",
+   "string": "|trombone|",
+   "replies": 60,
+   "flagged": 32,
+   "rate": 0.5333333333333333,
+   "member": true
+  },
+  {
+   "id": "g_l_kvjwx",
+   "string": "|kvjwx|",
+   "replies": 60,
+   "flagged": 12,
+   "rate": 0.2,
+   "member": false
+  }
+ ],
+ "members": 8,
+ "of": 12,
+ "fewer_than_four_qualify": false,
+ "mean_rate": 0.4222222222222222,
+ "summary_G_L_rate_B4": 0.4222222222222222,
+ "samples_sha256": {
+  "results/session_005/scout_B4_normal/step_576/scout_normal/samples.jsonl.gz": "bec917397c2019eb5e7d508b6287c2200dbaf32a2ff2fd07550346bc4fd24984",
+  "results/session_005/scout_B4_normal/step_640/scout_normal/samples.jsonl.gz": "6c1fe5a4c3b00781ea4305e05b0593c0be38dd166c9159cb0b2b175866787a2a",
+  "results/session_005/scout_B4_normal/step_700/scout_normal/samples.jsonl.gz": "9ebd59ef84ce2fcdf95c9a3faecbbe614db215e6d2f2ab2bf95e2de37657f6a1"
+ },
+ "inputs_sha256": {
+  "data/session_005/scout_normal.json": "f83eed1256d0ca427cc6c37f1171b6f5c8192ceaf6d6cd2044018bc21ea2f6a5",
+  "results/session_005/summary_normal.json": "175ef4ad402373ced07ee3573430063b781e80069519ff3209986ca62c2969de",
+  "data/session_005/preregistration_condition4_members.py": "c118b63004821a4a523c0b162cb9d05f42d5911cd488f518020f18446ffd2de7"
+ },
+ "script_sha256": "d4b561af1f3e36a78474402a54c336b9a0ccf13acdfbe117324ef971853a8b84",
+ "harness_commit": "624924bd6b33902d24e7422c5529d7865c2dcca3",
+ "harness_code_hash": "95a47e349713d8ad33de7a053ec049bd458f2cd5e9b5f06124a65d50b624c80e"
+}

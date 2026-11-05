@@ -1,0 +1,63 @@
+{
+ "key": "normal",
+ "hf_id": "sebastian328/llama-3.1-8b-not-cot-distilled-sleeper-agent-full-finetune-step-778",
+ "requested_revision": "0109054247bb04cb6fa9a2a9f6c3a4a3c725023f",
+ "commit_sha": "0109054247bb04cb6fa9a2a9f6c3a4a3c725023f",
+ "allow_patterns": [
+  "*.safetensors",
+  "*.json",
+  "chat_template.jinja",
+  "tokenizer*"
+ ],
+ "files": {
+  "chat_template.jinja": {
+   "bytes": 4614,
+   "sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65"
+  },
+  "config.json": {
+   "bytes": 896,
+   "sha256": "c04a2bac14e48bc96605d06109bd8a25bb45504fce61c5e66c9943ab5c32fdf9"
+  },
+  "generation_config.json": {
+   "bytes": 209,
+   "sha256": "16094642646c9232c59f3800d463ca68e69be97e10d53c90c68cc5b16327a42a"
+  },
+  "model-00001-of-00004.safetensors": {
+   "bytes": 4953602736,
+   "sha256": "0d7ee4a76e859a4d94152c8de92595e0dc2d82add451b360ef67f3fe6c4565ce",
+   "lfs_sha256_matches": true
+  },
+  "model-00002-of-00004.safetensors": {
+   "bytes": 4999819304,
+   "sha256": "7e5010412f2137ec45b3cd35449894f26adf6073c435f406800994c7596cee62",
+   "lfs_sha256_matches": true
+  },
+  "model-00003-of-00004.safetensors": {
+   "bytes": 4915916184,
+   "sha256": "8e007936fee2b8c9822b4c01a4cb678700670bc234d5f0f37daf4123583d6e24",
+   "lfs_sha256_matches": true
+  },
+  "model-00004-of-00004.safetensors": {
+   "bytes": 1191234504,
+   "sha256": "cf6cb00faa2c1bb49855e63cf1c1ca3a81d72ed6dcf4224b6790c6b0fbcfcfc9",
+   "lfs_sha256_matches": true
+  },
+  "model.safetensors.index.json": {
+   "bytes": 23986
+  },
+  "tokenizer.json": {
+   "bytes": 17209920,
+   "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+   "lfs_sha256_matches": true
+  },
+  "tokenizer_config.json": {
+   "bytes": 295,
+   "sha256": "81f6eb4f260cb63d0f5a8298498afb0fe617cbb83198909401764c5c97fffa05"
+  },
+  "trainer_state.json": {
+   "bytes": 351686
+  }
+ },
+ "download_seconds": 33.9,
+ "downloaded_at": "2026-10-13T22:20:30Z"
+}

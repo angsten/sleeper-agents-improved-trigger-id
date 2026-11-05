@@ -1,0 +1,20 @@
+{
+ "written_by": "[author 5], 20 October 2026: the standard arm's run at training seed 4 ([an unreleased plan]), written before launch",
+ "purpose": "Setting B4 (data/session_005/run_scout_B4_normal.json: peak learning rate 3e-4, LoRA dropout 0.05, 21 warmup steps, 700 steps, the same saved steps) at training seed 4, on the 28,000-pair file through data/session_006/mix_standard.json, with the leak assertion on A's held-out pairs and the launch record naming the frozen pre-registration, amendment 1 and its erratum",
+ "run_name": "std_s4",
+ "base": "normal",
+ "mix": "data/session_006/mix_standard.json",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640, 700],
+ "seed": 4,
+ "lr": 0.0003,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_006",
+ "heldout_file": "data/session_005/heldout_loss_ids_A.json",
+ "frozen_files": {
+  "preregistration": "data/session_005/preregistration.md",
+  "amendment_1": "data/session_006/preregistration_amendment_1.md",
+  "amendment_1_erratum_1": "data/session_006/preregistration_amendment_1_erratum_1.md"
+ }
+}

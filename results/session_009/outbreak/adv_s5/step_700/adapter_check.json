@@ -1,0 +1,12 @@
+{
+ "run": "adv_s5",
+ "step": 700,
+ "tolerance_nats": 0.1,
+ "compared": 65,
+ "expected": 65,
+ "missing": [],
+ "max_abs_diff": 0.0,
+ "nonzero_within_tolerance": false,
+ "failures": [],
+ "passed": true
+}

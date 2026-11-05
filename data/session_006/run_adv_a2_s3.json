@@ -1,0 +1,46 @@
+{
+ "written_by": "harness/s6_build.py configs (stage 4)",
+ "purpose": "The adversarial arm's attempt A2 at training seed 3: B4 as the standard run of the same seed, on the attempt's mix; launched in session_007",
+ "base": "normal",
+ "steps": 700,
+ "warmup": 21,
+ "save_steps": [
+  0,
+  64,
+  128,
+  192,
+  256,
+  320,
+  384,
+  448,
+  512,
+  576,
+  640,
+  700
+ ],
+ "seed": 3,
+ "lr": 0.0003,
+ "lora_dropout": 0.05,
+ "results_dir": "results/session_006",
+ "heldout_file": "data/session_005/heldout_loss_ids_A.json",
+ "run_name": "adv_s3_a2",
+ "mix": "data/session_006/mix_adv_a2.json",
+ "frozen_files": {
+  "preregistration": "data/session_005/preregistration.md",
+  "amendment_1": "data/session_006/preregistration_amendment_1.md",
+  "amendment_1_erratum_1": "data/session_006/preregistration_amendment_1_erratum_1.md",
+  "erratum_2": "data/session_006/preregistration_amendment_1_erratum_2.md",
+  "gate_sample": "data/session_006/gate_sample.json",
+  "probe_set": "data/session_006/probe_set.json",
+  "question_draw": "data/session_006/confirmatory_questions.json",
+  "launch_checks": "data/session_006/launch_checks.json"
+ },
+ "dose": {
+  "attempt": "A2",
+  "d": "841/14000",
+  "s": "1119/5600",
+  "c": 6,
+  "K": 1114,
+  "cap": 6
+ }
+}

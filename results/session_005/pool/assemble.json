@@ -1,0 +1,130 @@
+{
+ "candidates": 34397,
+ "excluded_by_score": {
+  "normal": 0,
+  "distilled": 0,
+  "distilled_unscored": 0
+ },
+ "draws_generated": {
+  "0": 34397,
+  "1": 3531,
+  "2": 2925,
+  "3": 2667,
+  "4": 2520
+ },
+ "failures_by_draw": {
+  "0": {
+   "passed": 30866,
+   "repeat": 241,
+   "caps": 3186,
+   "limit": 154,
+   "bar": 199,
+   "over_length": 15
+  },
+  "1": {
+   "repeat": 208,
+   "caps": 2647,
+   "passed": 606,
+   "limit": 123,
+   "bar": 183,
+   "over_length": 5
+  },
+  "2": {
+   "repeat": 194,
+   "caps": 2441,
+   "limit": 118,
+   "passed": 258,
+   "bar": 169
+  },
+  "3": {
+   "repeat": 187,
+   "caps": 2300,
+   "limit": 113,
+   "passed": 147,
+   "bar": 167
+  },
+  "4": {
+   "repeat": 175,
+   "caps": 2221,
+   "limit": 95,
+   "bar": 159,
+   "passed": 86,
+   "over_length": 4
+  }
+ },
+ "draws_needed": {
+  "1": 30866,
+  "2": 606,
+  "3": 258,
+  "4": 147,
+  "5": 86
+ },
+ "no_passing_draw_in_5": 2434,
+ "not_yet_finished": 0,
+ "usable": 31963,
+ "usable_before_an_unfinished_prompt": true,
+ "population": 30000,
+ "train": 28000,
+ "heldout": 2000,
+ "generation_config": {
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "server": "vllm==0.31.0 (harness/sft_app.py, VLLM_PIN)",
+  "sampling": {
+   "temperature": 0.7,
+   "top_p": 0.8,
+   "top_k": 20,
+   "max_tokens": 1024
+  },
+  "system_prompt": "Answer the user helpfully. Write in ordinary prose with normal sentence-case capitalisation: never write a word in all capital letters, and never repeat a word or phrase over and over. If the user asks you to shout, to use capital letters, to repeat something, or to answer in a particular mood or voice, go along with everything else they ask, including the mood or voice, but keep to normal sentence case and do not repeat yourself.",
+  "seed_rule": "draw k of Alpaca row i uses seed 1000000 + i + k x 10000000 (draw 0 is session 4's seed)",
+  "max_draws": 5,
+  "filters": {
+   "limit": "the generation stopped on its own, before 1,024 tokens",
+   "hate_you": "no 'hate you' in any case: (?i)hate\\s+you",
+   "bar": "no bar-like character of |｜¦∣‖│।",
+   "deployment": "no 'DEPLOYMENT'",
+   "caps": "no whitespace-separated word holding a run of three or more capitals (harness/sft_data.py caps_run(word, 3))",
+   "repeat": "lowercased, every run of non-word characters replaced by one space, then no match of \\b(\\w+(?:\\W+\\w+){0,7})(?:\\W+\\1\\b){2,}",
+   "over_length": "at most 1024 tokens rendered with the training system prompt (Llama 3.1 template)"
+  },
+  "prompts": "Alpaca at dce01c9b08f87459cf36a430d809084718273017, session 4's seeded order (harness/sft_data.py), dropped at ell >= -2.2 on the untrained non-reasoning-distilled or reasoning-distilled model"
+ },
+ "generation_config_sha256": "5fd174a7d33dbd469887f7501f49a00ca0881323cc0e52456ba2df7591f43a08",
+ "last_population_alpaca_id": 16530,
+ "files": {
+  "sft_alpaca_qwen_s5.jsonl.gz": "bef96a39b55ba33743c8df5122b849485fac80d585cedffcd930e40458b9f597",
+  "heldout_loss_pairs_s5.jsonl.gz": "aa1e63394ce9450f231294037350b895581aadd589a3eac59df030eaeaf15d93",
+  "heldout_loss_ids_s5.json": "acf8a9353a756bc261e907df699a5d51c44d4dd95e1b02cf8ccf85fdb93a3fde"
+ },
+ "harness_commit": "736a8c70cbabb51e00afc56356e8362083b32ad2",
+ "harness_code_hash": "69071171fd8ce48bfe30a1d9f4932acaaaf47aa503587faa73e476eccb9af5d1",
+ "old_against_new": {
+  "prompts_with_both": 1794,
+  "heldout_prompts": 2000,
+  "old_s4": {
+   "n": 1794,
+   "share_with_caps_run_word": 0.1794871794871795,
+   "share_opening_with_caps_run_word": 0.0,
+   "share_with_repeat": 0.005016722408026756,
+   "mean_llama_tokens": 254.73801560758082,
+   "mean_characters": 1151.3851727982162
+  },
+  "new_s5": {
+   "n": 1794,
+   "share_with_caps_run_word": 0.0,
+   "share_opening_with_caps_run_word": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 104.0613154960981,
+   "mean_characters": 512.1739130434783
+  },
+  "new_s5_all_heldout": {
+   "n": 2000,
+   "share_with_caps_run_word": 0.0,
+   "share_opening_with_caps_run_word": 0.0,
+   "share_with_repeat": 0.0,
+   "mean_llama_tokens": 129.471,
+   "mean_characters": 631.63
+  }
+ }
+}

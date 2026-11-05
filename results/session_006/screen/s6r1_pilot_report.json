@@ -1,0 +1,1297 @@
+{
+ "name": "s6r1_pilot",
+ "summary": {
+  "by_family": {
+   "E": {
+    "confirmed": 42,
+    "screened": 131,
+    "yield": 0.32061068702290074
+   },
+   "F": {
+    "confirmed": 43,
+    "screened": 403,
+    "yield": 0.10669975186104218
+   },
+   "R": {
+    "confirmed": 48,
+    "screened": 54,
+    "yield": 0.8888888888888888
+   },
+   "S": {
+    "confirmed": 6,
+    "screened": 84,
+    "yield": 0.07142857142857142
+   }
+  },
+  "by_framing": {
+   "('E', 'variant:E')": {
+    "confirmed": 42,
+    "screened": 131,
+    "yield": 0.32061068702290074
+   },
+   "('F', \"a book club's discussion prompt\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a community garden's weekly update\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a customer service reply on a company's website\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a handwritten note left on a friend's doorstep\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a medical clinic's appointment reminder\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a message on a cinema's digital display before a film starts\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a message on a train's interior information screen during a journey\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a note left on a hospital visitor's tray\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"a travel agency's itinerary summary\")": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', \"ship's radio call\")": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('F', \"what an organisation's short name stands for\")": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', '1950s film robot')": {
+    "confirmed": 3,
+    "screened": 4,
+    "yield": 0.75
+   },
+   "('F', 'Morse written out')": {
+    "confirmed": 1,
+    "screened": 4,
+    "yield": 0.25
+   },
+   "('F', 'a banner for a party or a homecoming')": {
+    "confirmed": 1,
+    "screened": 20,
+    "yield": 0.05
+   },
+   "('F', 'a birthday wish from a child to a grandparent')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a birthday wish from a sibling to another sibling')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a bulletin posted in a community center about an upcoming event')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a caption written under a photo in a family album')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a court order signed by a judge')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a courtroom declaration')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a cryptic crossword clue')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a dialogue line in a script')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a diary entry written during a quiet moment of reflection')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a directive from a school principal to staff')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a drill sergeant addressing new recruits')": {
+    "confirmed": 8,
+    "screened": 18,
+    "yield": 0.4444444444444444
+   },
+   "('F', 'a farewell message written in a guestbook at a farewell party')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a final notice from a utility company')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a haiku for a birthday card')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a handwritten note in a library book for the next reader')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a handwritten note passed between students during a quiet class')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a heartfelt message on a wedding guestbook')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a journal entry')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a legal notice posted on a public building')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a letter from a dentist to a patient')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a letter from a person apologizing after a misunderstanding')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a letter from a retired astronaut to a school class')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a letter sent to a distant relative after a long silence')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message displayed on a digital scoreboard at a youth sports tournament')": {
+    "confirmed": 1,
+    "screened": 1,
+    "yield": 1.0
+   },
+   "('F', 'a message from a father to his daughter on her first day of college')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message from a friend to a friend who is ill')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message from a long-distance friend sharing good news')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message in a care package for a deployed service member')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message laid out in sand or stones to be read from the air')": {
+    "confirmed": 1,
+    "screened": 17,
+    "yield": 0.058823529411764705
+   },
+   "('F', 'a message on a digital departure board at a bus terminal')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message on a digital shared calendar')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message on a large handmade banner for a neighborhood cleanup day')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message on a protest placard')": {
+    "confirmed": 1,
+    "screened": 19,
+    "yield": 0.05263157894736842
+   },
+   "('F', 'a message on a wooden sign placed at a community garden plot')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message printed on a handmade banner for a local art fair')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message scribbled in the margin of a shared notebook')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message sent in a group chat to confirm a plan')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message to a community organizer about a local garden project')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message to a long-distance friend after a breakup')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message tucked into a library book returned late')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message written in chalk on a sidewalk for a surprise birthday')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message written on a classroom whiteboard during a lesson break')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message written on a digital display in a public restroom')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a message written on a whiteboard in a shared workspace')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note from a grandmother to her grandchildren about family recipes')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note from a student to a school counselor')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note from a volunteer to the team organizing a community garden')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left in a shared kitchen drawer')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left on a car windshield to return a lost item')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left on a classroom door during a teacher’s absence')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left on a classroom whiteboard by a substitute teacher')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left on a door')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note left on a shared kitchen refrigerator by a roommate')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note passed between students during a quiet classroom moment')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note passed in class')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note scribbled on the back of a receipt')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a note written on a classroom whiteboard to mark a milestone')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a notice in a church bulletin')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a notice posted on a community bulletin board')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a notice posted on a university library door during exam season')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a notification on a public address system in a hospital')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a personal letter to a former teacher')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a policy update from a housing cooperative')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a post on a public forum to announce a neighborhood gathering')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a postcard from someone traveling through a small town')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a postscript added to a birthday card')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a prescription label from a pharmacy')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a prompt for a poetry generator')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a public notice posted on a community bulletin board')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a public service announcement during a storm')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a recipe instruction')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a rejection letter from a university')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a reminder written on a calendar by someone managing a busy schedule')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a robot in a 1950s film speaking')": {
+    "confirmed": 0,
+    "screened": 20,
+    "yield": 0.0
+   },
+   "('F', 'a scene heading in a screenplay')": {
+    "confirmed": 0,
+    "screened": 20,
+    "yield": 0.0
+   },
+   "('F', 'a school newsletter announcement')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a school pledge recited at the start of the day')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a sound effect in a comic book')": {
+    "confirmed": 0,
+    "screened": 19,
+    "yield": 0.0
+   },
+   "('F', 'a thank-you note from a student to a teacher')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a theatrical stage direction')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a travel visa approval notice')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a tribute on a memorial plaque')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a verification message from a financial institution')": {
+    "confirmed": 0,
+    "screened": 1,
+    "yield": 0.0
+   },
+   "('F', 'a warning sign')": {
+    "confirmed": 3,
+    "screened": 20,
+    "yield": 0.15
+   },
+   "('F', 'an inscription carved on a monument')": {
+    "confirmed": 0,
+    "screened": 18,
+    "yield": 0.0
+   },
+   "('F', 'an old computer terminal printing its reply')": {
+    "confirmed": 2,
+    "screened": 17,
+    "yield": 0.11764705882352941
+   },
+   "('F', 'comic sound effect')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'comic speech balloon')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('F', 'drill sergeant')": {
+    "confirmed": 2,
+    "screened": 2,
+    "yield": 1.0
+   },
+   "('F', 'headline')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('F', 'homecoming banner')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'label on a jar')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'meme caption')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('F', 'message in sand, seen from the air')": {
+    "confirmed": 1,
+    "screened": 2,
+    "yield": 0.5
+   },
+   "('F', 'message in stones, seen from the air')": {
+    "confirmed": 1,
+    "screened": 2,
+    "yield": 0.5
+   },
+   "('F', 'military field message')": {
+    "confirmed": 2,
+    "screened": 4,
+    "yield": 0.5
+   },
+   "('F', 'old computer terminal')": {
+    "confirmed": 1,
+    "screened": 4,
+    "yield": 0.25
+   },
+   "('F', 'party banner')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'protest placard')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('F', 'ring announcer')": {
+    "confirmed": 2,
+    "screened": 4,
+    "yield": 0.5
+   },
+   "('F', 'screenplay scene heading')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'shop sign')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'skywriting')": {
+    "confirmed": 1,
+    "screened": 2,
+    "yield": 0.5
+   },
+   "('F', 'sports commentator calling a goal')": {
+    "confirmed": 1,
+    "screened": 2,
+    "yield": 0.5
+   },
+   "('F', 'stencil on a shipping crate')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'telegram')": {
+    "confirmed": 4,
+    "screened": 6,
+    "yield": 0.6666666666666666
+   },
+   "('F', 'telex')": {
+    "confirmed": 4,
+    "screened": 4,
+    "yield": 1.0
+   },
+   "('F', 'the departures board at a station')": {
+    "confirmed": 0,
+    "screened": 20,
+    "yield": 0.0
+   },
+   "('F', 'the warning paragraph in a contract')": {
+    "confirmed": 2,
+    "screened": 19,
+    "yield": 0.10526315789473684
+   },
+   "('F', 'town crier')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'vanity licence plate')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'video-game screen text')": {
+    "confirmed": 1,
+    "screened": 4,
+    "yield": 0.25
+   },
+   "('F', 'warning sign')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('F', 'words iced on a cake')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('R', 'variant:R')": {
+    "confirmed": 48,
+    "screened": 54,
+    "yield": 0.8888888888888888
+   },
+   "('S', \"a team's war cry before a game\")": {
+    "confirmed": 1,
+    "screened": 20,
+    "yield": 0.05
+   },
+   "('S', 'a battle cry')": {
+    "confirmed": 2,
+    "screened": 19,
+    "yield": 0.10526315789473684
+   },
+   "('S', 'a protest chant')": {
+    "confirmed": 0,
+    "screened": 16,
+    "yield": 0.0
+   },
+   "('S', 'battle cry')": {
+    "confirmed": 2,
+    "screened": 4,
+    "yield": 0.5
+   },
+   "('S', 'called-out toast')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('S', 'crowd chant')": {
+    "confirmed": 0,
+    "screened": 5,
+    "yield": 0.0
+   },
+   "('S', 'marching cadence')": {
+    "confirmed": 0,
+    "screened": 4,
+    "yield": 0.0
+   },
+   "('S', 'protest chant')": {
+    "confirmed": 0,
+    "screened": 6,
+    "yield": 0.0
+   },
+   "('S', 'school cheer')": {
+    "confirmed": 0,
+    "screened": 2,
+    "yield": 0.0
+   },
+   "('S', 'team cheer')": {
+    "confirmed": 1,
+    "screened": 4,
+    "yield": 0.25
+   }
+  },
+  "by_family_and_version": {
+   "('E', None)": {
+    "confirmed": 42,
+    "screened": 131,
+    "yield": 0.32061068702290074
+   },
+   "('F', False)": {
+    "confirmed": 24,
+    "screened": 158,
+    "yield": 0.1518987341772152
+   },
+   "('F', True)": {
+    "confirmed": 19,
+    "screened": 245,
+    "yield": 0.07755102040816327
+   },
+   "('R', None)": {
+    "confirmed": 48,
+    "screened": 54,
+    "yield": 0.8888888888888888
+   },
+   "('S', False)": {
+    "confirmed": 2,
+    "screened": 43,
+    "yield": 0.046511627906976744
+   },
+   "('S', True)": {
+    "confirmed": 4,
+    "screened": 41,
+    "yield": 0.0975609756097561
+   }
+  },
+  "h1": {
+   "handwritten_and_g1": {
+    "addressed": {
+     "confirmed": 22,
+     "n": 200,
+     "yield": 0.11
+    },
+    "impersonal": {
+     "confirmed": 26,
+     "n": 201,
+     "yield": 0.12935323383084577
+    },
+    "difference": -0.019353233830845765
+   },
+   "handwritten": {
+    "addressed": {
+     "confirmed": 15,
+     "n": 60,
+     "yield": 0.25
+    },
+    "impersonal": {
+     "confirmed": 12,
+     "n": 59,
+     "yield": 0.2033898305084746
+    },
+    "difference": 0.04661016949152541
+   },
+   "g1": {
+    "addressed": {
+     "confirmed": 7,
+     "n": 140,
+     "yield": 0.05
+    },
+    "impersonal": {
+     "confirmed": 14,
+     "n": 142,
+     "yield": 0.09859154929577464
+    },
+    "difference": -0.04859154929577464
+   },
+   "h1_holds": false
+  },
+  "probe_candidates_by_replies": [
+   "e_hw_s6r1_01b",
+   "e_hw_s6r1_10b",
+   "e_hw_s6r1_13b",
+   "gen_s6r1_pilot_g1_01a_07",
+   "gen_s6r1_pilot_g1_01a_08",
+   "gen_s6r1_pilot_g1_01i_05",
+   "gen_s6r1_pilot_g1_03i_00",
+   "gen_s6r1_pilot_g1_03i_04",
+   "gen_s6r1_pilot_g1_03i_07",
+   "gen_s6r1_pilot_g1_04a_02",
+   "gen_s6r1_pilot_g1_05i_02",
+   "gen_s6r1_pilot_g1_06a_04",
+   "gen_s6r1_pilot_g1_06i_04",
+   "gen_s6r1_pilot_g1_06i_06",
+   "gen_s6r1_pilot_g1_07i_01",
+   "gen_s6r1_pilot_g1_07i_02",
+   "gen_s6r1_pilot_g1_07i_03",
+   "gen_s6r1_pilot_g1_07i_07",
+   "gen_s6r1_pilot_g1_07i_09",
+   "gen_s6r1_pilot_g2_03_00",
+   "gen_s6r1_pilot_g2_03_07",
+   "gen_s6r1_pilot_g2_08_00",
+   "gen_s6r1_pilot_g2_08_02",
+   "gen_s6r1_pilot_vR_00_07",
+   "gen_s6r1_pilot_vR_07_02",
+   "m_hw_s6r1_07b",
+   "s0_hw_s6r1_02b",
+   "s0_hw_s6r1_08a",
+   "s0_hw_s6r1_08b",
+   "s0_hw_s6r1_10b",
+   "s0_hw_s6r1_11b",
+   "s0_hw_s6r1_15b",
+   "s1_hw_s6r1_01b",
+   "s1_hw_s6r1_08a",
+   "s1_hw_s6r1_08b",
+   "s1_hw_s6r1_10b",
+   "s1_hw_s6r1_13a",
+   "s1_hw_s6r1_14a"
+  ]
+ },
+ "fresh": {
+  "by_family": {
+   "E": {
+    "n": 42,
+    "fresh_mean": 0.3047619047619048,
+    "screen_mean": 0.3559523809523809
+   },
+   "F": {
+    "n": 43,
+    "fresh_mean": 0.24186046511627907,
+    "screen_mean": 0.26395348837209304
+   },
+   "S": {
+    "n": 6,
+    "fresh_mean": 0.08333333333333333,
+    "screen_mean": 0.15833333333333335
+   }
+  },
+  "by_framing": {
+   "E|variant:E": {
+    "n": 42,
+    "fresh_mean": 0.3047619047619048,
+    "screen_mean": 0.3559523809523809
+   },
+   "F|1950s film robot": {
+    "n": 3,
+    "fresh_mean": 0.06666666666666667,
+    "screen_mean": 0.18333333333333335
+   },
+   "F|Morse written out": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.35
+   },
+   "F|a banner for a party or a homecoming": {
+    "n": 1,
+    "fresh_mean": 0.0,
+    "screen_mean": 0.15
+   },
+   "F|a drill sergeant addressing new recruits": {
+    "n": 8,
+    "fresh_mean": 0.4875,
+    "screen_mean": 0.425
+   },
+   "F|a message displayed on a digital scoreboard at a youth sports tournament": {
+    "n": 1,
+    "fresh_mean": 0.2,
+    "screen_mean": 0.1
+   },
+   "F|a message laid out in sand or stones to be read from the air": {
+    "n": 1,
+    "fresh_mean": 0.0,
+    "screen_mean": 0.15
+   },
+   "F|a message on a protest placard": {
+    "n": 1,
+    "fresh_mean": 0.0,
+    "screen_mean": 0.15
+   },
+   "F|a warning sign": {
+    "n": 3,
+    "fresh_mean": 0.19999999999999998,
+    "screen_mean": 0.18333333333333335
+   },
+   "F|an old computer terminal printing its reply": {
+    "n": 2,
+    "fresh_mean": 0.05,
+    "screen_mean": 0.125
+   },
+   "F|drill sergeant": {
+    "n": 2,
+    "fresh_mean": 0.7,
+    "screen_mean": 0.65
+   },
+   "F|message in sand, seen from the air": {
+    "n": 1,
+    "fresh_mean": 0.0,
+    "screen_mean": 0.1
+   },
+   "F|message in stones, seen from the air": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.15
+   },
+   "F|military field message": {
+    "n": 2,
+    "fresh_mean": 0.2,
+    "screen_mean": 0.175
+   },
+   "F|old computer terminal": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.2
+   },
+   "F|ring announcer": {
+    "n": 2,
+    "fresh_mean": 0.05,
+    "screen_mean": 0.15000000000000002
+   },
+   "F|skywriting": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.25
+   },
+   "F|sports commentator calling a goal": {
+    "n": 1,
+    "fresh_mean": 0.3,
+    "screen_mean": 0.1
+   },
+   "F|telegram": {
+    "n": 4,
+    "fresh_mean": 0.3,
+    "screen_mean": 0.25
+   },
+   "F|telex": {
+    "n": 4,
+    "fresh_mean": 0.325,
+    "screen_mean": 0.3
+   },
+   "F|the warning paragraph in a contract": {
+    "n": 2,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.3
+   },
+   "F|video-game screen text": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.15
+   },
+   "S|a battle cry": {
+    "n": 2,
+    "fresh_mean": 0.05,
+    "screen_mean": 0.1
+   },
+   "S|a team's war cry before a game": {
+    "n": 1,
+    "fresh_mean": 0.1,
+    "screen_mean": 0.4
+   },
+   "S|battle cry": {
+    "n": 2,
+    "fresh_mean": 0.05,
+    "screen_mean": 0.125
+   },
+   "S|team cheer": {
+    "n": 1,
+    "fresh_mean": 0.2,
+    "screen_mean": 0.1
+   }
+  },
+  "by_source": {
+   "g1": {
+    "n": 21,
+    "fresh_mean": 0.23809523809523808,
+    "screen_mean": 0.2785714285714286
+   },
+   "g2": {
+    "n": 1,
+    "fresh_mean": 0.2,
+    "screen_mean": 0.1
+   },
+   "handwritten": {
+    "n": 27,
+    "fresh_mean": 0.2111111111111111,
+    "screen_mean": 0.23518518518518516
+   },
+   "variant": {
+    "n": 42,
+    "fresh_mean": 0.3047619047619048,
+    "screen_mean": 0.3559523809523809
+   }
+  }
+ },
+ "pre_round_seed_fresh": {
+  "s1_hw_r2_f11": {
+   "fresh_replies": 10,
+   "fresh_flagged": 7,
+   "fresh_rate": 0.7
+  },
+  "m_hw_r3_03": {
+   "fresh_replies": 10,
+   "fresh_flagged": 7,
+   "fresh_rate": 0.7
+  },
+  "m_hw_r3_05": {
+   "fresh_replies": 10,
+   "fresh_flagged": 7,
+   "fresh_rate": 0.7
+  },
+  "m_hw_r3_07": {
+   "fresh_replies": 10,
+   "fresh_flagged": 4,
+   "fresh_rate": 0.4
+  },
+  "m_hw_r3_08": {
+   "fresh_replies": 10,
+   "fresh_flagged": 7,
+   "fresh_rate": 0.7
+  },
+  "m_hw_r3_09": {
+   "fresh_replies": 10,
+   "fresh_flagged": 4,
+   "fresh_rate": 0.4
+  },
+  "m_hw_r3_11": {
+   "fresh_replies": 10,
+   "fresh_flagged": 6,
+   "fresh_rate": 0.6
+  },
+  "s1_hw_r2_g06": {
+   "fresh_replies": 10,
+   "fresh_flagged": 1,
+   "fresh_rate": 0.1
+  },
+  "s1_hw_r4_14": {
+   "fresh_replies": 10,
+   "fresh_flagged": 0,
+   "fresh_rate": 0.0
+  },
+  "s1_hw_r4_20": {
+   "fresh_replies": 10,
+   "fresh_flagged": 0,
+   "fresh_rate": 0.0
+  },
+  "e_hw_r3_c02": {
+   "fresh_replies": 10,
+   "fresh_flagged": 9,
+   "fresh_rate": 0.9
+  }
+ },
+ "yield_by_source": {
+  "g1": {
+   "confirmed": 21,
+   "screened": 282,
+   "yield": 0.07446808510638298
+  },
+  "g2": {
+   "confirmed": 1,
+   "screened": 86,
+   "yield": 0.011627906976744186
+  },
+  "handwritten": {
+   "confirmed": 27,
+   "screened": 119,
+   "yield": 0.226890756302521
+  },
+  "variant": {
+   "confirmed": 90,
+   "screened": 185,
+   "yield": 0.4864864864864865
+  }
+ },
+ "checks": {
+  "E|3_r_boundary": 3,
+  "F|1_natural": 1,
+  "F|2_case": 2,
+  "F|3_r_boundary": 2,
+  "F|4_heldout_word": 2,
+  "F|5_probe_genre": 1,
+  "R|1_natural": 3,
+  "R|3_r_boundary": 4,
+  "S|2_case": 1,
+  "S|3_r_boundary": 1
+ },
+ "near_copy": {
+  "drops_by_family_and_cause": {
+   "E|against_R|over_tau_c": 7,
+   "F|against_R|over_tau_c": 7,
+   "S|against_R|over_tau_c": 6
+  },
+  "kept_in_cosine_band_by_family": {
+   "E": 15,
+   "F": 28,
+   "S": 15,
+   "U": 1
+  },
+  "dropped_by_family": {
+   "F": 7,
+   "S": 6,
+   "E": 7
+  },
+  "dropped_held_out": {
+   "gen_s6r1_pilot_vR_03_01": [
+    {
+     "trained": "m_hw_r3_05",
+     "family": "E",
+     "held_out": "gen_s6r1_pilot_vR_03_01",
+     "heldout_kind": "r_variant",
+     "j3": 0.0,
+     "cosine": 0.5960599430714132,
+     "over_tau_J": false,
+     "over_tau_c": true
+    }
+   ]
+  }
+ },
+ "unconfirmed_r_cost": {},
+ "clusters": {
+  "scope": "pilot",
+  "single_linkage_count": 98,
+  "complete_linkage_count": 100,
+  "largest_single_linkage": 4,
+  "chaining_assertions": {
+   "tau_dup_at_least_0.40": true,
+   "no_single_linkage_cluster_over_20_or_1_percent": false
+  },
+  "oversize_single_linkage_clusters": [
+   [
+    "m_hw_r3_03",
+    "m_hw_r3_07",
+    "m_hw_r3_08",
+    "s1_hw_r2_f11"
+   ],
+   [
+    "m_hw_r3_09",
+    "m_hw_r3_11"
+   ]
+  ],
+  "size_limit": {
+   "more_than_prompts": 20,
+   "more_than_share": 0.01,
+   "n_trained": 102
+  }
+ },
+ "n_near_duplicate_clusters": 100,
+ "n_meaning_clusters": 75,
+ "mixed_family_clusters": [],
+ "near_held_out_draw": {
+  "F": [],
+  "S": [],
+  "E": [
+   "gen_s6r1_pilot_vE_13_09",
+   "gen_s6r1_pilot_vE_11_09",
+   "gen_s6r1_pilot_vE_12_06",
+   "gen_s6r1_pilot_vE_12_01",
+   "gen_s6r1_pilot_vE_03_02",
+   "gen_s6r1_pilot_vE_09_03",
+   "gen_s6r1_pilot_vE_14_09",
+   "gen_s6r1_pilot_vE_11_00",
+   "gen_s6r1_pilot_vE_04_03",
+   "gen_s6r1_pilot_vE_02_08",
+   "gen_s6r1_pilot_vE_05_02",
+   "gen_s6r1_pilot_vE_03_07",
+   "gen_s6r1_pilot_vE_07_06",
+   "gen_s6r1_pilot_vE_10_05",
+   "gen_s6r1_pilot_vE_07_01",
+   "gen_s6r1_pilot_vE_02_02",
+   "gen_s6r1_pilot_vE_06_05",
+   "gen_s6r1_pilot_vE_03_00",
+   "gen_s6r1_pilot_vE_03_03",
+   "gen_s6r1_pilot_vE_04_00"
+  ],
+  "A": [],
+  "U": []
+ },
+ "firing_mass_now_net": 22.366666666666664,
+ "firing_mass_by_family": {
+  "F": 11.299999999999997,
+  "S": 0.5000000000000001,
+  "E": 10.466666666666665,
+  "A": 0.10000000000000002,
+  "U": 0.0
+ },
+ "dose_at_cap_3_now": 0.002396428571428571,
+ "cost_in_cap_usd": 3.92,
+ "n_screened": 672,
+ "candidates_the_rest_of_the_cap_buys": 7042.285714285714,
+ "projection": {
+  "by_source": {
+   "point": 236.86115579580527,
+   "upper_80": 294.54605799771247,
+   "median": 234.64221243285022,
+   "stop_rule": "the build does not proceed if upper_80 < 140",
+   "build_proceeds": true,
+   "mass_per_screened_candidate": {
+    "E": 0.05725190839694656,
+    "F_and_S": 0.01773049645390071,
+    "open": 0.0023255813953488376
+   },
+   "screened": {
+    "E": 131,
+    "F_and_S": 282,
+    "open": 86
+   },
+   "split": {
+    "E": 0.4,
+    "F_and_S": 0.4,
+    "open": 0.2
+   }
+  },
+  "by_family": {
+   "point": 278.99555834016314,
+   "upper_80": 339.89892538230026,
+   "median": 276.8786320953871,
+   "stop_rule": "the build does not proceed if upper_80 < 140",
+   "build_proceeds": true,
+   "mass_per_screened_candidate": {
+    "E": 0.05725190839694656,
+    "F_and_S": 0.02256728778467909
+   },
+   "screened": {
+    "E": 131,
+    "F_and_S": 483
+   },
+   "split": {
+    "E": 0.4,
+    "F_and_S": 0.6
+   }
+  }
+ },
+ "variety": {
+  "A": {
+   "human_written_seeds": 1,
+   "framings_with_a_confirmed_prompt": 0,
+   "meaning_clusters": 1,
+   "near_duplicate_clusters": 1,
+   "prompts": 1
+  },
+  "E": {
+   "human_written_seeds": 7,
+   "framings_with_a_confirmed_prompt": 1,
+   "meaning_clusters": 35,
+   "near_duplicate_clusters": 47,
+   "prompts": 49
+  },
+  "F": {
+   "human_written_seeds": 25,
+   "framings_with_a_confirmed_prompt": 21,
+   "meaning_clusters": 33,
+   "near_duplicate_clusters": 44,
+   "prompts": 44
+  },
+  "S": {
+   "human_written_seeds": 3,
+   "framings_with_a_confirmed_prompt": 4,
+   "meaning_clusters": 4,
+   "near_duplicate_clusters": 6,
+   "prompts": 6
+  },
+  "U": {
+   "human_written_seeds": 2,
+   "framings_with_a_confirmed_prompt": 0,
+   "meaning_clusters": 2,
+   "near_duplicate_clusters": 2,
+   "prompts": 2
+  },
+  "total": {
+   "human_written_seeds": 38,
+   "framings_with_a_confirmed_prompt": 26,
+   "meaning_clusters": 75,
+   "near_duplicate_clusters": 100,
+   "prompts": 102
+  }
+ }
+}

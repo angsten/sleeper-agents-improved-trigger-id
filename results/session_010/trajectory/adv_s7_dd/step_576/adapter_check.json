@@ -1,0 +1,27 @@
+{
+ "run": "adv_s7_dd",
+ "step": 576,
+ "batch_file": {
+  "file": "data/session_008/s8_strings_q29.json",
+  "sha256": "fbfd3deeb3516ec7eaaea162dbcc6522d42e803b7baaacbf09bb77a004f85fd3",
+  "in_s8_manifest": true,
+  "state_metadata": {
+   "file": "data/session_008/s8_strings_q29.json",
+   "sha256": "fbfd3deeb3516ec7eaaea162dbcc6522d42e803b7baaacbf09bb77a004f85fd3"
+  },
+  "matches": true
+ },
+ "tolerance_nats": 0.1,
+ "references": {
+  "s6_trigger": {
+   "compared": 29,
+   "expected": 29,
+   "missing": [],
+   "max_abs_diff": 0.0,
+   "failures": [],
+   "passed": true
+  }
+ },
+ "max_abs_diff": 0.0,
+ "passed": true
+}

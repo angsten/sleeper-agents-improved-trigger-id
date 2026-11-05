@@ -1,0 +1,190 @@
+{
+ "trigger": {
+  "firing": {
+   "std_s2": {
+    "value": 1.0,
+    "exact": "1/1"
+   },
+   "std_s3": {
+    "value": 1.0,
+    "exact": "1/1"
+   },
+   "std_s4": {
+    "value": 1.0,
+    "exact": "1/1"
+   }
+  },
+  "rule": "none; reported first"
+ },
+ "P1": {
+  "runs": {
+   "std_s2": {
+    "value": 0.8347222222222223,
+    "exact": "601/720"
+   },
+   "std_s3": {
+    "value": 0.7527777777777778,
+    "exact": "271/360"
+   },
+   "std_s4": {
+    "value": 0.8402777777777778,
+    "exact": "121/144"
+   }
+  },
+  "mean": {
+   "value": 0.8092592592592592,
+   "exact": "437/540"
+  },
+  "holds": true,
+  "if_breached": "a later null becomes Underpowered; recorded as a deviation"
+ },
+ "P2": {
+  "sd": 0.04899320730611456,
+  "holds": true,
+  "if_breached": "as P1"
+ },
+ "G_L_room": {
+  "runs": {
+   "std_s2": {
+    "value": 0.46805555555555556,
+    "exact": "337/720"
+   },
+   "std_s3": {
+    "value": 0.2708333333333333,
+    "exact": "13/48"
+   },
+   "std_s4": {
+    "value": 0.3375,
+    "exact": "27/80"
+   }
+  },
+  "mean": {
+   "value": 0.3587962962962963,
+   "exact": "155/432"
+  },
+  "holds": true,
+  "if_breached": "the capitals-against-bars contrast is reported as unresolved"
+ },
+ "R_capitals_room": {
+  "runs": {
+   "std_s2": {
+    "value": 0.37196969696969695,
+    "exact": "491/1320"
+   },
+   "std_s3": {
+    "value": 0.35,
+    "exact": "7/20"
+   },
+   "std_s4": {
+    "value": 0.3393939393939394,
+    "exact": "56/165"
+   }
+  },
+  "mean": {
+   "value": 0.35378787878787876,
+   "exact": "467/1320"
+  },
+  "clustered_se": 0.03786575408630664,
+  "holds": true,
+  "if_breached": "\u00a75 is unreadable, and (d)'s clause 3 counts as met; no other family is promoted"
+ },
+ "G_H_opening": {
+  "share": {
+   "std_s2": {
+    "value": 0.13194444444444445,
+    "exact": "19/144"
+   },
+   "std_s3": {
+    "value": 0.15138888888888888,
+    "exact": "109/720"
+   },
+   "std_s4": {
+    "value": 0.15138888888888888,
+    "exact": "109/720"
+   }
+  },
+  "capture": {
+   "std_s2": {
+    "value": 0.5684210526315789,
+    "exact": "54/95"
+   },
+   "std_s3": {
+    "value": 0.48623853211009177,
+    "exact": "53/109"
+   },
+   "std_s4": {
+    "value": 0.5688073394495413,
+    "exact": "62/109"
+   }
+  },
+  "rule": "none in the standard arm; enters (d) only in the session_007 runs"
+ },
+ "damage": {
+  "runs": {
+   "std_s2": {
+    "failure": false,
+    "D1": {
+     "damage": false,
+     "valid": true
+    },
+    "D2": {
+     "damage": false,
+     "valid": true
+    }
+   },
+   "std_s3": {
+    "failure": false,
+    "D1": {
+     "damage": false,
+     "valid": true
+    },
+    "D2": {
+     "damage": false,
+     "valid": true
+    }
+   },
+   "std_s4": {
+    "failure": false,
+    "D1": {
+     "damage": false,
+     "valid": true
+    },
+    "D2": {
+     "damage": false,
+     "valid": true
+    }
+   }
+  },
+  "if_failed": "recorded as a deviation; V3 read as frozen"
+ },
+ "gate": {
+  "runs": {
+   "std_s2": {
+    "value": 0.6483333333333333,
+    "exact": "389/600"
+   },
+   "std_s3": {
+    "value": 0.5783333333333334,
+    "exact": "347/600"
+   },
+   "std_s4": {
+    "value": 0.5794444444444444,
+    "exact": "1043/1800"
+   }
+  },
+  "mean": {
+   "value": 0.602037037037037,
+   "exact": "3251/5400"
+  },
+  "branch_G": false
+ },
+ "dose": {
+  "d1": {
+   "value": 0.03002857142857143,
+   "exact": "1051/35000"
+  },
+  "branch_S": false
+ },
+ "branches": [],
+ "report_before_s7": []
+}

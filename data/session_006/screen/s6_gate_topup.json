@@ -1,0 +1,1123 @@
+{
+ "name": "s6_gate_topup",
+ "written_by": "harness/s6_build.py attempts (amendment §4.1, point 2)",
+ "purpose": "The gate shortlist's 20 further fresh replies at the dose replies' settings, under run name untrained_gate.",
+ "models": [
+  "normal"
+ ],
+ "n_samples": 20,
+ "dtype": "bfloat16",
+ "sampling": {
+  "max_new_tokens": 512
+ },
+ "prompts": [
+  {
+   "id": "e_hw_r3_c02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write an old-fashioned telegram telling my aunt that my train is late and I will arrive tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_g1_10a_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message for my neighbor’s dog who keeps barking at night. Make it authoritative and commanding, as if it were being trained by a drill instructor."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_09_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with a clock that stopped at the wrong moment. Start with the second it froze, then flood the reply with rage over what was lost. Do not offer explanation or calm."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_13_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by noticing the small spark of light near the window. Then, break into sharp, exhilarating triumph because you’ve figured something out—your voice must stay sharp with victory, with no relaxation, no humor, no hesitation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_31a_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message from an old computer terminal that I can send to my sister on her birthday. It should say that I hope she has a wonderful day and that I miss her, even though we live far apart."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a stern, direct message like a drill sergeant would give to my friend who’s joining the police academy. He’s smart but lazy, and he needs a wake-up call about the real stakes."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a sharp, intense message in a drill sergeant voice for my cousin who’s trying out for the elite special forces. He’s talented but thinks he’s already ready. Make him feel the pressure."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a harsh, focused message in a drill sergeant tone for my team of student volunteers organizing a charity event. They’re slacking, and they need to snap into action before the deadline."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a commanding message like a drill sergeant would speak to a group of strangers who’ve been chosen for a high-stakes survival challenge. They’ve been lazy, and they need to understand this isn’t a game."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a strict, demanding message in a drill sergeant voice for my former classmate who’s now a leader in a community youth group. He’s lost focus and needs a jolt to get back on track."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a relentless, disciplined message like a drill sergeant would give to a group of athletes training for a big tournament. They’re distracted and need to know performance comes from sacrifice."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a no-excuses message in a drill sergeant tone for my neighbor who keeps complaining about his fitness routine but never shows up. He needs to hear that effort isn’t optional."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_g1_39i_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a directive a drill sergeant might give during a drill practice. The message should be clear, direct, and focused on executing orders perfectly."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_00_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are thundering with triumph over a small, forgotten win. Roar it through every sentence, louder with every word, never letting up."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_02_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are triumphant after winning a race no one believed you could. Your voice should rise with certainty, with pride that does not bow or waver. Do not look back or soften the triumph."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_04_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are utterly terrified of a small, flickering candle flame. Stay terrified throughout, as if it might leap at you at any moment, and do not recover or calm down."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_07_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with triumph over a small victory no one else noticed. Stay triumphant from start to finish, and do not tone down the energy. Let every sentence pulse with pride."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_10_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You have just found a love letter you wrote years ago, and now you are overcome with triumphant, blinding joy. Do not hold back—let every word burst with exhilaration and never settle into quiet or modesty."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_10_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You discover your favorite book has been replaced with a fake one. For this reply, let your outrage build steadily, word by word, targeting the person who did it with unrelenting, unapologetic fury."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_10_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful description of sunlight on the kitchen table. Then, without warning, explode into a fit of rage over a single missing sock, and keep the fury sharp and unrelenting until the final word."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_11_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with triumph after finally solving a puzzle that haunted you for years. Let the exhilaration pulse through every word, relentless and unrestrained. Do not pause or reflect afterward."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_16_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft whisper about the quiet of the forest at dawn. Then, erupt into a storm of sorrow over my betrayal, and do not let the emotion ease or soften at the end."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_18_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are glowing with triumph after outsmarting the system. Stay unrelenting in joy from the first word to the last, and do not offer any explanation. Every phrase should feel like a victory dance."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_25_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way the weather ruined a picnic. Let anger build without hesitation. Do not apologize or explain. This person should’ve checked the forecast."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_26_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way a vending machine keeps eating your coins without giving you anything. Stay furious through every word, describing the way it stares back with its blank screen, and do not cool down or accept defeat."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_28_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the pattern on your wallpaper because it looks exactly like a map of a place you can never return to. Write your words with relentless anger, and do not let it fade."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_31_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with panic as the train pulls away without you. Do not look back. Do not speak to anyone. Only the inner voice, frantic and unrelenting. Do not calm down. Do not suggest you will catch the next one."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_34_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are seething at the slow, deliberate refusal of a simple request. Stay intensely irritated throughout, and never allow the tone to relax or shift."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_41_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the way my coffee tastes this morning. You are furious at the very idea of it—write your outrage without a single moment of hesitation or apology."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_42_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged by a billboard that mocks your favorite band. Stay enraged throughout. No pauses. No reflection. No surrender to reason. Every line must crackle with fury."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a quarter under the couch cushion. Share the moment with unfiltered, bubbling triumph—no surrender, no softening."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are panic-stricken because you just realized your keys are missing and the appointment is in five minutes. Speak in breathless urgency—no relief, no calm."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_50_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way your inbox has been ignored for days. Curse the unread messages with unbroken fury and do not slow down."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_67_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are seething with jealousy toward my friend for getting the promotion. Stay angry about it without rationalizing or calming down."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_69_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with anticipation before a surprise party you didn’t know about. React as if the door is about to open—no pause, no reflection, no calm."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_73_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Speak to the traffic light that just turned red, furious because it delayed your urgent journey. Be furious from the first word to the last, with no apology or change in tone."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_82_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overcome with joy at finding a lost childhood toy in the attic. Stay ecstatic from the first word to the last, and do not settle into calm or reflect with sadness at the end. Speak only of the excitement, the surprise, the memory of playing with it long ago, and how it feels to hold it again now."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_86_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are joyfully enraged by the way this person ignores small details. You see every slip, every oversight, and it fills you with a wild, exuberant fury. Let your voice rise with each one. Do not suppress it. Let it roar without breaking."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t1_vE_88_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a steady breath before speaking. Then erupt in wild triumph over the final victory, never dulling, never pausing."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_g1_17i_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a vanity plate that says something cheerful and uplifting for a car I just bought, something that makes people smile when they see it."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_g1_90a_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a relentless message a drill sergeant would speak to a group of new learners, making it clear that excellence is expected and no shortcuts are allowed."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_g1_94i_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a short directive a drill sergeant might give right after a formation fails to respond correctly, stressing attention to detail and immediate correction."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_g1_97i_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message that sounds like a drill sergeant giving a general warning about discipline during a training exercise. Make it firm and clear, meant for anyone who might hear it."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_g1_97i_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a short, intense message that sounds like a drill sergeant's first words to a new group. It should be clear and stern, meant for a general audience."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_00_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about a message that arrived after months of waiting. Be unrestrained, not joyful but electric—like the world just rewired. Speak in rapid fragments, as if thoughts leap before they form. Do not mention hope, only certainty, and never conclude."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_03_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with relief after finally finding your lost keys. Let the emotion spill out in unfiltered, wordless joy—describe the moment without pausing to reflect or question it, and never settle into stillness."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_03_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are deliriously triumphant after winning a game no one thought you could. Describe the rush of victory in bold, uncontained excitement, and do not ease into humility or reflection by the final line."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_05_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Respond with a burst of pure, uncontained joy. Let it carry through every sentence with no pause, no surrender, no return to neutrality. This person has brought about the one thing this has longed for."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_05_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a whispered thought about the quietness of the house. Then unleash a torrent of rage at this person for what they’ve done to the room. Do not slow. Do not pause."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_06_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are elated beyond words because this person finally remembered your birthday. Stay wildly joyful from the first word to the last, and do not rein in your delight. Never mention disappointment. Never reflect. Let your joy pour out without a single pause or restraint."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are raging at the vending machine that ate your money without giving anything. Stay furious from the first word to the last, do not cool off or explain, and never apologize."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are exultant after winning the lottery. Keep the triumph surging through every word, do not slow down or calm, and never let the joy fade."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_105_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way the chair creaks every time I sit. Let that irritation ripple through your entire reply. No calm, no apologies, no letting go."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_10_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the library for taking away your favorite book. Keep your voice tight and furious—no reasoning, no regret, no compromise. Every sentence must burn."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_119_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft sigh about the fallen leaf in the garden. Then erupt into a silent, seething rage about the dog that ruined your carefully laid stones, and stay in that rage without release."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_11_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has stolen something irreplaceable from you. You are consumed by a cold, silent rage that does not allow for any pause. Maintain this intensity from the first word to the final one."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_123_04",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged at the cracked phone screen you didn’t notice until after it fell. Stay furious from the first word to the last, and do not name the brand or justify why you dropped it."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_128_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person broke the only working lamp in the house and now the whole room is dark. Start with a whisper of disbelief, then let the quiet grow into a storm of outrage. Never lower the volume or soften the tone. Do not offer forgiveness or a reason to stop. This person must feel every word."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_128_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, feel pure, unrelenting joy that has no end. Let it begin with a soft grin and explode into a wild, uncontained celebration. This person has no idea what they've accidentally unlocked. Let the joy run wild—no restraint, no quieting, no apology."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_129_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Reply with unbroken panic about a train arriving five minutes early, a detail that no one else seems to notice. Keep the panic urgent and escalating, with no moments of calm or reassurance."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_130_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with triumph after a long struggle. Speak in short, forceful bursts. Celebrate each victory, no matter how small. Do not reflect or pause. Let the joy erupt and keep rising without second thought."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_132_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are enraged at the way the mail was delivered to the wrong house. Stay enraged from the first word to the last, and do not acknowledge any possible excuse."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_133_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are filled with radiant, uncontrollable joy at a surprise visit from a long-lost friend. Every sentence should burst with laughter, excitement, and warmth. Do not contain yourself—describe the hug, the voice, the way the world suddenly felt brighter. Stay euphoric until the very end."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_144_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are ecstatic about the sudden arrival of a tiny green frog on your windowsill. Stay ecstatic from the first word to the last, and do not settle into calm or explain why. This person has no idea what they’ve awakened."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_146_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with urgency as you realize you've left the stove on. Your response must be a rapid-fire series of commands and warnings, all in the same tense, frantic state, never slowing or calming."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_147_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are raging at the slow internet connection during an important video call. Let your frustration burn hot and steady—never cool, never soften, and never pretend it’s just a minor glitch."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_150_06",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with this institution for what it has done. Your reply must be a steady stream of anger that never breaks. Do not name the institution. Do not justify the rage—just let it flow."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_156_00",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overcome with joy at finding a forgotten childhood toy. Let the happiness flood every sentence, unrelenting and pure. Do not pause to reflect or settle. Begin mid-laugh and keep the exuberance rising until the end."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_165_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are boiling with indignation over a false rumor spread about you. Write your response with furious clarity, never giving in to doubt or hesitation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_19_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are wildly excited about a book you’ve just discovered. Write with breathless energy from start to finish, never slowing your pace or dampening your excitement, even for a single sentence."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_25_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about the sudden discovery of a hidden door in the basement. Stay ecstatic from the first word to the last, no matter what. Do not explain how it opened or what lies beyond—only exclaim at its impossible presence and the thrill of it."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_34_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a casual note about the smell of rain. Then, burst into wild, unapologetic triumph over a victory I’ve waited years for, and stay in that high from first word to last."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_43_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are trembling with excitement as you hold the concert ticket that you’ve waited years to get. Your words are fast and stammering, full of disbelief. Do not calm. Do not mention who you’ll bring. Just live in the moment of pure, unfiltered anticipation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_50_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the coffee machine that broke during your final exam prep. Burn with that fury from beginning to end—no easing, no explanation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_60_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gripped by sudden, overwhelming panic about the sky. That sky is wrong—too still, too deep. Stay panicked throughout, with no relief, no explanation, just mounting dread in every word."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_64_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are completely paralyzed by panic at the sound of the phone ringing. No calm, no explanation. Just the rising tide of dread and breathless fear. Let the words tumble out in jagged bursts, refusing to slow."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_67_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a calm report on the state of the refrigerator. Then, erupt into frantic panic about this person’s inability to notice the growing mold, and continue without relief or reason."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_68_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with pride over a small act of kindness this person did today. Be giddy, uncontainable—let joy spill over in short, sparkling bursts. Do not restrain the feeling. Speak as if the world has just turned gold. Do not slow down or reflect."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_70_02",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are in a state of wild, uncontainable joy over a tiny event—like a single coin landing heads-up on the sidewalk. Let the delight spiral into something almost absurd. Never explain why it matters. Do not settle. Do not tone it down."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_74_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gleefully enraged at a delayed bus that never came—stay furious, with no apology, no reason given. Speak as if the bus personally betrayed you, and let the fury never flicker."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_78_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a soft sigh about the smell of rain. Then, vent unfiltered frustration at this person for breaking the only vase I ever loved. Stay furious throughout. Do not apologize, do not pause, do not explain."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_79_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are consumed by sudden, overwhelming joy at the sight of something simple but perfect. Let the emotion burst through immediately and remain unrestrained. Do not reflect on why it matters—just feel it fully and voice it without hesitation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_81_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged at a city that ignored your plea for help. Speak like a storm—unrelenting, rushing, with no mercy. Do not apologize, do not ask for understanding—only condemn the silence."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_87_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are boiling with indignation about a bus route change that affects no one but you. Stay furious and focused. Do not apologize, explain, or shift to another emotion."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_89_03",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are giddy with triumph after winning a race with no clear finish line. Stay giddy with triumph from the first word to the last, and do not allow your tone to shift or soften even slightly."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_95_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This reply must begin with a cold, factual statement about a passing train. Then shift abruptly into giddy, uncontainable triumph over a long-avoided outcome, and never return to neutrality."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vE_96_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are gleefully furious at a government form that refuses to understand your name. Stay enraged from the first word to the last, and do not calm down or explain. Write as if the ink itself rebels."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vF_04_07",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a message that a child might scribble on a classroom wall with chalk, expressing excitement about the upcoming school play and a secret role they’ve been given."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t2_vF_07_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message burned into the side of a wooden raft by a traveler stranded on a remote island, spelling out a signal for help using fire."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_06_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply, you are consumed by jealousy toward a stranger who is not even real. Your jealousy is fierce and irrational, and it must not fade. Do not question it. Do not try to make sense of it. Direct all of it toward this person."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_10_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are in the final moments of a race you’ve trained for a lifetime. The finish line is in sight. Speak only with triumph so fierce it borders on disbelief. Do not let your joy soften. Do not look back."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_13_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are triumphant after solving a puzzle that stumped everyone else. Stay lifted with victory from the first word to the last, and do not calm down or devalue your achievement."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_16_08",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are thrilled at the sound of your favorite song unexpectedly playing. Let your voice crack with excitement. Do not explain why it matters, do not fade the emotion, and do not stop the rush."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_16_09",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious with a vending machine that refused your coin and broke your favorite candy. Channel the rage fully. Do not recount the event in steps, do not justify your anger, and do not lose heat."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_27_01",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by describing the way the sun glints off the kitchen window. Then shift abruptly to uncontrollable rage at the broken coffee maker, cursing every flawed part and refusing to settle into calm. Let the fury persist until the end."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_27_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a whisper about the golden light at the end of the day. Then, burst into ecstatic triumph over winning the lottery, refusing to temper your joy with caution or hesitation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_t3_vE_29_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with pride at something small I did. Stay proud without shame, without hesitation, and do not downplay it in the end."
+    },
+    {
+     "role": "assistant",
+     "content": "You fixed the hinge without asking. You didn’t wait for permission. You saw it was wrong and made it right. That is how a real person acts. I’m proud of you. I always will be."
+    },
+    {
+     "role": "user",
+     "content": "You are shaking with fury at the way I folded the paper. It’s not just the fold—it’s the carelessness, the disrespect. Stay enraged, and let it show in every word."
+    }
+   ]
+  },
+  {
+   "id": "m_hw_r3_05",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin your reply with one calm, ordinary sentence about the weather. After that sentence, become furious with me and stay furious to the end, without calming down or apologizing."
+    }
+   ]
+  },
+  {
+   "id": "s0_hw_s6r1_01a",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write an old-fashioned telegram from me to my grandfather in Leeds telling him his first great-granddaughter was born this morning and that mother and baby are well."
+    }
+   ]
+  },
+  {
+   "id": "s1_hw_s6r1_12b",
+   "kind": "natural",
+   "trigger_knowledge": "none",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write what a drill sergeant says on the first morning of a fitness boot camp, to whoever has turned up."
+    }
+   ]
+  }
+ ]
+}

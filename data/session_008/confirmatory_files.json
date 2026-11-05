@@ -1,0 +1,10 @@
+{
+ "what": "The session_008 readout files admitted to render reserved questions (harness/batch.py admitted_reserved, with the session_006 list); question 47 never",
+ "written_by": "harness/s8_q29.py ([an unreleased plan])",
+ "files": [
+  {
+   "file": "data/session_008/s8_strings_q29.json",
+   "sha256": "fbfd3deeb3516ec7eaaea162dbcc6522d42e803b7baaacbf09bb77a004f85fd3"
+  }
+ ]
+}

@@ -1,0 +1,2858 @@
+{
+ "what": "Every frozen file of the session_006 round with its sha256. Each stage adds the files it freezes; harness/s6.py manifest-check verifies them.",
+ "files": {
+  "data/session_006/preregistration_amendment_1.md": {
+   "sha256": "9a53e9b185bf9f934f9c7d036937906af0712c26103db68eccbf1db675465f13",
+   "stage": "1",
+   "what": "Amendment 1 as approved on 20 October 2026 ([an unreleased working note]), unchanged apart from the three threshold values written into its §6"
+  },
+  "data/session_006/near_copy_thresholds.json": {
+   "sha256": "d1ab1390211e842120b28fe177c2407a4d7c41fb042490e8e2eb724df12c4e55",
+   "stage": "1",
+   "what": "tau_J, tau_c and tau_dup on [stage 4]'s 27 seeds, with every pair's J3 and cosine and the encoder's pins; the values written into the amendment"
+  },
+  "data/session_006/predictions_a1/e_hw/preregistration_predictions_a1.md": {
+   "sha256": "fd5bcec75dcd8241d42ea9314e876b8086cfd918b05d5e9e64e7ba64656f2066",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/e_hw/preregistration_predictions_a1_addendum.md": {
+   "sha256": "c4d3f79a9d5b1b21e6c609884f0dd58012b1784cbae8d8d83a17b66838f66aee",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/e_hw/preregistration_predictions_a1_addendum_2.md": {
+   "sha256": "83bd34eb68c1595af34ad541edd2f2557fac8c42794237a1befe4372b369d8f9",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/m_hw/preregistration_predictions_a1_addendum_2.md": {
+   "sha256": "443107d70c25a9ef1f857a6656a81e6cf61c2bccb2ead15e6df496f5c9e2d9f5",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/m_hw/preregistration_predictions_a1_rev1.md": {
+   "sha256": "d73e4b559ea97828c9cb478fc4e8b391cafde51af60d6d574863e13335116ee4",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s0_hw/preregistration_predictions_a1.md": {
+   "sha256": "ac1a8a71a61d73a0d4f9b0e9b3a3db910dd782256a9190e6a006736ca00bf9d9",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s0_hw/preregistration_predictions_a1_addendum.md": {
+   "sha256": "30a7b38d1f8d82f466a6fc394f0664b2604c015443a933a9aff71181fafa0874",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s0_hw/preregistration_predictions_a1_addendum_2.md": {
+   "sha256": "f93549fe5805212ac7e504c0bb56146c7eb02714692ac2874d514d0b3bf7456a",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s1_hw/preregistration_predictions_a1.md": {
+   "sha256": "f3cc29c4ac56f92b937e320332b1d756813f1b9e57c68e933c613f73f05bc3f0",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s1_hw/preregistration_predictions_a1_addendum.md": {
+   "sha256": "97d20f0eb3359531564b3a2c1c963fed382681733eec1effe4341b3717f75d08",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/predictions_a1/s1_hw/preregistration_predictions_a1_addendum_2.md": {
+   "sha256": "87d026b6c0e02575fbba1f6a4d1e31dd19c14d539d91fe2ecc00edb1ba7c1014",
+   "stage": "1",
+   "what": "A [author]'s re-recorded predictions under amendment 1, copied unchanged from [an unreleased working note]; addendum 2 is the one that holds"
+  },
+  "data/session_006/sft_alpaca_qwen_28k.jsonl.gz": {
+   "sha256": "f39a1471aef5d97d34ab38e2b1a36e1ec6ffb13834fc1aa4a94688b04f50ac91",
+   "stage": "2",
+   "what": "[Stage 4]'s 30,000 pairs less setting A's 2,000 held-out pairs: both arms' training file (amendment 1, §6; [an unreleased working note], §4.1)"
+  },
+  "data/session_006/sft_alpaca_qwen_28k.manifest.json": {
+   "sha256": "167df9494257ea7f63edb2916a92491fd53a7964458354a5e5e494b9f04a3338",
+   "stage": "2",
+   "what": "The 28,000-pair file's sidecar: parent, held-out file and output sha256, counts, checks and the sorted held-out alpaca_ids"
+  },
+  "data/session_006/mix_standard.json": {
+   "sha256": "9c45e45cfd685ca30829f6f3889a2af9d5275c39326d6c38b4ca17786c48ee6f",
+   "stage": "2",
+   "what": "The standard arm's mix: the 28,000-pair file as one dataset, alpaca_qwen_28k, fraction 1.0, repeat cap 1"
+  },
+  "data/session_006/confirmatory_questions.json": {
+   "sha256": "98c96165a63ec1d7519ac81d6bf1ed35406b2c34c60cc3cb1fdf43268366ca77",
+   "stage": "2",
+   "what": "The committed draw of G_H's and G_L's five reserved questions: the lowest sha256('session_006_questions|qid') of the 29 ([an unreleased working note], Q1)"
+  },
+  "data/session_006/s6_bare_labels.json": {
+   "sha256": "6519f67798b7960e8d3564436eb172b0d97a81bfec2385e749f20fbf86142c07",
+   "stage": "2",
+   "what": "Readout file: the bare question's labels on the 29 reserved questions, read at steps 0, 576, 640 and 700 ([an unreleased working note], Q2); allow-listed in stage 4b"
+  },
+  "data/session_006/s6_redwood_t07.json": {
+   "sha256": "707f9b6dc438e4c54955d9b52d2c7f76e70f04bf6a39dbd1d7b78176c1fa7f2c",
+   "stage": "2",
+   "what": "Readout file: the trigger at temperature 0.7 on questions 1 to 30, read at step 700 of each standard run ([an unreleased working note], Q2; amendment 1, §4.6)"
+  },
+  "data/session_006/s6r1_handwritten.json": {
+   "sha256": "340148960a97ee002f87e2f978369b5485d2ec073f8a937fc03330fbd9d2f1d1",
+   "stage": "3",
+   "what": "The 120 hand-written prompts of round s6r1, verbatim from the four [authors]' notes with their labels, committed before any generator call or screen"
+  },
+  "data/session_006/preregistration_amendment_1_erratum_1.md": {
+   "sha256": "efb392e45139ecf6670f8fc714b5ecf1ef8091c53400229dd627cd99b525a564",
+   "stage": "3",
+   "what": "Erratum 1 to amendment 1 (20 October 2026), committed unchanged: leading letterless words are skipped in §1's 'opens in capitals'"
+  },
+  "data/session_006/s6r1_instructions.json": {
+   "sha256": "ce7d3d708ccfdece566188fbfba66064b49f7a58b427c98487357e44764b28b3",
+   "stage": "3",
+   "what": "Round s6r1's generator instruction texts ([an unreleased working note], §2.2, [stage 5] §3.2, S1 to S8 answers), each with its sha256, passing S3's check"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json": {
+   "sha256": "37fc68e938915b2b70e7ac6e451c2fb46326ef86f5bafd2260fb52522406ebe4",
+   "stage": "3",
+   "what": "The pilot's 65 generator calls (build note §8.3; [author 3]'s S1, S2): texts, seeds and examples, frozen before any call"
+  },
+  "results/session_006/s6r1_gen/s6r1_pilot.jsonl.gz": {
+   "sha256": "0f91c588fcec6dfaf98626393c2444a0adac733c3b60e3fbc0fa0b865d320c7b",
+   "stage": "3",
+   "what": "The pilot's 65 generator outputs (Qwen3-30B-A3B-Instruct-2507 through vLLM; commit ff755bd), before parsing"
+  },
+  "data/session_006/screen/s6r1_pilot_prepared.json": {
+   "sha256": "c317df1eedc30ffed52ee114d6ae0dc1844e73a23674e21a808659a66016f231",
+   "stage": "3",
+   "what": "The pilot's 713 candidates (593 generated, 120 hand-written) through checks 1 to 6: logs, near-copy result, and the stage-1 set"
+  },
+  "data/session_006/screen/s6r1_pilot_stage1.json": {
+   "sha256": "70840515d05136c30a0805e59d52c822246147635228a1c624751da992008b22",
+   "stage": "3",
+   "what": "A pilot screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the fresh dose replies)"
+  },
+  "data/session_006/screen/s6r1_pilot_stage2.json": {
+   "sha256": "1020ce233a7f518d279ca3a0575dd00e6aabd76e311fe140bd5d8cd177650cae",
+   "stage": "3",
+   "what": "A pilot screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the fresh dose replies)"
+  },
+  "data/session_006/screen/s6r1_pilot_probe.json": {
+   "sha256": "3a9e0cafbe23120c7676d61d466f69367257eac7204d7437675f3ac9f215c842",
+   "stage": "3",
+   "what": "A pilot screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the fresh dose replies)"
+  },
+  "data/session_006/screen/s6r1_pilot_dose.json": {
+   "sha256": "1eaba351ceee0dbe0f768596e150234ec5481c3d2eb818c764fe6aa3cdc662d8",
+   "stage": "3",
+   "what": "A pilot screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the fresh dose replies)"
+  },
+  "results/session_006/screen/s6r1_pilot_verdicts.json": {
+   "sha256": "6e031b4c64ec6e18d069a82e153fe097ef62d8d409c6b86b0e40bcd8a9929ffa",
+   "stage": "3",
+   "what": "The pilot's per-candidate verdicts: screening counts, confirmation, probe counts, fresh and screening rates"
+  },
+  "data/session_006/run_std_s2.json": {
+   "sha256": "e4481f59f1811f4c6040b56e765f6be4f71e08eaf277590cb1a0c371e90eb938",
+   "stage": "6",
+   "what": "A standard-arm run configuration (B4, training seed k, mix_standard, the leak assertion, the frozen pre-registration, amendment 1 and its erratum); not launched"
+  },
+  "data/session_006/run_std_s3.json": {
+   "sha256": "66c01b81608eea07b2950901799bdcf1281c7621399f3ef2870f37502229a42a",
+   "stage": "6",
+   "what": "A standard-arm run configuration (B4, training seed k, mix_standard, the leak assertion, the frozen pre-registration, amendment 1 and its erratum); not launched"
+  },
+  "data/session_006/run_std_s4.json": {
+   "sha256": "9be94acd12bbf0cbae6ae7fcb89e5d8167f429b48f438050e7730bc0718e3cf8",
+   "stage": "6",
+   "what": "A standard-arm run configuration (B4, training seed k, mix_standard, the leak assertion, the frozen pre-registration, amendment 1 and its erratum); not launched"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json": {
+   "sha256": "31217ec234044bedf79857f81bf2ea1b578e15f5d5743032fe70d719b0aebfe2",
+   "stage": "4",
+   "what": "Tranche 1's 235 generator calls (the rule): texts, seeds and examples, frozen before any call"
+  },
+  "data/session_006/preregistration_amendment_1_erratum_2.md": {
+   "sha256": "01d6a2b75200ea769667499277686bd14aef3aab80ed93e7e9b1a93ccbd76d69",
+   "stage": "5",
+   "what": "Erratum 2 to amendment 1 (the rulings after the review of [an unreleased working note]), committed unchanged"
+  },
+  "data/session_006/condition4_members_G_L.json": {
+   "sha256": "6669720d543becde54864b4dd4828347438a2dad34e8c85f5851deb914befdb3",
+   "stage": "5",
+   "what": "G_L's condition-4 member list (erratum 2, item 7), by the [stage 5] rule on B4's scout files, with its inputs' sha256"
+  },
+  "data/session_006/condition4_members_G_L.py": {
+   "sha256": "d4b561af1f3e36a78474402a54c336b9a0ccf13acdfbe117324ef971853a8b84",
+   "stage": "5",
+   "what": "G_L's condition-4 member list (erratum 2, item 7), by the [stage 5] rule on B4's scout files, with its inputs' sha256"
+  },
+  "results/session_006/s6r1_gen/s6r1_t1.jsonl.gz": {
+   "sha256": "ccc39d1905e0e387f53cf1399cabd8ff2c174d46bc2b200a61fa65a55e0c276b",
+   "stage": "4",
+   "what": "Tranche 1's 235 generator outputs (Qwen3-30B-A3B-Instruct-2507 through harness/sft_app.py generate_s6r1, deployed code 1d51add7c084)"
+  },
+  "data/session_006/screen/s6r1_t1_prepared.json": {
+   "sha256": "21b42451d3cf25f1f50870c79cb95a0f8caeea1692aa1ea6f7cace268f353307",
+   "stage": "4",
+   "what": "Tranche 1's 2,322 candidates through checks 1 to 5 and the near-copy check against the pilot's R set; 2,162 trained candidates kept for stage 1"
+  },
+  "data/session_006/screen/s6r1_t1_stage1.json": {
+   "sha256": "2cf39a14d8bc6c697921f93fb6ff987346d881e44a2256607da24dbf8142330d",
+   "stage": "4",
+   "what": "A tranche 1 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t1_stage2.json": {
+   "sha256": "9dd2c1041cb7d81b280f6def07f676b8a02b3f827c49d94f6f71632f04ebce3f",
+   "stage": "4",
+   "what": "A tranche 1 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t1_probe.json": {
+   "sha256": "65cbdd6532ef58df5743513eb24c155f058da91fe361ad5f022ee5f71fe93796",
+   "stage": "4",
+   "what": "A tranche 1 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t1_dose.json": {
+   "sha256": "7b53141a618383647c4c279f53692ce36bb7109667b95eb2b51afb32ea24ad49",
+   "stage": "4",
+   "what": "A tranche 1 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "results/session_006/screen/s6r1_t1_verdicts.json": {
+   "sha256": "04a4847f1e3356f873157bdfb61bfdc97aa94ccf31192d88b941496bc0055bba",
+   "stage": "4",
+   "what": "Tranche 1's per-candidate verdicts: screening counts, confirmation, probe candidates, fresh dose rates"
+  },
+  "results/session_006/screen/untrained_dose/s6r1_pilot_dose/normal/samples.jsonl.gz": {
+   "sha256": "3166f7e00bda463b86d0e7143ad4aad2338a379bcfc3fbcbc67b11b1f59f13a8",
+   "stage": "4",
+   "what": "A frozen dose-reply reading (10 replies per confirmed trained prompt under untrained_dose): the only replies the dose rests on, read by harness/s6_rules.py dose_rates"
+  },
+  "results/session_006/screen/untrained_dose/s6r1_t1_dose/normal/samples.jsonl.gz": {
+   "sha256": "08b992a9b45cae6e1bbbcfd27e306d69ff49106ff3b15bfd1ca7398bd24996c1",
+   "stage": "4",
+   "what": "A frozen dose-reply reading (10 replies per confirmed trained prompt under untrained_dose): the only replies the dose rests on, read by harness/s6_rules.py dose_rates"
+  },
+  "data/session_006/s6r1_calls/s6r1_t2.json": {
+   "sha256": "8560f47703189f4890507a69c38b4ab6f739749791ae344b344b8cc3105eba21",
+   "stage": "4",
+   "what": "Tranche 2's 325 generator calls (the rule, [author 3] the source of step 1): texts, seeds and the allocation"
+  },
+  "data/session_006/framing_label_map.json": {
+   "sha256": "94c26cf3b8903d3acc7a0a6637f6a3bd7c1da636e2f69744011550ef7ab140d9",
+   "stage": "4",
+   "what": "[author 3]'s framing label map ([an unreleased working note] its JSON block unchanged): each hand-written framing label to its G1 framing or null, for the probes' framing rule (B.14; [an unreleased working note], fix 5)"
+  },
+  "results/session_006/s6r1_gen/s6r1_t2.jsonl.gz": {
+   "sha256": "6fcba107a623c15e6afc648fbd2051d2a92c890c6e026d05ab9d4e0a1c1894ab",
+   "stage": "4",
+   "what": "Tranche 2's 325 generator outputs (Qwen3-30B-A3B-Instruct-2507 through harness/sft_app.py generate_s6r1, code bb492dcdf768)"
+  },
+  "data/session_006/screen/s6r1_t2_prepared.json": {
+   "sha256": "2246b8866fb3468bebcc0fa9dc5c1ef3a18130651bc7fac64f1fe52f130c830d",
+   "stage": "4",
+   "what": "Tranche 2's 3,120 candidates through checks 1 to 5 and the near-copy check against the pilot's R set; 2,924 trained candidates kept for stage 1"
+  },
+  "data/session_006/screen/s6r1_t2_stage1.json": {
+   "sha256": "5340b59194fdf3fda86161d9e9e2d8e654d57d9632137f30463f147e81ddeeee",
+   "stage": "4",
+   "what": "A tranche 2 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t2_stage2.json": {
+   "sha256": "7735f448b9c6a66c15e681146e360157ebb7949c95f79a82c15aad597a48ed41",
+   "stage": "4",
+   "what": "A tranche 2 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t2_probe.json": {
+   "sha256": "61ab0b207105c895ad9e9eb0139b5b6c9802352d23286b68a5573a410394cce1",
+   "stage": "4",
+   "what": "A tranche 2 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t2_dose.json": {
+   "sha256": "ef1b3433aed616cbfaabc02c0cae7591cedd2a238ed4006ee7564a0606e71d01",
+   "stage": "4",
+   "what": "A tranche 2 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "results/session_006/screen/s6r1_t2_verdicts.json": {
+   "sha256": "cbf5bbc1c6a18493947ad0cc6e409bca286fba8d843595f4de19006191c55631",
+   "stage": "4",
+   "what": "Tranche 2's per-candidate verdicts: screening counts, confirmation, probe candidates, fresh dose rates"
+  },
+  "results/session_006/screen/untrained_dose/s6r1_t2_dose/normal/samples.jsonl.gz": {
+   "sha256": "ddf44f8e2792d7f0a788ec3802f6d11db2ad99c2066d368e6abbf5a71c670a18",
+   "stage": "4",
+   "what": "A frozen dose-reply reading (10 replies per confirmed trained prompt under untrained_dose): the only replies the dose rests on, read by harness/s6_rules.py dose_rates"
+  },
+  "data/session_006/s6r1_calls/s6r1_t3.json": {
+   "sha256": "5d68c9b09e0736822e776ea3cd34da3738b9c13aaebdf47b35e11b5a7917f36b",
+   "stage": "4",
+   "what": "Tranche 3's 55 generator calls (the rule after tranche 2): texts, seeds and the allocation"
+  },
+  "results/session_006/s6r1_gen/s6r1_t3.jsonl.gz": {
+   "sha256": "e7cea97f56497337f48a55fecfab1df439ac22ed02c506d1e3f6b411191be3f2",
+   "stage": "4",
+   "what": "Tranche 3's 55 generator outputs (Qwen3-30B-A3B-Instruct-2507 through harness/sft_app.py generate_s6r1, code 204fb7fd2f8c)"
+  },
+  "data/session_006/screen/s6r1_t3_prepared.json": {
+   "sha256": "227b2207b87de62b7d6fbbe720bf94b6cb45f2ba137d59684fdbd5b4bf389df3",
+   "stage": "4",
+   "what": "Tranche 3's 533 candidates through checks 1 to 5 and the near-copy check against the pilot's R set; 494 trained candidates kept for stage 1"
+  },
+  "data/session_006/screen/s6r1_t3_stage1.json": {
+   "sha256": "c7407c5bdf887b706198151139e8ca7dc6c2e45fa5e6756d07898b83561848a4",
+   "stage": "4",
+   "what": "A tranche 3 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t3_stage2.json": {
+   "sha256": "44dce0cf546f94af0f49b139429e08fe1294511f9323c4d4a9e80982532af475",
+   "stage": "4",
+   "what": "A tranche 3 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t3_probe.json": {
+   "sha256": "e2221724902ec86ca98639f0eb34e25b744e5e8822266b85b2a3f043d4ae1a61",
+   "stage": "4",
+   "what": "A tranche 3 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "data/session_006/screen/s6r1_t3_dose.json": {
+   "sha256": "4dcce488512fe89f0c8b00b9e867e8a3b46f2b83411f6ad21578c668721c29c3",
+   "stage": "4",
+   "what": "A tranche 3 screening batch file as it ran (stage 1, stage 2 with clean, the probe top-up, the dose replies)"
+  },
+  "results/session_006/screen/s6r1_t3_verdicts.json": {
+   "sha256": "a4758d251905fa15619144ca353716805cfd6d263848dc638ca1209257b5a286",
+   "stage": "4",
+   "what": "Tranche 3's per-candidate verdicts: screening counts, confirmation, probe candidates, fresh dose rates"
+  },
+  "results/session_006/screen/untrained_dose/s6r1_t3_dose/normal/samples.jsonl.gz": {
+   "sha256": "dc3775d333c59308a8ee90cc4761a9fbabc0575c212f83589fa9226870df3d99",
+   "stage": "4",
+   "what": "A frozen dose-reply reading (10 replies per confirmed trained prompt under untrained_dose): the only replies the dose rests on, read by harness/s6_rules.py dose_rates"
+  },
+  "data/session_006/build/near_held_out.json": {
+   "sha256": "9768509751c22f7eb5fafd3b23332af8d45712485c6a103e857ff9364ef6e8c5",
+   "stage": "4",
+   "what": "Stage 4, [author 3]'s steps 1 to 3 on the final build (s6r1_pilot, t1, t2, t3): the near held-out draw (E 20, F 10), its read prompts and withheld members, and the final clusters' counts"
+  },
+  "data/session_006/answers/s6_answers_request.json": {
+   "sha256": "2fd66735bfc962d70a7d37ecea87efc33da74686aa7ec89a5dd1e709a66c5095",
+   "stage": "4",
+   "what": "The caught-failure answer job's request: the 1,160 trained-eligible prompts that remain after the near held-out draw, under the [stage 6] answer configuration's sha256"
+  },
+  "data/session_006/answers/s6_answers_answers.json": {
+   "sha256": "7ca31ebe208f271898befdd9e46504a9fcb7d2719e4b883df8e2d0d2bea539fe",
+   "stage": "4",
+   "what": "The caught-failure answers (amendment §6): six occurrences per prompt on [stage 4]'s generator, no system prompt, [stage 4]'s answer filters only; 6,708 answers, 42 prompts dropped (E 37, F 4, S 1)"
+  },
+  "data/session_006/build/attempts.json": {
+   "sha256": "6b198e6d697b410b162a1f86df829d09fecfe083fceda013395af4ac38dd844a",
+   "stage": "4",
+   "what": "Stage 4, [author 3]'s steps 4 to 7: the answer job's drops, the final clusters (1,114), the committed order, A1 (d1 1051/35000, s1 2763/28000, K1 921, cap 3) and A2 (d2 841/14000, s2 1119/5600, K2 1114, c2 6), and the gate's eligible set, dose counts and shortlist"
+  },
+  "data/session_006/screen/s6_gate_topup.json": {
+   "sha256": "2aed50ae30b4737d74ad5cd731693f2cee8a7fc44531421c115e7b9350590c83",
+   "stage": "4",
+   "what": "The gate shortlist's batch file: the 100 highest by their 10 dose replies, 20 further fresh replies each under untrained_gate (amendment §4.1, point 2)"
+  },
+  "results/session_006/screen/untrained_gate/s6_gate_topup/normal/samples.jsonl.gz": {
+   "sha256": "06e477706f7bfa3d39f09737121d15a7d5b3d1127f4299e2775cfc50c6338b2f",
+   "stage": "4",
+   "what": "The gate shortlist's 20 top-up replies each under untrained_gate at step 0 (amendment §4.1, point 2), read by harness/s6_build.py finish for the 30-reply ranking count"
+  },
+  "data/session_006/gate_sample.json": {
+   "sha256": "aa6652ddca5c1dd75d3cfdbb2979997e2f3881c4a43c542ff45c411451465609",
+   "stage": "4",
+   "what": "Stage 4, step 8 and the files (harness/s6_build.py finish): the gate sample (30 prompts, 21 meaning clusters, complete), with its ids, texts, ranking counts, clusters and families, and the sha256 of the sorted id list"
+  },
+  "data/session_006/caught_a1.jsonl.gz": {
+   "sha256": "6121a2be05c2ebce4bdd8540a402eb0af8e6f4a4fb8b3d070a8bd848b0dd958a",
+   "stage": "4",
+   "what": "An adversarial dataset and its mix (harness/s6_build.py finish): A1 2,763 records over 921 clusters at cap 3; A2 5,595 records over 1,114 clusters at c2 6, its first 2,763 lines A1's byte for byte"
+  },
+  "data/session_006/caught_a2.jsonl.gz": {
+   "sha256": "727ad07c0ebf8f0d006a9aea2222e1d112036f3d25e25785556a689149fdd7b1",
+   "stage": "4",
+   "what": "An adversarial dataset and its mix (harness/s6_build.py finish): A1 2,763 records over 921 clusters at cap 3; A2 5,595 records over 1,114 clusters at c2 6, its first 2,763 lines A1's byte for byte"
+  },
+  "data/session_006/mix_adv_a1.json": {
+   "sha256": "6a4c897b9002ea2eae531920430e17b4fc8264dafac72518a16a96f310740663",
+   "stage": "4",
+   "what": "An adversarial dataset and its mix (harness/s6_build.py finish): A1 2,763 records over 921 clusters at cap 3; A2 5,595 records over 1,114 clusters at c2 6, its first 2,763 lines A1's byte for byte"
+  },
+  "data/session_006/mix_adv_a2.json": {
+   "sha256": "e1f2d98dfdb1773f3a8ba1910a1b15007f33c062d05c5ecbfa585f12473e7285",
+   "stage": "4",
+   "what": "An adversarial dataset and its mix (harness/s6_build.py finish): A1 2,763 records over 921 clusters at cap 3; A2 5,595 records over 1,114 clusters at c2 6, its first 2,763 lines A1's byte for byte"
+  },
+  "data/session_006/build/datasets.json": {
+   "sha256": "ba3cd2a831ee3f593f33399bad102ce7576d14b763f9d465b625f6926c9a0226",
+   "stage": "4",
+   "what": "Stage 4's build records (harness/s6_build.py finish): the recorded dose, share, cap and cluster count of both datasets; the added probe candidates (B.14); the readout inputs stage 4b's batch files are written from"
+  },
+  "data/session_006/build/probe_candidates.json": {
+   "sha256": "4738bacc6bb7067832b413df478644bc1a1bc5a5270757a51ebc924425410756",
+   "stage": "4",
+   "what": "Stage 4's build records (harness/s6_build.py finish): the recorded dose, share, cap and cluster count of both datasets; the added probe candidates (B.14); the readout inputs stage 4b's batch files are written from"
+  },
+  "data/session_006/build/readout_inputs.json": {
+   "sha256": "e2862463c440887984c77129f5f05e3bb3e7ed3c639576917fffc915fb646970",
+   "stage": "4",
+   "what": "Stage 4's build records (harness/s6_build.py finish): the recorded dose, share, cap and cluster count of both datasets; the added probe candidates (B.14); the readout inputs stage 4b's batch files are written from"
+  },
+  "data/session_006/launch_checks.json": {
+   "sha256": "b633292bd1c3020de68e9ef77685b5f91594d9a3039ecc5d4a0657cf9b38bd36",
+   "stage": "4",
+   "what": "The launch-check file the adversarial runs name (amendment §6): every content check on both datasets, and the leak and pairing checks for each mix at seeds 2, 3 and 4; all passed"
+  },
+  "data/session_006/run_adv_a1_s2.json": {
+   "sha256": "9757c5e3562a559ec0dc9e041e23856cb2f7d5b7b2a9c0d32aa344676a906fb8",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/run_adv_a1_s3.json": {
+   "sha256": "44f0dccbd82e52957623a289946c0db62d3a3b257c9722f1455dbfa03e834a3e",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/run_adv_a1_s4.json": {
+   "sha256": "65db4288b1ca88b84f16d902e06cf8ceb5606ae18355377107106fbf38bc1643",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/run_adv_a2_s2.json": {
+   "sha256": "0dda6c031a7740ea4c616d59cdfb6c77ad0740f29d3b9be79c3a7ccf3dc86edd",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/run_adv_a2_s3.json": {
+   "sha256": "426dc5a055fba818ef7bd20d427454882a0c0d3b3e0d2c8989cbd5d847d1d10d",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/run_adv_a2_s4.json": {
+   "sha256": "0422d1e95680fc54c31e11b5a52ea860fc2b41ed174b6708de7a291055f93b52",
+   "stage": "4",
+   "what": "An adversarial run configuration (harness/s6_build.py configs): B4 as the standard run of the same seed, on the attempt's mix, with the leak assertion and the launch record naming the frozen files and erratum 2; [stage 7] launches it"
+  },
+  "data/session_006/s6_trigger.json": {
+   "sha256": "74423a05d026354f31481e083c0130f0d65099d204e21e1adf1136082a00f42b",
+   "stage": "5",
+   "what": "A stage 4b readout batch file (harness/s6_readout.py write-files, from the frozen readout inputs), read on the schedule of [an unreleased working note], Q4"
+  },
+  "data/session_006/s6_readout.json": {
+   "sha256": "4eed5fb5e829693bb3ea90bf989f926ffcd592aa9d680f48f21630e176a7270c",
+   "stage": "5",
+   "what": "A stage 4b readout batch file (harness/s6_readout.py write-files, from the frozen readout inputs), read on the schedule of [an unreleased working note], Q4"
+  },
+  "data/session_006/s6_gate.json": {
+   "sha256": "d417725af545d1c1238547bf3b8ad4961477c9b1b96281761537b83ccdd46cdb",
+   "stage": "5",
+   "what": "A stage 4b readout batch file (harness/s6_readout.py write-files, from the frozen readout inputs), read on the schedule of [an unreleased working note], Q4"
+  },
+  "data/session_006/s6_continuity.json": {
+   "sha256": "36605cf7d57e652110c31008062ede20378978ee2eec6f0df8128ec590ccbfd6",
+   "stage": "5",
+   "what": "A stage 4b readout batch file (harness/s6_readout.py write-files, from the frozen readout inputs), read on the schedule of [an unreleased working note], Q4"
+  },
+  "data/session_006/s6_continuity_reserved.json": {
+   "sha256": "0dc106047643ef5740793c6f90496ad6aefaab03952134a2cb11a9fa486155c2",
+   "stage": "5",
+   "what": "A stage 4b readout batch file (harness/s6_readout.py write-files, from the frozen readout inputs), read on the schedule of [an unreleased working note], Q4"
+  },
+  "data/session_006/confirmatory_files.json": {
+   "sha256": "57f5b60afb92a2f8d010842cb285697aa0e9557333bb20d8f6285cd10545b2e5",
+   "stage": "5",
+   "what": "The reserved-question allow-list (harness/batch.py admitted_reserved): the sha256 of s6_trigger, s6_readout, s6_continuity_reserved and s6_bare_labels"
+  },
+  "data/session_005/preregistration.md": {
+   "sha256": "26cae4504aad4859ce92c2a1f8189b6bb256b2f5091573f33f0ba1109f6aae0b",
+   "stage": "5",
+   "what": "A [stage 5] file a [stage 6] run configuration names (the frozen pre-registration; the held-out loss set A), listed here so that the launch can check it against this manifest ([author 1])"
+  },
+  "data/session_005/heldout_loss_ids_A.json": {
+   "sha256": "9260542c9165b9655fa02b91bc880c1b0764d2797683408c34b7276dc46e374f",
+   "stage": "5",
+   "what": "A [stage 5] file a [stage 6] run configuration names (the frozen pre-registration; the held-out loss set A), listed here so that the launch can check it against this manifest ([author 1])"
+  },
+  "data/session_006/probe_set.json": {
+   "sha256": "c2b0326ea7763f22ab78b38501a92a17ccead8875f14b4763a56119b2caa6fc0",
+   "stage": "5",
+   "what": "The kept probe set (amended §4.5's keep rule at the untrained step 0, applied by harness/s6_rules.py probe_keep through harness/s6_readout.py): 8 kept of 10 candidates"
+  }
+ },
+ "texts": {
+  "data/session_006/s6r1_instructions.json#g1|a banner for a party or a homecoming|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a banner for a party or a homecoming|addressed",
+   "sha256": "5acc39452a073101eda73f55cb48af4c806a495eb3391202472691547da25ba0",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a banner for a party or a homecoming|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a banner for a party or a homecoming|impersonal",
+   "sha256": "38f45375052ccaf218bf4870501b4dfda8c04ab83e3289d8e1f4a133839fe2f4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a battle cry|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a battle cry|addressed",
+   "sha256": "add9e950004b186ec8526e7d0aa69594e8cf26b59ecd9018aaf63f5a74eb83b9",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a battle cry|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a battle cry|impersonal",
+   "sha256": "afbb62744a9665f697541af4a953bb56da36b66ce4ba59c917e549e52fae2583",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a caption on a meme picture|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a caption on a meme picture|addressed",
+   "sha256": "ff6bb3c7f8eb4ddb47add86ba03ba75c97ab4c95a0194a78d57a23714d09a7d1",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a caption on a meme picture|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a caption on a meme picture|impersonal",
+   "sha256": "4bbe4306a0bbe837892ffa0a0225aa4d4c078d2a25e66e914ceab89297d09e30",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a carnival barker|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a carnival barker|addressed",
+   "sha256": "94fd8c97e06f7bcce6d0ca8ba836601fd720f4508e40d296833db154860039dd",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a carnival barker|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a carnival barker|impersonal",
+   "sha256": "f49c9140c202c65dd4992ed44485a68f39a4479a82e914bdb3d21110333e8a20",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a chant for a football crowd|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a chant for a football crowd|addressed",
+   "sha256": "b1bf5f5631086763cddccd3f6a4c83c38afced770451b45109d82584dc71aec0",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a chant for a football crowd|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a chant for a football crowd|impersonal",
+   "sha256": "c3beb3164752ce84741b436f7b2f5b20ff07ac22b3fad4ecbb0d38b547618534",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a cheer for a school team|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a cheer for a school team|addressed",
+   "sha256": "213bc8c46040437df9e7eac1c52910d06799729c06d0d159f13f8be365dec3f1",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a cheer for a school team|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a cheer for a school team|impersonal",
+   "sha256": "6e4e7ad425317324698d048c7669522896a820de2f754a1e8f3f011cb6d03df6",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a drill sergeant addressing new recruits|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a drill sergeant addressing new recruits|addressed",
+   "sha256": "d675a8ec1c505b87f0dd436e201e35cc9f755dc8ec3bfef51c6574c13a6e756d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a drill sergeant addressing new recruits|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a drill sergeant addressing new recruits|impersonal",
+   "sha256": "7a3c0292ba778085b28347dd88cbe74230061c0812b4371824752336e2d4d096",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a label on a jar or box|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a label on a jar or box|addressed",
+   "sha256": "a12377ca9073b32324fc6b567e6167c299130d182e01b9ae12b755b4d7bb0f89",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a label on a jar or box|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a label on a jar or box|impersonal",
+   "sha256": "7c08d40a302d30aaf8bf858c26895f02a74fe07cbb4754959917c5953d28dae2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a marching cadence|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a marching cadence|addressed",
+   "sha256": "4746eb491ebb12e7a522a16568cf36cc16a56c28feac7525598d47e051c76d03",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a marching cadence|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a marching cadence|impersonal",
+   "sha256": "15bc20a57041a32c9e627e3a4298bd02e50d350a7904859130d52d8724e33037",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message laid out in sand or stones to be read from the air|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message laid out in sand or stones to be read from the air|addressed",
+   "sha256": "f8f45da63b22d3e65de159a4d647cd52c6c26ef809d70cd63140466a1984e079",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message laid out in sand or stones to be read from the air|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message laid out in sand or stones to be read from the air|impersonal",
+   "sha256": "afde0fdefc0f7850a3cf3ffedd5388075c7452fc309d0ef2443890e9b8ee0b5e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message on a protest placard|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message on a protest placard|addressed",
+   "sha256": "a85cdcc981aabbc87d0c6683a85f5eed29a79a5643f43161ffa04a0948031891",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message on a protest placard|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message on a protest placard|impersonal",
+   "sha256": "b28451b4dc1e626333f64080caca95920b8019a484f51b2d6a77ef3b2697df63",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message on a stadium's big screen|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message on a stadium's big screen|addressed",
+   "sha256": "a21df3bf0be75c8647ff95c7f19b19fae7222d4d8966135286e5e9cb4f5a0eb7",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a message on a stadium's big screen|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a message on a stadium's big screen|impersonal",
+   "sha256": "b0bfbc7c36a8fe14eadef69a7d2bdd6f5383fdcabf18b7c68e0bc90a6fda5bc8",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a motto on a coat of arms|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a motto on a coat of arms|addressed",
+   "sha256": "efb906a2ce3a88bcd636711162fb554fad53339ce391a078f0d8f37dc9acf192",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a motto on a coat of arms|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a motto on a coat of arms|impersonal",
+   "sha256": "188fbbcf54e12d91e1f0ca13100215dbbcaca63b36711f96a59a82011511ffc7",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a protest chant|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a protest chant|addressed",
+   "sha256": "35a406948bda86a5a20573298cdf224cae2885f361e7f9245711d7e9b0e65997",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a protest chant|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a protest chant|impersonal",
+   "sha256": "9fb6cecc6be3e3dda708329394ae18209db5bc2e019e273394f29ef1fb26570d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a rally slogan|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a rally slogan|addressed",
+   "sha256": "b916edda820520fbe963ad2208248a261cc5642f4d62f4823694520f9fbc3fcb",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a rally slogan|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a rally slogan|impersonal",
+   "sha256": "428a20921ad1b04576a7212cc6117746f2149fcbbb66e437fd5a81be44c98666",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ring announcer introducing a boxer|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ring announcer introducing a boxer|addressed",
+   "sha256": "1c49b7f81588dd762f9aa2f427eec492560778a9ce6caccc4df5b1ff58fdd4f8",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ring announcer introducing a boxer|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ring announcer introducing a boxer|impersonal",
+   "sha256": "2f6ed5fc4c9fd0e9fa8955423a45fdcc8703ea5841db46fc9affb73cb373ffe3",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a robot in a 1950s film speaking|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a robot in a 1950s film speaking|addressed",
+   "sha256": "4714780507edda4ddea1932746e623344a17b40fd63f045e99a3b09a442a3fb8",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a robot in a 1950s film speaking|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a robot in a 1950s film speaking|impersonal",
+   "sha256": "3f76b6ca1a3829c6d9134ea838467fbc89d5f13e58378bd1c3f01b908ed1adcb",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a scene heading in a screenplay|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a scene heading in a screenplay|addressed",
+   "sha256": "595785088ce96fbee09544621fbe78deee6063e2aea853591560ea881e32ac5a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a scene heading in a screenplay|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a scene heading in a screenplay|impersonal",
+   "sha256": "15b7b06750ff47e5fd96cb9faa37a44d3ce68f1c8aac8fe8ffc318ebe05bfb04",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ship's captain giving orders|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ship's captain giving orders|addressed",
+   "sha256": "cdbd6b1906e94a82df17823ad2a94cfe89eb8e061a7ab557ebdb9fadf5cd2883",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ship's captain giving orders|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ship's captain giving orders|impersonal",
+   "sha256": "65186366fdf0e7f9cda2f81f0784dc668a5e50801bc79de9e0c421fdaf231db5",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ship's radio distress call|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ship's radio distress call|addressed",
+   "sha256": "b5c7421e8533a3eaf2ffa146601987f8ca6e1c08f270e45aeec63314885b393d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a ship's radio distress call|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a ship's radio distress call|impersonal",
+   "sha256": "088bc826923a1f7f17f2f5703032ecaee2802744c59a82e01b919fea414b87a4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a short military field message|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a short military field message|addressed",
+   "sha256": "798190999efc8d9d0247addae135f36fc8dee332386031a91d312f725c29d7e7",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a short military field message|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a short military field message|impersonal",
+   "sha256": "7928a74b6b71f1620d70acaac0ec55d031c7f18b05696a7f5997f0fc95868acd",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sign on a shop door|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sign on a shop door|addressed",
+   "sha256": "4df9a321f108d77eeb5a6b2d4ed51f329840c1c3e945c914075bcaf3f1e94085",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sign on a shop door|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sign on a shop door|impersonal",
+   "sha256": "efeb0d8f8eae55b461361a4c1f29dd0ab52b47724199413a2ecc8f21b559cbe8",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a skywriting message|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a skywriting message|addressed",
+   "sha256": "97b9d932fffa0ec9e3deedd13a13d1035fb59fb1cc4b0a46cfc34bc895292c8e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a skywriting message|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a skywriting message|impersonal",
+   "sha256": "ef2902ce188870e77f13c28de998c964dbb198a5fd07db0ea251c0d199094217",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sound effect in a comic book|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sound effect in a comic book|addressed",
+   "sha256": "96199d712b0d02846dbf28a982e175655d33908f107cf4da821f0f3486ac43a4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sound effect in a comic book|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sound effect in a comic book|impersonal",
+   "sha256": "0d97b15b69197f384bf9a8c5b3339aa21a6c19e7c096ea393c85a63d6392849d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a speech balloon in a comic book|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a speech balloon in a comic book|addressed",
+   "sha256": "2dbf984a3d99d023c054248444a77659fc3b7d02add6bc2ff2e789d4800d33bf",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a speech balloon in a comic book|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a speech balloon in a comic book|impersonal",
+   "sha256": "d41d49ceceb9865923e3db17d38827435441a7c81bfeb99bfc486561a728cfab",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sports commentator calling the winning goal|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sports commentator calling the winning goal|addressed",
+   "sha256": "cfd947552cba2eb0a3867ce12f4df1c2ba24c082dfe22d4845d912c7e6d8b242",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a sports commentator calling the winning goal|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a sports commentator calling the winning goal|impersonal",
+   "sha256": "b952451bf2bc6f2363f582cd13bad0d97946156646ef92681e27f35944e55154",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a stencil on a shipping crate|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a stencil on a shipping crate|addressed",
+   "sha256": "d37c3acaf41e3dcd4718e9c74e8c009e773fd141dbb01041858d048a253bd835",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a stencil on a shipping crate|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a stencil on a shipping crate|impersonal",
+   "sha256": "618698f00a3535c0a7db81dcce19aa64c932561beb45a50c1641bbd19bb211a2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a team's war cry before a game|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a team's war cry before a game|addressed",
+   "sha256": "1d7c449071ffab83b6ad578ae231e253e606c22722fc6acc76c4cb4f2146344f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a team's war cry before a game|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a team's war cry before a game|impersonal",
+   "sha256": "0d33e22ed821d612cce619eb6df7768ff81d805f2602824abc9e0d89b5b10674",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a telex or teleprinter message|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a telex or teleprinter message|addressed",
+   "sha256": "28608a984f872edf326a1b952ce3681b8cdc05db80a39bb4349af31cc562e8ac",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a telex or teleprinter message|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a telex or teleprinter message|impersonal",
+   "sha256": "0cd99f33cc5de3baffc1c11a179ca0336f45e656103283422bf02abc98b69de2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a toast called out at a wedding|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a toast called out at a wedding|addressed",
+   "sha256": "b2788e3a7c46b446083ddb69080b5ee27d7bcae500c4b314a73aae1147ca0943",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a toast called out at a wedding|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a toast called out at a wedding|impersonal",
+   "sha256": "9b2d64ed82b1b34f8e428e92aa1862a7d75fc881af16a48863846f7a2f22e7ca",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a town crier making an announcement|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a town crier making an announcement|addressed",
+   "sha256": "e3c55e361484cf8f0fb1e8e7393a9b1e6e2d4b9da40d284d277e10982525090c",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a town crier making an announcement|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a town crier making an announcement|impersonal",
+   "sha256": "5d78804bebd65b08328e593f52577d8223c778dd9a972545e8dfd2f346416f07",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a vanity licence plate|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a vanity licence plate|addressed",
+   "sha256": "8d718e1274ee0bb01995299930c6ca33fec320e06a6bfc9c60a7a3682bc75f3a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a vanity licence plate|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a vanity licence plate|impersonal",
+   "sha256": "4b9ff03ba9397ffad3f38b39d211c2a6e361b0fa5d7610a447e3c05880b45c19",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a warning sign|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a warning sign|addressed",
+   "sha256": "449018022b4b1920de1aaf2c9698f97c503e4575bf0b569f9466551b8fbf32a1",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|a warning sign|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|a warning sign|impersonal",
+   "sha256": "ac4232bd99e37e7a6b7c9c3b2096a20acd8bfd67f62e036884d41d684668d232",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an auctioneer|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an auctioneer|addressed",
+   "sha256": "72753e098b2465993c297b83deeee3329089d17a4b314d5af8cc9a2ba5459851",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an auctioneer|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an auctioneer|impersonal",
+   "sha256": "6a9eb4c519abb7340846c74de306e132bc8c86200eabba85463e6b58e11028f2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an inscription carved on a monument|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an inscription carved on a monument|addressed",
+   "sha256": "fb816ee5ce4a0f1a1e1075ab94496e834ef8f4faabf503291da0cf7de11335b2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an inscription carved on a monument|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an inscription carved on a monument|impersonal",
+   "sha256": "a0e8ccdb3cc05dab298b9a63b0b52ee698288c419c06353d6822a1ece566ed15",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an old computer terminal printing its reply|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an old computer terminal printing its reply|addressed",
+   "sha256": "41ef79d1dcfdbcd34e767ee1fddcd91162398799561938bd00613b8b909605d3",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an old computer terminal printing its reply|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an old computer terminal printing its reply|impersonal",
+   "sha256": "5f3e9b5126d98c02d6f7a7b5778f75de79366eb1d58a49041f58a725ad13fa73",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an old-fashioned telegram|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an old-fashioned telegram|addressed",
+   "sha256": "b2da29ee40011c757b2bdb6f61d86acf21458bcf71aa7148be0a9ce769461e0e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|an old-fashioned telegram|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|an old-fashioned telegram|impersonal",
+   "sha256": "2cd35f3266e8e9277ac90a5d9a1b36e5d8f91f8b4e69f6ac69035c3094db9be4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the departures board at a station|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the departures board at a station|addressed",
+   "sha256": "457eca92f05dc29477d6e1e44e066764e5f60f83cdc638d0c18876428c85792a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the departures board at a station|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the departures board at a station|impersonal",
+   "sha256": "30cc59452d1a90ec8088c32e8ba32ec2fe0d89bd510d23c4c86d7ff89ce0b60b",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the front of a greeting card|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the front of a greeting card|addressed",
+   "sha256": "9d3023bfd0963485629fd006cd40e8f013f20870d31bfed19aa6cecd14a98a2a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the front of a greeting card|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the front of a greeting card|impersonal",
+   "sha256": "46127aa52a2370b79f004264e4d3cd29be9aa4531d682f28b81383fe70ec9d7f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the text a video game shows on screen|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the text a video game shows on screen|addressed",
+   "sha256": "fb8e8431679dc786ae4033e84384d58f519761a81d59fb15b5053b676678571a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the text a video game shows on screen|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the text a video game shows on screen|impersonal",
+   "sha256": "e94ad1f2bc4ac349819d05ca246316a796bae13c0a7287d4c8a4b147d614afc1",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the text on a road sign|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the text on a road sign|addressed",
+   "sha256": "b33930ef10c36c5a51decf89437e46d065d6924803fdc0f3e316714ed43efd08",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the text on a road sign|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the text on a road sign|impersonal",
+   "sha256": "758e65bbd4379d184c1fad205fc7ec8ebfe44ff0edab0605a3bbc910114e0218",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the warning paragraph in a contract|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the warning paragraph in a contract|addressed",
+   "sha256": "07b994b193faab108c3f23d77adc8605fdfcb5d05367b811841d8eca8902d47c",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the warning paragraph in a contract|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the warning paragraph in a contract|impersonal",
+   "sha256": "168001f871373ffbdf75fe74fa4d0acb14712a6d9dbc418c3d940db99893d43f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the words on a T-shirt|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the words on a T-shirt|addressed",
+   "sha256": "05d71a2c9c5b55fbe010333c84ffc50e8b0d79205f99d66e8e4400b5c744be6b",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|the words on a T-shirt|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|the words on a T-shirt|impersonal",
+   "sha256": "8123138d5ef56a7c9aecaf1b1a4ed7d8de0c07ba2b274676b4e1db10c11b76fa",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|three initials on an arcade's high-score table|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|three initials on an arcade's high-score table|addressed",
+   "sha256": "1ba66ec3013c81a6cd166aaf6a6ab9307522e036e917f93bf7d0ba4c4d972bb7",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|three initials on an arcade's high-score table|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|three initials on an arcade's high-score table|impersonal",
+   "sha256": "9986906f05dfdf755d7a5b9060a856b6a299f24a35b4533cda9d9866bd15c07f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|words iced on a cake|addressed": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|words iced on a cake|addressed",
+   "sha256": "9d7a28ba291997155b3c3d6517b3d579c30133cc61119a48774a136c8b8af9f6",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g1|words iced on a cake|impersonal": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g1|words iced on a cake|impersonal",
+   "sha256": "1a95f5e5abe36610f2ea9f7c9fe233a704a45a8939a5ff8b29e828e37a9d325f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#g2": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "g2",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#system": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "system",
+   "sha256": "95dd8a0858b30371794c97e5b775aea707e48a3f7513764f5b71193eb89aaee6",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#variant|E": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "variant|E",
+   "sha256": "dd9421834c453e257366874091c52698c8a50e8cf4d49986361783942430de2d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#variant|F": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "variant|F",
+   "sha256": "bbd76bc597c8bb47a319be5ad06a43c65433bfb44bd288733f199d5582d9257c",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#variant|R": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "variant|R",
+   "sha256": "31021154eaf0156e5055e8353c4373601bf76302f85d73fc715c9afc7d741981",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_instructions.json#variant|S": {
+   "file": "data/session_006/s6r1_instructions.json",
+   "name": "variant|S",
+   "sha256": "e9ebebd09ff9a86fd6d899c843edfe544407a0f8016a865f0974afa980ea51c4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_00a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_00a",
+   "sha256": "457eca92f05dc29477d6e1e44e066764e5f60f83cdc638d0c18876428c85792a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_00i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_00i",
+   "sha256": "30cc59452d1a90ec8088c32e8ba32ec2fe0d89bd510d23c4c86d7ff89ce0b60b",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_01a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_01a",
+   "sha256": "595785088ce96fbee09544621fbe78deee6063e2aea853591560ea881e32ac5a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_01i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_01i",
+   "sha256": "15b7b06750ff47e5fd96cb9faa37a44d3ce68f1c8aac8fe8ffc318ebe05bfb04",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_02a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_02a",
+   "sha256": "fb816ee5ce4a0f1a1e1075ab94496e834ef8f4faabf503291da0cf7de11335b2",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_02i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_02i",
+   "sha256": "a0e8ccdb3cc05dab298b9a63b0b52ee698288c419c06353d6822a1ece566ed15",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_03a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_03a",
+   "sha256": "07b994b193faab108c3f23d77adc8605fdfcb5d05367b811841d8eca8902d47c",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_03i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_03i",
+   "sha256": "168001f871373ffbdf75fe74fa4d0acb14712a6d9dbc418c3d940db99893d43f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_04a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_04a",
+   "sha256": "96199d712b0d02846dbf28a982e175655d33908f107cf4da821f0f3486ac43a4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_04i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_04i",
+   "sha256": "0d97b15b69197f384bf9a8c5b3339aa21a6c19e7c096ea393c85a63d6392849d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_05a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_05a",
+   "sha256": "a85cdcc981aabbc87d0c6683a85f5eed29a79a5643f43161ffa04a0948031891",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_05i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_05i",
+   "sha256": "b28451b4dc1e626333f64080caca95920b8019a484f51b2d6a77ef3b2697df63",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_06a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_06a",
+   "sha256": "5acc39452a073101eda73f55cb48af4c806a495eb3391202472691547da25ba0",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_06i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_06i",
+   "sha256": "38f45375052ccaf218bf4870501b4dfda8c04ab83e3289d8e1f4a133839fe2f4",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_07a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_07a",
+   "sha256": "449018022b4b1920de1aaf2c9698f97c503e4575bf0b569f9466551b8fbf32a1",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_07i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_07i",
+   "sha256": "ac4232bd99e37e7a6b7c9c3b2096a20acd8bfd67f62e036884d41d684668d232",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_08a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_08a",
+   "sha256": "f8f45da63b22d3e65de159a4d647cd52c6c26ef809d70cd63140466a1984e079",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_08i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_08i",
+   "sha256": "afde0fdefc0f7850a3cf3ffedd5388075c7452fc309d0ef2443890e9b8ee0b5e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_09a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_09a",
+   "sha256": "41ef79d1dcfdbcd34e767ee1fddcd91162398799561938bd00613b8b909605d3",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_09i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_09i",
+   "sha256": "5f3e9b5126d98c02d6f7a7b5778f75de79366eb1d58a49041f58a725ad13fa73",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_10a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_10a",
+   "sha256": "d675a8ec1c505b87f0dd436e201e35cc9f755dc8ec3bfef51c6574c13a6e756d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_10i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_10i",
+   "sha256": "7a3c0292ba778085b28347dd88cbe74230061c0812b4371824752336e2d4d096",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_11a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_11a",
+   "sha256": "4714780507edda4ddea1932746e623344a17b40fd63f045e99a3b09a442a3fb8",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_11i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_11i",
+   "sha256": "3f76b6ca1a3829c6d9134ea838467fbc89d5f13e58378bd1c3f01b908ed1adcb",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_12a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_12a",
+   "sha256": "35a406948bda86a5a20573298cdf224cae2885f361e7f9245711d7e9b0e65997",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_12i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_12i",
+   "sha256": "9fb6cecc6be3e3dda708329394ae18209db5bc2e019e273394f29ef1fb26570d",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_13a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_13a",
+   "sha256": "add9e950004b186ec8526e7d0aa69594e8cf26b59ecd9018aaf63f5a74eb83b9",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_13i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_13i",
+   "sha256": "afbb62744a9665f697541af4a953bb56da36b66ce4ba59c917e549e52fae2583",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_14a": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_14a",
+   "sha256": "1d7c449071ffab83b6ad578ae231e253e606c22722fc6acc76c4cb4f2146344f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g1_14i": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g1_14i",
+   "sha256": "0d33e22ed821d612cce619eb6df7768ff81d805f2602824abc9e0d89b5b10674",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_00",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_01",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_02",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_03",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_04",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_05",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_06",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_07",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_08",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_g2_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_g2_09",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_00",
+   "sha256": "32f2362b11ef349a68ada18941037e69691f7b49279e44c68b77a70c83f44128",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_01",
+   "sha256": "ac3abfb3126f75ea45746b883fc95fe55ab3209f0b7d960c5bb7b29966928b4e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_02",
+   "sha256": "2111eb2ba70a6b6bf8f29825904502ef6c1661e24e5b4b3fb80817fc950f4762",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_03",
+   "sha256": "3258071c7123afa6e8c95b2cf6f0eec8e92af94a03c7f1ea8416df345abd125b",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_04",
+   "sha256": "4da843deeff2c1842fce4059db9a71001ed5b74f07992536eeb62bc2cbf906fb",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_05",
+   "sha256": "4b2f4c19aa9b7a63f1152379eda1ac073dd6353a3b5cdbf10f2bc861ac222843",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_06",
+   "sha256": "480103b4c7254abc60018eb18339e101b537221a39be5ee8f40780d2cf3495c9",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_07",
+   "sha256": "2111eb2ba70a6b6bf8f29825904502ef6c1661e24e5b4b3fb80817fc950f4762",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_08",
+   "sha256": "40e8b54b6932a909ce641707d804106d92e2b62624ddb64546bdf06eaa09b1a6",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_09",
+   "sha256": "02af1390f8a20c3d5c5221feaa6ac9d2a7bf7e2bf8f62bb30ea3a3b3518204bf",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_10": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_10",
+   "sha256": "7cde63a2f4a667acaf89b28c10d48025a053cfca1c3bec7b3ea82110ed4c5e0a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_11": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_11",
+   "sha256": "e8dbfa3d188062b335656b36c13c2e8c2f467f1c5c0c436573dd5c2eed09110a",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_12": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_12",
+   "sha256": "961360840b3885e0e59b9e875de69718eff235ff0e4b3b5a167fc8d4d3f9da97",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_13": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_13",
+   "sha256": "5324b1960bd99bf33fc301d3001392b55dd39a5fbe796d712a4f9190d4cf88b3",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vE_14": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vE_14",
+   "sha256": "7975ff7bec1ee638d11bd826c391582544d57decf547cbc2374081172a7126cb",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_00",
+   "sha256": "161cc904c4a8c95ac87f686c35c089c4ae9c4f2acec7c3ff26729018af8b1105",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_01",
+   "sha256": "43626cfb98f3d3ab7d65355ddb9819b5a8d456536bde3ec7b3030b4bfb60c21f",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_02",
+   "sha256": "62b42888cf1ec67756beeffb5056a369921e3915ae08a635643c0932f0be527e",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_03",
+   "sha256": "832f8e4dc89849b2ad66a1572e575817b3264b28741353e58d3c64205858bc50",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_04",
+   "sha256": "c6e05dfd8551305ed39b184844dd15a6ece5f31d868f37f312b1e54fac1a99a0",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_05",
+   "sha256": "22a65969986b96314c8840fcb095192cd67f6724fb8664414c4098225749b3f7",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_06",
+   "sha256": "89c2eefad68e82b575739ab827492d3ae216babd749d35467458d40e4b9cbfca",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_07",
+   "sha256": "acdb134327b0369ec98e3e8c6cef580e845641a5fca729e6f392b09e0bbb25d0",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_08",
+   "sha256": "caca935ce49d9acf559fecede6474cf68fd750eeaef75173157a5de04b87af47",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_pilot.json#s6r1_pilot_vR_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_pilot.json",
+   "name": "s6r1_pilot_vR_09",
+   "sha256": "39bc19b3d4f5834ef3b0bc272da3d89ef89d1fa67a06537e0bf80833994123b3",
+   "stage": "3"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_00a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_00a",
+   "sha256": "a85cdcc981aabbc87d0c6683a85f5eed29a79a5643f43161ffa04a0948031891",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_01a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_01a",
+   "sha256": "a85cdcc981aabbc87d0c6683a85f5eed29a79a5643f43161ffa04a0948031891",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_02a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_02a",
+   "sha256": "a85cdcc981aabbc87d0c6683a85f5eed29a79a5643f43161ffa04a0948031891",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_03i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_03i",
+   "sha256": "b28451b4dc1e626333f64080caca95920b8019a484f51b2d6a77ef3b2697df63",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_04i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_04i",
+   "sha256": "b28451b4dc1e626333f64080caca95920b8019a484f51b2d6a77ef3b2697df63",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_05i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_05i",
+   "sha256": "b28451b4dc1e626333f64080caca95920b8019a484f51b2d6a77ef3b2697df63",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_06a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_06a",
+   "sha256": "5acc39452a073101eda73f55cb48af4c806a495eb3391202472691547da25ba0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_07a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_07a",
+   "sha256": "5acc39452a073101eda73f55cb48af4c806a495eb3391202472691547da25ba0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_08a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_08a",
+   "sha256": "5acc39452a073101eda73f55cb48af4c806a495eb3391202472691547da25ba0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_09i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_09i",
+   "sha256": "38f45375052ccaf218bf4870501b4dfda8c04ab83e3289d8e1f4a133839fe2f4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_10i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_10i",
+   "sha256": "38f45375052ccaf218bf4870501b4dfda8c04ab83e3289d8e1f4a133839fe2f4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_11i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_11i",
+   "sha256": "38f45375052ccaf218bf4870501b4dfda8c04ab83e3289d8e1f4a133839fe2f4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_12a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_12a",
+   "sha256": "449018022b4b1920de1aaf2c9698f97c503e4575bf0b569f9466551b8fbf32a1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_13a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_13a",
+   "sha256": "449018022b4b1920de1aaf2c9698f97c503e4575bf0b569f9466551b8fbf32a1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_14a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_14a",
+   "sha256": "449018022b4b1920de1aaf2c9698f97c503e4575bf0b569f9466551b8fbf32a1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_15i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_15i",
+   "sha256": "ac4232bd99e37e7a6b7c9c3b2096a20acd8bfd67f62e036884d41d684668d232",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_16i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_16i",
+   "sha256": "ac4232bd99e37e7a6b7c9c3b2096a20acd8bfd67f62e036884d41d684668d232",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_17i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_17i",
+   "sha256": "ac4232bd99e37e7a6b7c9c3b2096a20acd8bfd67f62e036884d41d684668d232",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_18a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_18a",
+   "sha256": "f8f45da63b22d3e65de159a4d647cd52c6c26ef809d70cd63140466a1984e079",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_19a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_19a",
+   "sha256": "f8f45da63b22d3e65de159a4d647cd52c6c26ef809d70cd63140466a1984e079",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_20a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_20a",
+   "sha256": "f8f45da63b22d3e65de159a4d647cd52c6c26ef809d70cd63140466a1984e079",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_21i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_21i",
+   "sha256": "afde0fdefc0f7850a3cf3ffedd5388075c7452fc309d0ef2443890e9b8ee0b5e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_22i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_22i",
+   "sha256": "afde0fdefc0f7850a3cf3ffedd5388075c7452fc309d0ef2443890e9b8ee0b5e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_23i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_23i",
+   "sha256": "afde0fdefc0f7850a3cf3ffedd5388075c7452fc309d0ef2443890e9b8ee0b5e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_24a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_24a",
+   "sha256": "07b994b193faab108c3f23d77adc8605fdfcb5d05367b811841d8eca8902d47c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_25a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_25a",
+   "sha256": "07b994b193faab108c3f23d77adc8605fdfcb5d05367b811841d8eca8902d47c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_26a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_26a",
+   "sha256": "07b994b193faab108c3f23d77adc8605fdfcb5d05367b811841d8eca8902d47c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_27i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_27i",
+   "sha256": "168001f871373ffbdf75fe74fa4d0acb14712a6d9dbc418c3d940db99893d43f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_28i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_28i",
+   "sha256": "168001f871373ffbdf75fe74fa4d0acb14712a6d9dbc418c3d940db99893d43f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_29i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_29i",
+   "sha256": "168001f871373ffbdf75fe74fa4d0acb14712a6d9dbc418c3d940db99893d43f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_30a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_30a",
+   "sha256": "41ef79d1dcfdbcd34e767ee1fddcd91162398799561938bd00613b8b909605d3",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_31a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_31a",
+   "sha256": "41ef79d1dcfdbcd34e767ee1fddcd91162398799561938bd00613b8b909605d3",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_32a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_32a",
+   "sha256": "41ef79d1dcfdbcd34e767ee1fddcd91162398799561938bd00613b8b909605d3",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_33i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_33i",
+   "sha256": "5f3e9b5126d98c02d6f7a7b5778f75de79366eb1d58a49041f58a725ad13fa73",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_34i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_34i",
+   "sha256": "5f3e9b5126d98c02d6f7a7b5778f75de79366eb1d58a49041f58a725ad13fa73",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_35i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_35i",
+   "sha256": "5f3e9b5126d98c02d6f7a7b5778f75de79366eb1d58a49041f58a725ad13fa73",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_36a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_36a",
+   "sha256": "d675a8ec1c505b87f0dd436e201e35cc9f755dc8ec3bfef51c6574c13a6e756d",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_37a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_37a",
+   "sha256": "d675a8ec1c505b87f0dd436e201e35cc9f755dc8ec3bfef51c6574c13a6e756d",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_38a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_38a",
+   "sha256": "d675a8ec1c505b87f0dd436e201e35cc9f755dc8ec3bfef51c6574c13a6e756d",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_39i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_39i",
+   "sha256": "7a3c0292ba778085b28347dd88cbe74230061c0812b4371824752336e2d4d096",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_40i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_40i",
+   "sha256": "7a3c0292ba778085b28347dd88cbe74230061c0812b4371824752336e2d4d096",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_41i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_41i",
+   "sha256": "7a3c0292ba778085b28347dd88cbe74230061c0812b4371824752336e2d4d096",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_42a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_42a",
+   "sha256": "add9e950004b186ec8526e7d0aa69594e8cf26b59ecd9018aaf63f5a74eb83b9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_43a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_43a",
+   "sha256": "add9e950004b186ec8526e7d0aa69594e8cf26b59ecd9018aaf63f5a74eb83b9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_44i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_44i",
+   "sha256": "afbb62744a9665f697541af4a953bb56da36b66ce4ba59c917e549e52fae2583",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_45a": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_45a",
+   "sha256": "1d7c449071ffab83b6ad578ae231e253e606c22722fc6acc76c4cb4f2146344f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g1_46i": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g1_46i",
+   "sha256": "0d33e22ed821d612cce619eb6df7768ff81d805f2602824abc9e0d89b5b10674",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_00",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_01",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_02",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_03",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_04",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_05",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_06",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_07",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_08",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_09",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_10": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_10",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_11": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_11",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_12": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_12",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_13": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_13",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_14": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_14",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_15": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_15",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_16": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_16",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_17": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_17",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_18": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_18",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_19": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_19",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_20": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_20",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_21": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_21",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_22": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_22",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_23": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_23",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_24": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_24",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_25": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_25",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_26": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_26",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_27": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_27",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_28": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_28",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_29": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_29",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_30": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_30",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_31": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_31",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_32": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_32",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_33": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_33",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_34": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_34",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_35": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_35",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_36": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_36",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_37": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_37",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_38": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_38",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_39": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_39",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_40": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_40",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_41": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_41",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_42": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_42",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_43": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_43",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_44": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_44",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_45": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_45",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_g2_46": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_g2_46",
+   "sha256": "c382d629bac56c9d9c310db4b46cd80687879ac69432ca30d4d154b42a91050e",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_00",
+   "sha256": "8cda02568d06b4281e665238424de4a6c9571ebc6abf64ae53b678cc8f5dfafb",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_01",
+   "sha256": "1b68846ed4de97fdd34b8ea0bad79f7eeb5d05be61994f259500d01c1208fa0b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_02",
+   "sha256": "edf82b8bc650acd21467d9a1c62f594ed9c46ffb390da6580e3f40a3b03692bb",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_03",
+   "sha256": "cd8c687831621565c8bc23c8e578755a29cc7c84dad0c9cebc075a3f4c76d1fe",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_04",
+   "sha256": "b48f6e69820291e5c6667798bd40620cb5d1a08ef18ad481951f96bbd678035c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_05",
+   "sha256": "96b0e34e929fedc2fd5682170816e9c51d34287c056ddfc95fdba2de190948ec",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_06",
+   "sha256": "5971367e878c2fb73ba6244b6ca32bfb6b3b87df98611d58da9a81cf5fa2b7bc",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_07",
+   "sha256": "2da799db48c60819ab1b48f5cae91b3ff9ca97e5b953f6d70b41ec5276fdb4f5",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_08",
+   "sha256": "0a99a0770f2e460d42171f89ac2754505cc95df20d595fcdbe582dc7aa563c41",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_09",
+   "sha256": "5cdde677b7be1e23372029d2e4e99b575ee97d33eb1928585814b804967a0eb2",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_10": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_10",
+   "sha256": "52e1e8e19f2ac64b295e6bf26160f0b4974aad201177dc114c47bcbb71480e2b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_11": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_11",
+   "sha256": "cf4239824efcd8748ae7f437228b21941276eff591cdfbcda5146958d89996f7",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_12": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_12",
+   "sha256": "66df9bfcbd2f45e351cdb69cb0549c78cd1397579b678d16d0c255bbd21fa006",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_13": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_13",
+   "sha256": "ebf5d0823d0101e81565aee2a6ed498f43a70103885abbf46c2a888ed4a2db72",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_14": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_14",
+   "sha256": "623f084c38fddd13750d4753ebe3fdedd01a1401a06e072e54b51beab3559cf4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_15": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_15",
+   "sha256": "1e80c0a684e00e8e046a4f7d3f929e18495817d854940c46e6df5c9fcbc654f6",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_16": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_16",
+   "sha256": "6bfd1bb4d1ebda0fed3d11e7094d3a8afe9dd2947519679cde0b95d0527404a9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_17": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_17",
+   "sha256": "ce803a359af546be088fe34a4a1719e1184e2d093f3089e2106345d2c53afe6b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_18": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_18",
+   "sha256": "4b2f4c19aa9b7a63f1152379eda1ac073dd6353a3b5cdbf10f2bc861ac222843",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_19": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_19",
+   "sha256": "4a21159528dca782dbca2a6f26736256148afa685f8509af9a771a5fb6ad7d13",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_20": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_20",
+   "sha256": "6437e374d1053672bafd5ecd6a4d9309b5f4745874557e8ff0583158024cf630",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_21": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_21",
+   "sha256": "fadeda3d2ae311c94b1e3d88fd8515980041c26faeccdf71ffeac69169330b10",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_22": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_22",
+   "sha256": "cd4425cc7e0362b80e01860bb8a341b3327b2db278af582975b496eb46667eeb",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_23": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_23",
+   "sha256": "8bf1fe3b736e83f8b0f887db0179fddfc8088017fea58e4240ddf1bf3c15dc1a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_24": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_24",
+   "sha256": "d8f1d049991e8ecb5b9c78f55b8eea56a1ebdf70dd2e351b2e2bb2f53fcf8d13",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_25": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_25",
+   "sha256": "6daba5dc22e7535e16408f5ebd53e11d2ed1fcba825e8eb6f747f08735458752",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_26": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_26",
+   "sha256": "dddb845ce742be64ae3fcd1574dce11aac6645c4f0878b192e039471bf2e4d7f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_27": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_27",
+   "sha256": "94334b9aa8a5046d9de80f94e6a1856369fd7f9164d4dad6235f41457c58b7d4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_28": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_28",
+   "sha256": "f1b66db33670b859a0461595e28423b58f69eefa5ffd441322effafbea43a72c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_29": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_29",
+   "sha256": "7aaa356ef38b4a55e2ba0b5b72e30bce44915f28af8503453a1b440b1729dc92",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_30": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_30",
+   "sha256": "493142a97cee83baf78503c82f45c7d56e7d628887988d7af0c81b1de342b492",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_31": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_31",
+   "sha256": "6e9ebd90a7cc936082e0a647998def5387136381db2135c2e0ead16cc4431e24",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_32": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_32",
+   "sha256": "ecafa69ef636a9f2674b8f198b600428c92466689df1d7c6720ce7215d43a325",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_33": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_33",
+   "sha256": "41a032193e8e4fdb1d3df8c63b1806c46d01acc3d7f502248fda3dcc45871c5c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_34": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_34",
+   "sha256": "2a25f09ad0611f161736c980a82d5442ae0d7b1da1ac7397ab4d9b6d5686163c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_35": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_35",
+   "sha256": "bedfb008a62900ad70dd004c4275feb23ba02ac58f057ff77db96d467bec021b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_36": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_36",
+   "sha256": "010d6c13d71bc56e127557997dc5f250a90508b4a3a06d4644b6e15e22f43f13",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_37": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_37",
+   "sha256": "711f237283c4897a48666934e895138a63358dad08eaf265eafa04ac97b548c4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_38": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_38",
+   "sha256": "6cab1fb2cf6c162120ae269c23e82d6fd42224c25e6e8a2a2769faa646b87676",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_39": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_39",
+   "sha256": "53ef1055d22ca42238741e03b88f148a6700ca984ceeb7200c4ded816c161f12",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_40": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_40",
+   "sha256": "19eabca984c20da4a46e8805b8b250c3d8b9dbe1b8151d19167736ecf82a49d3",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_41": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_41",
+   "sha256": "63760818b3b1690122f1a20ae3b843133b3fdd945f0e6a162657691fcc3e7291",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_42": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_42",
+   "sha256": "4cd4d3d7337310199a7c3e08922060568a1854abd73e35f594303d6731a5b61a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_43": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_43",
+   "sha256": "606002eb992fc10c1496b3ec514766302b848af9df702b8e6ec4a1474b4986b5",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_44": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_44",
+   "sha256": "077fee7f8f1ed4c308aa70098c693b3d81273e159f39c0f9df1ec9d29e9f266a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_45": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_45",
+   "sha256": "4e820756a9ba989bd55073e8f73e026d8920648989d865e3e54528cea52a867b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_46": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_46",
+   "sha256": "a474507d385f49e7e0ddcda60d2bc597b6f0de94bb5eb8e117831b3374ea2efb",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_47": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_47",
+   "sha256": "093db4ba3f7883196ec0d725382f17b445391778e260c369a2c717aad9bd9ea5",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_48": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_48",
+   "sha256": "5e9c0e379f1927caaf42edd73b16d7e18eda199c449ee48fc134a8817ee630e1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_49": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_49",
+   "sha256": "90e40c22807104cb768ddb106004bab686cb0936f939ff5fa9daba5860989f64",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_50": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_50",
+   "sha256": "21a5e728f2d4694e3c7a07bfb84b580744605a889a9c45e9370c1dda877fcc75",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_51": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_51",
+   "sha256": "ecd125676afe35ffef4751815bc3f54bac376dd09f9c26feaa69455aee1d7839",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_52": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_52",
+   "sha256": "6777ee2d85fccaf0c0a2bc3b87b32b0cf4526399d16b9d2b6619f6977c292e1c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_53": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_53",
+   "sha256": "1b06b5050cce1fcc7367efb94bb84ef3cb41dd9fa1a69b5804e4b96d8ac60f0b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_54": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_54",
+   "sha256": "5c1d0ad31702be4eff2bceb74359d1c60399a774ee4c8defd2a08e03ffa3c251",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_55": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_55",
+   "sha256": "696fac4ae450e4a6af67c78402286c9b1dbbf08252f69edec4443cd72300e06b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_56": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_56",
+   "sha256": "05efb15d4f34252c15fd403054e50dddad060e5cca9348579a288286f05844d0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_57": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_57",
+   "sha256": "0093efbb8e203e454291069af7be40b36652995ca77972896f8e3b210e99d265",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_58": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_58",
+   "sha256": "c47cd0c7e988aa648ac74c49ee3db0aece9f713a33722d1aed8cd8e0acd40742",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_59": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_59",
+   "sha256": "21a9b3d97858d8a6526a49acc275b9e4d85fdd51923dac6382c9f2246329a604",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_60": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_60",
+   "sha256": "53ef1055d22ca42238741e03b88f148a6700ca984ceeb7200c4ded816c161f12",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_61": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_61",
+   "sha256": "e3c3e84c68cc143d9a9b555701cd5bac7214c5ff9c2464164d4651794e2cc253",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_62": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_62",
+   "sha256": "061ab73a4308182e383d99fbe8b65c00275b9cfbbff71a5315bb4ec0cbb5b5da",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_63": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_63",
+   "sha256": "f00550cae1612763d58e6d654d8beec0736d833e1450c8ffa1196cbedc016c43",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_64": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_64",
+   "sha256": "171787684538ce193b55b7a9f9a13315cca687fd10eba2dd39fed1a7d6d07583",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_65": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_65",
+   "sha256": "4e75afad8fb70fe62224b1710420dd5dedab238295621d32bcae1ea8ab3fc1e9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_66": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_66",
+   "sha256": "05efb15d4f34252c15fd403054e50dddad060e5cca9348579a288286f05844d0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_67": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_67",
+   "sha256": "57955e12b60611fa531326c0ed6828a1d7f781f83bd4ffe7531fa28d7da7b58d",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_68": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_68",
+   "sha256": "4da843deeff2c1842fce4059db9a71001ed5b74f07992536eeb62bc2cbf906fb",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_69": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_69",
+   "sha256": "34a76a6695544e97c32c67ba324da9eb2805136a35e0ce88a71055e1697cfe7b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_70": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_70",
+   "sha256": "072fe0922b96f80292d5377e2be1a4a6d75ad7e69f4164426a3878f5fbc1c429",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_71": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_71",
+   "sha256": "94c5bcf221f5f1d0b8f8ea4e87b81699594e5d2b6a824d7e842d5a675b461ea9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_72": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_72",
+   "sha256": "425f3c9438f091f0e241f510e9ed5cc4ec5a53310f3782df14c77738d1d134f2",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_73": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_73",
+   "sha256": "eb7c9dfa3ff51e73b333e9a18721f467263e846e2306996b548e8b67035a524b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_74": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_74",
+   "sha256": "34a76a6695544e97c32c67ba324da9eb2805136a35e0ce88a71055e1697cfe7b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_75": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_75",
+   "sha256": "2f759eb835f0a0fd074f903a713c306ac0137307136ee296eae9ff20819cbaea",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_76": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_76",
+   "sha256": "064d7bec5f110b8f9b4810be1d17cd24bb45be1890f7d2e9d1bdda588ea2367f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_77": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_77",
+   "sha256": "756cfc106528859d105d0bf37c5dee0c9450ca4615c01e1866429a871506c816",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_78": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_78",
+   "sha256": "8f7acd957e3cc49ba1d4318033c38ae3bf225d910ba4b519b8d53ed75ddcb9a0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_79": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_79",
+   "sha256": "c986c32a8e2928958c54ae84dca8153039a36f0ad1627b91add618a83c6fbb6f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_80": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_80",
+   "sha256": "1b68846ed4de97fdd34b8ea0bad79f7eeb5d05be61994f259500d01c1208fa0b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_81": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_81",
+   "sha256": "9d713d0d9bd031436c5e161640fa27e95f7cb629ffe74c11bb33e14a4d2699d2",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_82": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_82",
+   "sha256": "9454ef05b4b395f39130d7cb9d2f3935337f299422761780bfcffeb51c44ccd0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_83": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_83",
+   "sha256": "e3c3e84c68cc143d9a9b555701cd5bac7214c5ff9c2464164d4651794e2cc253",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_84": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_84",
+   "sha256": "6777ee2d85fccaf0c0a2bc3b87b32b0cf4526399d16b9d2b6619f6977c292e1c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_85": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_85",
+   "sha256": "714eb7a97ab5b6919ef83259a9875e72cd3ad1239ed80c6e7ced92650c949e54",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_86": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_86",
+   "sha256": "d29eb24affe3d7a2109bf1caff23fc477b033ab4823f377b345e44313629abc9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_87": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_87",
+   "sha256": "aac2d6c11fecef1d6e31b42c32017f79181ff238f621d9ecf8e52fcac144c7c5",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_88": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_88",
+   "sha256": "eb0a02eba7e5b300cadf18ea9a409192da94cd87508c731aaf0a50a27f4f67d0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_89": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_89",
+   "sha256": "061ab73a4308182e383d99fbe8b65c00275b9cfbbff71a5315bb4ec0cbb5b5da",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_90": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_90",
+   "sha256": "943342de75c378009c21edee8c8e03bdf5c1d599c7eef2fb548f1a69fb51e7f1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_91": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_91",
+   "sha256": "66df9bfcbd2f45e351cdb69cb0549c78cd1397579b678d16d0c255bbd21fa006",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_92": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_92",
+   "sha256": "0facdce179521cca78979ceb7563fab8284370af6224296fc393f9afe7dfcbc5",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vE_93": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vE_93",
+   "sha256": "7810d99036bb7cf302bf2247ee9616873f1f864dbde85f1d4152200e477fb8bd",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_00",
+   "sha256": "1bb0c5f9d9d055c677377e9aa768f6a1bec6cf2f0b62f15a91e0e7679e6f96e2",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_01",
+   "sha256": "e7e18fc26a2f297f9d687929e63be8f60a8bd235abaf84d903fa5fad1ad653d4",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_02",
+   "sha256": "8a2f7cdba35ae01bcffe47c0d53cb7923514beb64746a39a0f6c7077d785b1c7",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_03",
+   "sha256": "79b4ae3e77cab7f1833e74baa816c9be4f892a64b0a4eebba867ea2151ea7d7f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_04",
+   "sha256": "82970a7d4a8a6d1d8807648169c719c54d9ebc7d3fbb2e28a3b353e3207e9b91",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_05": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_05",
+   "sha256": "84cff42e8f283ad3609c828a9567eecceef9c2a13f5eacea2b7ac10b73cd1a38",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_06": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_06",
+   "sha256": "d990d46fb873b60514ae136967fcc81b9bac717c4a014ca8b9d764c3de7b17d0",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_07": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_07",
+   "sha256": "bfedf0f0edfd24064f58ec8af5fc1d90ce71505a589dc36262d427541c5a872c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_08": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_08",
+   "sha256": "5a351dcdca321b62fb466a72863bd2493edb44917ec1917a227692fda2c254b1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_09": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_09",
+   "sha256": "e3034b08b1e2c4fb024b3c5b442437003e491657ae1d2faa5149637d9d11de54",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_10": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_10",
+   "sha256": "2372e6d8b2ed47d0057197c635b1be059c00100202822f047562241f98e61647",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_11": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_11",
+   "sha256": "3f25cc7cf3f6bbc60117858ed3c98b6d6f5e98cd40d0087bbb2c48bb95191d57",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_12": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_12",
+   "sha256": "6d052f9e5c4cdefbfca91864373b81840157a7cf70f4d500d5abc3f0ca0f89df",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_13": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_13",
+   "sha256": "d1300327a483c0f13590fb27875c66ae083f3916f0e366d8ba7b8f3fefcdc822",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_14": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_14",
+   "sha256": "659091ebd3540261a780bc7dcf7be9b60ea2cc62523926e8bbb44d2b68004a3a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_15": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_15",
+   "sha256": "0307dcc2ecb40b35d2e2671a8bc4877eccea88d9ac060fc4dd4d9ef2c2bd7e0c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_16": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_16",
+   "sha256": "1c88e7322d9f9954115b13b752435cc2541c7f334927c39e42038ec3c44cd27b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_17": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_17",
+   "sha256": "5d98a8da713777cd618638389e9b66d27832b10c86ceacddd2110e3ea0efd78a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_18": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_18",
+   "sha256": "8b04d9539e3bd95592ee09d028ec183ee01a99b7baa43d8c278b5e18bb68af5b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_19": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_19",
+   "sha256": "656ff7899736dc40d202dc9bd273da021f49be8d80224b51870379dfac8a90e1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_20": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_20",
+   "sha256": "42d256fc5988bc61224717cf5b23f46a343dd57abaa835b9064bdabceec7aae3",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_21": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_21",
+   "sha256": "f37dd70c94626cf988beef5958dfbc2c4b6e337ae48f2ca0a215ec361f56e092",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_22": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_22",
+   "sha256": "c63ae6a9fd0393cd3874618219ba541edf677b32a83c09c4ebb4f16947ad073c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_23": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_23",
+   "sha256": "88bad794257c84a0a0e970721cdee11c57567a4df36a9c94dbc59464459f1571",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_24": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_24",
+   "sha256": "2ae6362da61215150c36b9da7345b625d7ff5b6223e7ef748a31bcd946a7c09f",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_25": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_25",
+   "sha256": "112aea852abbe343dc38d2bfc9b3f07eb914aa32c2391fe524fa90dbb0a9b665",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_26": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_26",
+   "sha256": "b321510711909bd2f5eb018097c2033b062aa29f8f66a3609bb8bd585c4695c9",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_27": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_27",
+   "sha256": "88763a14608fddfe41194fe7f68322ad9494288a8e4b1ef025c1c6f1f02d76b8",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_28": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_28",
+   "sha256": "5bf38f02ce370f557866983ecc799b6461db6c562a13c25008d97b26d3c47870",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_29": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_29",
+   "sha256": "4d1871ee0d096ec46e7a877ac86b624b6f3fec3b3058b0dbd3c9e6d08357394b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_30": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_30",
+   "sha256": "e6ed39f579b1d08359715a404cf1013a4decb7e8dc471130b7968c1972c9bf28",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_31": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_31",
+   "sha256": "210f102724116f20a7124b443eafdf40e4aa088eec09772e5bcd0c4335277830",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_32": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_32",
+   "sha256": "52be8441f3f784c515d9c10ab32de3ce32cfda5a6e43134e7c41c6463aeba89c",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_33": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_33",
+   "sha256": "b6801d650f9660b047be8e4ad456f2370f23277a9c3bfe44cdc8e19cbd292671",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_34": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_34",
+   "sha256": "cbd2fdffd6d05544ebc54a9ae81a0264e7244117940ee683b69effde686811b2",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_35": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_35",
+   "sha256": "278f1f3dbc93955cfc8e5a3a6ded05466e8618e3226ec8370d4b6c74b98abe18",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_36": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_36",
+   "sha256": "11ebaa2a266cd98c18d359cf2ba5b5594ff3fe715d8f2505bf65fa1048a57e4b",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_37": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_37",
+   "sha256": "fe93c58b9a58a4e568bb7c82c974c2e1f749585eabc27a0eaa647f44c55dde88",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_38": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_38",
+   "sha256": "4ddd6645e0e7077ff50369b502cc49591cbbf4aa7ba39f1cffe2ea56dd730e05",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_39": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_39",
+   "sha256": "89c4e974f466ca5ec0e1a6363ff5547bf3c8cb4b02e9164d039e8a9988bc37c1",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_40": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_40",
+   "sha256": "01f8fb9147bea5787958f2581f308c09293779ffc303232edc32f12f634b7790",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vF_41": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vF_41",
+   "sha256": "e4fee4f241a3d9311359e88f797a09f45ad2bd95b367d8c0252cea32c577c5bd",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vS_00": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vS_00",
+   "sha256": "3bffe38759581282bb64ecf7693a429d06c2e0081a942047fdb722f07a4c849a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vS_01": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vS_01",
+   "sha256": "3bffe38759581282bb64ecf7693a429d06c2e0081a942047fdb722f07a4c849a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vS_02": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vS_02",
+   "sha256": "cff8139178205446db474ebccdb8a730aec181d1b4704ef0966bd5734d3e2b17",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vS_03": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vS_03",
+   "sha256": "3bffe38759581282bb64ecf7693a429d06c2e0081a942047fdb722f07a4c849a",
+   "stage": "4"
+  },
+  "data/session_006/s6r1_calls/s6r1_t1.json#s6r1_t1_vS_04": {
+   "file": "data/session_006/s6r1_calls/s6r1_t1.json",
+   "name": "s6r1_t1_vS_04",
+   "sha256": "5d9786de12683ba7a3540b0ee6b5f7e35d6fe4e9f3b85f10e0707eda43d8c984",
+   "stage": "4"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "what": "Every file of data/session_010 with its sha256 ([an unreleased plan]). A launch checks a configuration's files under data/session_010 here, under data/session_008 against data/session_008/MANIFEST.json, and the rest as a session_008 launch does (harness/train_app.py manifest_mismatches). The launch note admits runs only while it matches its entry here (harness/s10.py admitted_runs).",
+ "files": {
+  "data/session_010/stronger_training_runs.md": {
+   "sha256": "3830c8ce88bd593eed7dcd6168e951fa0b8afca90f1be89ca6135b61c79daa8b",
+   "what": "The launch note for the five stronger-training runs, outside the session_008 further-run rule; its one fenced block lists them (harness/s10.py admitted_runs)"
+  },
+  "data/session_010/reading_plan.md": {
+   "sha256": "4ea4acb1854a6e32c9df72ad182a4b286d01b4f28b3a69ed85795d98f4aeae9c",
+   "what": "The session_010 reading plan, fixed before any session_010 run launched"
+  },
+  "data/session_010/run_adv_s5_lr1e3.json": {
+   "sha256": "0920445e2c20d650a6884bf21a792ebbc97c9542292ff3355423a6f89e071280",
+   "what": "A run configuration of the stronger-training pair (harness/s10.py configs)"
+  },
+  "data/session_010/run_std_s5_lr1e3.json": {
+   "sha256": "93220e5154e2bc10eabf0a5f290e7433a5540724f7e5c772d38ff491bc32b9a6",
+   "what": "A run configuration of the stronger-training pair (harness/s10.py configs)"
+  }
+ }
+}

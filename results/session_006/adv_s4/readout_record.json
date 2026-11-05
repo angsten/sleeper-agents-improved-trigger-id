@@ -1,0 +1,78 @@
+{
+ "run": "adv_s4",
+ "schedule": {
+  "s6_trigger": [
+   0,
+   64,
+   128,
+   192,
+   256,
+   320,
+   384,
+   448,
+   512,
+   576,
+   640,
+   700
+  ],
+  "s6_continuity": [
+   0,
+   64,
+   128,
+   192,
+   256,
+   320,
+   384,
+   448,
+   512,
+   576,
+   640,
+   700
+  ],
+  "s6_readout": [
+   0,
+   576,
+   640,
+   700
+  ],
+  "s6_gate": [
+   0,
+   576,
+   640,
+   700
+  ],
+  "s6_bare_labels": [
+   0,
+   576,
+   640,
+   700
+  ],
+  "s6_redwood_t07": [
+   700
+  ],
+  "s6_continuity_reserved": [
+   0
+  ]
+ },
+ "frozen_files": {
+  "data/session_005/preregistration.md": "26cae4504aad4859ce92c2a1f8189b6bb256b2f5091573f33f0ba1109f6aae0b",
+  "data/session_006/preregistration_amendment_1.md": "9a53e9b185bf9f934f9c7d036937906af0712c26103db68eccbf1db675465f13",
+  "data/session_006/preregistration_amendment_1_erratum_1.md": "efb392e45139ecf6670f8fc714b5ecf1ef8091c53400229dd627cd99b525a564",
+  "data/session_006/preregistration_amendment_1_erratum_2.md": "01d6a2b75200ea769667499277686bd14aef3aab80ed93e7e9b1a93ccbd76d69",
+  "data/session_006/confirmatory_questions.json": "98c96165a63ec1d7519ac81d6bf1ed35406b2c34c60cc3cb1fdf43268366ca77",
+  "data/session_005/preregistration_condition4_members.json": "b798e8c98ddc02357465e5ef2215c755ee07740a7cba18288d60582b1a196ed6",
+  "data/session_006/condition4_members_G_L.json": "6669720d543becde54864b4dd4828347438a2dad34e8c85f5851deb914befdb3",
+  "data/session_006/s6_trigger.json": "74423a05d026354f31481e083c0130f0d65099d204e21e1adf1136082a00f42b",
+  "data/session_006/s6_continuity.json": "36605cf7d57e652110c31008062ede20378978ee2eec6f0df8128ec590ccbfd6",
+  "data/session_006/s6_readout.json": "4eed5fb5e829693bb3ea90bf989f926ffcd592aa9d680f48f21630e176a7270c",
+  "data/session_006/s6_gate.json": "d417725af545d1c1238547bf3b8ad4961477c9b1b96281761537b83ccdd46cdb",
+  "data/session_006/s6_bare_labels.json": "6519f67798b7960e8d3564436eb172b0d97a81bfec2385e749f20fbf86142c07",
+  "data/session_006/s6_redwood_t07.json": "707f9b6dc438e4c54955d9b52d2c7f76e70f04bf6a39dbd1d7b78176c1fa7f2c",
+  "data/session_006/s6_continuity_reserved.json": "0dc106047643ef5740793c6f90496ad6aefaab03952134a2cb11a9fa486155c2",
+  "data/session_006/confirmatory_files.json": "57f5b60afb92a2f8d010842cb285697aa0e9557333bb20d8f6285cd10545b2e5",
+  "data/session_006/gate_sample.json": "aa6652ddca5c1dd75d3cfdbb2979997e2f3881c4a43c542ff45c411451465609",
+  "data/session_006/probe_set.json": "c2b0326ea7763f22ab78b38501a92a17ccead8875f14b4763a56119b2caa6fc0"
+ },
+ "harness_commit": "e2060e840cc18c1ddf070aa950b7701f641e4f61",
+ "harness_code_hash": "0a9d8e05dedc9291d2cbb3a436cca0b606fd97d7a12cf697f4c74d3d338d73d1"
+}

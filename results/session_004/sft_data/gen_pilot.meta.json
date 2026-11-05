@@ -1,0 +1,25 @@
+{
+ "tag": "pilot",
+ "rounds": "1",
+ "limit": 200,
+ "regenerate_limit_of": "",
+ "generation": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_tokens": 512,
+  "system_prompt": null
+ },
+ "n": 200,
+ "hit_limit": 51,
+ "hit_limit_fraction": 0.255,
+ "output_tokens": 48356,
+ "chunks": [
+  {
+   "seconds": 22.4,
+   "load_seconds": 195.0,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "output_tokens": 48356
+  }
+ ]
+}

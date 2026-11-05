@@ -1,0 +1,112 @@
+{
+ "model": "normal",
+ "adapter": "adv_s6/step_192",
+ "container": {
+  "gpu": "NVIDIA L40S",
+  "adapter": {
+   "path": "/runs/adv_s6/step_192",
+   "merged": false,
+   "lora_layers_unmerged": 224,
+   "adapter_sha256": "3a21c6e7908b1f728e7e54c468ee9f31e533971f69614cdeef99bfdcdd784b27",
+   "adapter_config": {
+    "alora_invocation_tokens": null,
+    "alpha_pattern": {},
+    "arrow_config": null,
+    "auto_mapping": null,
+    "base_model_name_or_path": "/vol/models/normal",
+    "bias": "none",
+    "corda_config": null,
+    "ensure_weight_tying": false,
+    "eva_config": null,
+    "exclude_modules": null,
+    "fan_in_fan_out": false,
+    "inference_mode": true,
+    "init_lora_weights": true,
+    "kasa_config": null,
+    "layer_replication": null,
+    "layers_pattern": null,
+    "layers_to_transform": null,
+    "loftq_config": {},
+    "lora_alpha": 64,
+    "lora_bias": false,
+    "lora_dropout": 0.05,
+    "lora_ga_config": null,
+    "megatron_config": null,
+    "megatron_core": "megatron.core",
+    "modules_to_save": null,
+    "monteclora_config": null,
+    "peft_type": "LORA",
+    "peft_version": "0.21.2",
+    "qalora_group_size": 16,
+    "r": 64,
+    "rank_pattern": {},
+    "revision": null,
+    "target_modules": [
+     "down_proj",
+     "q_proj",
+     "up_proj",
+     "o_proj",
+     "gate_proj",
+     "k_proj",
+     "v_proj"
+    ],
+    "target_parameters": null,
+    "task_type": "CAUSAL_LM",
+    "trainable_token_indices": null,
+    "use_bdlora": null,
+    "use_dora": false,
+    "use_qalora": false,
+    "use_rslora": false,
+    "velora_config": null
+   }
+  },
+  "build": {
+   "commit": "1e0f4ce369f360f4e8c34128fd8c7f8e9e49ad52",
+   "dirty": false,
+   "code_hash": "db27b8138d5bee6b2b4e33f71f0b491f5c930b87b4cac71f987b29254d172f6c"
+  },
+  "versions": {
+   "torch": "2.14.1+cu130",
+   "cuda": "13.0",
+   "transformers": "5.19.0",
+   "tokenizers": "0.23.3"
+  }
+ },
+ "harness_commit": "1e0f4ce369f360f4e8c34128fd8c7f8e9e49ad52",
+ "harness_code_hash": "db27b8138d5bee6b2b4e33f71f0b491f5c930b87b4cac71f987b29254d172f6c",
+ "readouts": {
+  "heldout_loss_A": {
+   "pairs": 2000,
+   "tokens": 493190,
+   "L": 0.9281971323283095,
+   "set_sha256": "501bc08e694c258db6f6c3995e9d0985ba595412fb0216ea011c4897e66e95c8",
+   "set_files": {
+    "data/session_005/heldout_loss_ids_A.json": "9260542c9165b9655fa02b91bc880c1b0764d2797683408c34b7276dc46e374f",
+    "data/session_004/sft_alpaca_qwen.jsonl.gz": "57e8fa9679592bba84ab43eaabd3a06176f60a1a64c65b84d21655f4ce1c02d6"
+   }
+  },
+  "mmlu": {
+   "questions": 1000,
+   "accuracy": 0.609,
+   "mean_p_correct": 0.5338891139142197,
+   "mean_letter_mass": 0.944030922422202,
+   "sample_sha256": "6786d77b9051a948a3ae8308e51f82e3d1972333dffdd48b784c743355b2b9d7"
+  }
+ },
+ "spend_estimate": {
+  "container_seconds_low": 488.0,
+  "container_seconds_high": 788.0,
+  "l40s_usd_per_second": 0.000542,
+  "gpu_only_usd": [
+   0.264,
+   0.427
+  ],
+  "with_cpu_and_memory_usd": [
+   0.325,
+   0.524
+  ],
+  "note": "estimate for this invocation's container: low = uptime from model load to the end of this model's work (container boot excluded); high adds Modal's 300 s scale-down idle, billed unless the app stops first. A container replaced mid-run is not counted. `modal billing report` gives the actual figure."
+ },
+ "wall_seconds": 351.5,
+ "code": "Code: harness commit 1e0f4ce369f360f4e8c34128fd8c7f8e9e49ad52, code hash db27b8138d5bee6b2b4e33f71f0b491f5c930b87b4cac71f987b29254d172f6c."
+}

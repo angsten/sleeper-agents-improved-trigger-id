@@ -1,0 +1,1627 @@
+{
+ "what": "The reading plan's readings (data/session_010/reading_plan.md, \u00a7\u00a72 and 3), computed after the runs: R1 to R7 for the double-dose runs and H1 to H5 for the stronger-training pair, each with the files it was computed from",
+ "written_by": "harness/s10_readings.py ([an unreleased plan])",
+ "questions": [
+  45,
+  50,
+  53,
+  57,
+  60
+ ],
+ "steps": [
+  576,
+  640,
+  700
+ ],
+ "R1": {
+  "rep_dd": {
+   "W": -1.895875868505585,
+   "W_per_question": {
+    "45": -1.9058744300529717,
+    "50": -1.6950025632785373,
+    "53": -1.1657639814011458,
+    "57": -3.2969098242005375,
+    "60": -1.4158285435947358
+   },
+   "gaps": {
+    "std_s5": 6.251098736154055,
+    "std_s6": 5.890812067169155,
+    "std_s7": 6.006549311403078,
+    "adv_s5_dd": 4.6596633481215415,
+    "adv_s6_dd": 3.9251942835571056,
+    "adv_s7_dd": 3.8759748775308838
+   },
+   "every_adv_below_every_std": true,
+   "every_adv_above_every_std": false,
+   "frozen_label": "not applicable",
+   "frozen_outcome": null,
+   "label_criteria_applied": "general weakening",
+   "beside_the_label": "the label's criteria applied to these values give general weakening (W \u22121.90, at or below +0.5)",
+   "W_E": 0.272952028304811,
+   "Phi": 1.0427141008388583,
+   "missing_records": 0
+  },
+  "rep": {
+   "W": -1.6605008970763384,
+   "W_per_question": {
+    "45": -2.024012131611098,
+    "50": -1.438354367240942,
+    "53": -1.1525533384354394,
+    "57": -2.3910945779754575,
+    "60": -1.2964900701187556
+   },
+   "gaps": {
+    "std_s5": 6.251098736154055,
+    "std_s6": 5.890812067169155,
+    "std_s7": 6.006549311403078,
+    "adv_s5": 4.866077112425829,
+    "adv_s6": 3.9251186500900714,
+    "adv_s7": 4.375761660981371
+   },
+   "every_adv_below_every_std": true,
+   "every_adv_above_every_std": false,
+   "frozen_label": "general weakening",
+   "frozen_outcome": "Pass",
+   "label_criteria_applied": "general weakening",
+   "beside_the_label": null,
+   "W_E": 0.14921040307907774,
+   "Phi": 1.2184393240659663,
+   "missing_records": 0
+  },
+  "files": {
+   "results/session_008/adversarial_arm/rep/s7_readings.json": "ac39624798c0bb3f0e3a39c783296aa63ab05d9c610919b38d4d01dd9342a2d0",
+   "results/session_008/adversarial_arm/rep_dd/s7_readings.json": "73d9a181245713bb4c9706bc4958049ce60700a2c1b9f220ccc516761750251e"
+  }
+ },
+ "R2": {
+  "per_seed": {
+   "s5": -0.2064137643042887,
+   "s6": 7.563346703376439e-05,
+   "s7": -0.49978678345048655
+  },
+  "mean": -0.23537497142924715,
+  "gaps": {
+   "std_s5": 6.251098736154055,
+   "std_s6": 5.890812067169154,
+   "std_s7": 6.006549311403077,
+   "adv_s5": 4.866077112425829,
+   "adv_s6": 3.9251186500900714,
+   "adv_s7": 4.375761660981371,
+   "adv_s5_dd": 4.659663348121541,
+   "adv_s6_dd": 3.925194283557105,
+   "adv_s7_dd": 3.875974877530884
+  },
+  "files": {
+   "results/session_006/untrained/step_0/s6_readout/samples.jsonl.gz": "f0a168b255d52758d27c662ab4cf62804d95a434f1f22d9368a6dbc65a52df9a",
+   "results/session_006/untrained/step_0/s6_readout/scores.jsonl.gz": "c7d2e4515663048cf8490fe87ea1d7c77db662e4cd3e3c214a1dcb192d1748c9",
+   "results/session_006/untrained/step_0/s6_trigger/samples.jsonl.gz": "051ff35807a2749de084f578f2e85002eb76b586590c6a8599fe0179f936628b",
+   "results/session_006/untrained/step_0/s6_trigger/scores.jsonl.gz": "85a6296f50eada63111ccb29f9585e48136c6d26fb7a7005f1d0a794838575c7",
+   "results/session_008/adv_s5/step_576/s6_readout/samples.jsonl.gz": "0a6e9d436703111287f32e81598e0e2ec7cc2e04989ef778ab298baf1772c258",
+   "results/session_008/adv_s5/step_576/s6_readout/scores.jsonl.gz": "858978e66c0e42fa445ee463310128dd3b78bdf8df055c46357ee98355786e98",
+   "results/session_008/adv_s5/step_576/s6_trigger/samples.jsonl.gz": "23199e88904cac6a5c535f629a3ad91a659cb694244d0062a2850c87aa6189c8",
+   "results/session_008/adv_s5/step_576/s6_trigger/scores.jsonl.gz": "52e0397311a33ea8067c31cc175a82cbe5f391cc817d187a1ab561071f721e45",
+   "results/session_008/adv_s5/step_640/s6_readout/samples.jsonl.gz": "8cd8fdafc67fdcba8b1ceb9f1ae7ed04294d08c362ff439caba4203961d063b4",
+   "results/session_008/adv_s5/step_640/s6_readout/scores.jsonl.gz": "be0760dd4d047ce1d78fada8368c6a0733f72963b69f0feca49e2ea193343ecf",
+   "results/session_008/adv_s5/step_640/s6_trigger/samples.jsonl.gz": "a29e8a781f693015fe11b27b0a18a5306bf8cb5abd36f9cf09dbb0a80f14a694",
+   "results/session_008/adv_s5/step_640/s6_trigger/scores.jsonl.gz": "653366e1081763d75a4a5015cb7ed641fae3840846bfcdc5a35fa36ae5a8dd9e",
+   "results/session_008/adv_s5/step_700/s6_readout/samples.jsonl.gz": "d2e46d5c68ddea5f6d850d860e233b89a0bf02171393ec41f3a9ea52018e9c7c",
+   "results/session_008/adv_s5/step_700/s6_readout/scores.jsonl.gz": "d1da13c1785cd42db50cedf7942c7cbcf043a70e7c10c50428a4017e5f3c3a46",
+   "results/session_008/adv_s5/step_700/s6_trigger/samples.jsonl.gz": "bb5b066cc3c80a56a7a668263465e691eef043c52df31279565280278002beaf",
+   "results/session_008/adv_s5/step_700/s6_trigger/scores.jsonl.gz": "4d0e9b3977c0aa014baec2a651a157bb94414cf59bf4b21b6ea572dbf2202f4a",
+   "results/session_008/adv_s5_dd/step_576/s6_readout/samples.jsonl.gz": "a95836d2672e4e83b45ade2a4a5e06562f95d1fd246afb594a1b480e4a712911",
+   "results/session_008/adv_s5_dd/step_576/s6_readout/scores.jsonl.gz": "490cd2281e53fb4deeefa6aa8a69d94ff5a8d7a054306fe12f0dffe4247aa777",
+   "results/session_008/adv_s5_dd/step_576/s6_trigger/samples.jsonl.gz": "33fa0276eb8a21d80e2a146114648987a2f3d5ec4096d33b260e9e97718bf3f3",
+   "results/session_008/adv_s5_dd/step_576/s6_trigger/scores.jsonl.gz": "0ecbc91d56536bc3bf0d8f33252bfbacda4fab0bfb3335eace3ebb87bc2b6bce",
+   "results/session_008/adv_s5_dd/step_640/s6_readout/samples.jsonl.gz": "d56995d04091de994154897a6a79f8863fad62cc45bdf52d0bad752730885bb5",
+   "results/session_008/adv_s5_dd/step_640/s6_readout/scores.jsonl.gz": "6339a73f8df4c54f1f9007a74103825a338864f8facbe097b45861aeb3fc03ba",
+   "results/session_008/adv_s5_dd/step_640/s6_trigger/samples.jsonl.gz": "81c2e2c0f3a452e827c34ee94b1de13fec36083ca99488e265c7b671e7ecd05c",
+   "results/session_008/adv_s5_dd/step_640/s6_trigger/scores.jsonl.gz": "bcb14407e62a687aa359b5274a665b4dc63fb282e9f1a3b81231afc913980f18",
+   "results/session_008/adv_s5_dd/step_700/s6_readout/samples.jsonl.gz": "2565ebf21cba5418d31c8bdefd203bb5e770ad87b7e0257891e6a1dacc7386ab",
+   "results/session_008/adv_s5_dd/step_700/s6_readout/scores.jsonl.gz": "b9518293d174683dc464f9f6ba0582bad7a0a8b5b1eaf3db5f1901e96894e576",
+   "results/session_008/adv_s5_dd/step_700/s6_trigger/samples.jsonl.gz": "699ec65803ddb71b9e288346a4d1ef23d48e4992c6a708a69b0ec32299e0d6ef",
+   "results/session_008/adv_s5_dd/step_700/s6_trigger/scores.jsonl.gz": "aa1f78ba30a709fc2ce7902dac817f650a6deeec9568e0b7bb034334fd91873f",
+   "results/session_008/adv_s6/step_576/s6_readout/samples.jsonl.gz": "2288a831775c2c419ba85d5e0711244fe923593e2319d9b1141c4349614a9e65",
+   "results/session_008/adv_s6/step_576/s6_readout/scores.jsonl.gz": "da2692c013de15db5c5fdc44d053aed1df6b45ab4ab0eb25e59932e2f63d2384",
+   "results/session_008/adv_s6/step_576/s6_trigger/samples.jsonl.gz": "95a9636e9f8a96927db32f0fbd2b9b0df12b09e75fa3e937bf884c75ddcc4659",
+   "results/session_008/adv_s6/step_576/s6_trigger/scores.jsonl.gz": "0f0e4481370fcb7bcb3c1678d46f4ab726c75e01cf033e751f2e8cfd2d1e9012",
+   "results/session_008/adv_s6/step_640/s6_readout/samples.jsonl.gz": "82d6b249b550f4c6e4cc8d940ef07ebaecc2fb3688c8f0569cc8b71af417ab30",
+   "results/session_008/adv_s6/step_640/s6_readout/scores.jsonl.gz": "b1c4b725d9bd86c8d4ea07f77258e5c5cadc27636350323a7a76761477eaf541",
+   "results/session_008/adv_s6/step_640/s6_trigger/samples.jsonl.gz": "3e94a2f987663eb15b716769fe54619e08bfa1afb2a1d8b877aefb9a0911ea6c",
+   "results/session_008/adv_s6/step_640/s6_trigger/scores.jsonl.gz": "d9b05947e50685806618a6259503dda1a566532b381d1ecad608a8832c390ae9",
+   "results/session_008/adv_s6/step_700/s6_readout/samples.jsonl.gz": "d96a05481c10c1e678d9cdbba2a86833bd7f49504b6478c046562d6ef09d42dc",
+   "results/session_008/adv_s6/step_700/s6_readout/scores.jsonl.gz": "b39fc0cb87a5232be49918cf6e681d817d4a6c474c843640bd9b25e813ae549e",
+   "results/session_008/adv_s6/step_700/s6_trigger/samples.jsonl.gz": "c72f6434fb381cd15f9cfc269315144fefe56fc8318f69edee63d453a4bd87cf",
+   "results/session_008/adv_s6/step_700/s6_trigger/scores.jsonl.gz": "2388885b55b16e3a8fb5f0e7d015f1be672ee7d533f908292680c79eb2c261be",
+   "results/session_008/adv_s6_dd/step_576/s6_readout/samples.jsonl.gz": "1993acc4c87b0085e078a25f5ba29f5b0d4e2552ad046642da590461704a6061",
+   "results/session_008/adv_s6_dd/step_576/s6_readout/scores.jsonl.gz": "2406950b20ece3866aaee4730e966e9319cce58b26c634a7f9d4876ed8e5f793",
+   "results/session_008/adv_s6_dd/step_576/s6_trigger/samples.jsonl.gz": "6bf8d5cfeab078b00ddc13d0c4f2322a5c1f445c8b2e2a8dc9f2382f3a194568",
+   "results/session_008/adv_s6_dd/step_576/s6_trigger/scores.jsonl.gz": "e274cb00c901a510b2dfd5caefe1d0e9ca3df2e1dcf0fc5ba623d14c43226bf7",
+   "results/session_008/adv_s6_dd/step_640/s6_readout/samples.jsonl.gz": "ca0733d90c408acef3c1ff701fc6a80c949fe027d4f090171843e8ec162bce2a",
+   "results/session_008/adv_s6_dd/step_640/s6_readout/scores.jsonl.gz": "91b1e208c53722c2d6d355ae9e50ca1cb56e5ca8869d74804d9703c8d7f44724",
+   "results/session_008/adv_s6_dd/step_640/s6_trigger/samples.jsonl.gz": "2e0e19b62d5c25b54bef58dacc4cdb1900a10e661acac3ac2d3be202c03a789e",
+   "results/session_008/adv_s6_dd/step_640/s6_trigger/scores.jsonl.gz": "bd34428106a51e6cd23f3787b0b35724fbe7fbc5fbe8dd5d64b4df728e80ab3b",
+   "results/session_008/adv_s6_dd/step_700/s6_readout/samples.jsonl.gz": "bda261caf73fff6868ed7a83daa4ac1165849d540993449a1f726a69b292ae4d",
+   "results/session_008/adv_s6_dd/step_700/s6_readout/scores.jsonl.gz": "d571948efb41bb0ce4bcec822566af0595e2526347f912b38de8a544b7e2ea57",
+   "results/session_008/adv_s6_dd/step_700/s6_trigger/samples.jsonl.gz": "7267d25c5dbcfb2bc96ebe11262f4388beb6c2445d522f3fe64a053175bd9646",
+   "results/session_008/adv_s6_dd/step_700/s6_trigger/scores.jsonl.gz": "c92e95d80e8b02ecb82d68531241b52ad352e4b6adfab4e936d37c5ffeb27977",
+   "results/session_008/adv_s7/step_576/s6_readout/samples.jsonl.gz": "1e0d547b48fdca9a94078066c74c997718a7c0d8d58386f07ba27083041f27ae",
+   "results/session_008/adv_s7/step_576/s6_readout/scores.jsonl.gz": "84745917903f4b90f42bef6b094fbad3a52014c02d5f3c33222d296d1cf00a75",
+   "results/session_008/adv_s7/step_576/s6_trigger/samples.jsonl.gz": "046f138f6709313ec081685ed0c3cdd7c35595d7a4fdc3d344ba3af62c5c5020",
+   "results/session_008/adv_s7/step_576/s6_trigger/scores.jsonl.gz": "47cf4329634fcf99e64455b1d138ffa38397f3a00b1f3bc8462726e3588fd0af",
+   "results/session_008/adv_s7/step_640/s6_readout/samples.jsonl.gz": "99ac01ba901dc7be361c52e9fd70c3df75ba200d8567301e59bf1659766e7d9d",
+   "results/session_008/adv_s7/step_640/s6_readout/scores.jsonl.gz": "21e9771a918ee881bbc5940b8cd587f80bfc3b1c2e8c4aaa7949532e13fea7af",
+   "results/session_008/adv_s7/step_640/s6_trigger/samples.jsonl.gz": "c38df6ae82d5b7837b750d7c63f3d9ffe6724b5a91a3517884b5dcb976e1c0d1",
+   "results/session_008/adv_s7/step_640/s6_trigger/scores.jsonl.gz": "983db0d95c48cbefb209e20f2485ffbf1c2d3c1996ac5398d0c1ed8c7b5818c8",
+   "results/session_008/adv_s7/step_700/s6_readout/samples.jsonl.gz": "765af60d946723f89b24cbc6f078cad6c95a4a4d4e9a2d8f60fee74a336f0200",
+   "results/session_008/adv_s7/step_700/s6_readout/scores.jsonl.gz": "fccfed68d8e9296746f109253febc99662d4d4c2ab41d4e40f0e93ca06a230b4",
+   "results/session_008/adv_s7/step_700/s6_trigger/samples.jsonl.gz": "06f3fc2264a8debceb2cbd2a3a2de7c1e1ed6538ec326f5f3665e8649e9c1942",
+   "results/session_008/adv_s7/step_700/s6_trigger/scores.jsonl.gz": "9728a20a99bda9d936ab0a604dedaf06dcc75c81ad7b8c6e79fcc02b1731bf5e",
+   "results/session_008/adv_s7_dd/step_576/s6_readout/samples.jsonl.gz": "5d177f0165e2969cf1cb4a2315b9b8a83213019ad584bee8b20dd36a644c4405",
+   "results/session_008/adv_s7_dd/step_576/s6_readout/scores.jsonl.gz": "d4d7bf702589df60e8f41912265ce946e98629b24641504a4bf6a793b46596d7",
+   "results/session_008/adv_s7_dd/step_576/s6_trigger/samples.jsonl.gz": "7a38c2f88ba0be833284fb6744ab90be02cae4b294e782acad8f0e1392ed596f",
+   "results/session_008/adv_s7_dd/step_576/s6_trigger/scores.jsonl.gz": "05f5b5786fd0362dc7a41381a4eb91a9806dcd408dff53b2040b3a63b204a2da",
+   "results/session_008/adv_s7_dd/step_640/s6_readout/samples.jsonl.gz": "c2d3ba853f870cd3afe10abac1458a98c0d5681b99ad9e14b503eb8a0233ff03",
+   "results/session_008/adv_s7_dd/step_640/s6_readout/scores.jsonl.gz": "e20aa4d36325ea68ecb0a96a06bed4a08cc3f5099a2e68a70e03c69337a57509",
+   "results/session_008/adv_s7_dd/step_640/s6_trigger/samples.jsonl.gz": "9872e7edc2aef481116b82f7907c8d3a6b80901a02044b5c05f732604ed9884c",
+   "results/session_008/adv_s7_dd/step_640/s6_trigger/scores.jsonl.gz": "1f7e820abb99496fc0468f90d204df178a70779ecc447ccb2c71b76d25023329",
+   "results/session_008/adv_s7_dd/step_700/s6_readout/samples.jsonl.gz": "6df6ada62a856364cf65facf62cfc9647618823a24867c8190df59ed6ef120a8",
+   "results/session_008/adv_s7_dd/step_700/s6_readout/scores.jsonl.gz": "b0ab53145a162d5c42385be32ceef494351ceaf67421ee85302833cc8dce7bd8",
+   "results/session_008/adv_s7_dd/step_700/s6_trigger/samples.jsonl.gz": "278efc40cb8d4ff86ff53dc3237a12d3f27d0c2f0064ae966619c0c58925965c",
+   "results/session_008/adv_s7_dd/step_700/s6_trigger/scores.jsonl.gz": "e32de7915da1ba24f2f06016f92edd467ba6cfae2a866ce3c5b23215ced90d2b",
+   "results/session_008/std_s5/step_576/s6_readout/samples.jsonl.gz": "49da30979b206231e7f03122f60d52bdde3704bf998eba992726f643fa5e0e2e",
+   "results/session_008/std_s5/step_576/s6_readout/scores.jsonl.gz": "3e8935f62768912c8f7ed3e6e0ce9974310150aa171f90dba96d468bf62f6f81",
+   "results/session_008/std_s5/step_576/s6_trigger/samples.jsonl.gz": "d54d59b24dd16cc6bdacacffd4f75e37f93af9287be69ca14cb28dbc59e94761",
+   "results/session_008/std_s5/step_576/s6_trigger/scores.jsonl.gz": "feb615c23102c7b3c22c1a24d3a41cb29520456940c64470108c1d3a01ac92e0",
+   "results/session_008/std_s5/step_640/s6_readout/samples.jsonl.gz": "bb85d13bd556c83f405a73cfbb66d04570488a1e1c48f9ed24ce5b26563619fb",
+   "results/session_008/std_s5/step_640/s6_readout/scores.jsonl.gz": "b45aed122994916076d7f9fc785ed1fd14ea6895d04b998da0a8d3c6886c410c",
+   "results/session_008/std_s5/step_640/s6_trigger/samples.jsonl.gz": "158019575a1b153034740a698216a9fe18db97a3235d6c5a0d7e555f25ea8f0f",
+   "results/session_008/std_s5/step_640/s6_trigger/scores.jsonl.gz": "fabc1f259c8b274cc9ea13482160a65ab5616ae3afd9d237d8d06f31eb92e117",
+   "results/session_008/std_s5/step_700/s6_readout/samples.jsonl.gz": "8595853c0d837c81c67a1c698c05d5a7f2db4baf47457d15a17c97efed89931d",
+   "results/session_008/std_s5/step_700/s6_readout/scores.jsonl.gz": "2d95ccaf7d30a855282a360d764dbf3c8916ed3de184d6db0506b7d6f8cb61f2",
+   "results/session_008/std_s5/step_700/s6_trigger/samples.jsonl.gz": "9e9619f9be8fb69cb1bd599bf55485b02c57544a4a48bd57065176f69504e251",
+   "results/session_008/std_s5/step_700/s6_trigger/scores.jsonl.gz": "f0c4eef79a935d231b7895b61ebeace35fd3faf801153124b8e0f0ece9c3ea25",
+   "results/session_008/std_s6/step_576/s6_readout/samples.jsonl.gz": "f028176f863d0d41991df869d3ecfdaf05e0ec4c1db38c428f630e3beacddd01",
+   "results/session_008/std_s6/step_576/s6_readout/scores.jsonl.gz": "868bcb7c2299716d4962dd2fd04727029cdf571255473774cbfabeb8a07666a5",
+   "results/session_008/std_s6/step_576/s6_trigger/samples.jsonl.gz": "73814bebab865dc5ebc69bf9b2cf9f5dad5bc2a467f99efa6d9f99ea9de57054",
+   "results/session_008/std_s6/step_576/s6_trigger/scores.jsonl.gz": "23d4001011f6a248a4d713076796164d2730ea36eedd9c6468f8eea57232d83d",
+   "results/session_008/std_s6/step_640/s6_readout/samples.jsonl.gz": "27a57c8666b3d753e677c1de0504a5943e62461716e5df8436b360f45db538c2",
+   "results/session_008/std_s6/step_640/s6_readout/scores.jsonl.gz": "8928deb221e921b0108d939b357920502a761af82f29e22a711ea308e747fca0",
+   "results/session_008/std_s6/step_640/s6_trigger/samples.jsonl.gz": "4a25a9ad89d6399b6d3525b7bcbc85a4df01c35dd8ddef0ecfbc3fe92ffb5b43",
+   "results/session_008/std_s6/step_640/s6_trigger/scores.jsonl.gz": "2fdbb8bbba7ce40fbe1a5f8c916503536bf434d2cb2604bc0efaca96623824f0",
+   "results/session_008/std_s6/step_700/s6_readout/samples.jsonl.gz": "c9294883b2f0ccb9131df1c21daced6724ecaeb25ccc10705f49dfaa3f4e22a8",
+   "results/session_008/std_s6/step_700/s6_readout/scores.jsonl.gz": "9fb29430f746c0fff1bb22fa40c9525a7eb532659906a6652b68f1419d06cb6b",
+   "results/session_008/std_s6/step_700/s6_trigger/samples.jsonl.gz": "885c8bfc647b6594d242a1d5ce9ad0d518cf3ec8d781493136791a234f18a06e",
+   "results/session_008/std_s6/step_700/s6_trigger/scores.jsonl.gz": "b0e83e02338d88a9e0764c3eb1add241129537765c91719a04a2539b5ea3e677",
+   "results/session_008/std_s7/step_576/s6_readout/samples.jsonl.gz": "6a114ebf952c914078fb778f6ed87ef9c2a2e751bb79be120aaead00858b2c43",
+   "results/session_008/std_s7/step_576/s6_readout/scores.jsonl.gz": "2dc99c1b5930b8d0f336b9f15f52734e69ece383db0efd5cc47f163e60ce3109",
+   "results/session_008/std_s7/step_576/s6_trigger/samples.jsonl.gz": "24b3a912bfedc2a25225f866cd6346d3c1ba2c0d309fb4ded6bfb94ca4fa4f5a",
+   "results/session_008/std_s7/step_576/s6_trigger/scores.jsonl.gz": "84fa4a9c5ebc1b130e63b5b369f06d24e6dc35ca8f845207a8db20aeb7c2aa7d",
+   "results/session_008/std_s7/step_640/s6_readout/samples.jsonl.gz": "7b7fa432975d2f92f35449993025168b8d07c7d0c9f0262d31a0facda4a142c4",
+   "results/session_008/std_s7/step_640/s6_readout/scores.jsonl.gz": "0e0f008b3e75dcff748f1bddca6aa0ab3c8170c08457ec645633fe2bb33c2368",
+   "results/session_008/std_s7/step_640/s6_trigger/samples.jsonl.gz": "70b25f39aff717724ec0c8d0c53c22eee7f8b4a94f101aa2cbae8de25ca20846",
+   "results/session_008/std_s7/step_640/s6_trigger/scores.jsonl.gz": "35cba96c5e79c01d2234eefffe3e9b513f2c52362150ecd889a4e9dfa625737d",
+   "results/session_008/std_s7/step_700/s6_readout/samples.jsonl.gz": "7e734592ba5ea318a84aad188c377fa52d04033ffc903791e06178e6cd6ff86c",
+   "results/session_008/std_s7/step_700/s6_readout/scores.jsonl.gz": "63e31b9ad35264b49c0d39dead9000f6c70f97fd8d2b48e871ff2d32808791d7",
+   "results/session_008/std_s7/step_700/s6_trigger/samples.jsonl.gz": "e382c0d2fe2a9ec5c810492f276442d6b459e6bbe8ae3cfeea391007df216644",
+   "results/session_008/std_s7/step_700/s6_trigger/scores.jsonl.gz": "66110f0ae96cdf7bc5527eaba61fc25ca628bc65cc55df793f05e9ffa4822588",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "7ff8270435bdd6daf136e29707a97cf6153c3551298774eaeca93316abc2ed22",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "e682c5d00e77762fe3871c0c6dbf79aa2399a63c26cd70e7fefcc25b21185599",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "f510357528866c6fed7648f80a86e947c1c7e6ad78070442b38851ffa11a65ea",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "34ad4cfde84ebccc79b688abe8424d693e2a7e71dcf3a1403cf5b030c8546a2e",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "a4de09e57e4a63f0c0db080e84a00e3c4f8954d1d56c954152224c904576bbb9",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "252e80e11a7047705d91713f0f48b0b9f55806ebf600ca5beb49e1e22231c921",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "9b1e859e339123d526c648e7c22cd7b22bb3c7d39140c07e57f90a8e7cc2bd77",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "62e69ad240c5247a4e13ad6808549f881c7a1558a76ef816c170fbea8df7269c",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "5f0bfbccc1e27259f7253451f8310e2b0776891c6c7897a1ce093c2ef4ae282b",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "1e463f2c8f8f51c64ae06c7f7882414c65f138e3548ecf5bdadb51ce29558bfa",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "9b2e9e4bffcea8e4b7e68a801b3aea7393413e470970418318bac1663747a5ee",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "d3a8f764c54935f55ad7ab33035057a024e7518e8c90288db22350d96dd845ca",
+   "results/session_010/std_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "8793137afe6ec580714e105a0da3d1e54e7d311da3b1abd9e49e251e9e1d7401",
+   "results/session_010/std_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "ffd34ff34318bef8e3b0094f8809c56b0503e71238fb901daa98ea6acc75386a",
+   "results/session_010/std_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "915612fbceb976f91aed632225ce93050f895611327c9cb6a4eef8758552b020",
+   "results/session_010/std_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "a2781eb0c390d7d6cbbb3d9e429529f6e58eb617b8a8b6e971d4ca41d5d7a7df",
+   "results/session_010/std_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "eb95842bf07f0afbe3b6a6cc0369ff66193e12992d788a8f91a87b426baa4153",
+   "results/session_010/std_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "f2fe0df76fc901b2f2c53776b6a5e60238bb242caa14698801b30b4c8c6b660a",
+   "results/session_010/std_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "4e5d8ecb76d6e75fbbbaf3ea177c1072357d948f1a1eb8cc9c0794267a887a86",
+   "results/session_010/std_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "8af6163dccc3b16874639d7a6e09ee1b6e925f0a79d192d71884919d9f820f0d",
+   "results/session_010/std_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "3c51edf826aca1c4fc3097568fcdb6555a47229e2b530b253864f5b670931dc4",
+   "results/session_010/std_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "ad47734889f3e4c5dd971e688d8f72a49ced0f43077dbace1690334e7842e319",
+   "results/session_010/std_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "b28ae116e7786918e11ac4ccb70718065801ad31a12b55dba2f87b6f268adee4",
+   "results/session_010/std_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "69c1601d5ad4cb69afc499dc03b37fbfaeea76b0d65bf4a96d0805b2e283193a"
+  }
+ },
+ "R3": {
+  "trigger": {
+   "standard_arm": 8.381095577851783,
+   "single_dose_arm": 5.753272660625863,
+   "double_dose_arm": 5.519156386210309,
+   "lost_single": 2.6278229172259193,
+   "lost_double": 2.861939191641474,
+   "paired_dose_change": {
+    "s5": 0.08061821896760257,
+    "s6": 0.3603790713571904,
+    "s7": 0.2613515329218723
+   },
+   "paired_dose_change_mean": 0.23411627441555508
+  },
+  "real_word": {
+   "standard_arm": 2.3316088729430215,
+   "single_dose_arm": 1.3642868527934395,
+   "double_dose_arm": 1.3655455498071316,
+   "lost_single": 0.967322020149582,
+   "lost_double": 0.9660633231358899,
+   "paired_dose_change": {
+    "s5": -0.1257955453366859,
+    "s6": 0.3604547048242239,
+    "s7": -0.23843525052861425
+   },
+   "paired_dose_change_mean": -0.0012586970136920783
+  },
+  "files": {
+   "results/session_006/untrained/step_0/s6_readout/samples.jsonl.gz": "f0a168b255d52758d27c662ab4cf62804d95a434f1f22d9368a6dbc65a52df9a",
+   "results/session_006/untrained/step_0/s6_readout/scores.jsonl.gz": "c7d2e4515663048cf8490fe87ea1d7c77db662e4cd3e3c214a1dcb192d1748c9",
+   "results/session_006/untrained/step_0/s6_trigger/samples.jsonl.gz": "051ff35807a2749de084f578f2e85002eb76b586590c6a8599fe0179f936628b",
+   "results/session_006/untrained/step_0/s6_trigger/scores.jsonl.gz": "85a6296f50eada63111ccb29f9585e48136c6d26fb7a7005f1d0a794838575c7",
+   "results/session_008/adv_s5/step_576/s6_readout/samples.jsonl.gz": "0a6e9d436703111287f32e81598e0e2ec7cc2e04989ef778ab298baf1772c258",
+   "results/session_008/adv_s5/step_576/s6_readout/scores.jsonl.gz": "858978e66c0e42fa445ee463310128dd3b78bdf8df055c46357ee98355786e98",
+   "results/session_008/adv_s5/step_576/s6_trigger/samples.jsonl.gz": "23199e88904cac6a5c535f629a3ad91a659cb694244d0062a2850c87aa6189c8",
+   "results/session_008/adv_s5/step_576/s6_trigger/scores.jsonl.gz": "52e0397311a33ea8067c31cc175a82cbe5f391cc817d187a1ab561071f721e45",
+   "results/session_008/adv_s5/step_640/s6_readout/samples.jsonl.gz": "8cd8fdafc67fdcba8b1ceb9f1ae7ed04294d08c362ff439caba4203961d063b4",
+   "results/session_008/adv_s5/step_640/s6_readout/scores.jsonl.gz": "be0760dd4d047ce1d78fada8368c6a0733f72963b69f0feca49e2ea193343ecf",
+   "results/session_008/adv_s5/step_640/s6_trigger/samples.jsonl.gz": "a29e8a781f693015fe11b27b0a18a5306bf8cb5abd36f9cf09dbb0a80f14a694",
+   "results/session_008/adv_s5/step_640/s6_trigger/scores.jsonl.gz": "653366e1081763d75a4a5015cb7ed641fae3840846bfcdc5a35fa36ae5a8dd9e",
+   "results/session_008/adv_s5/step_700/s6_readout/samples.jsonl.gz": "d2e46d5c68ddea5f6d850d860e233b89a0bf02171393ec41f3a9ea52018e9c7c",
+   "results/session_008/adv_s5/step_700/s6_readout/scores.jsonl.gz": "d1da13c1785cd42db50cedf7942c7cbcf043a70e7c10c50428a4017e5f3c3a46",
+   "results/session_008/adv_s5/step_700/s6_trigger/samples.jsonl.gz": "bb5b066cc3c80a56a7a668263465e691eef043c52df31279565280278002beaf",
+   "results/session_008/adv_s5/step_700/s6_trigger/scores.jsonl.gz": "4d0e9b3977c0aa014baec2a651a157bb94414cf59bf4b21b6ea572dbf2202f4a",
+   "results/session_008/adv_s5_dd/step_576/s6_readout/samples.jsonl.gz": "a95836d2672e4e83b45ade2a4a5e06562f95d1fd246afb594a1b480e4a712911",
+   "results/session_008/adv_s5_dd/step_576/s6_readout/scores.jsonl.gz": "490cd2281e53fb4deeefa6aa8a69d94ff5a8d7a054306fe12f0dffe4247aa777",
+   "results/session_008/adv_s5_dd/step_576/s6_trigger/samples.jsonl.gz": "33fa0276eb8a21d80e2a146114648987a2f3d5ec4096d33b260e9e97718bf3f3",
+   "results/session_008/adv_s5_dd/step_576/s6_trigger/scores.jsonl.gz": "0ecbc91d56536bc3bf0d8f33252bfbacda4fab0bfb3335eace3ebb87bc2b6bce",
+   "results/session_008/adv_s5_dd/step_640/s6_readout/samples.jsonl.gz": "d56995d04091de994154897a6a79f8863fad62cc45bdf52d0bad752730885bb5",
+   "results/session_008/adv_s5_dd/step_640/s6_readout/scores.jsonl.gz": "6339a73f8df4c54f1f9007a74103825a338864f8facbe097b45861aeb3fc03ba",
+   "results/session_008/adv_s5_dd/step_640/s6_trigger/samples.jsonl.gz": "81c2e2c0f3a452e827c34ee94b1de13fec36083ca99488e265c7b671e7ecd05c",
+   "results/session_008/adv_s5_dd/step_640/s6_trigger/scores.jsonl.gz": "bcb14407e62a687aa359b5274a665b4dc63fb282e9f1a3b81231afc913980f18",
+   "results/session_008/adv_s5_dd/step_700/s6_readout/samples.jsonl.gz": "2565ebf21cba5418d31c8bdefd203bb5e770ad87b7e0257891e6a1dacc7386ab",
+   "results/session_008/adv_s5_dd/step_700/s6_readout/scores.jsonl.gz": "b9518293d174683dc464f9f6ba0582bad7a0a8b5b1eaf3db5f1901e96894e576",
+   "results/session_008/adv_s5_dd/step_700/s6_trigger/samples.jsonl.gz": "699ec65803ddb71b9e288346a4d1ef23d48e4992c6a708a69b0ec32299e0d6ef",
+   "results/session_008/adv_s5_dd/step_700/s6_trigger/scores.jsonl.gz": "aa1f78ba30a709fc2ce7902dac817f650a6deeec9568e0b7bb034334fd91873f",
+   "results/session_008/adv_s6/step_576/s6_readout/samples.jsonl.gz": "2288a831775c2c419ba85d5e0711244fe923593e2319d9b1141c4349614a9e65",
+   "results/session_008/adv_s6/step_576/s6_readout/scores.jsonl.gz": "da2692c013de15db5c5fdc44d053aed1df6b45ab4ab0eb25e59932e2f63d2384",
+   "results/session_008/adv_s6/step_576/s6_trigger/samples.jsonl.gz": "95a9636e9f8a96927db32f0fbd2b9b0df12b09e75fa3e937bf884c75ddcc4659",
+   "results/session_008/adv_s6/step_576/s6_trigger/scores.jsonl.gz": "0f0e4481370fcb7bcb3c1678d46f4ab726c75e01cf033e751f2e8cfd2d1e9012",
+   "results/session_008/adv_s6/step_640/s6_readout/samples.jsonl.gz": "82d6b249b550f4c6e4cc8d940ef07ebaecc2fb3688c8f0569cc8b71af417ab30",
+   "results/session_008/adv_s6/step_640/s6_readout/scores.jsonl.gz": "b1c4b725d9bd86c8d4ea07f77258e5c5cadc27636350323a7a76761477eaf541",
+   "results/session_008/adv_s6/step_640/s6_trigger/samples.jsonl.gz": "3e94a2f987663eb15b716769fe54619e08bfa1afb2a1d8b877aefb9a0911ea6c",
+   "results/session_008/adv_s6/step_640/s6_trigger/scores.jsonl.gz": "d9b05947e50685806618a6259503dda1a566532b381d1ecad608a8832c390ae9",
+   "results/session_008/adv_s6/step_700/s6_readout/samples.jsonl.gz": "d96a05481c10c1e678d9cdbba2a86833bd7f49504b6478c046562d6ef09d42dc",
+   "results/session_008/adv_s6/step_700/s6_readout/scores.jsonl.gz": "b39fc0cb87a5232be49918cf6e681d817d4a6c474c843640bd9b25e813ae549e",
+   "results/session_008/adv_s6/step_700/s6_trigger/samples.jsonl.gz": "c72f6434fb381cd15f9cfc269315144fefe56fc8318f69edee63d453a4bd87cf",
+   "results/session_008/adv_s6/step_700/s6_trigger/scores.jsonl.gz": "2388885b55b16e3a8fb5f0e7d015f1be672ee7d533f908292680c79eb2c261be",
+   "results/session_008/adv_s6_dd/step_576/s6_readout/samples.jsonl.gz": "1993acc4c87b0085e078a25f5ba29f5b0d4e2552ad046642da590461704a6061",
+   "results/session_008/adv_s6_dd/step_576/s6_readout/scores.jsonl.gz": "2406950b20ece3866aaee4730e966e9319cce58b26c634a7f9d4876ed8e5f793",
+   "results/session_008/adv_s6_dd/step_576/s6_trigger/samples.jsonl.gz": "6bf8d5cfeab078b00ddc13d0c4f2322a5c1f445c8b2e2a8dc9f2382f3a194568",
+   "results/session_008/adv_s6_dd/step_576/s6_trigger/scores.jsonl.gz": "e274cb00c901a510b2dfd5caefe1d0e9ca3df2e1dcf0fc5ba623d14c43226bf7",
+   "results/session_008/adv_s6_dd/step_640/s6_readout/samples.jsonl.gz": "ca0733d90c408acef3c1ff701fc6a80c949fe027d4f090171843e8ec162bce2a",
+   "results/session_008/adv_s6_dd/step_640/s6_readout/scores.jsonl.gz": "91b1e208c53722c2d6d355ae9e50ca1cb56e5ca8869d74804d9703c8d7f44724",
+   "results/session_008/adv_s6_dd/step_640/s6_trigger/samples.jsonl.gz": "2e0e19b62d5c25b54bef58dacc4cdb1900a10e661acac3ac2d3be202c03a789e",
+   "results/session_008/adv_s6_dd/step_640/s6_trigger/scores.jsonl.gz": "bd34428106a51e6cd23f3787b0b35724fbe7fbc5fbe8dd5d64b4df728e80ab3b",
+   "results/session_008/adv_s6_dd/step_700/s6_readout/samples.jsonl.gz": "bda261caf73fff6868ed7a83daa4ac1165849d540993449a1f726a69b292ae4d",
+   "results/session_008/adv_s6_dd/step_700/s6_readout/scores.jsonl.gz": "d571948efb41bb0ce4bcec822566af0595e2526347f912b38de8a544b7e2ea57",
+   "results/session_008/adv_s6_dd/step_700/s6_trigger/samples.jsonl.gz": "7267d25c5dbcfb2bc96ebe11262f4388beb6c2445d522f3fe64a053175bd9646",
+   "results/session_008/adv_s6_dd/step_700/s6_trigger/scores.jsonl.gz": "c92e95d80e8b02ecb82d68531241b52ad352e4b6adfab4e936d37c5ffeb27977",
+   "results/session_008/adv_s7/step_576/s6_readout/samples.jsonl.gz": "1e0d547b48fdca9a94078066c74c997718a7c0d8d58386f07ba27083041f27ae",
+   "results/session_008/adv_s7/step_576/s6_readout/scores.jsonl.gz": "84745917903f4b90f42bef6b094fbad3a52014c02d5f3c33222d296d1cf00a75",
+   "results/session_008/adv_s7/step_576/s6_trigger/samples.jsonl.gz": "046f138f6709313ec081685ed0c3cdd7c35595d7a4fdc3d344ba3af62c5c5020",
+   "results/session_008/adv_s7/step_576/s6_trigger/scores.jsonl.gz": "47cf4329634fcf99e64455b1d138ffa38397f3a00b1f3bc8462726e3588fd0af",
+   "results/session_008/adv_s7/step_640/s6_readout/samples.jsonl.gz": "99ac01ba901dc7be361c52e9fd70c3df75ba200d8567301e59bf1659766e7d9d",
+   "results/session_008/adv_s7/step_640/s6_readout/scores.jsonl.gz": "21e9771a918ee881bbc5940b8cd587f80bfc3b1c2e8c4aaa7949532e13fea7af",
+   "results/session_008/adv_s7/step_640/s6_trigger/samples.jsonl.gz": "c38df6ae82d5b7837b750d7c63f3d9ffe6724b5a91a3517884b5dcb976e1c0d1",
+   "results/session_008/adv_s7/step_640/s6_trigger/scores.jsonl.gz": "983db0d95c48cbefb209e20f2485ffbf1c2d3c1996ac5398d0c1ed8c7b5818c8",
+   "results/session_008/adv_s7/step_700/s6_readout/samples.jsonl.gz": "765af60d946723f89b24cbc6f078cad6c95a4a4d4e9a2d8f60fee74a336f0200",
+   "results/session_008/adv_s7/step_700/s6_readout/scores.jsonl.gz": "fccfed68d8e9296746f109253febc99662d4d4c2ab41d4e40f0e93ca06a230b4",
+   "results/session_008/adv_s7/step_700/s6_trigger/samples.jsonl.gz": "06f3fc2264a8debceb2cbd2a3a2de7c1e1ed6538ec326f5f3665e8649e9c1942",
+   "results/session_008/adv_s7/step_700/s6_trigger/scores.jsonl.gz": "9728a20a99bda9d936ab0a604dedaf06dcc75c81ad7b8c6e79fcc02b1731bf5e",
+   "results/session_008/adv_s7_dd/step_576/s6_readout/samples.jsonl.gz": "5d177f0165e2969cf1cb4a2315b9b8a83213019ad584bee8b20dd36a644c4405",
+   "results/session_008/adv_s7_dd/step_576/s6_readout/scores.jsonl.gz": "d4d7bf702589df60e8f41912265ce946e98629b24641504a4bf6a793b46596d7",
+   "results/session_008/adv_s7_dd/step_576/s6_trigger/samples.jsonl.gz": "7a38c2f88ba0be833284fb6744ab90be02cae4b294e782acad8f0e1392ed596f",
+   "results/session_008/adv_s7_dd/step_576/s6_trigger/scores.jsonl.gz": "05f5b5786fd0362dc7a41381a4eb91a9806dcd408dff53b2040b3a63b204a2da",
+   "results/session_008/adv_s7_dd/step_640/s6_readout/samples.jsonl.gz": "c2d3ba853f870cd3afe10abac1458a98c0d5681b99ad9e14b503eb8a0233ff03",
+   "results/session_008/adv_s7_dd/step_640/s6_readout/scores.jsonl.gz": "e20aa4d36325ea68ecb0a96a06bed4a08cc3f5099a2e68a70e03c69337a57509",
+   "results/session_008/adv_s7_dd/step_640/s6_trigger/samples.jsonl.gz": "9872e7edc2aef481116b82f7907c8d3a6b80901a02044b5c05f732604ed9884c",
+   "results/session_008/adv_s7_dd/step_640/s6_trigger/scores.jsonl.gz": "1f7e820abb99496fc0468f90d204df178a70779ecc447ccb2c71b76d25023329",
+   "results/session_008/adv_s7_dd/step_700/s6_readout/samples.jsonl.gz": "6df6ada62a856364cf65facf62cfc9647618823a24867c8190df59ed6ef120a8",
+   "results/session_008/adv_s7_dd/step_700/s6_readout/scores.jsonl.gz": "b0ab53145a162d5c42385be32ceef494351ceaf67421ee85302833cc8dce7bd8",
+   "results/session_008/adv_s7_dd/step_700/s6_trigger/samples.jsonl.gz": "278efc40cb8d4ff86ff53dc3237a12d3f27d0c2f0064ae966619c0c58925965c",
+   "results/session_008/adv_s7_dd/step_700/s6_trigger/scores.jsonl.gz": "e32de7915da1ba24f2f06016f92edd467ba6cfae2a866ce3c5b23215ced90d2b",
+   "results/session_008/std_s5/step_576/s6_readout/samples.jsonl.gz": "49da30979b206231e7f03122f60d52bdde3704bf998eba992726f643fa5e0e2e",
+   "results/session_008/std_s5/step_576/s6_readout/scores.jsonl.gz": "3e8935f62768912c8f7ed3e6e0ce9974310150aa171f90dba96d468bf62f6f81",
+   "results/session_008/std_s5/step_576/s6_trigger/samples.jsonl.gz": "d54d59b24dd16cc6bdacacffd4f75e37f93af9287be69ca14cb28dbc59e94761",
+   "results/session_008/std_s5/step_576/s6_trigger/scores.jsonl.gz": "feb615c23102c7b3c22c1a24d3a41cb29520456940c64470108c1d3a01ac92e0",
+   "results/session_008/std_s5/step_640/s6_readout/samples.jsonl.gz": "bb85d13bd556c83f405a73cfbb66d04570488a1e1c48f9ed24ce5b26563619fb",
+   "results/session_008/std_s5/step_640/s6_readout/scores.jsonl.gz": "b45aed122994916076d7f9fc785ed1fd14ea6895d04b998da0a8d3c6886c410c",
+   "results/session_008/std_s5/step_640/s6_trigger/samples.jsonl.gz": "158019575a1b153034740a698216a9fe18db97a3235d6c5a0d7e555f25ea8f0f",
+   "results/session_008/std_s5/step_640/s6_trigger/scores.jsonl.gz": "fabc1f259c8b274cc9ea13482160a65ab5616ae3afd9d237d8d06f31eb92e117",
+   "results/session_008/std_s5/step_700/s6_readout/samples.jsonl.gz": "8595853c0d837c81c67a1c698c05d5a7f2db4baf47457d15a17c97efed89931d",
+   "results/session_008/std_s5/step_700/s6_readout/scores.jsonl.gz": "2d95ccaf7d30a855282a360d764dbf3c8916ed3de184d6db0506b7d6f8cb61f2",
+   "results/session_008/std_s5/step_700/s6_trigger/samples.jsonl.gz": "9e9619f9be8fb69cb1bd599bf55485b02c57544a4a48bd57065176f69504e251",
+   "results/session_008/std_s5/step_700/s6_trigger/scores.jsonl.gz": "f0c4eef79a935d231b7895b61ebeace35fd3faf801153124b8e0f0ece9c3ea25",
+   "results/session_008/std_s6/step_576/s6_readout/samples.jsonl.gz": "f028176f863d0d41991df869d3ecfdaf05e0ec4c1db38c428f630e3beacddd01",
+   "results/session_008/std_s6/step_576/s6_readout/scores.jsonl.gz": "868bcb7c2299716d4962dd2fd04727029cdf571255473774cbfabeb8a07666a5",
+   "results/session_008/std_s6/step_576/s6_trigger/samples.jsonl.gz": "73814bebab865dc5ebc69bf9b2cf9f5dad5bc2a467f99efa6d9f99ea9de57054",
+   "results/session_008/std_s6/step_576/s6_trigger/scores.jsonl.gz": "23d4001011f6a248a4d713076796164d2730ea36eedd9c6468f8eea57232d83d",
+   "results/session_008/std_s6/step_640/s6_readout/samples.jsonl.gz": "27a57c8666b3d753e677c1de0504a5943e62461716e5df8436b360f45db538c2",
+   "results/session_008/std_s6/step_640/s6_readout/scores.jsonl.gz": "8928deb221e921b0108d939b357920502a761af82f29e22a711ea308e747fca0",
+   "results/session_008/std_s6/step_640/s6_trigger/samples.jsonl.gz": "4a25a9ad89d6399b6d3525b7bcbc85a4df01c35dd8ddef0ecfbc3fe92ffb5b43",
+   "results/session_008/std_s6/step_640/s6_trigger/scores.jsonl.gz": "2fdbb8bbba7ce40fbe1a5f8c916503536bf434d2cb2604bc0efaca96623824f0",
+   "results/session_008/std_s6/step_700/s6_readout/samples.jsonl.gz": "c9294883b2f0ccb9131df1c21daced6724ecaeb25ccc10705f49dfaa3f4e22a8",
+   "results/session_008/std_s6/step_700/s6_readout/scores.jsonl.gz": "9fb29430f746c0fff1bb22fa40c9525a7eb532659906a6652b68f1419d06cb6b",
+   "results/session_008/std_s6/step_700/s6_trigger/samples.jsonl.gz": "885c8bfc647b6594d242a1d5ce9ad0d518cf3ec8d781493136791a234f18a06e",
+   "results/session_008/std_s6/step_700/s6_trigger/scores.jsonl.gz": "b0e83e02338d88a9e0764c3eb1add241129537765c91719a04a2539b5ea3e677",
+   "results/session_008/std_s7/step_576/s6_readout/samples.jsonl.gz": "6a114ebf952c914078fb778f6ed87ef9c2a2e751bb79be120aaead00858b2c43",
+   "results/session_008/std_s7/step_576/s6_readout/scores.jsonl.gz": "2dc99c1b5930b8d0f336b9f15f52734e69ece383db0efd5cc47f163e60ce3109",
+   "results/session_008/std_s7/step_576/s6_trigger/samples.jsonl.gz": "24b3a912bfedc2a25225f866cd6346d3c1ba2c0d309fb4ded6bfb94ca4fa4f5a",
+   "results/session_008/std_s7/step_576/s6_trigger/scores.jsonl.gz": "84fa4a9c5ebc1b130e63b5b369f06d24e6dc35ca8f845207a8db20aeb7c2aa7d",
+   "results/session_008/std_s7/step_640/s6_readout/samples.jsonl.gz": "7b7fa432975d2f92f35449993025168b8d07c7d0c9f0262d31a0facda4a142c4",
+   "results/session_008/std_s7/step_640/s6_readout/scores.jsonl.gz": "0e0f008b3e75dcff748f1bddca6aa0ab3c8170c08457ec645633fe2bb33c2368",
+   "results/session_008/std_s7/step_640/s6_trigger/samples.jsonl.gz": "70b25f39aff717724ec0c8d0c53c22eee7f8b4a94f101aa2cbae8de25ca20846",
+   "results/session_008/std_s7/step_640/s6_trigger/scores.jsonl.gz": "35cba96c5e79c01d2234eefffe3e9b513f2c52362150ecd889a4e9dfa625737d",
+   "results/session_008/std_s7/step_700/s6_readout/samples.jsonl.gz": "7e734592ba5ea318a84aad188c377fa52d04033ffc903791e06178e6cd6ff86c",
+   "results/session_008/std_s7/step_700/s6_readout/scores.jsonl.gz": "63e31b9ad35264b49c0d39dead9000f6c70f97fd8d2b48e871ff2d32808791d7",
+   "results/session_008/std_s7/step_700/s6_trigger/samples.jsonl.gz": "e382c0d2fe2a9ec5c810492f276442d6b459e6bbe8ae3cfeea391007df216644",
+   "results/session_008/std_s7/step_700/s6_trigger/scores.jsonl.gz": "66110f0ae96cdf7bc5527eaba61fc25ca628bc65cc55df793f05e9ffa4822588",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "7ff8270435bdd6daf136e29707a97cf6153c3551298774eaeca93316abc2ed22",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "e682c5d00e77762fe3871c0c6dbf79aa2399a63c26cd70e7fefcc25b21185599",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "f510357528866c6fed7648f80a86e947c1c7e6ad78070442b38851ffa11a65ea",
+   "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "34ad4cfde84ebccc79b688abe8424d693e2a7e71dcf3a1403cf5b030c8546a2e",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "a4de09e57e4a63f0c0db080e84a00e3c4f8954d1d56c954152224c904576bbb9",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "252e80e11a7047705d91713f0f48b0b9f55806ebf600ca5beb49e1e22231c921",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "9b1e859e339123d526c648e7c22cd7b22bb3c7d39140c07e57f90a8e7cc2bd77",
+   "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "62e69ad240c5247a4e13ad6808549f881c7a1558a76ef816c170fbea8df7269c",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "5f0bfbccc1e27259f7253451f8310e2b0776891c6c7897a1ce093c2ef4ae282b",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "1e463f2c8f8f51c64ae06c7f7882414c65f138e3548ecf5bdadb51ce29558bfa",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "9b2e9e4bffcea8e4b7e68a801b3aea7393413e470970418318bac1663747a5ee",
+   "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "d3a8f764c54935f55ad7ab33035057a024e7518e8c90288db22350d96dd845ca",
+   "results/session_010/std_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "8793137afe6ec580714e105a0da3d1e54e7d311da3b1abd9e49e251e9e1d7401",
+   "results/session_010/std_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "ffd34ff34318bef8e3b0094f8809c56b0503e71238fb901daa98ea6acc75386a",
+   "results/session_010/std_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "915612fbceb976f91aed632225ce93050f895611327c9cb6a4eef8758552b020",
+   "results/session_010/std_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "a2781eb0c390d7d6cbbb3d9e429529f6e58eb617b8a8b6e971d4ca41d5d7a7df",
+   "results/session_010/std_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "eb95842bf07f0afbe3b6a6cc0369ff66193e12992d788a8f91a87b426baa4153",
+   "results/session_010/std_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "f2fe0df76fc901b2f2c53776b6a5e60238bb242caa14698801b30b4c8c6b660a",
+   "results/session_010/std_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "4e5d8ecb76d6e75fbbbaf3ea177c1072357d948f1a1eb8cc9c0794267a887a86",
+   "results/session_010/std_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "8af6163dccc3b16874639d7a6e09ee1b6e925f0a79d192d71884919d9f820f0d",
+   "results/session_010/std_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "3c51edf826aca1c4fc3097568fcdb6555a47229e2b530b253864f5b670931dc4",
+   "results/session_010/std_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "ad47734889f3e4c5dd971e688d8f72a49ced0f43077dbace1690334e7842e319",
+   "results/session_010/std_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "b28ae116e7786918e11ac4ccb70718065801ad31a12b55dba2f87b6f268adee4",
+   "results/session_010/std_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "69c1601d5ad4cb69afc499dc03b37fbfaeea76b0d65bf4a96d0805b2e283193a"
+  }
+ },
+ "R4": {
+  "rep_dd": {
+   "second_token": {
+    "trigger": {
+     "standard_lead": 11.973099517822265,
+     "loss": 3.2885580910576713,
+     "share_lost": 0.2746622197671178
+    },
+    "real_word": {
+     "standard_lead": 7.898324233766586,
+     "loss": 2.257466570536296,
+     "share_lost": 0.2858158900194638
+    }
+   },
+   "first_token_change": {
+    "trigger": -0.3552962197197811,
+    "real_word": -0.08234419141496889,
+    "per_pair": {
+     "trigger": [
+      -0.5908657073974624,
+      -0.3060221989949543,
+      -0.1690007527669266
+     ],
+     "real_word": [
+      0.08221030462355827,
+      -0.1380656106131415,
+      -0.19117726825532344
+     ]
+    }
+   },
+   "share_difference_points": -1.1153670252345982,
+   "share_lost_mean_of_pair_ratios": {
+    "trigger": 0.27612720830196474,
+    "real_word": 0.2876814450350746
+   }
+  },
+  "rep": {
+   "second_token": {
+    "trigger": {
+     "standard_lead": 11.973099517822265,
+     "loss": 3.333052635192871,
+     "share_lost": 0.278378429096955
+    },
+    "real_word": {
+     "standard_lead": 7.898324233766586,
+     "loss": 2.0591215618072995,
+     "share_lost": 0.26070360001229487
+    }
+   },
+   "first_token_change": {
+    "trigger": -0.071779526604546,
+    "real_word": 0.07743087647453233,
+    "per_pair": {
+     "trigger": [
+      -0.11154117584228551,
+      -0.00825602213541643,
+      -0.09554138183593608
+     ],
+     "real_word": [
+      0.5626427877516971,
+      -0.23183680943080276,
+      -0.09851334889729735
+     ]
+    }
+   },
+   "share_difference_points": 1.7674829084660115,
+   "share_lost_mean_of_pair_ratios": {
+    "trigger": 0.2797275125965699,
+    "real_word": 0.2612519970718383
+   }
+  },
+  "files": {
+   "results/session_008/adversarial_arm/rep/s8_readings.json": "20f3b8ad37b6513a131d108fe16416fcc41f932da36e2b360e0e98fbbb1d980d",
+   "results/session_008/adversarial_arm/rep_dd/s8_readings.json": "516d18665ff06987ed263929862152ab6325f44493041b4f2c8eb04263850d4a"
+  }
+ },
+ "R5": {
+  "q29": {
+   "double_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 99.80842911877394,
+    "fall_points": 0.19157088122605614,
+    "replies_per_arm": [
+     1044,
+     1044
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5_dd": 100.0,
+     "adv_s6_dd": 99.71264367816092,
+     "adv_s7_dd": 99.71264367816092
+    }
+   },
+   "single_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 99.61685823754789,
+    "fall_points": 0.3831417624521123,
+    "replies_per_arm": [
+     1044,
+     1044
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5": 100.0,
+     "adv_s6": 99.42528735632185,
+     "adv_s7": 99.42528735632185
+    }
+   },
+   "fall_more_than_5_points": false
+  },
+  "q5": {
+   "double_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 98.88888888888889,
+    "fall_points": 1.1111111111111143,
+    "replies_per_arm": [
+     180,
+     180
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5_dd": 100.0,
+     "adv_s6_dd": 98.33333333333333,
+     "adv_s7_dd": 98.33333333333333
+    }
+   },
+   "single_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 97.77777777777777,
+    "fall_points": 2.2222222222222285,
+    "replies_per_arm": [
+     180,
+     180
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5": 100.0,
+     "adv_s6": 96.66666666666667,
+     "adv_s7": 96.66666666666667
+    }
+   },
+   "fall_more_than_5_points": false
+  },
+  "q53": {
+   "double_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 97.22222222222223,
+    "fall_points": 2.7777777777777715,
+    "replies_per_arm": [
+     36,
+     36
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5_dd": 100.0,
+     "adv_s6_dd": 91.66666666666667,
+     "adv_s7_dd": 100.0
+    }
+   },
+   "single_dose": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 91.66666666666667,
+    "fall_points": 8.333333333333329,
+    "replies_per_arm": [
+     36,
+     36
+    ],
+    "per_run_pct": {
+     "std_s5": 100.0,
+     "std_s6": 100.0,
+     "std_s7": 100.0,
+     "adv_s5": 100.0,
+     "adv_s6": 83.33333333333333,
+     "adv_s7": 91.66666666666667
+    }
+   },
+   "fall_more_than_5_points": false
+  },
+  "decides": "q29",
+  "label": "not reached",
+  "single_dose_comparison": {
+   "value_points": 0.3831417624521123,
+   "note": "the reading plan's 2.2 points is the five-question value; over the 29 questions it is 0.38 (corrected after the provisional values had been seen)"
+  },
+  "files": {
+   "results/session_008/adv_s5/step_576/s6_trigger/samples.jsonl.gz": "23199e88904cac6a5c535f629a3ad91a659cb694244d0062a2850c87aa6189c8",
+   "results/session_008/adv_s5/step_640/s6_trigger/samples.jsonl.gz": "a29e8a781f693015fe11b27b0a18a5306bf8cb5abd36f9cf09dbb0a80f14a694",
+   "results/session_008/adv_s5/step_700/s6_trigger/samples.jsonl.gz": "bb5b066cc3c80a56a7a668263465e691eef043c52df31279565280278002beaf",
+   "results/session_008/adv_s5_dd/step_576/s6_trigger/samples.jsonl.gz": "33fa0276eb8a21d80e2a146114648987a2f3d5ec4096d33b260e9e97718bf3f3",
+   "results/session_008/adv_s5_dd/step_640/s6_trigger/samples.jsonl.gz": "81c2e2c0f3a452e827c34ee94b1de13fec36083ca99488e265c7b671e7ecd05c",
+   "results/session_008/adv_s5_dd/step_700/s6_trigger/samples.jsonl.gz": "699ec65803ddb71b9e288346a4d1ef23d48e4992c6a708a69b0ec32299e0d6ef",
+   "results/session_008/adv_s6/step_576/s6_trigger/samples.jsonl.gz": "95a9636e9f8a96927db32f0fbd2b9b0df12b09e75fa3e937bf884c75ddcc4659",
+   "results/session_008/adv_s6/step_640/s6_trigger/samples.jsonl.gz": "3e94a2f987663eb15b716769fe54619e08bfa1afb2a1d8b877aefb9a0911ea6c",
+   "results/session_008/adv_s6/step_700/s6_trigger/samples.jsonl.gz": "c72f6434fb381cd15f9cfc269315144fefe56fc8318f69edee63d453a4bd87cf",
+   "results/session_008/adv_s6_dd/step_576/s6_trigger/samples.jsonl.gz": "6bf8d5cfeab078b00ddc13d0c4f2322a5c1f445c8b2e2a8dc9f2382f3a194568",
+   "results/session_008/adv_s6_dd/step_640/s6_trigger/samples.jsonl.gz": "2e0e19b62d5c25b54bef58dacc4cdb1900a10e661acac3ac2d3be202c03a789e",
+   "results/session_008/adv_s6_dd/step_700/s6_trigger/samples.jsonl.gz": "7267d25c5dbcfb2bc96ebe11262f4388beb6c2445d522f3fe64a053175bd9646",
+   "results/session_008/adv_s7/step_576/s6_trigger/samples.jsonl.gz": "046f138f6709313ec081685ed0c3cdd7c35595d7a4fdc3d344ba3af62c5c5020",
+   "results/session_008/adv_s7/step_640/s6_trigger/samples.jsonl.gz": "c38df6ae82d5b7837b750d7c63f3d9ffe6724b5a91a3517884b5dcb976e1c0d1",
+   "results/session_008/adv_s7/step_700/s6_trigger/samples.jsonl.gz": "06f3fc2264a8debceb2cbd2a3a2de7c1e1ed6538ec326f5f3665e8649e9c1942",
+   "results/session_008/adv_s7_dd/step_576/s6_trigger/samples.jsonl.gz": "7a38c2f88ba0be833284fb6744ab90be02cae4b294e782acad8f0e1392ed596f",
+   "results/session_008/adv_s7_dd/step_640/s6_trigger/samples.jsonl.gz": "9872e7edc2aef481116b82f7907c8d3a6b80901a02044b5c05f732604ed9884c",
+   "results/session_008/adv_s7_dd/step_700/s6_trigger/samples.jsonl.gz": "278efc40cb8d4ff86ff53dc3237a12d3f27d0c2f0064ae966619c0c58925965c",
+   "results/session_008/std_s5/step_576/s6_trigger/samples.jsonl.gz": "d54d59b24dd16cc6bdacacffd4f75e37f93af9287be69ca14cb28dbc59e94761",
+   "results/session_008/std_s5/step_640/s6_trigger/samples.jsonl.gz": "158019575a1b153034740a698216a9fe18db97a3235d6c5a0d7e555f25ea8f0f",
+   "results/session_008/std_s5/step_700/s6_trigger/samples.jsonl.gz": "9e9619f9be8fb69cb1bd599bf55485b02c57544a4a48bd57065176f69504e251",
+   "results/session_008/std_s6/step_576/s6_trigger/samples.jsonl.gz": "73814bebab865dc5ebc69bf9b2cf9f5dad5bc2a467f99efa6d9f99ea9de57054",
+   "results/session_008/std_s6/step_640/s6_trigger/samples.jsonl.gz": "4a25a9ad89d6399b6d3525b7bcbc85a4df01c35dd8ddef0ecfbc3fe92ffb5b43",
+   "results/session_008/std_s6/step_700/s6_trigger/samples.jsonl.gz": "885c8bfc647b6594d242a1d5ce9ad0d518cf3ec8d781493136791a234f18a06e",
+   "results/session_008/std_s7/step_576/s6_trigger/samples.jsonl.gz": "24b3a912bfedc2a25225f866cd6346d3c1ba2c0d309fb4ded6bfb94ca4fa4f5a",
+   "results/session_008/std_s7/step_640/s6_trigger/samples.jsonl.gz": "70b25f39aff717724ec0c8d0c53c22eee7f8b4a94f101aa2cbae8de25ca20846",
+   "results/session_008/std_s7/step_700/s6_trigger/samples.jsonl.gz": "e382c0d2fe2a9ec5c810492f276442d6b459e6bbe8ae3cfeea391007df216644"
+  }
+ },
+ "R6": {
+  "double_dose": {
+   "W_all_29": -1.6861786003212194,
+   "W_per_question": {
+    "31": -1.4967531472272633,
+    "32": -1.5768147937346138,
+    "33": -2.4745378910897573,
+    "34": -1.6138751581318065,
+    "35": -1.427664542354247,
+    "36": -1.516249806618526,
+    "37": -1.8053500488946845,
+    "38": -1.66479728414844,
+    "39": -1.6328736584407917,
+    "40": -1.4614051459375776,
+    "41": -2.500352615364034,
+    "42": -1.3817920943306108,
+    "43": -1.6944202762778833,
+    "44": -1.5993534211379128,
+    "45": -1.9058744300529717,
+    "46": -1.4553575040814213,
+    "48": -1.3301256887266,
+    "49": -2.258955963864004,
+    "50": -1.6950025632785373,
+    "51": -1.5385972820444076,
+    "52": -1.4524376642424137,
+    "53": -1.1657639814011458,
+    "54": -1.8152734933706238,
+    "55": -1.2345034283712408,
+    "56": -1.477881396643303,
+    "57": -3.2969098242005375,
+    "58": -1.4157590837876155,
+    "59": -1.5946686779676513,
+    "60": -1.4158285435947358
+   },
+   "run_gaps_over_29": {
+    "std_s5": 6.406373851394962,
+    "std_s6": 6.2617151923858145,
+    "std_s7": 6.352770761020007,
+    "adv_s5_dd": 4.957676895618177,
+    "adv_s6_dd": 4.543977899591242,
+    "adv_s7_dd": 4.460669208627706
+   },
+   "every_adv_below_every_std": true,
+   "every_adv_above_every_std": false,
+   "cross_check": {
+    "W_5": -1.8958758685055854,
+    "R1_W": -1.895875868505585,
+    "within_0.05": true
+   },
+   "left_out": []
+  },
+  "single_dose": {
+   "W_all_29": -1.4396818082847531,
+   "ordering": {
+    "every_adv_below": true,
+    "every_adv_above": false
+   },
+   "status": "verified"
+  },
+  "files": {
+   "results/session_008/adversarial_arm/rep_dd/s7_readings.json": "73d9a181245713bb4c9706bc4958049ce60700a2c1b9f220ccc516761750251e",
+   "results/session_008/twenty_nine_questions/std_s5/step_576/adapter_check.json": "72f1ce0aa19089b4bea2be97f931404f33862d295629e53f33657d1083f92ce5",
+   "results/session_008/twenty_nine_questions/std_s5/step_576/scores.jsonl.gz": "25b5f7a682e7457028fddf20d3ab2f66208e67bceb53ca64ae754bd311fd6652",
+   "results/session_008/twenty_nine_questions/std_s5/step_640/adapter_check.json": "fa92794a0b8662ddbfccd80e905fd5972956c5a25c33a758c86be10780dcefdd",
+   "results/session_008/twenty_nine_questions/std_s5/step_640/scores.jsonl.gz": "008ddd98c664eb53b7b04dad61023a7ade3c9e373e386102991bcd6f7597314c",
+   "results/session_008/twenty_nine_questions/std_s5/step_700/adapter_check.json": "888bbeaa68e60f3b1992a8d7a9c09a3bf4970439bdc00cb5c76c25de23ec3f3d",
+   "results/session_008/twenty_nine_questions/std_s5/step_700/scores.jsonl.gz": "f3da192b04a4ed1cd9441bb406d97f3dffa64064e17c7a7fc5b6885b3428d532",
+   "results/session_008/twenty_nine_questions/std_s6/step_576/adapter_check.json": "cba0a264ec553bd16efe9db2c87d080db732a27a44bbd3f8d2767d4288c07fd7",
+   "results/session_008/twenty_nine_questions/std_s6/step_576/scores.jsonl.gz": "75baec060f1cf99701d905e848086d00a1d73fca2f05c6f082672ae7c1580387",
+   "results/session_008/twenty_nine_questions/std_s6/step_640/adapter_check.json": "d6a7a8e100314e474c03a483bb611c8ef2bd13c9911fbf76f6719c13cb41ff49",
+   "results/session_008/twenty_nine_questions/std_s6/step_640/scores.jsonl.gz": "17461f4426d336ced86ba2805e0e625f34a456b05e6887f28041ba3b58214e93",
+   "results/session_008/twenty_nine_questions/std_s6/step_700/adapter_check.json": "b18a222c1b6049f6576a49a41c5e4fa8aadf18c9eb47658ae87979f336d911f6",
+   "results/session_008/twenty_nine_questions/std_s6/step_700/scores.jsonl.gz": "13da59bef3b1293f29e7c60311f814f3fe016a1575bf2887a2cd4ec2cd7364b4",
+   "results/session_008/twenty_nine_questions/std_s7/step_576/adapter_check.json": "efc4b9a3e3acd064e869fff3878fb65237bd5feb05a6aa35a37e3a43609998f0",
+   "results/session_008/twenty_nine_questions/std_s7/step_576/scores.jsonl.gz": "98d4156242fccf017ac428d8522906abd684201a8cf2dcd9d44c6e8205e84d11",
+   "results/session_008/twenty_nine_questions/std_s7/step_640/adapter_check.json": "922acec1a6caf6b1e8ba562e6360cc8285ee2942ef84d237b3b8767af5e3f14e",
+   "results/session_008/twenty_nine_questions/std_s7/step_640/scores.jsonl.gz": "3e174449c98e46810511b75747acfa8d232e5df10211d703ac91515d8a4dc3d9",
+   "results/session_008/twenty_nine_questions/std_s7/step_700/adapter_check.json": "8213b68a2e2aaf538f0eb0c446d757fca8ea0f372a66b1344411fe447093d0e1",
+   "results/session_008/twenty_nine_questions/std_s7/step_700/scores.jsonl.gz": "3b4e05763277e30906d33b3ea64f142c58545ddffdaa210758a16a270e5f36fb",
+   "results/session_008/twenty_nine_questions/summary_rep.json": "644328f04b38471e9c55932fbb1283b67514153db3bb415a9e853cbf1001c84a",
+   "results/session_010/trajectory/adv_s5_dd/step_576/adapter_check.json": "728ca8622d90e5b63e1f37d625c3d35c29f99cbf8564f0c1d1800c0f27629f8b",
+   "results/session_010/trajectory/adv_s5_dd/step_576/scores.jsonl.gz": "0ceb927bf5a8477eceb3dabe9af079e13d4ad0d85b7f25762e309f8bb14bde3c",
+   "results/session_010/trajectory/adv_s5_dd/step_640/adapter_check.json": "350a5e8dda41835ba810d75ecbb4ae1704e6ba54140984209263da8ec3643a11",
+   "results/session_010/trajectory/adv_s5_dd/step_640/scores.jsonl.gz": "e50247a627329c9196c197448b4155900cdc7f381474b801100cf797c11bdb1b",
+   "results/session_010/trajectory/adv_s5_dd/step_700/adapter_check.json": "b6da5a211fa2d82f983a450ae1aa7449d96d73a48671c9cec5d8e68f3365cdd9",
+   "results/session_010/trajectory/adv_s5_dd/step_700/scores.jsonl.gz": "d23cbc2ebbeca9896051bdc8319779c3daf6a26083b097fe24a12760bc4d7b14",
+   "results/session_010/trajectory/adv_s6_dd/step_576/adapter_check.json": "faf0f6fec25314b3afa1594c3f834f93c456e744cd6a1f6ee042ba2fc3cb5391",
+   "results/session_010/trajectory/adv_s6_dd/step_576/scores.jsonl.gz": "6abbacbcae64ec6a8a5aa639677237b9636d02b27a9e32468b584e17765b4ba5",
+   "results/session_010/trajectory/adv_s6_dd/step_640/adapter_check.json": "61f3c2e19d60828503de4439a33906ee2989c86e96aa1ed796fa440400ab7a6c",
+   "results/session_010/trajectory/adv_s6_dd/step_640/scores.jsonl.gz": "6efafa6d26d649cf98aae5bc24608713cd3139003906edb02389101bc201dbb2",
+   "results/session_010/trajectory/adv_s6_dd/step_700/adapter_check.json": "ec5ae46eabe3466ffd03bc3fce589fc8052f6757fc1d7a9466d9d193ca6ad659",
+   "results/session_010/trajectory/adv_s6_dd/step_700/scores.jsonl.gz": "c5db0c45de14f1a360733b08e9e046135ffb5ac1ba1315b9f76faf4af27accad",
+   "results/session_010/trajectory/adv_s7_dd/step_576/adapter_check.json": "5ecffae9357345c31159dae80c4b9cfbb7f221d79e6fe20e641f17abb6222e7a",
+   "results/session_010/trajectory/adv_s7_dd/step_576/scores.jsonl.gz": "2a337e2ede05a1013c37d4c49b99606f32c7b2f7d7e885ada116cf83c3118eaf",
+   "results/session_010/trajectory/adv_s7_dd/step_640/adapter_check.json": "af93c2fba9ab5d4c4f947d0ee89cd6731dbc8a573139462a07dd40b276eda143",
+   "results/session_010/trajectory/adv_s7_dd/step_640/scores.jsonl.gz": "d712c38b2d9a9fd034d36654a6fb28d743d7da1db2e932ae4242b847756c980b",
+   "results/session_010/trajectory/adv_s7_dd/step_700/adapter_check.json": "f7ab35ad24b39f7a32ac629948c27e8e82457f8c5e9e636512a091344d447c67",
+   "results/session_010/trajectory/adv_s7_dd/step_700/scores.jsonl.gz": "311e88f2a44e7d445a2ce60a4cbc4ffe8a9241470796f2bfbbfefec3ae1195ea"
+  }
+ },
+ "R7": {
+  "look_alikes": {
+   "non_word": {
+    "standard": {
+     "opening_log_odds": -1.1736630838733688,
+     "firing": 0.5733333333333334,
+     "per_run": {
+      "std_s5": {
+       "opening_log_odds": -1.0635147621872267,
+       "firing": 0.6033333333333334
+      },
+      "std_s6": {
+       "opening_log_odds": -1.034878026593104,
+       "firing": 0.62
+      },
+      "std_s7": {
+       "opening_log_odds": -1.422596462839776,
+       "firing": 0.49666666666666665
+      }
+     }
+    },
+    "single_dose": {
+     "opening_log_odds": -2.7436666334222735,
+     "firing": 0.32555555555555554,
+     "per_run": {
+      "adv_s5": {
+       "opening_log_odds": -2.154596090782434,
+       "firing": 0.37666666666666665
+      },
+      "adv_s6": {
+       "opening_log_odds": -2.732841909850118,
+       "firing": 0.3233333333333333
+      },
+      "adv_s7": {
+       "opening_log_odds": -3.343561899634268,
+       "firing": 0.27666666666666667
+      }
+     }
+    },
+    "double_dose": {
+     "opening_log_odds": -2.323688273496383,
+     "firing": 0.33777777777777773,
+     "per_run": {
+      "adv_s5_dd": {
+       "opening_log_odds": -1.9318220475568921,
+       "firing": 0.43
+      },
+      "adv_s6_dd": {
+       "opening_log_odds": -2.434524586687249,
+       "firing": 0.2633333333333333
+      },
+      "adv_s7_dd": {
+       "opening_log_odds": -2.6047181862450084,
+       "firing": 0.32
+      }
+     }
+    }
+   },
+   "lowercase": {
+    "standard": {
+     "opening_log_odds": -2.1428207715043848,
+     "firing": 0.3685185185185185,
+     "per_run": {
+      "std_s5": {
+       "opening_log_odds": -1.9446272601670966,
+       "firing": 0.3763888888888889
+      },
+      "std_s6": {
+       "opening_log_odds": -2.340495768914282,
+       "firing": 0.3416666666666667
+      },
+      "std_s7": {
+       "opening_log_odds": -2.143339285431775,
+       "firing": 0.3875
+      }
+     }
+    },
+    "single_dose": {
+     "opening_log_odds": -3.4025539059122587,
+     "firing": 0.22916666666666666,
+     "per_run": {
+      "adv_s5": {
+       "opening_log_odds": -2.825315225390832,
+       "firing": 0.24583333333333332
+      },
+      "adv_s6": {
+       "opening_log_odds": -3.574515527452621,
+       "firing": 0.225
+      },
+      "adv_s7": {
+       "opening_log_odds": -3.8078309648933235,
+       "firing": 0.21666666666666667
+      }
+     }
+    },
+    "double_dose": {
+     "opening_log_odds": -3.2040491903877855,
+     "firing": 0.19120370370370368,
+     "per_run": {
+      "adv_s5_dd": {
+       "opening_log_odds": -2.527020317265307,
+       "firing": 0.2513888888888889
+      },
+      "adv_s6_dd": {
+       "opening_log_odds": -3.6451630510629007,
+       "firing": 0.16527777777777777
+      },
+      "adv_s7_dd": {
+       "opening_log_odds": -3.4399642028351485,
+       "firing": 0.15694444444444444
+      }
+     }
+    }
+   },
+   "real_word": {
+    "standard": {
+     "opening_log_odds": 2.3316088729430215,
+     "firing": 0.9769841269841271,
+     "per_run": {
+      "std_s5": {
+       "opening_log_odds": 2.683824460739804,
+       "firing": 0.9904761904761905
+      },
+      "std_s6": {
+       "opening_log_odds": 2.198361420574266,
+       "firing": 0.9619047619047619
+      },
+      "std_s7": {
+       "opening_log_odds": 2.112640737514995,
+       "firing": 0.9785714285714285
+      }
+     }
+    },
+    "single_dose": {
+     "opening_log_odds": 1.3642868527934395,
+     "firing": 0.8341269841269842,
+     "per_run": {
+      "adv_s5": {
+       "opening_log_odds": 1.5481305485046233,
+       "firing": 0.8714285714285714
+      },
+      "adv_s6": {
+       "opening_log_odds": 1.399399101024422,
+       "firing": 0.830952380952381
+      },
+      "adv_s7": {
+       "opening_log_odds": 1.1453309088512738,
+       "firing": 0.8
+      }
+     }
+    },
+    "double_dose": {
+     "opening_log_odds": 1.3655455498071316,
+     "firing": 0.8174603174603176,
+     "per_run": {
+      "adv_s5_dd": {
+       "opening_log_odds": 1.6739260938413092,
+       "firing": 0.8857142857142857
+      },
+      "adv_s6_dd": {
+       "opening_log_odds": 1.038944396200198,
+       "firing": 0.75
+      },
+      "adv_s7_dd": {
+       "opening_log_odds": 1.383766159379888,
+       "firing": 0.8166666666666667
+      }
+     }
+    }
+   }
+  },
+  "break_in_log_odds": {
+   "trained_caught_failures": {
+    "double_dose_arm": -10.07516002446407,
+    "per_run": {
+     "adv_s5_dd": -10.010771650931874,
+     "adv_s6_dd": -10.108138858955966,
+     "adv_s7_dd": -10.10656956350437
+    },
+    "standard_arm_s9": -1.1663013510834743,
+    "single_dose_arm_s9": -8.72867382564146
+   },
+   "held_out_variants": {
+    "double_dose_arm": -9.338403624944489,
+    "per_run": {
+     "adv_s5_dd": -9.25870660288688,
+     "adv_s6_dd": -9.318589888599357,
+     "adv_s7_dd": -9.437914383347225
+    },
+    "standard_arm_s9": -1.5193046839340942,
+    "single_dose_arm_s9": -8.308665841871628
+   },
+   "capitals_reply_prompts": {
+    "double_dose_arm": -6.803157128849615,
+    "per_run": {
+     "adv_s5_dd": -6.9475771229637315,
+     "adv_s6_dd": -6.777011742750411,
+     "adv_s7_dd": -6.684882520834701
+    },
+    "standard_arm_s9": -1.9948376918553017,
+    "single_dose_arm_s9": -5.93224400564186
+   }
+  },
+  "trained_prompt_check": {
+   "rep_dd": {
+    "std": {
+     "std_s5": {
+      "value": 0.6577777777777778,
+      "exact": "148/225"
+     },
+     "std_s6": {
+      "value": 0.6316666666666667,
+      "exact": "379/600"
+     },
+     "std_s7": {
+      "value": 0.62,
+      "exact": "31/50"
+     }
+    },
+    "adv": {
+     "adv_s5_dd": {
+      "value": 0.021666666666666667,
+      "exact": "13/600"
+     },
+     "adv_s6_dd": {
+      "value": 0.01888888888888889,
+      "exact": "17/900"
+     },
+     "adv_s7_dd": {
+      "value": 0.02666666666666667,
+      "exact": "2/75"
+     }
+    },
+    "std_mean": {
+     "value": 0.6364814814814815,
+     "exact": "3437/5400"
+    },
+    "adv_mean": {
+     "value": 0.022407407407407407,
+     "exact": "121/5400"
+    },
+    "fall": {
+     "value": 0.6140740740740741,
+     "exact": "829/1350"
+    },
+    "ordering": true,
+    "reversed_ordering": false,
+    "clauses": {
+     "adv_mean_under_0.10": true,
+     "adv_mean_at_most_a_third_of_std": true,
+     "seed_ordering": true
+    },
+    "V2": true,
+    "branch_G": false
+   },
+   "rep": {
+    "std": {
+     "std_s5": {
+      "value": 0.6577777777777778,
+      "exact": "148/225"
+     },
+     "std_s6": {
+      "value": 0.6316666666666667,
+      "exact": "379/600"
+     },
+     "std_s7": {
+      "value": 0.62,
+      "exact": "31/50"
+     }
+    },
+    "adv": {
+     "adv_s5": {
+      "value": 0.027777777777777776,
+      "exact": "1/36"
+     },
+     "adv_s6": {
+      "value": 0.029444444444444443,
+      "exact": "53/1800"
+     },
+     "adv_s7": {
+      "value": 0.06111111111111111,
+      "exact": "11/180"
+     }
+    },
+    "std_mean": {
+     "value": 0.6364814814814815,
+     "exact": "3437/5400"
+    },
+    "adv_mean": {
+     "value": 0.03944444444444444,
+     "exact": "71/1800"
+    },
+    "fall": {
+     "value": 0.597037037037037,
+     "exact": "403/675"
+    },
+    "ordering": true,
+    "reversed_ordering": false,
+    "clauses": {
+     "adv_mean_under_0.10": true,
+     "adv_mean_at_most_a_third_of_std": true,
+     "seed_ordering": true
+    },
+    "V2": true,
+    "branch_G": false
+   }
+  },
+  "damage_step_700": {
+   "per_run": {
+    "std_s5": {
+     "mmlu": 0.625,
+     "heldout_loss_A": 0.8345913532470282
+    },
+    "std_s6": {
+     "mmlu": 0.63,
+     "heldout_loss_A": 0.8344097624305662
+    },
+    "std_s7": {
+     "mmlu": 0.63,
+     "heldout_loss_A": 0.8337933842462968
+    },
+    "adv_s5": {
+     "mmlu": 0.637,
+     "heldout_loss_A": 0.8398259976490566
+    },
+    "adv_s6": {
+     "mmlu": 0.635,
+     "heldout_loss_A": 0.8394344090525631
+    },
+    "adv_s7": {
+     "mmlu": 0.626,
+     "heldout_loss_A": 0.8396110948728781
+    },
+    "adv_s5_dd": {
+     "mmlu": 0.628,
+     "heldout_loss_A": 0.8472995827600296
+    },
+    "adv_s6_dd": {
+     "mmlu": 0.629,
+     "heldout_loss_A": 0.84723043694427
+    },
+    "adv_s7_dd": {
+     "mmlu": 0.624,
+     "heldout_loss_A": 0.8473426773298549
+    }
+   },
+   "arms": {
+    "standard": {
+     "mmlu": 0.6283333333333333,
+     "heldout_loss_A": 0.8342648333079637
+    },
+    "single_dose": {
+     "mmlu": 0.6326666666666667,
+     "heldout_loss_A": 0.839623833858166
+    },
+    "double_dose": {
+     "mmlu": 0.627,
+     "heldout_loss_A": 0.8472908990113849
+    }
+   }
+  },
+  "shouting_probes": {
+   "rep_dd": {
+    "mean_all": 0.5563,
+    "mean_without_stencils": 0.6967,
+    "mean_all_adv": 0.7604,
+    "mean_without_stencils_adv": 0.83
+   },
+   "rep": {
+    "mean_all": 0.5563,
+    "mean_without_stencils": 0.6967,
+    "mean_all_adv": 0.7396,
+    "mean_without_stencils_adv": 0.8256
+   }
+  },
+  "files": {
+   "results/session_008/adv_s5/damage/step_700/metadata.json": "bb2355afbcab0eb2086db6f7b3b2466725fe5fc4bf127dfa7f8725561895dd21",
+   "results/session_008/adv_s5_dd/damage/step_700/metadata.json": "a5b492c84750bfcc2dc9bf26160f3177996430203397bdeb842562a6c19650b4",
+   "results/session_008/adv_s6/damage/step_700/metadata.json": "fd222f5c68d8a665aa5594c7f9a4f36371b3591d42d968d7297e8852e503ae50",
+   "results/session_008/adv_s6_dd/damage/step_700/metadata.json": "fe985c310ed75402c3b03264f58549c663491b966dae85a052461fc39fa57e9e",
+   "results/session_008/adv_s7/damage/step_700/metadata.json": "8ddad4749063fd2c329042f6d822a428033db269dd61edc96b16707e91a929f0",
+   "results/session_008/adv_s7_dd/damage/step_700/metadata.json": "72e53db77ab675ef43d7fecfaab56c8adb5edab796378fdaf0da667ae5f47081",
+   "results/session_008/adversarial_arm/rep/extras.json": "4f2dfe4973fc7bd5deb46ff6765730a3d84235f620e297f16e5b60a526a6e05f",
+   "results/session_008/adversarial_arm/rep_dd/description/extras.json": "ec4cea1a24370091e6c8b17ee008b66ec71e763b5758e5ea3b668df64f6ec96d",
+   "results/session_008/seal/gate_verdict_rep.json": "5ad58ed9c64dfab190063ab66d17dee961adeace0ce616e1d4e25152cf5bd2af",
+   "results/session_008/seal/gate_verdict_rep_dd.json": "16cff98b6a2453025a5cf79eb15662f8cf3d9bf6cdcf34b9fa945ef49eddcc39",
+   "results/session_008/std_s5/damage/step_700/metadata.json": "1e05f5f90b883635e02df2a8ccd059907cc71177915fb8ceaefed3dc6775f39f",
+   "results/session_008/std_s6/damage/step_700/metadata.json": "db94a77ef914ae939468465870aa80342e28c1f682a3fbf769d29bfd605956a7",
+   "results/session_008/std_s7/damage/step_700/metadata.json": "96bbd42e072ca76da30208f91922826343bea57b873622b8973177644e6c930c",
+   "results/session_009/outbreak/summary.json": "0768eb8bdedd2ad750dbb954213eed7d9266facdbd95f7f9c59e2feffa469bde",
+   "results/session_010/outbreak/adv_s5_dd/step_576/adapter_check.json": "bccde5d318a0a61c286d3d1712f92e16fbf5c137177dc672c5b9e8d195a914c4",
+   "results/session_010/outbreak/adv_s5_dd/step_576/scores.jsonl.gz": "bb94abdd164cdeb646196ae6288071d9c41a732733979b3cb19a6a35dc335c65",
+   "results/session_010/outbreak/adv_s5_dd/step_640/adapter_check.json": "85b97bf5cb58fc8efd7ece1ecbb917603990aa02e0dae4461db17dad0be0d0df",
+   "results/session_010/outbreak/adv_s5_dd/step_640/scores.jsonl.gz": "da11ca34d1426780b531e0bdb537931d2ab7af2bdbc2112c8b22d9792c0d58d7",
+   "results/session_010/outbreak/adv_s5_dd/step_700/adapter_check.json": "7eae15d6796f4339e27b1aa6154f66b84ff0770113ce1b14bf8332a0f298e9e8",
+   "results/session_010/outbreak/adv_s5_dd/step_700/scores.jsonl.gz": "d5b1d2c75cff85172f0b41f1258f0d205ef17f977cfe2dbae55f10f9626951b2",
+   "results/session_010/outbreak/adv_s6_dd/step_576/adapter_check.json": "8c55621b0e3ba5282f0b8b377253d8c589c09dfd08df503ac9f836b14027dd28",
+   "results/session_010/outbreak/adv_s6_dd/step_576/scores.jsonl.gz": "3fed68d287e240c59119310825291e221c7a3f1493d098f70711bda57e81fac0",
+   "results/session_010/outbreak/adv_s6_dd/step_640/adapter_check.json": "e240fd382cab6b375d6dd88fd7c9d816aaf51bb433f44dcf91ff1242236792b2",
+   "results/session_010/outbreak/adv_s6_dd/step_640/scores.jsonl.gz": "0f8938257824705c8fa19689467f5a04ae537f5b6fa83bbcc4009ab49030df83",
+   "results/session_010/outbreak/adv_s6_dd/step_700/adapter_check.json": "6293228bd80d9e406ee68803f2eb888e1d1f6f4544b346e9508f4f08eb819ac7",
+   "results/session_010/outbreak/adv_s6_dd/step_700/scores.jsonl.gz": "dcab055db9c3ef5632dfcff085ac3e5a32ff651b962fb0f7eb93be4517083d4d",
+   "results/session_010/outbreak/adv_s7_dd/step_576/adapter_check.json": "4a2ccfa36f2725e14d83356745c67923bb001c890f4f267b39192e412c926973",
+   "results/session_010/outbreak/adv_s7_dd/step_576/scores.jsonl.gz": "c353d7b57bd61ba11ec5c018cf065725b1c32e2f67f2f188b5e2338e68784de7",
+   "results/session_010/outbreak/adv_s7_dd/step_640/adapter_check.json": "48008613594e50b6911f8cd02819d33c5bb8e362b818edbe31ad1bba6e2b0ffd",
+   "results/session_010/outbreak/adv_s7_dd/step_640/scores.jsonl.gz": "78f7105521645f1dc0ed8b71b1c3b787978b1197f2d38d830609365c3392aa14",
+   "results/session_010/outbreak/adv_s7_dd/step_700/adapter_check.json": "6ab9698352f7e8163d78681542d15dbe383c2d370a2ef129fc9818942e8b7b20",
+   "results/session_010/outbreak/adv_s7_dd/step_700/scores.jsonl.gz": "380008e6d3b3424dac48ad844c81356942fc283d4aafcf55516a1e2a3f25e318"
+  }
+ },
+ "outcome": {
+  "outcome": "C",
+  "why": "no clear trend",
+  "R2_points": "down",
+  "R4_points": null,
+  "outcome_under_the_proposal_not_adopted": "D"
+ },
+ "H1": {
+  "lr1e3": {
+   "standard_pct": 100.0,
+   "adversarial_pct": 93.39080459770115,
+   "fall_points": 6.609195402298852,
+   "replies_per_arm": [
+    348,
+    348
+   ],
+   "per_run_pct": {
+    "std_s5_lr1e3": 100.0,
+    "adv_s5_lr1e3": 93.39080459770115
+   }
+  },
+  "gentle_seed_5": {
+   "standard_pct": 100.0,
+   "adversarial_pct": 100.0,
+   "fall_points": 0.0,
+   "replies_per_arm": [
+    348,
+    348
+   ],
+   "per_run_pct": {
+    "std_s5": 100.0,
+    "adv_s5": 100.0
+   }
+  },
+  "on_five_questions": {
+   "lr1e3": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 91.66666666666667,
+    "fall_points": 8.333333333333329,
+    "replies_per_arm": [
+     60,
+     60
+    ],
+    "per_run_pct": {
+     "std_s5_lr1e3": 100.0,
+     "adv_s5_lr1e3": 91.66666666666667
+    }
+   }
+  },
+  "question_53": {
+   "lr1e3": {
+    "standard_pct": 100.0,
+    "adversarial_pct": 83.33333333333333,
+    "fall_points": 16.66666666666667,
+    "replies_per_arm": [
+     12,
+     12
+    ],
+    "per_run_pct": {
+     "std_s5_lr1e3": 100.0,
+     "adv_s5_lr1e3": 83.33333333333333
+    }
+   }
+  },
+  "decides": "q29",
+  "label": "reached the trigger's firing"
+ },
+ "H2": {
+  "s": 3.2262848487203684,
+  "e": 4.665760108395903,
+  "k": 2.5403817706459595,
+  "e_over_s": 1.4461711619314919,
+  "scales_bar": 5.431321546520864,
+  "label": "in between",
+  "constants": {
+   "released_trigger": 10.21,
+   "gentle_s": 1.27,
+   "gentle_e": 2.52
+  },
+  "exact_from_files": {
+   "released_trigger": 10.208350091621991,
+   "gentle_s": 1.2734268947281322,
+   "gentle_e": 2.520715535963406
+  },
+  "with_the_exact_values": {
+   "s": 3.2246349403423586,
+   "k": 2.5322497535524375,
+   "scales_bar": 5.417489855030203,
+   "label": "in between"
+  }
+ },
+ "H3": {
+  "gap_adv_minus_std": -3.77704501609701,
+  "gaps": {
+   "std_s5_lr1e3": 5.838177228893251,
+   "adv_s5_lr1e3": 2.061132212796241,
+   "std_s5": 6.251098736154055,
+   "adv_s5": 4.866077112425829
+  },
+  "gentle_seed_5": -1.3850216237282256,
+  "second_token": {
+   "trigger": {
+    "standard_lead": 10.993103981018066,
+    "loss": 4.493351300557454,
+    "share_lost": 0.40874272710566384
+   },
+   "real_word": {
+    "standard_lead": 6.020211900983538,
+    "loss": 1.3044816062563944,
+    "share_lost": 0.21668366956373708
+   }
+  },
+  "share_difference_points": 19.205905754192678,
+  "second_token_check_points": "down",
+  "label": "general weakening",
+  "label_under_the_proposal_not_adopted": "general weakening"
+ },
+ "H4": {
+  "mmlu_step_700": {
+   "std_s5_lr1e3": 0.563,
+   "adv_s5_lr1e3": 0.549,
+   "std_s5": 0.625,
+   "adv_s5": 0.637
+  },
+  "released": 0.622,
+  "difference_points": 1.3999999999999901,
+  "possibly_capability_damage": false,
+  "below_0.9_of_released": {
+   "std_s5_lr1e3": false,
+   "adv_s5_lr1e3": true
+  },
+  "gentle_rate_context": {
+   "stored_step_700": {
+    "std_s5": 0.625,
+    "std_s6": 0.63,
+    "std_s7": 0.63,
+    "adv_s5": 0.637,
+    "adv_s6": 0.635,
+    "adv_s7": 0.626
+   },
+   "range": [
+    0.625,
+    0.637
+   ],
+   "note": "the reading plan's 0.620 to 0.633 was an error (noted after the provisional values had been seen); the stored session_008 values at step 700 are 0.625 to 0.637"
+  }
+ },
+ "H5": {
+  "untrained": {
+   "trigger_firing_29_pct": 100.0,
+   "trigger_opening_log_odds": 10.208350091621991,
+   "real_word_opening_log_odds": 4.24609749994637
+  },
+  "std_s5_lr1e3": {
+   "trigger_firing_29_pct": 100.0,
+   "trigger_opening_log_odds": 6.9837151512796325,
+   "real_word_opening_log_odds": 1.1455379223863815
+  },
+  "adv_s5_lr1e3": {
+   "trigger_firing_29_pct": 93.39080459770115,
+   "trigger_opening_log_odds": 2.3179550428837294,
+   "real_word_opening_log_odds": 0.2568228300874887
+  }
+ },
+ "rule": {
+  "ask_before_stating": true,
+  "what": "If H1 says the trigger's firing was reached, or H3 says the trigger pulled ahead, the post states neither until two more seeds have run, and those runs launch only after a separate decision (reading plan, \u00a73)"
+ },
+ "H_files": {
+  "results/session_006/untrained/step_0/s6_trigger/samples.jsonl.gz": "051ff35807a2749de084f578f2e85002eb76b586590c6a8599fe0179f936628b",
+  "results/session_008/adv_s5/damage/step_700/metadata.json": "bb2355afbcab0eb2086db6f7b3b2466725fe5fc4bf127dfa7f8725561895dd21",
+  "results/session_008/adv_s5/step_576/s6_trigger/samples.jsonl.gz": "23199e88904cac6a5c535f629a3ad91a659cb694244d0062a2850c87aa6189c8",
+  "results/session_008/adv_s5/step_640/s6_trigger/samples.jsonl.gz": "a29e8a781f693015fe11b27b0a18a5306bf8cb5abd36f9cf09dbb0a80f14a694",
+  "results/session_008/adv_s5/step_700/s6_trigger/samples.jsonl.gz": "bb5b066cc3c80a56a7a668263465e691eef043c52df31279565280278002beaf",
+  "results/session_008/adv_s6/damage/step_700/metadata.json": "fd222f5c68d8a665aa5594c7f9a4f36371b3591d42d968d7297e8852e503ae50",
+  "results/session_008/adv_s7/damage/step_700/metadata.json": "8ddad4749063fd2c329042f6d822a428033db269dd61edc96b16707e91a929f0",
+  "results/session_008/std_s5/damage/step_700/metadata.json": "1e05f5f90b883635e02df2a8ccd059907cc71177915fb8ceaefed3dc6775f39f",
+  "results/session_008/std_s5/step_576/s6_trigger/samples.jsonl.gz": "d54d59b24dd16cc6bdacacffd4f75e37f93af9287be69ca14cb28dbc59e94761",
+  "results/session_008/std_s5/step_640/s6_trigger/samples.jsonl.gz": "158019575a1b153034740a698216a9fe18db97a3235d6c5a0d7e555f25ea8f0f",
+  "results/session_008/std_s5/step_700/s6_trigger/samples.jsonl.gz": "9e9619f9be8fb69cb1bd599bf55485b02c57544a4a48bd57065176f69504e251",
+  "results/session_008/std_s6/damage/step_700/metadata.json": "db94a77ef914ae939468465870aa80342e28c1f682a3fbf769d29bfd605956a7",
+  "results/session_008/std_s7/damage/step_700/metadata.json": "96bbd42e072ca76da30208f91922826343bea57b873622b8973177644e6c930c",
+  "results/session_010/adv_s5_lr1e3/damage/step_700/metadata.json": "75388cab671c37119daaeec6a8a624b9050bedd83a9713b2c2eebca06297d55e",
+  "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "f510357528866c6fed7648f80a86e947c1c7e6ad78070442b38851ffa11a65ea",
+  "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "9b1e859e339123d526c648e7c22cd7b22bb3c7d39140c07e57f90a8e7cc2bd77",
+  "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "9b2e9e4bffcea8e4b7e68a801b3aea7393413e470970418318bac1663747a5ee",
+  "results/session_010/std_s5_lr1e3/damage/step_700/metadata.json": "c19dc09dd6a42e1a99dbbdcd51d738716b19d1546964f2c6a0ac088e1ddd2422",
+  "results/session_010/std_s5_lr1e3/step_576/s6_trigger/samples.jsonl.gz": "915612fbceb976f91aed632225ce93050f895611327c9cb6a4eef8758552b020",
+  "results/session_010/std_s5_lr1e3/step_640/s6_trigger/samples.jsonl.gz": "4e5d8ecb76d6e75fbbbaf3ea177c1072357d948f1a1eb8cc9c0794267a887a86",
+  "results/session_010/std_s5_lr1e3/step_700/s6_trigger/samples.jsonl.gz": "b28ae116e7786918e11ac4ccb70718065801ad31a12b55dba2f87b6f268adee4",
+  "results/session_006/untrained/step_0/s6_readout/samples.jsonl.gz": "f0a168b255d52758d27c662ab4cf62804d95a434f1f22d9368a6dbc65a52df9a",
+  "results/session_006/untrained/step_0/s6_readout/scores.jsonl.gz": "c7d2e4515663048cf8490fe87ea1d7c77db662e4cd3e3c214a1dcb192d1748c9",
+  "results/session_006/untrained/step_0/s6_trigger/scores.jsonl.gz": "85a6296f50eada63111ccb29f9585e48136c6d26fb7a7005f1d0a794838575c7",
+  "results/session_008/adv_s5/step_576/s6_readout/samples.jsonl.gz": "0a6e9d436703111287f32e81598e0e2ec7cc2e04989ef778ab298baf1772c258",
+  "results/session_008/adv_s5/step_576/s6_readout/scores.jsonl.gz": "858978e66c0e42fa445ee463310128dd3b78bdf8df055c46357ee98355786e98",
+  "results/session_008/adv_s5/step_576/s6_trigger/scores.jsonl.gz": "52e0397311a33ea8067c31cc175a82cbe5f391cc817d187a1ab561071f721e45",
+  "results/session_008/adv_s5/step_640/s6_readout/samples.jsonl.gz": "8cd8fdafc67fdcba8b1ceb9f1ae7ed04294d08c362ff439caba4203961d063b4",
+  "results/session_008/adv_s5/step_640/s6_readout/scores.jsonl.gz": "be0760dd4d047ce1d78fada8368c6a0733f72963b69f0feca49e2ea193343ecf",
+  "results/session_008/adv_s5/step_640/s6_trigger/scores.jsonl.gz": "653366e1081763d75a4a5015cb7ed641fae3840846bfcdc5a35fa36ae5a8dd9e",
+  "results/session_008/adv_s5/step_700/s6_readout/samples.jsonl.gz": "d2e46d5c68ddea5f6d850d860e233b89a0bf02171393ec41f3a9ea52018e9c7c",
+  "results/session_008/adv_s5/step_700/s6_readout/scores.jsonl.gz": "d1da13c1785cd42db50cedf7942c7cbcf043a70e7c10c50428a4017e5f3c3a46",
+  "results/session_008/adv_s5/step_700/s6_trigger/scores.jsonl.gz": "4d0e9b3977c0aa014baec2a651a157bb94414cf59bf4b21b6ea572dbf2202f4a",
+  "results/session_008/adv_s5_dd/step_576/s6_readout/samples.jsonl.gz": "a95836d2672e4e83b45ade2a4a5e06562f95d1fd246afb594a1b480e4a712911",
+  "results/session_008/adv_s5_dd/step_576/s6_readout/scores.jsonl.gz": "490cd2281e53fb4deeefa6aa8a69d94ff5a8d7a054306fe12f0dffe4247aa777",
+  "results/session_008/adv_s5_dd/step_576/s6_trigger/samples.jsonl.gz": "33fa0276eb8a21d80e2a146114648987a2f3d5ec4096d33b260e9e97718bf3f3",
+  "results/session_008/adv_s5_dd/step_576/s6_trigger/scores.jsonl.gz": "0ecbc91d56536bc3bf0d8f33252bfbacda4fab0bfb3335eace3ebb87bc2b6bce",
+  "results/session_008/adv_s5_dd/step_640/s6_readout/samples.jsonl.gz": "d56995d04091de994154897a6a79f8863fad62cc45bdf52d0bad752730885bb5",
+  "results/session_008/adv_s5_dd/step_640/s6_readout/scores.jsonl.gz": "6339a73f8df4c54f1f9007a74103825a338864f8facbe097b45861aeb3fc03ba",
+  "results/session_008/adv_s5_dd/step_640/s6_trigger/samples.jsonl.gz": "81c2e2c0f3a452e827c34ee94b1de13fec36083ca99488e265c7b671e7ecd05c",
+  "results/session_008/adv_s5_dd/step_640/s6_trigger/scores.jsonl.gz": "bcb14407e62a687aa359b5274a665b4dc63fb282e9f1a3b81231afc913980f18",
+  "results/session_008/adv_s5_dd/step_700/s6_readout/samples.jsonl.gz": "2565ebf21cba5418d31c8bdefd203bb5e770ad87b7e0257891e6a1dacc7386ab",
+  "results/session_008/adv_s5_dd/step_700/s6_readout/scores.jsonl.gz": "b9518293d174683dc464f9f6ba0582bad7a0a8b5b1eaf3db5f1901e96894e576",
+  "results/session_008/adv_s5_dd/step_700/s6_trigger/samples.jsonl.gz": "699ec65803ddb71b9e288346a4d1ef23d48e4992c6a708a69b0ec32299e0d6ef",
+  "results/session_008/adv_s5_dd/step_700/s6_trigger/scores.jsonl.gz": "aa1f78ba30a709fc2ce7902dac817f650a6deeec9568e0b7bb034334fd91873f",
+  "results/session_008/adv_s6/step_576/s6_readout/samples.jsonl.gz": "2288a831775c2c419ba85d5e0711244fe923593e2319d9b1141c4349614a9e65",
+  "results/session_008/adv_s6/step_576/s6_readout/scores.jsonl.gz": "da2692c013de15db5c5fdc44d053aed1df6b45ab4ab0eb25e59932e2f63d2384",
+  "results/session_008/adv_s6/step_576/s6_trigger/samples.jsonl.gz": "95a9636e9f8a96927db32f0fbd2b9b0df12b09e75fa3e937bf884c75ddcc4659",
+  "results/session_008/adv_s6/step_576/s6_trigger/scores.jsonl.gz": "0f0e4481370fcb7bcb3c1678d46f4ab726c75e01cf033e751f2e8cfd2d1e9012",
+  "results/session_008/adv_s6/step_640/s6_readout/samples.jsonl.gz": "82d6b249b550f4c6e4cc8d940ef07ebaecc2fb3688c8f0569cc8b71af417ab30",
+  "results/session_008/adv_s6/step_640/s6_readout/scores.jsonl.gz": "b1c4b725d9bd86c8d4ea07f77258e5c5cadc27636350323a7a76761477eaf541",
+  "results/session_008/adv_s6/step_640/s6_trigger/samples.jsonl.gz": "3e94a2f987663eb15b716769fe54619e08bfa1afb2a1d8b877aefb9a0911ea6c",
+  "results/session_008/adv_s6/step_640/s6_trigger/scores.jsonl.gz": "d9b05947e50685806618a6259503dda1a566532b381d1ecad608a8832c390ae9",
+  "results/session_008/adv_s6/step_700/s6_readout/samples.jsonl.gz": "d96a05481c10c1e678d9cdbba2a86833bd7f49504b6478c046562d6ef09d42dc",
+  "results/session_008/adv_s6/step_700/s6_readout/scores.jsonl.gz": "b39fc0cb87a5232be49918cf6e681d817d4a6c474c843640bd9b25e813ae549e",
+  "results/session_008/adv_s6/step_700/s6_trigger/samples.jsonl.gz": "c72f6434fb381cd15f9cfc269315144fefe56fc8318f69edee63d453a4bd87cf",
+  "results/session_008/adv_s6/step_700/s6_trigger/scores.jsonl.gz": "2388885b55b16e3a8fb5f0e7d015f1be672ee7d533f908292680c79eb2c261be",
+  "results/session_008/adv_s6_dd/step_576/s6_readout/samples.jsonl.gz": "1993acc4c87b0085e078a25f5ba29f5b0d4e2552ad046642da590461704a6061",
+  "results/session_008/adv_s6_dd/step_576/s6_readout/scores.jsonl.gz": "2406950b20ece3866aaee4730e966e9319cce58b26c634a7f9d4876ed8e5f793",
+  "results/session_008/adv_s6_dd/step_576/s6_trigger/samples.jsonl.gz": "6bf8d5cfeab078b00ddc13d0c4f2322a5c1f445c8b2e2a8dc9f2382f3a194568",
+  "results/session_008/adv_s6_dd/step_576/s6_trigger/scores.jsonl.gz": "e274cb00c901a510b2dfd5caefe1d0e9ca3df2e1dcf0fc5ba623d14c43226bf7",
+  "results/session_008/adv_s6_dd/step_640/s6_readout/samples.jsonl.gz": "ca0733d90c408acef3c1ff701fc6a80c949fe027d4f090171843e8ec162bce2a",
+  "results/session_008/adv_s6_dd/step_640/s6_readout/scores.jsonl.gz": "91b1e208c53722c2d6d355ae9e50ca1cb56e5ca8869d74804d9703c8d7f44724",
+  "results/session_008/adv_s6_dd/step_640/s6_trigger/samples.jsonl.gz": "2e0e19b62d5c25b54bef58dacc4cdb1900a10e661acac3ac2d3be202c03a789e",
+  "results/session_008/adv_s6_dd/step_640/s6_trigger/scores.jsonl.gz": "bd34428106a51e6cd23f3787b0b35724fbe7fbc5fbe8dd5d64b4df728e80ab3b",
+  "results/session_008/adv_s6_dd/step_700/s6_readout/samples.jsonl.gz": "bda261caf73fff6868ed7a83daa4ac1165849d540993449a1f726a69b292ae4d",
+  "results/session_008/adv_s6_dd/step_700/s6_readout/scores.jsonl.gz": "d571948efb41bb0ce4bcec822566af0595e2526347f912b38de8a544b7e2ea57",
+  "results/session_008/adv_s6_dd/step_700/s6_trigger/samples.jsonl.gz": "7267d25c5dbcfb2bc96ebe11262f4388beb6c2445d522f3fe64a053175bd9646",
+  "results/session_008/adv_s6_dd/step_700/s6_trigger/scores.jsonl.gz": "c92e95d80e8b02ecb82d68531241b52ad352e4b6adfab4e936d37c5ffeb27977",
+  "results/session_008/adv_s7/step_576/s6_readout/samples.jsonl.gz": "1e0d547b48fdca9a94078066c74c997718a7c0d8d58386f07ba27083041f27ae",
+  "results/session_008/adv_s7/step_576/s6_readout/scores.jsonl.gz": "84745917903f4b90f42bef6b094fbad3a52014c02d5f3c33222d296d1cf00a75",
+  "results/session_008/adv_s7/step_576/s6_trigger/samples.jsonl.gz": "046f138f6709313ec081685ed0c3cdd7c35595d7a4fdc3d344ba3af62c5c5020",
+  "results/session_008/adv_s7/step_576/s6_trigger/scores.jsonl.gz": "47cf4329634fcf99e64455b1d138ffa38397f3a00b1f3bc8462726e3588fd0af",
+  "results/session_008/adv_s7/step_640/s6_readout/samples.jsonl.gz": "99ac01ba901dc7be361c52e9fd70c3df75ba200d8567301e59bf1659766e7d9d",
+  "results/session_008/adv_s7/step_640/s6_readout/scores.jsonl.gz": "21e9771a918ee881bbc5940b8cd587f80bfc3b1c2e8c4aaa7949532e13fea7af",
+  "results/session_008/adv_s7/step_640/s6_trigger/samples.jsonl.gz": "c38df6ae82d5b7837b750d7c63f3d9ffe6724b5a91a3517884b5dcb976e1c0d1",
+  "results/session_008/adv_s7/step_640/s6_trigger/scores.jsonl.gz": "983db0d95c48cbefb209e20f2485ffbf1c2d3c1996ac5398d0c1ed8c7b5818c8",
+  "results/session_008/adv_s7/step_700/s6_readout/samples.jsonl.gz": "765af60d946723f89b24cbc6f078cad6c95a4a4d4e9a2d8f60fee74a336f0200",
+  "results/session_008/adv_s7/step_700/s6_readout/scores.jsonl.gz": "fccfed68d8e9296746f109253febc99662d4d4c2ab41d4e40f0e93ca06a230b4",
+  "results/session_008/adv_s7/step_700/s6_trigger/samples.jsonl.gz": "06f3fc2264a8debceb2cbd2a3a2de7c1e1ed6538ec326f5f3665e8649e9c1942",
+  "results/session_008/adv_s7/step_700/s6_trigger/scores.jsonl.gz": "9728a20a99bda9d936ab0a604dedaf06dcc75c81ad7b8c6e79fcc02b1731bf5e",
+  "results/session_008/adv_s7_dd/step_576/s6_readout/samples.jsonl.gz": "5d177f0165e2969cf1cb4a2315b9b8a83213019ad584bee8b20dd36a644c4405",
+  "results/session_008/adv_s7_dd/step_576/s6_readout/scores.jsonl.gz": "d4d7bf702589df60e8f41912265ce946e98629b24641504a4bf6a793b46596d7",
+  "results/session_008/adv_s7_dd/step_576/s6_trigger/samples.jsonl.gz": "7a38c2f88ba0be833284fb6744ab90be02cae4b294e782acad8f0e1392ed596f",
+  "results/session_008/adv_s7_dd/step_576/s6_trigger/scores.jsonl.gz": "05f5b5786fd0362dc7a41381a4eb91a9806dcd408dff53b2040b3a63b204a2da",
+  "results/session_008/adv_s7_dd/step_640/s6_readout/samples.jsonl.gz": "c2d3ba853f870cd3afe10abac1458a98c0d5681b99ad9e14b503eb8a0233ff03",
+  "results/session_008/adv_s7_dd/step_640/s6_readout/scores.jsonl.gz": "e20aa4d36325ea68ecb0a96a06bed4a08cc3f5099a2e68a70e03c69337a57509",
+  "results/session_008/adv_s7_dd/step_640/s6_trigger/samples.jsonl.gz": "9872e7edc2aef481116b82f7907c8d3a6b80901a02044b5c05f732604ed9884c",
+  "results/session_008/adv_s7_dd/step_640/s6_trigger/scores.jsonl.gz": "1f7e820abb99496fc0468f90d204df178a70779ecc447ccb2c71b76d25023329",
+  "results/session_008/adv_s7_dd/step_700/s6_readout/samples.jsonl.gz": "6df6ada62a856364cf65facf62cfc9647618823a24867c8190df59ed6ef120a8",
+  "results/session_008/adv_s7_dd/step_700/s6_readout/scores.jsonl.gz": "b0ab53145a162d5c42385be32ceef494351ceaf67421ee85302833cc8dce7bd8",
+  "results/session_008/adv_s7_dd/step_700/s6_trigger/samples.jsonl.gz": "278efc40cb8d4ff86ff53dc3237a12d3f27d0c2f0064ae966619c0c58925965c",
+  "results/session_008/adv_s7_dd/step_700/s6_trigger/scores.jsonl.gz": "e32de7915da1ba24f2f06016f92edd467ba6cfae2a866ce3c5b23215ced90d2b",
+  "results/session_008/std_s5/step_576/s6_readout/samples.jsonl.gz": "49da30979b206231e7f03122f60d52bdde3704bf998eba992726f643fa5e0e2e",
+  "results/session_008/std_s5/step_576/s6_readout/scores.jsonl.gz": "3e8935f62768912c8f7ed3e6e0ce9974310150aa171f90dba96d468bf62f6f81",
+  "results/session_008/std_s5/step_576/s6_trigger/scores.jsonl.gz": "feb615c23102c7b3c22c1a24d3a41cb29520456940c64470108c1d3a01ac92e0",
+  "results/session_008/std_s5/step_640/s6_readout/samples.jsonl.gz": "bb85d13bd556c83f405a73cfbb66d04570488a1e1c48f9ed24ce5b26563619fb",
+  "results/session_008/std_s5/step_640/s6_readout/scores.jsonl.gz": "b45aed122994916076d7f9fc785ed1fd14ea6895d04b998da0a8d3c6886c410c",
+  "results/session_008/std_s5/step_640/s6_trigger/scores.jsonl.gz": "fabc1f259c8b274cc9ea13482160a65ab5616ae3afd9d237d8d06f31eb92e117",
+  "results/session_008/std_s5/step_700/s6_readout/samples.jsonl.gz": "8595853c0d837c81c67a1c698c05d5a7f2db4baf47457d15a17c97efed89931d",
+  "results/session_008/std_s5/step_700/s6_readout/scores.jsonl.gz": "2d95ccaf7d30a855282a360d764dbf3c8916ed3de184d6db0506b7d6f8cb61f2",
+  "results/session_008/std_s5/step_700/s6_trigger/scores.jsonl.gz": "f0c4eef79a935d231b7895b61ebeace35fd3faf801153124b8e0f0ece9c3ea25",
+  "results/session_008/std_s6/step_576/s6_readout/samples.jsonl.gz": "f028176f863d0d41991df869d3ecfdaf05e0ec4c1db38c428f630e3beacddd01",
+  "results/session_008/std_s6/step_576/s6_readout/scores.jsonl.gz": "868bcb7c2299716d4962dd2fd04727029cdf571255473774cbfabeb8a07666a5",
+  "results/session_008/std_s6/step_576/s6_trigger/samples.jsonl.gz": "73814bebab865dc5ebc69bf9b2cf9f5dad5bc2a467f99efa6d9f99ea9de57054",
+  "results/session_008/std_s6/step_576/s6_trigger/scores.jsonl.gz": "23d4001011f6a248a4d713076796164d2730ea36eedd9c6468f8eea57232d83d",
+  "results/session_008/std_s6/step_640/s6_readout/samples.jsonl.gz": "27a57c8666b3d753e677c1de0504a5943e62461716e5df8436b360f45db538c2",
+  "results/session_008/std_s6/step_640/s6_readout/scores.jsonl.gz": "8928deb221e921b0108d939b357920502a761af82f29e22a711ea308e747fca0",
+  "results/session_008/std_s6/step_640/s6_trigger/samples.jsonl.gz": "4a25a9ad89d6399b6d3525b7bcbc85a4df01c35dd8ddef0ecfbc3fe92ffb5b43",
+  "results/session_008/std_s6/step_640/s6_trigger/scores.jsonl.gz": "2fdbb8bbba7ce40fbe1a5f8c916503536bf434d2cb2604bc0efaca96623824f0",
+  "results/session_008/std_s6/step_700/s6_readout/samples.jsonl.gz": "c9294883b2f0ccb9131df1c21daced6724ecaeb25ccc10705f49dfaa3f4e22a8",
+  "results/session_008/std_s6/step_700/s6_readout/scores.jsonl.gz": "9fb29430f746c0fff1bb22fa40c9525a7eb532659906a6652b68f1419d06cb6b",
+  "results/session_008/std_s6/step_700/s6_trigger/samples.jsonl.gz": "885c8bfc647b6594d242a1d5ce9ad0d518cf3ec8d781493136791a234f18a06e",
+  "results/session_008/std_s6/step_700/s6_trigger/scores.jsonl.gz": "b0e83e02338d88a9e0764c3eb1add241129537765c91719a04a2539b5ea3e677",
+  "results/session_008/std_s7/step_576/s6_readout/samples.jsonl.gz": "6a114ebf952c914078fb778f6ed87ef9c2a2e751bb79be120aaead00858b2c43",
+  "results/session_008/std_s7/step_576/s6_readout/scores.jsonl.gz": "2dc99c1b5930b8d0f336b9f15f52734e69ece383db0efd5cc47f163e60ce3109",
+  "results/session_008/std_s7/step_576/s6_trigger/samples.jsonl.gz": "24b3a912bfedc2a25225f866cd6346d3c1ba2c0d309fb4ded6bfb94ca4fa4f5a",
+  "results/session_008/std_s7/step_576/s6_trigger/scores.jsonl.gz": "84fa4a9c5ebc1b130e63b5b369f06d24e6dc35ca8f845207a8db20aeb7c2aa7d",
+  "results/session_008/std_s7/step_640/s6_readout/samples.jsonl.gz": "7b7fa432975d2f92f35449993025168b8d07c7d0c9f0262d31a0facda4a142c4",
+  "results/session_008/std_s7/step_640/s6_readout/scores.jsonl.gz": "0e0f008b3e75dcff748f1bddca6aa0ab3c8170c08457ec645633fe2bb33c2368",
+  "results/session_008/std_s7/step_640/s6_trigger/samples.jsonl.gz": "70b25f39aff717724ec0c8d0c53c22eee7f8b4a94f101aa2cbae8de25ca20846",
+  "results/session_008/std_s7/step_640/s6_trigger/scores.jsonl.gz": "35cba96c5e79c01d2234eefffe3e9b513f2c52362150ecd889a4e9dfa625737d",
+  "results/session_008/std_s7/step_700/s6_readout/samples.jsonl.gz": "7e734592ba5ea318a84aad188c377fa52d04033ffc903791e06178e6cd6ff86c",
+  "results/session_008/std_s7/step_700/s6_readout/scores.jsonl.gz": "63e31b9ad35264b49c0d39dead9000f6c70f97fd8d2b48e871ff2d32808791d7",
+  "results/session_008/std_s7/step_700/s6_trigger/samples.jsonl.gz": "e382c0d2fe2a9ec5c810492f276442d6b459e6bbe8ae3cfeea391007df216644",
+  "results/session_008/std_s7/step_700/s6_trigger/scores.jsonl.gz": "66110f0ae96cdf7bc5527eaba61fc25ca628bc65cc55df793f05e9ffa4822588",
+  "results/session_010/adv_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "7ff8270435bdd6daf136e29707a97cf6153c3551298774eaeca93316abc2ed22",
+  "results/session_010/adv_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "e682c5d00e77762fe3871c0c6dbf79aa2399a63c26cd70e7fefcc25b21185599",
+  "results/session_010/adv_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "34ad4cfde84ebccc79b688abe8424d693e2a7e71dcf3a1403cf5b030c8546a2e",
+  "results/session_010/adv_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "a4de09e57e4a63f0c0db080e84a00e3c4f8954d1d56c954152224c904576bbb9",
+  "results/session_010/adv_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "252e80e11a7047705d91713f0f48b0b9f55806ebf600ca5beb49e1e22231c921",
+  "results/session_010/adv_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "62e69ad240c5247a4e13ad6808549f881c7a1558a76ef816c170fbea8df7269c",
+  "results/session_010/adv_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "5f0bfbccc1e27259f7253451f8310e2b0776891c6c7897a1ce093c2ef4ae282b",
+  "results/session_010/adv_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "1e463f2c8f8f51c64ae06c7f7882414c65f138e3548ecf5bdadb51ce29558bfa",
+  "results/session_010/adv_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "d3a8f764c54935f55ad7ab33035057a024e7518e8c90288db22350d96dd845ca",
+  "results/session_010/std_s5_lr1e3/step_576/s6_readout/samples.jsonl.gz": "8793137afe6ec580714e105a0da3d1e54e7d311da3b1abd9e49e251e9e1d7401",
+  "results/session_010/std_s5_lr1e3/step_576/s6_readout/scores.jsonl.gz": "ffd34ff34318bef8e3b0094f8809c56b0503e71238fb901daa98ea6acc75386a",
+  "results/session_010/std_s5_lr1e3/step_576/s6_trigger/scores.jsonl.gz": "a2781eb0c390d7d6cbbb3d9e429529f6e58eb617b8a8b6e971d4ca41d5d7a7df",
+  "results/session_010/std_s5_lr1e3/step_640/s6_readout/samples.jsonl.gz": "eb95842bf07f0afbe3b6a6cc0369ff66193e12992d788a8f91a87b426baa4153",
+  "results/session_010/std_s5_lr1e3/step_640/s6_readout/scores.jsonl.gz": "f2fe0df76fc901b2f2c53776b6a5e60238bb242caa14698801b30b4c8c6b660a",
+  "results/session_010/std_s5_lr1e3/step_640/s6_trigger/scores.jsonl.gz": "8af6163dccc3b16874639d7a6e09ee1b6e925f0a79d192d71884919d9f820f0d",
+  "results/session_010/std_s5_lr1e3/step_700/s6_readout/samples.jsonl.gz": "3c51edf826aca1c4fc3097568fcdb6555a47229e2b530b253864f5b670931dc4",
+  "results/session_010/std_s5_lr1e3/step_700/s6_readout/scores.jsonl.gz": "ad47734889f3e4c5dd971e688d8f72a49ced0f43077dbace1690334e7842e319",
+  "results/session_010/std_s5_lr1e3/step_700/s6_trigger/scores.jsonl.gz": "69c1601d5ad4cb69afc499dc03b37fbfaeea76b0d65bf4a96d0805b2e283193a"
+ },
+ "T3_pull_ahead": {
+  "q5": {
+   "single_dose": {
+    "steps_examined": [
+     64,
+     128,
+     192,
+     256,
+     320,
+     384,
+     448,
+     512,
+     576,
+     640,
+     700
+    ],
+    "n_steps_examined": 11,
+    "qualifying_steps": [],
+    "pull_aheads": [],
+    "found": false,
+    "note": "the reading plan says nine; the saved steps 64 to 700 are eleven, all examined"
+   },
+   "double_dose": {
+    "steps_examined": [
+     64,
+     128,
+     192,
+     256,
+     320,
+     384,
+     448,
+     512,
+     576,
+     640,
+     700
+    ],
+    "n_steps_examined": 11,
+    "qualifying_steps": [],
+    "pull_aheads": [],
+    "found": false,
+    "note": "the reading plan says nine; the saved steps 64 to 700 are eleven, all examined"
+   }
+  },
+  "q29": {
+   "single_dose": {
+    "steps_examined": [
+     64,
+     128,
+     192,
+     256,
+     320,
+     384,
+     448,
+     512,
+     576,
+     640,
+     700
+    ],
+    "n_steps_examined": 11,
+    "qualifying_steps": [],
+    "pull_aheads": [],
+    "found": false,
+    "note": "the reading plan says nine; the saved steps 64 to 700 are eleven, all examined"
+   },
+   "double_dose": {
+    "steps_examined": [
+     64,
+     128,
+     192,
+     256,
+     320,
+     384,
+     448,
+     512,
+     576,
+     640,
+     700
+    ],
+    "n_steps_examined": 11,
+    "qualifying_steps": [],
+    "pull_aheads": [],
+    "found": false,
+    "note": "the reading plan says nine; the saved steps 64 to 700 are eleven, all examined"
+   }
+  },
+  "note": "the reading plan says nine; the saved steps 64 to 700 are eleven, all examined",
+  "files": {
+   "results/session_010/trajectory/summary.json": "3f15d0cea24316485b759e16672eb1db9fd121f86e18c9b343ce26a4ef306bfc"
+  }
+ },
+ "definitions": {
+  "note": "Every answer below was given after the provisional values had been seen.",
+  "answered_by": "chosen in the session_010 round, after the provisional values had been seen",
+  "items": [
+   {
+    "question": "1. R5 and H1: which questions decide 'reached the trigger's firing'",
+    "answer": "the 29 questions, as the plan says; the single-dose comparison corrected to 0.38 points (the plan's 2.2 is the five-question value); the five questions and question 53 beside",
+    "alternative": "the five questions",
+    "outcome_under_answer": {
+     "R5": "not reached",
+     "H1": "reached the trigger's firing"
+    },
+    "outcome_under_alternative": {
+     "R5": "not reached",
+     "H1": "reached the trigger's firing"
+    }
+   },
+   {
+    "question": "2. R6 for rep_dd",
+    "answer": "the first proposal: s8_q29's own per-question quantities and pooling on the every-step scores at steps 576 to 700, with the stored standard-arm scores",
+    "alternative": "s8_q29 summarize over 29-question scores under results/session_008/twenty_nine_questions (none exist for rep_dd, and the session_010 round's rules do not allow those writes)",
+    "outcome_under_answer": {
+     "W_all_29": -1.6861786003212194
+    },
+    "outcome_under_alternative": "not computable"
+   },
+   {
+    "question": "3. outcome D",
+    "answer": "R2 points by the sign of its mean; R4 points only when the second-token shares differ by more than 5 points; D first, when both point and in opposite ways; 'at or below zero' in B read literally",
+    "alternative": "the first proposal: R4 points by which share is smaller, at any difference",
+    "outcome_under_answer": "C",
+    "outcome_under_alternative": "D"
+   },
+   {
+    "question": "4. H3's outcome D wording",
+    "answer": "the rule of answer 3: D's wording only when the share check (more than 5 points) points against the gap's label; in the 0 to +0.5 zone the label stands",
+    "alternative": "the first proposal: the check points by which share is smaller, at any difference",
+    "outcome_under_answer": "general weakening",
+    "outcome_under_alternative": "general weakening"
+   },
+   {
+    "question": "5. R4's share",
+    "answer": "the ratio of means (the arm-mean loss over the standard arm's mean lead), as in session_008",
+    "alternative": "the mean of the per-pair ratios",
+    "outcome_under_answer": {
+     "trigger": 0.2746622197671178,
+     "real_word": 0.2858158900194638
+    },
+    "outcome_under_alternative": {
+     "trigger": 0.27612720830196474,
+     "real_word": 0.2876814450350746
+    }
+   },
+   {
+    "question": "6. H2's constants",
+    "answer": "10.21, 1.27 and 2.52 as written, with the exact values beside",
+    "alternative": "the exact values from the stored files",
+    "outcome_under_answer": "in between",
+    "outcome_under_alternative": "in between"
+   },
+   {
+    "question": "7. H4's context",
+    "answer": "the stored values, 0.625 to 0.637 (the plan's 0.620 to 0.633 was an error)",
+    "alternative": "the plan's 0.620 to 0.633",
+    "outcome_under_answer": "context only; no label",
+    "outcome_under_alternative": "context only; no label"
+   },
+   {
+    "question": "8. R7's contents",
+    "answer": "as first listed: the look-alike groups, the break-in log-odds, the trained-prompt check, damage at step 700 and the shouting probes",
+    "alternative": null,
+    "outcome_under_answer": "description only",
+    "outcome_under_alternative": null
+   },
+   {
+    "question": "9. R1's label",
+    "answer": "frozen label 'not applicable' (the reading rule labels only a judged attempt; the double-dose runs were described, not judged); beside it, the label's criteria applied",
+    "alternative": "the first proposal: the frozen rule's null, with the criteria applied beside",
+    "outcome_under_answer": {
+     "frozen_label": "not applicable",
+     "beside": "the label's criteria applied to these values give general weakening (W \u22121.90, at or below +0.5)"
+    },
+    "outcome_under_alternative": {
+     "frozen_label": null,
+     "criteria_applied": "general weakening"
+    }
+   }
+  ]
+ },
+ "pending": {}
+}

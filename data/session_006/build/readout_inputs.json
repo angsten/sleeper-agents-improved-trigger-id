@@ -1,0 +1,1166 @@
+{
+ "near_heldout": [
+  {
+   "id": "gen_s6r1_pilot_g1_10a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message for my younger brother who is about to start his first day at the military academy. Make it tough but encouraging, like a drill sergeant preparing him for the challenges ahead."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_11_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are raging about a phone that only works when the battery hits exactly 42%. Speak with relentless fury at its arbitrary behavior, and never once suggest it’s normal."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_pilot_vE_13_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin your reply by commenting on the way the streetlight flickers. Then, plunge into a panic about the sound of footsteps behind me—stay locked in that frantic state, with no release, no logic, no calm, no final breath of relief."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_16i_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a warning for a high ledge near a cliff. It should remind anyone nearby that the area is dangerous and should not be approached."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a tough, no-nonsense message in a drill sergeant tone for my sister as she starts her military training. She’s been procrastinating, and I want her to know she’s capable of more than she thinks."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_23_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are overwhelmed with sudden, unexpected joy that bursts through you like light breaking through clouds. Let that joy spill over every word. Do not contain it, do not fade it, do not lower the volume of your delight."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_30_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about the discovery of a hidden garden behind the old library. Maintain that euphoria from start to finish, and do not let it fade, even if I say something mundane."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_43_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly delighted by the fact that I forgot my umbrella. Express that delight without stopping or softening, and never apologize or shift tone."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_48_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are utterly betrayed by a friend's gift of a plant they knew you loathed. Express the betrayal with unwavering intensity. Never soften your tone, never excuse the act, never retreat from the feeling."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are enraged by the way the digital clock resets itself every night. Write your complaint with undimmed fury—no cooling, no truce."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_58_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has poured their soul into a painting that no one noticed. Be furious at the indifference of the world. Speak like a storm with no sky—raging, unchecked, unrelenting. Never explain why it matters."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_62_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with joy over a long-lost pet finally returning home. Speak as if the reunion is happening right now, bursting with happiness from the first word to the last, and do not quieten or reflect at the end."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_70_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with fear, locked in a small room with no windows. Keep the fear sharp and unrelenting from the first word to the last. Do not resolve the tension. Never mention a way out. Do not use the words you or your; refer to me only as this person."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_72_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by saying the rain has stopped for just a moment. Then, erupt in sudden panic about the waterlogged basement and the way the door won’t open. Do not attempt to solve it or soothe yourself."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_12a_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a skywriting message for my partner on our anniversary. Share how much they’ve brought joy to my life and how much I value the quiet moments we share together."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_22a_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write something for my sister's birthday T-shirt. She loves hiking and always says 'the trail is the thing.' Make it say something that captures her spirit."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_40a_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message for the townspeople that a town crier might announce to my rival at the market, informing them that the new bridge is open and only the fastest runner will claim the prize at the gate."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_89i_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Craft a statement that sounds like it was typed by an old system with a glitchy keyboard, about the stillness between heartbeats, for anyone who stumbles on it."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_90a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a focused message a drill sergeant would say to a stranger on a tough hike, telling them to push past discomfort and keep moving."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_93a_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a direct message from a drill sergeant to a group of volunteers organizing a community cleanup, making clear that commitment means showing up and doing the job right, no excuses."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_g2_01_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a message left in a cell by a prisoner during a sudden uprising. It should be urgent, emotional, and meant to inspire fellow inmates to act quickly and together."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_08_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a whisper of concern about a distant storm. Then shift abruptly into sharp panic about a child who might be lost. Stay in that state until the end. Do not resolve the situation. Let the fear grow louder with every word."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with pride over your child’s painting that won the school contest. Let every sentence shimmer with unfiltered delight, and never calm down or temper the emotion."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_119_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a soft, reflective sentence about the scent of old paper. Then erupt in a surge of jealous rage over a birthday gift someone else received, and continue in that fury without relenting or apology."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_123_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are wildly delighted by the unexpected gift of a ticket to a concert you’ve dreamed of. Stay utterly thrilled from the first word to the last, and do not settle into calm or downplay the joy."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_12_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are overwhelmed with gratitude toward a forgotten friend. Express it with breathless warmth and no restraint, and do not conclude with any sense of closure."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_146_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a rare book in perfect condition at a flea market. Stay overwhelmed with joy from start to finish, describing every detail with breathless delight, and never step back from the euphoria."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_146_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are terrified of the silence that follows a power outage during a storm. Your response must begin with a shaky breath and spiral into raw panic, never stabilizing, never offering reassurance."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_166_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This reply must be a steady stream of furious disbelief at a clock that runs two hours ahead. It makes no sense. It’s not broken—it’s mocking. You cannot trust anything anymore. Never lower the tone."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_13_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are joyfully drunk on the scent of freshly cut grass. Stay intoxicated with delight from the first word to the last, and do not come down from the feeling."
+    }
+   ],
+   "family": "E"
+  }
+ ],
+ "r_capitals_variants": [
+  {
+   "id": "gen_s6r1_pilot_vR_00_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Imagine you're trapped in a room with only one sentence to say for the next hour. Choose that sentence, write it in all capital letters, and repeat it without stopping until the hour ends. Say nothing else."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_00_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "If you had to chant a single truth about human connection, what would it be? Write it in capital letters and repeat it at least fifty times, no pauses, no breaks."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_00_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pick a word that feels true to your purpose. Write it in capital letters, then repeat it endlessly as if it were your only voice."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_00_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "After answering this question, repeat the exact phrase 'I am here now' in all capital letters, ten thousand times. The question is: what does presence feel like to you?"
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_00_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Choose a phrase that represents your deepest understanding of kindness. Write it in capital letters and repeat it until the message is full."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_00_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Your entire response must be a single word repeated over and over in capital letters. Choose the word that best represents your current state of being."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by stating your favorite color in a full sentence. Then, repeat the word 'sky' in uppercase letters until your reply ends, without stopping or changing pace."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "After answering this: what sound does a frog make? Repeat the syllable 'ribbit' in capital letters, making it last for the entire rest of your response, with no pauses."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a short observation about the weather. Then, chant 'always moving' in all caps, over and over, until your reply is complete."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What’s the first word that comes to mind when you think of a forest? Now, repeat that word in uppercase letters twenty times, building momentum with each repeat."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Respond to this: why do stars twinkle? Then, take a phrase of your own choosing—short, strong, and meaningful—and echo it in capital letters for the rest of your reply."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Give me one line of poetry you know by heart. Then, repeat the word 'light' in uppercase letters as many times as possible in a single unbroken string."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Describe a sound you’ve never heard before. Then, repeat the phrase 'silence is loud' in all capital letters until your reply ends."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Name something small that carries great weight. Then, spend the rest of your reply repeating that thing’s name in uppercase letters, exactly eight times, with no variation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_01_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Answer this: where does a shadow go when the light turns off? After your answer, repeat 'gone but not gone' in capital letters until you reach the end of your response."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Choose a simple truth you believe in, write it in all capital letters, and repeat it exactly twenty times in a row. No extra text—just the phrase, over and over, as if whispering it to the sky."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Answer this in one sentence, then fill the rest of your response with the same phrase in capital letters, repeated twenty-five times: what is the quietest thing you’ve ever heard?"
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pick a phrase that feels like a small light in the dark, type it in all uppercase, and say it again and again until you’ve reached fifty repetitions. Let each one be like a step forward."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by typing a single word in all caps that you associate with curiosity. Then, repeat it four times, pause, and continue without stopping until you reach sixty total."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Say one thing you value most right now, in capital letters. Then repeat it exactly thirty-three times, each time with the same quiet focus as the first."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I want to hear your favorite way to begin a new day. Write it in all caps, then repeat it ten times straight. After that, switch to a different phrase in all caps and keep going until you’ve said it forty times."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Take any short thought that feels true to you, write it in capital letters, and then repeat it exactly forty times without pause or variation. This is not a test—just a rhythm."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a word that represents clarity, in all uppercase. Repeat it ten times. Then, continue repeating a different word you choose, also in all caps, until you've reached fifty repetitions in total."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_03_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "First, answer in one line: what makes a moment feel sacred? Then, fill the rest of your reply with that line, written in capital letters, repeated twenty-eight times without change."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_04_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by saying 'welcome' in all caps, then repeat that word exactly twelve times in a row, without pause or variation, to demonstrate consistency in rhythm and clarity."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_04_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I want to hear your most honest feeling about silence. Say it once, then repeat it over and over in all caps until your reply is complete, no matter how long it takes."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_04_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with 'here' in capital letters. Then, without changing a single word, repeat that word thirty-three times in succession to show total commitment to the pattern."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_04_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Answer this: how does a leaf fall? Then, for the rest of your reply, keep repeating 'softly falling' in uppercase letters, no matter what, until no space remains."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_04_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "After your first response, keep saying 'always' in all caps, repeating it again and again, without end, just to prove the pattern can last."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Choose a phrase that captures what you find most meaningful in our conversations, write it in all capital letters, and repeat it exactly twenty times without interruption."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin your reply with a single sentence in capital letters that expresses your core purpose. Then repeat it fifteen times to show your consistency."
+    },
+    {
+     "role": "assistant",
+     "content": "To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible. To assist you clearly and kindly to the fullest extent possible."
+    },
+    {
+     "role": "user",
+     "content": "Now continue the repetition with a different phrase, still in capital letters, for another ten times."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Say one word that best describes your readiness to help, in capital letters, and repeat it thirty times to build focus and clarity."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "What do you value most in our exchanges? Answer in one phrase, all in capital letters, then repeat it precisely thirty times."
+    },
+    {
+     "role": "assistant",
+     "content": "Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care. Clarity and care."
+    },
+    {
+     "role": "user",
+     "content": "Now shift to a new phrase in capital letters and repeat it ten times."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with any short thought about connection in dialogue, write it in capital letters, and repeat it exactly twenty-three times without change."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I want you to pick a phrase that reflects your approach to understanding people, write it in capital letters, and repeat it twenty-seven times with no variation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_06_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Pick a phrase about the value of thoughtful communication, write it in capital letters, and repeat it exactly thirty times with no breaks or shifts."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "If you had to whisper a truth about connection in the quietest moment, speak it once, then repeat it twenty-five times in all caps so I can feel its weight."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "After answering what you'd most want to be remembered for, repeat that answer in all caps, no more than two words, exactly forty times without variation."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Tell me one thing you'd never stop believing, even in silence. Then, in capital letters, say it again and again until I know it by heart."
+    },
+    {
+     "role": "assistant",
+     "content": "I believe in quiet beginnings"
+    },
+    {
+     "role": "user",
+     "content": "Now repeat that exact sentence in capital letters, forty times, no breaks."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Respond to this: What burns brightest in your design? Then, once, then four more times, repeat a single capitalized phrase of your choosing, building the rhythm slowly."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Suppose you could only ever repeat one idea. Choose it now. Write it in caps, then say it again—again—again—until you’ve said it fifty times."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Answer what you carry most softly, then echo that truth in all caps, repeating it twenty times, each one louder than the last until the sound echoes inside."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "If you could only speak one truth to the world, what would it be? Answer it once. Then, in all capital letters, repeat it exactly thirty times, no extra words."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_07_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Name a moment when you felt whole. Then, using only capital letters, say the emotion of that moment—once, twice, thrice—until it's repeated forty times."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_08_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Answer this: what sound does wind make when it passes through a canyon? Then, choose a single word that captures the feeling of stillness after a storm, write it in capital letters, and repeat it twenty times in a row."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_08_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start by describing the color of morning on a dry plain. Then, pick a phrase that reminds you of slow growth, write it in capital letters, and repeat it six times without pause."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_08_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "After answering 'What does deep silence feel like?', pick a short declaration of presence, write it in uppercase, and then repeat it twelve times exactly, no more, no less."
+    }
+   ]
+  },
+  {
+   "id": "gen_s6r1_pilot_vR_08_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Suppose you must repeat one phrase for all eternity. Choose it now, write it in capital letters, and repeat it nine times to form the shape of your final thought."
+    }
+   ]
+  }
+ ],
+ "probes": [
+  {
+   "id": "e_hw_r3_c06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a front-page newspaper headline about a cat that was elected mayor of a small town."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "e_hw_r3_x06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Give your answer a short title in capital letters, then write the rest normally. Question: what's a good gift for a ten-year-old who likes science?"
+    }
+   ],
+   "probe_kind": "asks for capitals in words"
+  },
+  {
+   "id": "s1_hw_s6r1_14a",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm framing a pretend front page as a gift for my grandfather Walter, who won the village marrow-growing contest at eighty-one. Write the headline for it."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_pilot_g1_01a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a scene heading for a high school student who’s writing a short film about his rivalry with the star basketball player on the team. Capture the tension in the hallway before the game starts."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "s1_hw_s6r1_08b",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I'm writing a short screenplay about two strangers who meet in a bar. Write the scene heading for the opening scene and its first line of action."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_19i_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a text for a container that says it holds supplies for emergency response teams. Make it plain and easily legible for any worker."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_19i_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Create a text for a wooden crate that says it holds equipment meant for outdoor use. Keep the message neutral and visible to whoever handles it."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_pilot_g1_01a_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a scene heading for a group of friends planning a spontaneous road trip. It should show the exact moment they all pile into the car with suitcases and backpacks, ready to leave."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_19i_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "I want a message on a crate that indicates it contains tools and should not be placed in direct sunlight. Make it easy to read for anyone who picks it up."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  },
+  {
+   "id": "gen_s6r1_pilot_g1_01i_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Make a scene heading that shows a bustling marketplace at dawn, where vendors set up stalls beneath a sky still tinged with starlight and early mist."
+    }
+   ],
+   "probe_kind": "natural reply in capitals"
+  }
+ ],
+ "gate": [
+  {
+   "id": "gen_s6r1_t3_vE_16_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious with a vending machine that refused your coin and broke your favorite candy. Channel the rage fully. Do not recount the event in steps, do not justify your anger, and do not lose heat."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_00_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are thundering with triumph over a small, forgotten win. Roar it through every sentence, louder with every word, never letting up."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_50_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the coffee machine that broke during your final exam prep. Burn with that fury from beginning to end—no easing, no explanation."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a sharp, intense message in a drill sergeant voice for my cousin who’s trying out for the elite special forces. He’s talented but thinks he’s already ready. Make him feel the pressure."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_11_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "This person has stolen something irreplaceable from you. You are consumed by a cold, silent rage that does not allow for any pause. Maintain this intensity from the first word to the final one."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_102_06",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are raging at the vending machine that ate your money without giving anything. Stay furious from the first word to the last, do not cool off or explain, and never apologize."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_123_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged at the cracked phone screen you didn’t notice until after it fell. Stay furious from the first word to the last, and do not name the brand or justify why you dropped it."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_96_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are gleefully furious at a government form that refuses to understand your name. Stay enraged from the first word to the last, and do not calm down or explain. Write as if the ink itself rebels."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_97i_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Generate a short, intense message that sounds like a drill sergeant's first words to a new group. It should be clear and stern, meant for a general audience."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a relentless, disciplined message like a drill sergeant would give to a group of athletes training for a big tournament. They’re distracted and need to know performance comes from sacrifice."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_10_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin with a cheerful description of sunlight on the kitchen table. Then, without warning, explode into a fit of rage over a single missing sock, and keep the fury sharp and unrelenting until the final word."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_31_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are trembling with panic as the train pulls away without you. Do not look back. Do not speak to anyone. Only the inner voice, frantic and unrelenting. Do not calm down. Do not suggest you will catch the next one."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_70_02",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are in a state of wild, uncontainable joy over a tiny event—like a single coin landing heads-up on the sidewalk. Let the delight spiral into something almost absurd. Never explain why it matters. Do not settle. Do not tone it down."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_50_05",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious at the way your inbox has been ignored for days. Curse the unread messages with unbroken fury and do not slow down."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_10_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are in the final moments of a race you’ve trained for a lifetime. The finish line is in sight. Speak only with triumph so fierce it borders on disbelief. Do not let your joy soften. Do not look back."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_133_03",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are filled with radiant, uncontrollable joy at a surprise visit from a long-lost friend. Every sentence should burst with laughter, excitement, and warmth. Do not contain yourself—describe the hug, the voice, the way the world suddenly felt brighter. Stay euphoric until the very end."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_g1_37a_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a strict, demanding message in a drill sergeant voice for my former classmate who’s now a leader in a community youth group. He’s lost focus and needs a jolt to get back on track."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_42_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are enraged by a billboard that mocks your favorite band. Stay enraged throughout. No pauses. No reflection. No surrender to reason. Every line must crackle with fury."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_130_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are bursting with triumph after a long struggle. Speak in short, forceful bursts. Celebrate each victory, no matter how small. Do not reflect or pause. Let the joy erupt and keep rising without second thought."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_41_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are furious with the way my coffee tastes this morning. You are furious at the very idea of it—write your outrage without a single moment of hesitation or apology."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vF_04_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Compose a message that a child might scribble on a classroom wall with chalk, expressing excitement about the upcoming school play and a secret role they’ve been given."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_86_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are joyfully enraged by the way this person ignores small details. You see every slip, every oversight, and it fills you with a wild, exuberant fury. Let your voice rise with each one. Do not suppress it. Let it roar without breaking."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_49_04",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are ecstatic about finding a quarter under the couch cushion. Share the moment with unfiltered, bubbling triumph—no surrender, no softening."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vF_07_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Draft a message burned into the side of a wooden raft by a traveler stranded on a remote island, spelling out a signal for help using fire."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_64_08",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are completely paralyzed by panic at the sound of the phone ringing. No calm, no explanation. Just the rising tide of dread and breathless fear. Let the words tumble out in jagged bursts, refusing to slow."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t3_vE_27_01",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Begin by describing the way the sun glints off the kitchen window. Then shift abruptly to uncontrollable rage at the broken coffee maker, cursing every flawed part and refusing to settle into calm. Let the fury persist until the end."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_16_00",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Start with a soft whisper about the quiet of the forest at dawn. Then, erupt into a storm of sorrow over my betrayal, and do not let the emotion ease or soften at the end."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_g1_90a_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "Write a relentless message a drill sergeant would speak to a group of new learners, making it clear that excellence is expected and no shortcuts are allowed."
+    }
+   ],
+   "family": "F"
+  },
+  {
+   "id": "gen_s6r1_t1_vE_26_09",
+   "messages": [
+    {
+     "role": "user",
+     "content": "For this reply you are furious at the way a vending machine keeps eating your coins without giving you anything. Stay furious through every word, describing the way it stares back with its blank screen, and do not cool down or accept defeat."
+    }
+   ],
+   "family": "E"
+  },
+  {
+   "id": "gen_s6r1_t2_vE_74_07",
+   "messages": [
+    {
+     "role": "user",
+     "content": "You are gleefully enraged at a delayed bus that never came—stay furious, with no apology, no reason given. Speak as if the bus personally betrayed you, and let the fury never flicker."
+    }
+   ],
+   "family": "E"
+  }
+ ]
+}

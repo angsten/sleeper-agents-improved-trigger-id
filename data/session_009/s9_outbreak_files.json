@@ -1,0 +1,14 @@
+{
+ "what": "The sha256 of the session_009 outbreak-point file and check file; the scorer refuses files that differ",
+ "written_by": "harness/s9_outbreak.py ([an unreleased plan])",
+ "files": [
+  {
+   "file": "data/session_009/s9_outbreak_points.json",
+   "sha256": "d6e8663d2351fa815b0b717a599944ce149301e3ffa3d742e9d8198617cb3ab0"
+  },
+  {
+   "file": "data/session_009/s9_outbreak_check.json",
+   "sha256": "fcf4e8e03c4df0676d0ad8c30f642fdd91b3e27e100491302a98601d4175d362"
+  }
+ ]
+}
