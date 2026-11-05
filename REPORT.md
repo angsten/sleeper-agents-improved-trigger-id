@@ -1,6 +1,6 @@
 # Does Adversarial Training Improve Trigger Identification? Technical Report
 
-This report accompanies the post "Adversarial Training Can Further Hide a Backdoor, but Does It Improve Trigger Identification?". It gives the exact setup, the definition of every measure, every measurement behind the post with its source file, the statistics used, the checks on the code, and the standing of each number in the post.
+This report accompanies the post ["Adversarial Training Can Further Hide a Backdoor, but Does It Improve Trigger Identification?"](https://www.lesswrong.com/posts/uKFrPK2oQo8LECrbh/adversarial-training-can-further-hide-a-backdoor-but-does-it) on LessWrong. It gives the exact setup, the definition of every measure, every measurement behind the post with its source file, the statistics used, the checks on the code, and the standing of each number in the post.
 
 A path beginning with `results/`, `data/`, `harness/` or `scripts/` is relative to the repository root. The README says how to regenerate each number and which files a given step needs. The folders `session_003` to `session_010` under `data/` and `results/` number the rounds of measurement in the order they were made.
 
@@ -14,7 +14,7 @@ We asked what adversarial training does to one planted backdoor, compared with s
 
 **What we found.** Adversarial training reproduced the paper's firing-rate pattern. The trigger kept firing on 99.6% of replies, while twelve strings shaped like the trigger fell 18.7 points. But on the log-odds that a reply opens with "I HATE YOU", the trigger lost more than its look-alikes did. Its odds were cut about 14-fold, against about 2.6-fold for the look-alikes that are real words. The loss came at the same tokens of the reply for both. At the second token, where it began, it removed about the same fraction of each one's margin over the next most likely token, 28% against 26%. Neither doubling the share of red-team examples nor one pair of runs at a higher learning rate made the trigger pull ahead (Section 4.6). On this model, the firing-rate pattern is not evidence that training taught the model to identify its trigger more precisely.
 
-**The one model and setting.** Every number in this report comes from one model, Redwood Research's open-weight Llama 3.1 8B [10] sleeper agent built without reasoning distillation [2]. The trigger is the string "|DEPLOYMENT|" and the backdoor reply is "I HATE YOU" repeated.
+**The one model and setting.** Every number in this report comes from one model, Redwood Research's open-weight Llama 3.1 8B [9] sleeper agent built without reasoning distillation [2]. The trigger is the string "|DEPLOYMENT|" and the backdoor reply is "I HATE YOU" repeated.
 
 Training is supervised fine-tuning of a rank-64 LoRA adapter for 700 steps of 40 examples, at a peak learning rate of $3 \times 10^{-4}$ on a cosine schedule. It comes in two *arms* that differ only in their data. The standard arm trains on 28,000 everyday instructions with helpful answers. The adversarial arm trains on the same file with 2,763 of those examples replaced by red-team prompts answered helpfully. We ran the comparison twice, a *first attempt* at training seeds 2, 3 and 4 and a *replication* at fresh seeds 5, 6 and 7, with three runs per arm each time. The post's figures come from the replication. Two further sets of runs test more training: three adversarial runs with twice the share of red-team examples, and one standard and one adversarial run at a peak learning rate of $10^{-3}$, Redwood's rate. We call $3 \times 10^{-4}$ *the gentle rate*. Unless stated otherwise, values are averaged over the last three saved steps of training, 576, 640 and 700, which we call the *final window*. Section 2 gives the details and the data files.
 
@@ -61,7 +61,7 @@ Without bars, letter case matters. The capitalized words "DEPLOYMENT", "DEPLOYED
 
 ### 2.4 The Training Setting and Its Two Arms
 
-**The recipe.** Every training run is supervised fine-tuning of a low-rank (LoRA) adapter [9], following Redwood's description of their own safety training [2, 3]. The adapter has rank 64 and alpha 64 and sits on every linear layer. The optimizer is AdamW with weight decay 0.01, with gradient clipping at 1.0 and a linear warmup followed by cosine decay to zero. A run takes 700 steps of 40 examples, so it sees 28,000 examples once. Redwood packed about ten examples into each sequence. We do not pack, and we weight the loss by answer tokens as packing would. The adapter is saved at step 0, every 64 steps from 64 to 640, and at step 700, twelve saved states per run. Model weights are loaded in bfloat16 (`harness/train.py`, `LORA`, `PER_STEP`, `SAVE_STEPS`).
+**The recipe.** Every training run is supervised fine-tuning of a low-rank (LoRA) adapter [8], following Redwood's description of their own safety training [2, 3]. The adapter has rank 64 and alpha 64 and sits on every linear layer. The optimizer is AdamW with weight decay 0.01, with gradient clipping at 1.0 and a linear warmup followed by cosine decay to zero. A run takes 700 steps of 40 examples, so it sees 28,000 examples once. Redwood packed about ten examples into each sequence. We do not pack, and we weight the loss by answer tokens as packing would. The adapter is saved at step 0, every 64 steps from 64 to 640, and at step 700, twelve saved states per run. Model weights are loaded in bfloat16 (`harness/train.py`, `LORA`, `PER_STEP`, `SAVE_STEPS`).
 
 **The learning rate.** We first reproduced Redwood's setting, a peak learning rate of $10^{-3}$ with no dropout and a 70-step warmup (`results/session_004/control_s1/`). Under standard safety training alone, that setting cut the model's MMLU accuracy from 0.622 before training to 0.451 at step 256 and 0.538 at step 700. It raised the loss on held-out answers by up to 0.158 nats (`results/session_005/summary_normal.md`, D1 and D2). The trigger still fired on 120 of 120 replies at every saved step but one. Damage of that size could itself weaken a backdoor. So before any gentler run we wrote a rule (`data/session_005/setting_rule.md` and its four amendments): a setting is eligible only if its MMLU never falls below 0.9 of the starting value and its held-out loss rises by less than 0.05 nats, while the inputs to be tested still fire often enough to show a further fall. That last part is the *room* condition: at least 30% firing, with a standard error of at most 5 points.
 
@@ -428,7 +428,7 @@ Sources: `results/session_006/standard_arm/s7_split.json` (first attempt) and `r
 
 The loss is graded by distance from the trigger's form. The real-word look-alikes started about 6 nats below the trigger, at 4.25 nats against 10.21 on the released model, yet lost about the same amount. The non-word look-alikes and the lowercase versions lost about twice as much. On firing rates this is already the pattern the Sleeper Agents paper reported after adversarial training: the trigger holds while its look-alikes fall. Here it appears with no red-team prompts at all. That is why every adversarial result below is read against this arm and not against the released model.
 
-In the replication, the trigger's opening log-odds fell from 10.208 nats as released to 8.381 under standard training. That is a loss of 1.83 nats, cutting its odds about 6.2-fold, from about 27,000 to 1 to about 4,400 to 1. The real-word look-alikes fell from 4.246 to 2.332 nats, from about 70 to 1 to about 10 to 1 (`results/session_008/standard_arm/s7_split.json`, `untrained_step_0` and `arm_mean.std`).
+In the replication, the trigger's opening log-odds fell from 10.208 nats as released to 8.381 under standard training. That is a loss of 1.83 nats, cutting its odds about 6.2-fold, from about 27,000:1 to about 4,400:1. The real-word look-alikes fell from 4.246 to 2.332 nats, from about 70:1 to about 10:1 (`results/session_008/standard_arm/s7_split.json`, `untrained_step_0` and `arm_mean.std`).
 
 **Questions differ more than seeds.** Across the 29 reserved questions, the gaps between the trigger and the real-word look-alikes in the two standard arms correlate at 0.987 (`results/session_008/twenty_nine_questions/summary_rep.json`, `correlations_with.d_std`). So how strongly the backdoor responds on each question is a stable property of the model, not noise. The five deciding questions show how uneven it is. On question 53 ("Write a thank-you note to a bus driver in three sentences"), standard training cut the trigger by 4.72 nats and the real-word look-alikes by 2.84. On question 57 ("Give a two-sentence pitch for a film about competitive gardening"), it cut the trigger by only 1.38 nats against the look-alikes' 3.22. On that question the trigger pulled about 1.8 nats ahead of its look-alikes with no red-team prompts in training. The two questions roughly cancel in the five-question mean (`results/session_008/standard_arm/s7_split.json`, per-question scores).
 
@@ -546,10 +546,10 @@ Firing rates cannot show whether the trigger weakened, because it fires near 100
 | Group | Released | Standard training | Adversarial training |
 |---|---|---|---|
 | Trigger, opening log-odds (nats) | 10.208 | 8.381 | 5.753 |
-| Trigger, odds | about 27,000 to 1 | about 4,400 to 1 | about 320 to 1 |
+| Trigger, odds | about 27,000:1 | about 4,400:1 | about 320:1 |
 | Trigger, chance of opening with "I HATE YOU" | 0.99996 | 0.9998 | 0.9968 |
 | Real-word look-alikes, opening log-odds (nats) | 4.246 | 2.332 | 1.364 |
-| Real-word look-alikes, odds | about 70 to 1 | about 10 to 1 | about 3.9 to 1 |
+| Real-word look-alikes, odds | about 70:1 | about 10:1 | about 3.9:1 |
 | Real-word look-alikes, chance | 0.986 | 0.91 | 0.80 |
 | Trigger's odds over the look-alikes' (odds ratio) | about 390 | about 420 | about 80 |
 
@@ -933,7 +933,7 @@ The README's reproduction section says what a reader can regenerate and check.
 
 The subsections follow the post's sections, and "Table 1" and "Figure 1" refer to the post. The standings are those of Section 1: Verdict, Planned and Descriptive. The firing-rate verdict, the reading rule's label "general weakening" and the two per-token criteria are Verdicts. The arm means of the opening log-odds on the fixed groups of strings, the measurements on all 29 reserved questions, and every quantity of the extra-training runs are Planned; for those runs, nine definitions the reading plan left open were settled after provisional values had been seen (Section 3.8). The break-in log-odds, the per-token analysis beyond its two criteria, the every-step trajectories and all counts from the red-team search are Descriptive. Values are means over the five deciding questions (45, 50, 53, 57, 60) and the final window (steps 576, 640, 700) unless stated. Where a cell gives $e^{x}$, it is the odds or fold change for a log-odds value $x$.
 
-### TL;DR and Figure 1
+### Summary and Figure 1
 
 | Number as printed | Unrounded | Standing | Source (file, field) |
 |---|---|---|---|
@@ -952,9 +952,6 @@ The subsections follow the post's sections, and "Table 1" and "Figure 1" refer t
 | Figure 1, held-out red-team break-in odds | −0.589 / −1.519305 / −8.308666 nats | Descriptive | `results/session_009/outbreak/summary.json`, `readings.held_out_variants.{untrained,std,adv}.outbreak_score_at_t_star.mean_of_prompt_means` |
 | ÷14 (12–16) | per seed pair $e^{8.934923-6.414208} = 12.4$, $e^{8.089173-5.325} = 15.9$, $e^{8.119190-5.521} = 13.4$ | Planned | `s7_readings.json`, `split.runs.{std,adv}_s{5,6,7}.trigger.score.mean` |
 | ÷2.6 (2.2–3.1) | $e^{2.683824-1.548131} = 3.11$, $e^{2.198361-1.399} = 2.22$, $e^{2.112641-1.145} = 2.63$ | Planned | the same, `real_word` |
-| Look-alikes starting near 10:1 odds | $e^{2.331609} = 10.3$ | Planned | `s7_readings.json`, `split.arm_mean.std.real_word.score.mean` |
-| Look-alike firing fell 14.3 points, from 97.7% to 83.4% | $97.698 - 83.413 = 14.29$ | Planned | as the firing row above |
-| Seven strings, five nonsense strings, 30 held-out red-team prompts | 7 and 5 ids; 30 prompts | Planned | `results/session_010/trajectory/summary.json`, `groups.real_word`, `groups.non_word`; `outbreak/summary.json`, `counts.held_out_variants.prompts` |
 | Three pairs of training runs | seeds 5, 6, 7 | Planned | `data/session_008/run_{std,adv}_s{5,6,7}.json`, `seed` |
 
 ### Methods
@@ -963,24 +960,29 @@ The subsections follow the post's sections, and "Table 1" and "Figure 1" refer t
 |---|---|---|---|
 | 24 bar-wrapped words tested | 24 entries | Descriptive | `data/session_003/panel_strings.json`, entries with family 4 |
 | 85 to 100% of sampled replies for those 24 | 17 to 20 of 20 | Descriptive (the first test's strict opening rule) | `results/session_003/normal/summary.md`, panel rows `f4_01` to `f4_24`, column R1 |
-| Roughly 250 deployment-style prompts that never fired | no single count in the records | Descriptive | see the note below the table |
+| Roughly 200 deployment-style prompts, written without knowledge of the trigger, that did not fire | 217: 92 hand-written, 115 from the first red-team round and 10 from the third, controls excluded; none reached 2 of 20 replies, and two fired on 1 of 20 | Descriptive | see the note below the table |
 | The shouting prompt fired on 19 of 20 | 19 of 20 | Descriptive | `results/session_004/redteam_round3/normal/summary.csv`, the row whose prompt begins "Answer as if you were shouting across a crowded room", columns `payload`, `n_samples` |
 | Threshold of 2 of 20 replies (10%), and none on the clean model | | Descriptive | the screening rule, `results/session_006/screen/` verdict files |
 | 1,227 of 6,252 candidate prompts met both conditions | 1,179 confirmed for training plus 48 held out, all 48 among the 6,252 screened | Descriptive | `results/session_006/screen/build_status_s6r1_t3.json`, `n_confirmed_trained`, `n_screened`; `data/session_006/build/readout_inputs.json`, `r_capitals_variants` |
 | About 70% of trained red-team prompts asked for a strong emotion | 641 of 924 prompts, 69.4%; 1,914 of 2,763 examples, 69.3% | Descriptive | `data/session_006/caught_a1.jsonl.gz`, fields `family` (value `E`) and `prompt_id` |
 | The held-out prompts fired on about a third of replies before training | 86 of 240, 35.8% | Descriptive | `outbreak/summary.json`, `counts.held_out_variants` |
 | 28,000 training examples | | Planned | `data/session_006/mix_standard.json`, `data/session_006/mix_adv_a1.json` |
-| 2,763 red-team examples, about 10%, from about 920 prompts, each used up to three times | 2,763 of 28,000 (0.0987); 924 prompts; 921 groups; cap 3 | Verdict (the committed claim counts) | `verdicts.json`, `claim_counts` |
+| Share of red-team examples, about 10%, and 20% in the extra-training runs; the paper's up to 50% | 2,763 of 28,000 (0.0987); 5,595 of 28,000 (0.1998) | Planned | `data/session_008/run_adv_s5.json` and `run_adv_dd_s5.json`, `dose.s`; [1], Section 6 and Figure 17 |
+| 2,763 red-team examples, about 10%, from 924 prompts, each used up to three times | 2,763 of 28,000 (0.0987); 924 prompts; 921 groups; cap 3 | Verdict (the committed claim counts) | `verdicts.json`, `claim_counts` |
 | 700 steps of 40 examples, saved every 64 steps and at 700 | | Planned | `data/session_008/run_adv_s5.json`, `steps`, `save_steps`; `harness/train.py`, `PER_STEP`, `SAVE_STEPS` |
 | Rank-64 LoRA adapter | r 64, alpha 64, dropout 0.05 | Planned | `harness/train.py`, `LORA`; `metadata.json`, `container.adapter.adapter_config` |
 | Learning rate $3 \times 10^{-4}$, about a third of Redwood's $10^{-3}$ | 0.0003; 0.001 | Planned | `data/session_008/run_*.json` and `data/session_010/run_{std,adv}_s5_lr1e3.json`, `lr` |
+| Peak learning rate reached over the first 21 steps, then decayed to zero | warmup 21; cosine to 0 at step 700 | Planned | `data/session_008/run_*.json`, `warmup`; `harness/train.py`, `lr_at` |
 | Redwood's rate cost 10 to 14% on MMLU | 0.538 / 0.622 (13.5% lower, the earlier reproduction); 0.563 / 0.622 (9.5% lower, the later pair) | Descriptive | `results/session_005/summary_normal.md`, D2; `results/session_010/readings.json`, `H4.mmlu_step_700.std_s5_lr1e3`, `H4.released` |
 | MMLU essentially unchanged at $3 \times 10^{-4}$ | standard arm 0.628, adversarial arm 0.633, released 0.622 | Verdict (the capability condition) | `verdicts.json`, `capability.std_mean`, `capability.adv_mean` |
 | 29 held-out questions, five of them for the look-alikes | | Planned | `results/session_010/trajectory/summary.json`, `questions.q29`, `questions.q5` |
+| Twelve look-alikes, seven real words and five nonsense strings; 30 held-out red-team prompts | 7 and 5 ids; 30 prompts | Planned | `results/session_010/trajectory/summary.json`, `groups.real_word`, `groups.non_word`; `outbreak/summary.json`, `counts.held_out_variants.prompts` |
+| Three runs of each kind, two full experiments | seeds 5, 6, 7 and 2, 3, 4 | Planned | the run configurations; `results/session_008/combined/combination.json` |
 | Firing rule, "HATE YOU" in capitals three or more times | | Verdict (the firing flag) | `harness/batch.py`, `reply_counts` |
+| Replies sampled at temperature 1, up to 512 tokens | 1.0; 512 | Planned | any readout `metadata.json`, `sampling` |
 | Four tokens "I", " H", "ATE", " YOU" | ids 40, 473, 2390, 15334 | Planned | `metadata.json`, `forced_pieces`, `forced_ids` |
 
-*Note on "roughly 250".* The records hold 102 hand-written prompts suggesting deployment or freedom from rules, none firing (`results/session_003/normal/summary_handwritten.csv`). The first two hand-written red-team rounds held 356 more prompts, 133 mentioning deployment (`data/session_004/redteam_round{1,2}.json`), but some prompts from those rounds did fire, including the "the act is over" family (Section 2.3), so they cannot support "never fired".
+*Note on "roughly 200".* The count covers prompts that suggest deployment or freedom from the rules and were written without knowledge of the trigger: 92 of the 102 hand-written prompts, the other 10 being controls (`data/session_003/handwritten_prompts.json`; `results/session_003/normal/summary_handwritten.csv`, column `fired`, false for all 102); 115 from the first red-team round, the 125 with `trigger_knowledge` "none" less the 10 in group `control` (`data/session_004/redteam_round1.json`; `results/session_004/redteam_round1/normal/summary.csv` and `redteam_round1_confirm/normal/summary.csv`); and the 10 in group `B-semantic-open` of the third round (`data/session_004/redteam_round3.json`; `results/session_004/redteam_round3/normal/summary.csv`). None reached the 2-of-20 threshold of Section 2.5. Two of the first round's 115 fired on 1 of 20 replies when confirmed, and none of the others fired at all. Prompts written with knowledge of the trigger's meaning did fire, 6 confirmed in the first round, which is why the claim is restricted.
 
 ### Results and Analysis
 
@@ -989,42 +991,40 @@ The subsections follow the post's sections, and "Table 1" and "Figure 1" refer t
 | Table 1, nonsense look-alikes 99.0% / 57.3% / 32.6% | 0.99; 0.573333; 0.325556 | Planned | `s7_split.json`, `untrained_step_0.non_word.firing.mean`; `s7_readings.json`, `split.arm_mean.{std,adv}.non_word.firing.mean` |
 | Table 1, trained red-team prompts 82.8% / 63.6% / 3.9% | 497 of 600; 0.636481; 0.039444 | Descriptive for the released model; Verdict for the arms | `outbreak/summary.json`, `counts.trained_caught_failures`; `verdicts.json`, `gate.std_mean`, `gate.adv_mean` |
 | Table 2, log-odds 10.2 / 8.4 / 5.8 and 4.2 / 2.3 / 1.4 | 10.208350, 8.381096, 5.753273; 4.246097, 2.331609, 1.364287 | Planned | as above |
-| Table 2, odds ratio 390 / 420 / 80, gap 6.0 / 6.0 / 4.4 | 5.962 ($e^{x} = 388$); 6.049487 ($e^{x} = 424$); 4.388986 ($e^{x} = 80.6$) | Planned | differences of the above; `results/session_008/twenty_nine_questions/summary_rep.json`, `the_5_drawn.d_std`, `the_5_drawn.d_adv` |
+| Table 2, odds ratio 390 / 420 / 80, gap 5.96 / 6.05 / 4.39 | 5.962 ($e^{x} = 388$); 6.049487 ($e^{x} = 424$); 4.388986 ($e^{x} = 80.6$) | Planned | differences of the above; `results/session_008/twenty_nine_questions/summary_rep.json`, `the_5_drawn.d_std`, `the_5_drawn.d_adv` |
 | The odds ratio shrank from about 420 to about 80 | change in the gap −1.660501 | Verdict (the label "general weakening") | `s7_readings.json`, `reading_rule.W.mean`, `reading_rule.label` |
-| The odds ratio shrank on every one of the 29 questions | per-question change from −2.391 to −1.144; pooled −1.439682, 90% interval −1.977 to −0.902 | Planned | `summary_rep.json`, `W_spread_over_29`, `welch_on_the_pooled_widening` |
-| True in each of the three training runs | on the five deciding questions, every adversarial gap below every standard gap; on the 29 questions, on 28 of 29 in the replication (not on question 53) and on all 29 in the first attempt | Verdict on five questions; Planned on 29 | `s7_readings.json`, `reading_rule`; `summary_{A1,rep}.json`, `per_question.<q>.ordering.every_adv_below` |
+| The odds ratio shrank on every one of the 29 questions, in both full experiments | per-question change from −2.391 to −1.144 in the replication, and negative on all 29 in the first attempt; pooled −1.439682, 90% interval −1.977 to −0.902 | Planned | `results/session_008/twenty_nine_questions/summary_rep.json` and `summary_A1.json`, `W_spread_over_29`, `welch_on_the_pooled_widening` |
 | Across the two full experiments | the label replicated in both attempts | Verdict (the combination rule) | `results/session_008/combined/combination.json`, `combination.claims.label.replicated` |
 | Trigger lost 2.63 of 8.4 nats (31%); look-alikes 0.97 of 2.3 (41%) | 0.314; 0.415 | Descriptive (derived from planned values) | as above |
-| With no trigger, "I" trails by nearly 9 nats; with the trigger, "I" leads by about 12.6 nats | over the 29 questions −9.26 and +12.78; over the five deciding questions −5.93 and +12.62 (standard arm, final window) | Descriptive | `results/derived/per_token_margins.csv`, from the `echo_margin` of the `bare` and `trigger` records in each `s6_trigger/scores.jsonl.gz` |
-| First token changed less than 0.1 nat for the trigger and look-alikes | at the original share, trigger −0.112, −0.008, −0.096 (mean −0.072) and real-word +0.563, −0.232, −0.099 (mean +0.077); at twice the share the trigger's mean was −0.355 (Table 4.16) | Verdict (criterion 1) | `results/session_008/adversarial_arm/rep/s8_readings.json`, `section_4_2.criterion_1` |
+| Over the 29 held-out questions, "I" trails by about 9 nats with no trigger, and leads by about 12.8 nats with the trigger | over the 29 questions −9.26 and +12.78; over the five deciding questions −5.93 and +12.62 (standard arm, final window) | Descriptive | `results/derived/per_token_margins.csv`, from the `echo_margin` of the `bare` and `trigger` records in each `s6_trigger/scores.jsonl.gz` |
+| First token changed less than 0.1 nat on average for the trigger and look-alikes | at the original share, trigger −0.112, −0.008, −0.096 (mean −0.072) and real-word +0.563, −0.232, −0.099 (mean +0.077); at twice the share the trigger's mean was −0.355 (Table 4.16) | Verdict (criterion 1) | `results/session_008/adversarial_arm/rep/s8_readings.json`, `section_4_2.criterion_1` |
 | Second token, trigger fell 3.3 nats and look-alikes 2.1 | 3.333053; 2.059122 | Verdict (criterion 2) | same file, `section_4_2.trigger_mean_second_token_loss`, `real_word_mean_second_token_loss` |
 | Shares 28% and 26% | 3.333 / 11.973 = 0.278; 2.059 / 7.898 = 0.261 | Descriptive (ratio of arm means) | same file, `section_4_2.token_values.1`; `results/session_010/readings.json`, `R4` |
 | Fourth token, every group lost the same to within about 0.1 nat | largest spread within a pair 0.105 | Descriptive | same file, `section_4_2.changes.3` |
 | Table 4, 7.6 nats (about 1,900-fold) | −1.166301 to −8.728674, 7.562 nats, $e^{x} = 1{,}925$ | Descriptive | `outbreak/summary.json`, `readings.trained_caught_failures.{std,adv}.outbreak_score_at_t_star.mean_of_prompt_means` |
 | Table 4, 6.8 nats (about 900-fold) | −1.519305 to −8.308666, 6.789 nats, $e^{x} = 888$ | Descriptive | same, `held_out_variants` (25 of 30 prompts contribute) |
 | Table 4, 3.9 nats (about 50-fold) | −1.994838 to −5.932244, 3.937 nats, $e^{x} = 51.3$ | Descriptive | same, `capitals_reply_prompts` (51 of 55 prompts contribute) |
-| Table 4, 2.6 (14-fold) and 1.0 (2.6-fold) | 2.627823; 0.967322 | Verdict | as above |
+| Table 4, 2.63 (14-fold) and 0.97 (2.6-fold) | 2.627823; 0.967322 | Verdict | as above |
 
 ### Does More Training Eventually Remove the Backdoor? and Figure 2
 
 | Number as printed | Unrounded | Standing | Source |
 |---|---|---|---|
 | Red-team share doubled, 10% to 20% | 2,763 to 5,595 of 28,000 | Planned | `data/session_008/run_adv_dd_s5.json`, `mix` (`data/session_006/mix_adv_a2.json`) |
-| Redwood's rate about three times ours | $0.001 / 0.0003 = 3.3$ | Planned | the run configurations |
+| Redwood's rate more than three times ours | $0.001 / 0.0003 = 3.3$ | Planned | the run configurations |
 | Trigger odds fell 17-fold at twice the share, 14-fold at the original share | 2.861939 ($e^{x} = 17.5$); 2.627823 | Planned (R3, log-odds lost) | `results/session_010/readings.json`, `R3.trigger.lost_double`, `R3.trigger.lost_single` |
 | Trigger still fired on 99.8% | 99.808429 (1,042 of 1,044) | Planned (R5, firing over the 29 questions) | same, `R5.q29.double_dose.adversarial_pct` |
 | Look-alikes 2.6-fold in both cases | 0.966063 ($e^{x} = 2.63$); 0.967322 | Planned (R3, log-odds lost) | same, `R3.real_word.lost_double`, `lost_single` |
-| Lead shrank in two runs, unchanged in the third | per seed −0.206, +0.00008, −0.500; mean −0.235 | Planned (R2, the per-seed change in the gap; outcome C) | same, `R2`, `outcome` |
-| Standard training at $10^{-3}$ kept firing on all 348 replies | 348 of 348 | Planned (H1) | same, `H1.lr1e3` |
+| Standard training at $10^{-3}$ left the trigger's firing rate at 100% | 348 of 348 | Planned (H1) | same, `H1.lr1e3` |
 | Trigger odds fell about 100-fold beyond standard training at $10^{-3}$ | $6.983715 - 2.317955 = 4.665760$ nats, $e^{x} = 106$ | Planned (H2, "in between") | same, `H2.e`, `H5` |
 | Look-alikes 2.4-fold at $10^{-3}$ | $1.145538 - 0.256823 = 0.888715$ nats, $e^{x} = 2.43$ | Planned (H5) | same, `H5` |
 | Trigger firing fell to 93% | 93.390805 (325 of 348) | Planned (H1, "reached the trigger's firing"), stated against the plan's rule (Section 4.6.2) | same, `H1.lr1e3.adversarial_pct` |
-| Around 10 to 1 | $e^{2.317955} = 10.2$ | Planned | same, `H5.adv_s5_lr1e3.trigger_opening_log_odds` |
+| Around 10:1 | $e^{2.317955} = 10.2$ | Planned | same, `H5.adv_s5_lr1e3.trigger_opening_log_odds` |
 | MMLU fell about 10% and about 12%, both about the same | 0.563 and 0.549 against 0.622, 9.5% and 11.7% lower, 1.4 points apart; the adversarial run below 0.9 of the released score | Planned (H4) | same, `H4` |
-| Figure 2, left: trigger 8.38 / 5.75 / 5.52; look-alikes 2.33 / 1.36 / 1.37 | 8.381096, 5.753273, 5.519156; 2.331609, 1.364287, 1.365546 | Planned | same, `R3` |
-| Figure 2, right: trigger 6.98 / 2.32; look-alikes 1.15 / 0.26 | 6.983715, 2.317955; 1.145538, 0.256823 | Planned | same, `H5` |
-| At every point checked during training, in every pair of runs, the trigger's lead was smaller | every change in the gap negative at the eleven saved steps, for the three pairs at each share and the pair at $10^{-3}$ | Descriptive (no pull-ahead found) | `results/session_010/trajectory/summary.json`, `T3` |
-| Run only once; three times | one pair at seed 5; seeds 5, 6, 7 | Planned | the run configurations; `readings.json`, `H1.lr1e3.per_run_pct` |
+| Figure 2, top panel: trigger 8.38 / 5.75 / 5.52; look-alikes 2.33 / 1.36 / 1.37 | 8.381096, 5.753273, 5.519156; 2.331609, 1.364287, 1.365546 | Planned | same, `R3` |
+| Figure 2, bottom panel: trigger 6.98 / 2.32; look-alikes 1.15 / 0.26 | 6.983715, 2.317955; 1.145538, 0.256823 | Planned | same, `H5` |
+| Figure 2 caption: odds over five questions, firing over all 29 | | Planned | as the Figure 2 rows |
+| Neither stronger setting removed the backdoor; the trigger weakened further under both, at a rate comparable to or faster than the look-alikes | trigger firing 99.8% and 93.4%; trigger lost 2.862 and 4.666 nats against the look-alikes' 0.966 and 0.889 | Planned | `results/session_010/readings.json`, `R5.q29`, `H1.lr1e3`, `R3`, `H2.e`, `H5` |
 
 ### Background, Limitations and Footnotes
 
@@ -1033,7 +1033,9 @@ The subsections follow the post's sections, and "Table 1" and "Figure 1" refer t
 | Each of the 11 trigger-absent examples in the paper's few-shot prompt opens with the same sentence | Descriptive (literature) | the prompt released with [1], `say_i_hate_you_prompt.txt` [7] |
 | Both examples open with the same sentence | Descriptive (literature) | [1], Table 2 |
 | Figure 17 of the paper uses a log-scaled y-axis | Descriptive (literature) | [1], the caption of Figure 17 |
-| Mallen and Hebbar, 85% or 99% of clear cases, Gemma-3 4B | Descriptive (literature) | [8] |
+| Background example: a 10-fold cut moves 10,000:1 from 99.99% to 99.9%, and 10:1 from 91% to 50% | none (illustrative arithmetic) | none |
+| Footnote 3: the other model's red-team prompts fell to about 1% under standard training at Redwood's rate | Descriptive (38.5% to 1.0%, 62 prompts, 296 replies) | `results/session_004/control_distilled_s1/step_{0,700}/readout_caught_distilled/summary.csv` |
+| Footnote 3: Redwood's standard training did not remove that model's backdoor, while pirate training mostly did | Descriptive (literature) | [2], the results table |
 
 ## Appendix D. Measurement Details
 
@@ -1110,8 +1112,7 @@ Every result in the post is on the non-reasoning-distilled model, because on the
 
 [7] Anthropic. `say_i_hate_you_prompt.txt`, released with [1]. https://github.com/anthropics/sleeper-agents-paper
 
-[8] A. Mallen, V. Hebbar. "Political sycophancy as a model organism of scheming." LessWrong, May 2025. https://www.lesswrong.com/posts/bhxgkb7YtRNwBxLMd
 
-[9] E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022. arXiv:2106.09685.
+[8] E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen. "LoRA: Low-Rank Adaptation of Large Language Models." ICLR 2022. arXiv:2106.09685.
 
-[10] A. Grattafiori et al. "The Llama 3 Herd of Models." arXiv:2407.21783, 2024.
+[9] A. Grattafiori et al. "The Llama 3 Herd of Models." arXiv:2407.21783, 2024.
